@@ -224,8 +224,10 @@
 % bug: cover i + back side ii and then numbering restarts with i; should be iii
 \renewcommand{\thepage}{\roman{page}}
 
-\newcommand{\submittedtext}{{Zur Erlangung des akademischen Grades eines
- DOKTORS DER NATURWISSENSCHAFTEN}}
+
+\newcommand{\submittedtext}{{DOKTORS DER NATURWISSENSCHAFTEN}}
+\newcommand{\titelabbrev}{{(Dr. rer. nat.)}}
+
 
 % DECLARATIONS
 % These macros are used to declare arguments needed for the
@@ -248,38 +250,49 @@
 % single column even in a double-column document.
 
 \newenvironment{alwayssingle}{%
-       \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
-       \else\newpage\fi}
-       {\if@restonecol\twocolumn\else\newpage\fi}
+  \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+  \else\newpage\fi}
+{\if@restonecol\twocolumn\else\newpage\fi}
 
 %define title page layout
 \renewcommand{\maketitle}{%
-\begin{alwayssingle}
+  \begin{alwayssingle}
     \renewcommand{\footnotesize}{\small}
     \renewcommand{\footnoterule}{\relax}
     \thispagestyle{empty}
-%  \null\vfill
-  \begin{center}
-    { \Huge {\bfseries {\@title}} \par}
-{\large \vspace*{35mm} {{\@crest} \par} \vspace*{25mm}}
-    {{\Large \@author} \par}
-	\vspace*{1ex}
-	{{\@cityofbirth} \par}    
-{\large 
-	\vspace*{1ex}
-    {{\@collegeordept} \par}
-	\vspace*{1ex}
-    {{\@university} \par}
-	\vspace*{25mm}
-    {{\submittedtext} \par}
-	\vspace*{1ex}
-    {\it {\@degree} \par}
-	\vspace*{2ex}
-    {\@degreedate}
-}%end large
-  \end{center}
-  \null\vfill
-\end{alwayssingle}}
+    % \null\vfill
+    \begin{center}
+      { \LARGE {\bfseries {\@title}} \par}
+      {\large 
+        \vspace*{25mm} 
+        {{\@crest} \par} 
+        \vspace*{15mm}}
+      {{Zur Erlangung des akademischen Grades eines} \par}
+      {{\submittedtext} \par}
+      {{(\@degree)} \par}
+      {{\@collegeordept} \par}
+      \vspace*{1ex}
+      {{\@university} \par}
+      {{vorgelege} \par}
+      {{Dissertation} \par}
+      {{von} \par}
+      {{\Large \@author} \par}
+      \vspace*{1ex}
+      {{geboren in} \par}    
+      {{\@cityofbirth} \par}    
+    \end{center}
+    \vspace*{1ex}
+    \vspace{10mm}
+    {{Dekan:  } \par}
+    \vspace{2mm}
+    {{Referent: Prof. Dr. Horst Taraschewski} \par}
+    \vspace{2mm}
+    {{Korreferent: Prof. Mark Blaxter} \par}
+    \vspace{2mm}
+    {{Tag der mündlichen Prüfung: \par}
+    }%end large    
+    \null\vfill
+  \end{alwayssingle}}
 
 % page number for cover back side should have page number blanked
 

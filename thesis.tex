@@ -43,7 +43,9 @@
 \fi
 
 
-\title{Title of your thesis}
+\title{Divergence of an introduced population of the
+  Swimbladder-nematode \textit{Anguillicola crassus} - a
+  transcriptomic perspective}
 
 
 
@@ -54,15 +56,16 @@
   \author{\href{mailto:emanuelheitlinger@gmail.com}{Emanuel Heitlinger}}
   
 
-\cityofbirth{geboren in Schw\"abisch Gm\"und} % uncomment this if your university requires this
+\cityofbirth{Schw\"abisch Gm\"und} % uncomment this if your university requires this
 %  % If city of birth is required, also uncomment 2 sections in PhDthesisPSnPDF
 %  % Just search for the "city" and you'll find them.
-  \collegeordept{\href{http://www.something.net}{Fakult\"at für Chemie und Biowissenschaften}}
-  \university{\href{http://www.something.net}{Karlsruher Institut f\"ur Technologie (KIT) - Universit\"atsbereich}}
+\collegeordept{\href{http://www.chem-bio.kit.edu/}{Fakult\"at für Chemie und Biowissenschaften}}
+\university{\href{http://www.kit.edu/index.php}{Karlsruher Institut
+    f\"ur Technologie (KIT) - Universit\"atsbereich}}
 
   % The crest is a graphics file of the logo of your research institution.
   % Place it in ./0_frontmatter/figures and specify the width
-  \crest{\includegraphics[width=4cm]{logo}}
+\crest{\includegraphics[width=4cm]{logo}}
   
 % If you are not creating a PDF then use the following. The default is PDF.
 \else
@@ -74,7 +77,7 @@
 \fi
 
 %\renewcommand{\submittedtext}{change the default text here if needed}
-\degree{Dr. rer. nat}
+\degree{Dr. rer. nat.}
 \degreedate{2012 Januar}
 
 
@@ -106,20 +109,10 @@
 %: ----------------------- cover page back side ------------------------
 % Your research institution may require reviewer names, etc.
 % This cover back side is required by Dresden Med Fac; uncomment if needed.
+%% Is empty the reviewers are on frontpage
+\newpage
 
 \newpage
-\vspace{10mm}
-1. Reviewer: Name
-
-\vspace{10mm}
-2. Reviewer: 
-
-\vspace{20mm}
-Day of the defense:
-
-\vspace{20mm}
-\hspace{70mm}Signature from head of PhD committee:
-
 
 
 %: ----------------------- abstract ------------------------
@@ -202,7 +195,6 @@ Day of the defense:
 
 
 
-
 % --------------------------------------------------------------
 %:                  BACK MATTER: appendices, refs,..
 % --------------------------------------------------------------
@@ -214,7 +206,8 @@ Day of the defense:
 
 % The section below defines how references are listed and formatted
 % The default below is 2 columns, small font, complete author names.
-% Entries are also linked back to the page number in the text and to external URL if provided in the BibTex file.
+% Entries are also linked back to the page number in the text and to
+% external URL if provided in the BibTex file.
 
 % PhDbiblio-url2 = names small caps, title bold & hyperlinked, link to page 
 \begin{multicols}{2} % \begin{multicols}{ # columns}[ header text][ space]
@@ -223,7 +216,7 @@ Day of the defense:
 \bibliographystyle{Latex/Classes/PhDbiblio-url2} % Title is link if provided
 \renewcommand{\bibname}{References} % changes the header; default: Bibliography
 
-\bibliography{9_backmatter/references} % adjust this to fit your BibTex file
+\bibliography{/home/ele/bibtex/master.bib} % adjust this to fit your BibTex file
 
 \end{tiny}
 \end{multicols}

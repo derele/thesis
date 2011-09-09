@@ -1,13 +1,17 @@
 \begin{thebibliography}{1}
 
-\bibitem{lastname07}
-{\sc Lastname}.
-\newblock {\bf Title}.
-\newblock {\em Journal of Sth}, 2007.
+\bibitem{kuwahara_Niimi_Itagaki_1974}
+{\sc A~Kuwahara, H~Niimi, and H~Itagaki}.
+\newblock {\bf Studies on a nematode parasitic in the air bladder of the eel I.
+  Descriptions of {Anguillicola crassa sp. n. (Philometridea,
+  Anguillicolidae)}}.
+\newblock {\em Japanese Journal for Parasitology}, {\bf 23}(5):275--279, 1974.
 
-\bibitem{name06}
-{\sc Name}.
-\newblock {\bf Title}.
-\newblock {\em Journal of Sth}, 2006.
+\bibitem{taraschewski_hosts_2007}
+{\sc H.~Taraschewski}.
+\newblock
+  \href{http://journals.cambridge.org/action/displayAbstract?fromPage=online&a%
+id=713884}{{\bf Hosts and Parasites as Aliens}}.
+\newblock {\em Journal of Helminthology}, {\bf 80}(02):99--128, 2007.
 
 \end{thebibliography}
