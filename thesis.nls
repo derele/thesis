@@ -2,13 +2,9 @@
 
  \nomgroup{A}
 
-  \item [{DAPI}]\begingroup 4',6-diamidino-2-phenylindole; a fluorescent stain that binds strongly to DNA and serves to marks the nucleus in fluorescence microscopy\nomeqref {0}
-		\nompageref{viii}
-  \item [{DEPC}]\begingroup diethyl-pyro-carbonate; used to remove RNA-degrading enzymes (RNAases) from water and laboratory utensils\nomeqref {0}
-		\nompageref{viii}
-  \item [{DMSO}]\begingroup dimethyl sulfoxide; organic solvent, readily passes through skin, cryoprotectant in cell culture\nomeqref {0}
-		\nompageref{viii}
-  \item [{EDTA}]\begingroup Ethylene-diamine-tetraacetic acid; a chelating (two-pronged) molecule used to sequester most divalent (or trivalent) metal ions, such as calcium (Ca$^{2+}$) and magnesium (Mg$^{2+}$), copper (Cu$^{2+}$), or iron (Fe$^{2+}$ / Fe$^{3+}$)\nomeqref {0}
-		\nompageref{viii}
+  \item [{DNA}]\begingroup Desoxy Ribonucleic Acid; a   chemical molecule bearing the heritable genetic information in all   life on earth\nomeqref {1.0}\nompageref{1}
+  \item [{dpi}]\begingroup Days post infection; In infection experiments, a point in time given in days after an individual has been infected\nomeqref {0}\nompageref{viii}
+  \item [{ORF}]\begingroup Open Reading Frame; a region in a DNA-sequence begining with a start-codon and not containing a stop-condon. For example a region within a processed mRNA transcript being transcribed into a protein\nomeqref {0}\nompageref{viii}
+  \item [{SNP}]\begingroup Single Nucleotide Polymorphism; variation occurring in a single nucleotide between two closely related homlogous sequences. Leading to for example to allelic differences within a population or even the homologous chromosomes in an individual\nomeqref {0}\nompageref{viii}
 
 \end{thenomenclature}
