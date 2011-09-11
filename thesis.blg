@@ -15,44 +15,48 @@ A level-1 auxiliary file: 8/materials_methods.aux
 The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: /home/ele/bibtex/master.bib.bib
-You've used 15 entries,
+Warning--I didn't find a database entry for "pmid21627854"
+Warning--I didn't find a database entry for "pmid20967605"
+Warning--I didn't find a database entry for "pmid19015660"
+You've used 32 entries,
             2776 wiz_defined-function locations,
-            740 strings with 9310 characters,
-and the built_in function-call counts, 7233 in all, are:
-= -- 763
-> -- 307
-< -- 0
-+ -- 125
-- -- 106
-* -- 603
-:= -- 1137
-add.period$ -- 46
-call.type$ -- 15
-change.case$ -- 83
+            867 strings with 14675 characters,
+and the built_in function-call counts, 17116 in all, are:
+= -- 1739
+> -- 925
+< -- 1
++ -- 372
+- -- 334
+* -- 1506
+:= -- 2729
+add.period$ -- 97
+call.type$ -- 32
+change.case$ -- 231
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 229
-empty$ -- 606
-format.name$ -- 106
-if$ -- 1648
+cite$ -- 32
+duplicate$ -- 502
+empty$ -- 1297
+format.name$ -- 334
+if$ -- 3808
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 16
-newline$ -- 79
-num.names$ -- 30
-pop$ -- 118
+int.to.str$ -- 32
+missing$ -- 33
+newline$ -- 164
+num.names$ -- 64
+pop$ -- 306
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 231
 quote$ -- 0
-skip$ -- 346
+skip$ -- 750
 stack$ -- 0
-substring$ -- 387
-swap$ -- 68
-text.length$ -- 0
+substring$ -- 802
+swap$ -- 156
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
+type$ -- 126
 warning$ -- 0
-while$ -- 58
-width$ -- 17
-write$ -- 168
+while$ -- 122
+width$ -- 34
+write$ -- 355
+(There were 3 warnings)

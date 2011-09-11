@@ -7,14 +7,14 @@
 \contentsline {subsection}{\numberline {1.1.1}Ecological significance}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Evolutionary significance}{2}{subsection.1.1.2}
 \contentsline {subsubsection}{\numberline {1.1.2.1}Divergence of \textit {A. crassus} populations}{2}{subsubsection.1.1.2.1}
-\contentsline {subsubsection}{\numberline {1.1.2.2}Interest in \textit {A. crassus based on its phylogenetic position in the phylum nematoda}}{2}{subsubsection.1.1.2.2}
-\contentsline {subsection}{\numberline {1.1.3}Functional insights from other nematodes used to formulate hypotheses for \textit {A.crassus}}{2}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Advances in sequencing technology enabeling this study}{2}{section.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Interest in \textit {A. crassus based on its phylogenetic position in the phylum nematoda}}{3}{subsubsection.1.1.2.2}
+\contentsline {subsection}{\numberline {1.1.3}Functional insights from other nematodes used to formulate hypotheses for \textit {A.crassus}}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Advances in sequencing technology enabeling this study}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Pyro-sequencing}{4}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Illumina-Solexa sequencing}{4}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}Aims of the project}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Final aim}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Preliminary aims}{5}{section.2.2}
-\contentsline {chapter}{\numberline {3}Discussion}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Materials \& methods}{9}{chapter.4}
-\contentsline {chapter}{References}{11}{section*.8}
+\contentsline {chapter}{\numberline {2}Aims of the project}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Final aim}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Preliminary aims}{7}{section.2.2}
+\contentsline {chapter}{\numberline {3}Discussion}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Materials \& methods}{11}{chapter.4}
+\contentsline {chapter}{References}{13}{section*.8}

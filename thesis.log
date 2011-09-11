@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.7)  10 SEP 2011 21:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.7)  11 SEP 2011 19:18
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{/home/ele/thesis/thesis/thesis.tex}
@@ -498,26 +498,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 [1
 
 
-] <1_introduction/figures/ula_stages.png, id=211, 794.97pt x 505.6491pt>
+] <1_introduction/figures/ula_stages.png, id=226, 794.97pt x 505.6491pt>
 File: 1_introduction/figures/ula_stages.png Graphic file (type png)
 
-<use 1_introduction/figures/ula_stages.png>
-<1_introduction/figures/sequencing_costs.png, id=212, 505.4082pt x 505.6491pt>
+<use 1_introduction/figures/ula_stages.png> [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 </home/ele/thesis/thesis/1_introduction/figures/ula_stages.png (PNG copy)>]
+
+<1_introduction/figures/sequencing_costs.png, id=256, 505.4082pt x 505.6491pt>
 File: 1_introduction/figures/sequencing_costs.png Graphic file (type png)
 
-<use 1_introduction/figures/sequencing_costs.png> [2 </home/ele/thesis/thesis/1
-_introduction/figures/ula_stages.png (PNG copy)>] [3 </home/ele/thesis/thesis/1
-_introduction/figures/sequencing_costs.png (PNG copy)>]) [4]
+<use 1_introduction/figures/sequencing_costs.png>
+
+Package natbib Warning: Citation `pmid21627854' on page 4 undefined on input li
+ne 201.
+
+
+Package natbib Warning: Citation `pmid20967605' on page 4 undefined on input li
+ne 203.
+
+
+Package natbib Warning: Citation `pmid19015660' on page 4 undefined on input li
+ne 206.
+
+) [4] [5 </home/ele/thesis/thesis/1_introduction/figures/sequencing_costs.png (
+PNG copy)>]
 \openout2 = `2/aims.aux'.
 
-
-(/home/ele/thesis/thesis/2/aims.tex
- 2.
-) [5
+ (/home/ele/thesis/thesis/2/aims.tex [6
 
 
 
 ]
+ 2.
+) [7]
 \openout2 = `3/XYZ.aux'.
 
 
@@ -533,7 +548,7 @@ No file 5/XYZ.tex.
 No file 6/XYZ.tex.
 \openout2 = `7/discussion.aux'.
 
-(/home/ele/thesis/thesis/7/discussion.tex [6
+(/home/ele/thesis/thesis/7/discussion.tex [8
 
 
 
@@ -547,29 +562,31 @@ No file 6/XYZ.tex.
 
 ]
  3.
-) [7]
+) [9]
 \openout2 = `8/materials_methods.aux'.
 
- (/home/ele/thesis/thesis/8/materials_methods.tex [8
+ (/home/ele/thesis/thesis/8/materials_methods.tex [10
 
 
 
 ]
  4.
-) [9] (/home/ele/thesis/thesis/thesis.bbl (/home/ele/thesis/thesis/thesis.brf)
+) [11] (/home/ele/thesis/thesis/thesis.bbl (/home/ele/thesis/thesis/thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
+[12
 
-[10
 
-
-]) [11]
+] [13]) [14]
 \openout2 = `9_backmatter/declaration.aux'.
 
- (/home/ele/thesis/thesis/9_backmatter/declaration.tex [12
+ (/home/ele/thesis/thesis/9_backmatter/declaration.tex [15
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 (/home/ele/thesis/thesis/thesis.aux
 (/home/ele/thesis/thesis/0_frontmatter/abstract.aux)
 (/home/ele/thesis/thesis/0_frontmatter/dedication.aux)
@@ -582,13 +599,13 @@ No file 6/XYZ.tex.
 (/home/ele/thesis/thesis/8/materials_methods.aux)
 (/home/ele/thesis/thesis/9_backmatter/declaration.aux)) ) 
 Here is how much of TeX's memory you used:
- 5034 strings out of 256216
- 74296 string characters out of 1917073
- 143597 words of memory out of 1500000
- 8044 multiletter control sequences out of 10000+200000
+ 5160 strings out of 256216
+ 77475 string characters out of 1917073
+ 142597 words of memory out of 1500000
+ 8150 multiletter control sequences out of 10000+200000
  15292 words of font info for 54 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 43i,11n,45p,468b,488s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 43i,11n,45p,468b,687s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/font
 s/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.p
 fb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx6.pfb></usr/share/texmf/fonts/t
@@ -598,9 +615,9 @@ ype1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></
 usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/b
 luesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/sh
 are/texmf/fonts/type1/bluesky/cm/cmti7.pfb>
-Output written on thesis.pdf (26 pages, 387019 bytes).
+Output written on thesis.pdf (29 pages, 423157 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 131072)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 131072)
  184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

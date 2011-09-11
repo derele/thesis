@@ -1,4 +1,8 @@
 \nomenclatureentry{aSNP@[{SNP}]\begingroup Single Nucleotide Polymorphism; variation occurring in a single nucleotide between two closely related homlogous sequences. Leading to for example to allelic differences within a population or even the homologous chromosomes in an individual\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aSAGE@[{SAGE}]\begingroup Serial Analysis of Gene Expression; analysis of gene-expression by sequencing of short, ligated short sequence-tags made from cDNA\nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{aORF@[{ORF}]\begingroup Open Reading Frame; a region in a DNA-sequence begining with a start-codon and not containing a stop-condon. For example a region within a processed mRNA transcript being transcribed into a protein\nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{adpi@[{dpi}]\begingroup Days post infection; In infection experiments, a point in time given in days after an individual has been infected\nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{aDNA@[{DNA}]\begingroup Desoxy Ribonucleic Acid; a chemical molecule   bearing the heritable genetic information in all life on earth\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{acDNA@[{cDNA}]\begingroup complementary DNA; from RNA reverse transcribed   DNA. This is achieved using RNA-dependent DNA polymerase polymerase\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aRNA@[{RNA}]\begingroup Ribonucleic Acid; \nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{amRNA@[{mRNA}]\begingroup Messenger RNA; \nomeqref {0}|nompageref}{viii}

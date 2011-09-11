@@ -1,0 +1,12 @@
+require(maps)
+library(ggplot2)
+
+world <- data.frame(map("world", plot=FALSE)[c("x","y")])
+plain <- ggplot( world, aes(x=x,y=y)) +
+  geom_path() +
+  theme_bw() +
+  scale_y_continuous("latitude") +
+  scale_x_continuous("longitude")
+
+
+ggsave("../figures/plain_world.png", plain, width=20, height=10)
