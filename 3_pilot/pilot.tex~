@@ -1,0 +1,30 @@
+% this file is called up by thesis.tex
+% content in this file will be fed into the main document
+
+%: ----------------------- name of chapter  -------------------------
+\chapter{Pilot sequencing (Sanger method)} % top level followed by section, subsection
+
+
+%: ----------------------- paths to graphics ------------------------
+
+% change according to folder and file names
+\ifpdf
+    \graphicspath{{pilot/figures/PNG/}{pilot/figures/PDF/}{pilot/figures/}}
+\else
+    \graphicspath{{pilot/figures/EPS/}{pilot/figures/}}
+\fi
+
+%: ----------------------- contents from here ------------------------
+
+\subsection{Parasite sequences}
+
+rRNA
+
+\subsection{Host sequences}
+
+Screening
+
+% ---------------------------------------------------------------------------
+%: ----------------------- end of thesis sub-document ------------------------
+% ---------------------------------------------------------------------------
+

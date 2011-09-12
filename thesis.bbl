@@ -13,6 +13,12 @@
   vertebrates}.
 \newblock Academia, 2006.
 
+\bibitem{kirk_impact_2003}
+{\sc R.~S. Kirk}.
+\newblock \href{http://dx.doi.org/10.1111/j.1365-2400.2003.00355.x}{{\bf The
+  impact of {Anguillicola crassus} on {European} eels}}.
+\newblock {\em Fisheries Management \& Ecology}, {\bf 10}(6):385--394, 2003.
+
 \bibitem{wielgoss_population_2008}
 {\sc S\'{e}bastien Wielgoss, Horst Taraschewski, Axel Meyer, and Thierry
   Wirth}.
@@ -21,11 +27,31 @@
   declining North Atlantic eel stocks}}.
 \newblock {\em Molecular Ecology}, {\bf 17}(15):3478--95, August 2008.
 
-\bibitem{kirk_impact_2003}
-{\sc R.~S. Kirk}.
-\newblock \href{http://dx.doi.org/10.1111/j.1365-2400.2003.00355.x}{{\bf The
-  impact of {Anguillicola crassus} on {European} eels}}.
-\newblock {\em Fisheries Management \& Ecology}, {\bf 10}(6):385--394, 2003.
+\bibitem{fischer_teichwirt}
+{\sc W~Neumann}.
+\newblock {\bf Schwimblasenparasit {A}nguillicola bei Aalen}.
+\newblock {\em Fischer und Teichwirt}, page 322, 1985.
+
+\bibitem{koops_anguillicola-infestations_1989}
+{\sc H.~Koops and F.~Hartmann}.
+\newblock {\bf Anguillicola-infestations in Germany and in German eel imports}.
+\newblock {\em Journal of Applied Ichthyology}, {\bf 5}(1):41--45, 1989.
+
+\bibitem{koie_swimbladder_1991}
+{\sc Marianne Koie}.
+\newblock
+  \href{http://icesjms.oxfordjournals.org/cgi/content/abstract/47/3/391}{{\bf
+  Swimbladder nematodes {(Anguillicola} spp.) and gill monogeneans
+  {(Pseudodactylogyrus} spp.) parasitic on the European eel {(Anguilla}
+  anguilla)}}.
+\newblock {\em {ICES} J. Mar. Sci.}, {\bf 47}(3):391--398, 1991.
+
+\bibitem{kristmundsson_parasite_2007}
+{\sc A.~Kristmundsson and S.~Helgason}.
+\newblock {\bf Parasite communities of ecls Anguilla anguilla in freshwater and
+  marine habitats in Iceland in comparison with other parasite communities of
+  eels in Europe}.
+\newblock {\em Folia Parasitologica}, {\bf 54}(2):141, 2007.
 
 \bibitem{fries_notes:_1996}
 {\sc LT~Fries, DJ~Williams, and Sken Johnson}.
@@ -112,32 +138,6 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
   infrapopulations in their definitive host, the {European} eel, {Anguilla
   anguilla}}}.
 \newblock {\em Parasitology}, {\bf 135}(-1):1--10, 2008.
-
-\bibitem{fischer_teichwirt}
-{\sc W~Neumann}.
-\newblock {\bf Schwimblasenparasit {A}nguillicola bei Aalen}.
-\newblock {\em Fischer und Teichwirt}, page 322, 1985.
-
-\bibitem{koops_anguillicola-infestations_1989}
-{\sc H.~Koops and F.~Hartmann}.
-\newblock {\bf Anguillicola-infestations in Germany and in German eel imports}.
-\newblock {\em Journal of Applied Ichthyology}, {\bf 5}(1):41--45, 1989.
-
-\bibitem{koie_swimbladder_1991}
-{\sc Marianne Koie}.
-\newblock
-  \href{http://icesjms.oxfordjournals.org/cgi/content/abstract/47/3/391}{{\bf
-  Swimbladder nematodes {(Anguillicola} spp.) and gill monogeneans
-  {(Pseudodactylogyrus} spp.) parasitic on the European eel {(Anguilla}
-  anguilla)}}.
-\newblock {\em {ICES} J. Mar. Sci.}, {\bf 47}(3):391--398, 1991.
-
-\bibitem{kristmundsson_parasite_2007}
-{\sc A.~Kristmundsson and S.~Helgason}.
-\newblock {\bf Parasite communities of ecls Anguilla anguilla in freshwater and
-  marine habitats in Iceland in comparison with other parasite communities of
-  eels in Europe}.
-\newblock {\em Folia Parasitologica}, {\bf 54}(2):141, 2007.
 
 \bibitem{wrtz_distribution_1998}
 {\sc J~W\"{u}rtz, K~Knopf, and H~Taraschewski}.

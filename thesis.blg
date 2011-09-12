@@ -5,13 +5,13 @@ A level-1 auxiliary file: 0_frontmatter/dedication.aux
 A level-1 auxiliary file: 0_frontmatter/acknowledgement.aux
 A level-1 auxiliary file: 0_frontmatter/glossary.aux
 A level-1 auxiliary file: 1_introduction/introduction.aux
-A level-1 auxiliary file: 2/aims.aux
-A level-1 auxiliary file: 3/XYZ.aux
-A level-1 auxiliary file: 4/XYZ.aux
-A level-1 auxiliary file: 5/XYZ.aux
-A level-1 auxiliary file: 6/XYZ.aux
-A level-1 auxiliary file: 7/discussion.aux
-A level-1 auxiliary file: 8/materials_methods.aux
+A level-1 auxiliary file: 2_aims/aims.aux
+A level-1 auxiliary file: 3_pilot/pilot.aux
+A level-1 auxiliary file: 4_pyro/pyro.aux
+A level-1 auxiliary file: 5_tags/tags.aux
+A level-1 auxiliary file: 6_rna_seq/rna_seq.aux
+A level-1 auxiliary file: 7_discussion/discussion.aux
+A level-1 auxiliary file: 8_material_methods/materials_methods.aux
 The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: /home/ele/bibtex/master.bib.bib
@@ -20,7 +20,7 @@ Warning--I didn't find a database entry for "pmid20967605"
 Warning--I didn't find a database entry for "pmid19015660"
 You've used 32 entries,
             2776 wiz_defined-function locations,
-            867 strings with 14675 characters,
+            867 strings with 14740 characters,
 and the built_in function-call counts, 17116 in all, are:
 = -- 1739
 > -- 925

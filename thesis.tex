@@ -65,7 +65,7 @@
 
   % The crest is a graphics file of the logo of your research institution.
   % Place it in ./0_frontmatter/figures and specify the width
-\crest{\includegraphics[width=4cm]{kit_logo_V2_de.png}}
+\crest{\includegraphics[width=4cm]{kit_logo_de.jpg}}
   
 % If you are not creating a PDF then use the following. The default is PDF.
 \else
@@ -73,7 +73,7 @@
   \cityofbirth{born in Schw\"abisch Gm\"und}
   \collegeordept{Fakult\"at f\"ur Chemie und Biowissenschaften}
   \university{Karlsruher Institut f\"ur Technologie (KIT) - Universit\"atsbereich}
-  \crest{\includegraphics[width=4cm]{logo}}
+  \crest{\includegraphics[width=4cm]{kit_logo_de.jpg}}
 \fi
 
 %\renewcommand{\submittedtext}{change the default text here if needed}
@@ -182,16 +182,16 @@
 % But take care that the paths match. You can also change the order of appearance by moving the include commands.
 
 \include{1_introduction/introduction}	% background information
-\include{2/aims}						% aims of the project
+\include{2_aims/aims}						% aims of the project
 
-\include{3/XYZ}			
-\include{4/XYZ}	
-\include{5/XYZ}
-\include{6/XYZ}
+\include{3_pilot/pilot}			
+\include{4_pyro/pyro}	
+\include{5_tags/tags}
+\include{6_rna_seq/rna_seq}
 
-\include{7/discussion}               % discussion of results
+\include{7_discussion/discussion}               % discussion of results
 
-\include{8/materials_methods}        % description of lab methods
+\include{8_material_methods/materials_methods}        % description of lab methods
 
 
 
