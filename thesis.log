@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.25)  12 SEP 2011 11:01
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.9.20)  13 SEP 2011 17:13
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{/home/ele/thesis/thesis/thesis.tex}
@@ -362,7 +362,7 @@ LaTeX Info: Redefining \pageref on input line 95.
 
 Package backref Info: ** backref set up for natbib ** on input line 95.
 
-<0_frontmatter/figures/kit_logo_de.jpg, id=131, 199.7061pt x 91.3011pt>
+<0_frontmatter/figures/kit_logo_de.jpg, id=139, 199.7061pt x 91.3011pt>
 File: 0_frontmatter/figures/kit_logo_de.jpg Graphic file (type jpg)
 
 <use 0_frontmatter/figures/kit_logo_de.jpg>
@@ -489,35 +489,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 [1
 
 
-] <1_introduction/figures/ula_stages.png, id=278, 794.97pt x 505.6491pt>
+] <1_introduction/figures/ula_stages.png, id=284, 794.97pt x 505.6491pt>
 File: 1_introduction/figures/ula_stages.png Graphic file (type png)
 
-<use 1_introduction/figures/ula_stages.png>
-Underfull \vbox (badness 3260) has occurred while \output is active []
-
- [2]
-[3 </home/ele/thesis/thesis/1_introduction/figures/ula_stages.png (PNG copy)>]
-<1_introduction/figures/sequencing_costs.png, id=308, 505.4082pt x 505.6491pt>
+<use 1_introduction/figures/ula_stages.png> [2] [3 </home/ele/thesis/thesis/1_i
+ntroduction/figures/ula_stages.png (PNG copy)>]
+<1_introduction/figures/sequencing_costs.png, id=318, 505.4082pt x 505.6491pt>
 File: 1_introduction/figures/sequencing_costs.png Graphic file (type png)
 
-<use 1_introduction/figures/sequencing_costs.png>
-
-Package natbib Warning: Citation `pmid21627854' on page 4 undefined on input li
-ne 204.
-
-
-Package natbib Warning: Citation `pmid20967605' on page 4 undefined on input li
-ne 206.
-
-
-Package natbib Warning: Citation `pmid19015660' on page 4 undefined on input li
-ne 209.
-
-[4] [5 </home/ele/thesis/thesis/1_introduction/figures/sequencing_costs.png (PN
-G copy)>]) [6]
+<use 1_introduction/figures/sequencing_costs.png> [4] [5 </home/ele/thesis/thes
+is/1_introduction/figures/sequencing_costs.png (PNG copy)>]) [6]
 \openout2 = `2_aims/aims.aux'.
 
- (/home/ele/thesis/thesis/2_aims/aims.tex
+
+(/home/ele/thesis/thesis/2_aims/aims.tex
  2.
 ) [7
 
@@ -568,6 +553,10 @@ G copy)>]) [6]
 
 ]
  7.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 19.
+
 ) [17]
 \openout2 = `8_material_methods/materials_methods.aux'.
 
@@ -578,22 +567,36 @@ G copy)>]) [6]
 
 ]
  8.
-) [19] (/home/ele/thesis/thesis/thesis.bbl (/home/ele/thesis/thesis/thesis.brf)
+
+Overfull \hbox (57.55942pt too wide) in paragraph at lines 48--59
+\OT1/cmr/m/n/10.95 agarose con-tain-ing Kanamycin (5mg/ml), xGal (5-bromo-4-chl
+oro-3-indolyl-$\OML/cmm/m/it/10.95 ^^L$\OT1/cmr/m/n/10.95 -D-galactopyranoside)
+
+ []
+
+[19] [20]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 138
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 138.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 138.
+
+) [21] (/home/ele/thesis/thesis/thesis.bbl (/home/ele/thesis/thesis/thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-[20
+[22
 
 
-] [21]) [22]
+] [23]) [24]
 \openout2 = `9_backmatter/declaration.aux'.
 
- (/home/ele/thesis/thesis/9_backmatter/declaration.tex [23
+ (/home/ele/thesis/thesis/9_backmatter/declaration.tex [25
 
 ])
-
-Package natbib Warning: There were undefined citations.
-
 (/home/ele/thesis/thesis/thesis.aux
 (/home/ele/thesis/thesis/0_frontmatter/abstract.aux)
 (/home/ele/thesis/thesis/0_frontmatter/dedication.aux)
@@ -607,27 +610,33 @@ Package natbib Warning: There were undefined citations.
 (/home/ele/thesis/thesis/6_rna_seq/rna_seq.aux)
 (/home/ele/thesis/thesis/7_discussion/discussion.aux)
 (/home/ele/thesis/thesis/8_material_methods/materials_methods.aux)
-(/home/ele/thesis/thesis/9_backmatter/declaration.aux)) ) 
+(/home/ele/thesis/thesis/9_backmatter/declaration.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5205 strings out of 256216
- 78661 string characters out of 1917072
- 141597 words of memory out of 1500000
- 8163 multiletter control sequences out of 10000+200000
- 15651 words of font info for 55 fonts, out of 1200000 for 2000
+ 5254 strings out of 256216
+ 79519 string characters out of 1917072
+ 145597 words of memory out of 1500000
+ 8199 multiletter control sequences out of 10000+200000
+ 15819 words of font info for 56 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 43i,11n,45p,468b,687s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/font
-s/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.p
-fb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx6.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb
-></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></
-usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/b
-luesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/sh
-are/texmf/fonts/type1/bluesky/cm/cmti7.pfb>
-Output written on thesis.pdf (35 pages, 489751 bytes).
+ 43i,12n,45p,468b,685s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx6.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmbx9.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti7.pfb></usr/share/tex
+mf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on thesis.pdf (37 pages, 523507 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 131072)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 131072)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

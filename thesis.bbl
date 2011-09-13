@@ -37,15 +37,6 @@
 \newblock {\bf Anguillicola-infestations in Germany and in German eel imports}.
 \newblock {\em Journal of Applied Ichthyology}, {\bf 5}(1):41--45, 1989.
 
-\bibitem{koie_swimbladder_1991}
-{\sc Marianne Koie}.
-\newblock
-  \href{http://icesjms.oxfordjournals.org/cgi/content/abstract/47/3/391}{{\bf
-  Swimbladder nematodes {(Anguillicola} spp.) and gill monogeneans
-  {(Pseudodactylogyrus} spp.) parasitic on the European eel {(Anguilla}
-  anguilla)}}.
-\newblock {\em {ICES} J. Mar. Sci.}, {\bf 47}(3):391--398, 1991.
-
 \bibitem{kristmundsson_parasite_2007}
 {\sc A.~Kristmundsson and S.~Helgason}.
 \newblock {\bf Parasite communities of ecls Anguilla anguilla in freshwater and
@@ -247,5 +238,41 @@ e701aab88f214aad50e50bdca}{{\bf Serine proteinase inhibitors from nematodes and
 \newblock \href{http://dx.doi.org/10.1186/1471-2164-11-571}{{\bf {{C}omparing
   de novo assemblers for 454 transcriptome data}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:571, Oct 2010.
+
+\bibitem{pmid21627854}
+{\sc J.~H. Malone and B.~Oliver}.
+\newblock {\bf {{M}icroarrays, deep sequencing and the true measure of the
+  transcriptome}}.
+\newblock {\em BMC Biol.}, {\bf 9}:34, 2011.
+
+\bibitem{pmid20967605}
+{\sc H.~Matsumura, K.~Yoshida, S.~Luo, D.~H. Kruger, G.~Kahl, G.~P. Schroth,
+  and R.~Terauchi}.
+\newblock {\bf {{H}igh-throughput {S}uper{S}{A}{G}{E}}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 687}:135--146, 2011.
+
+\bibitem{pmid19015660}
+{\sc Z.~Wang, M.~Gerstein, and M.~Snyder}.
+\newblock {\bf {{R}{N}{A}-{S}eq: a revolutionary tool for transcriptomics}}.
+\newblock {\em Nat. Rev. Genet.}, {\bf 10}:57--63, Jan 2009.
+
+\bibitem{parkinson_partigene--constructing_2004}
+{\sc John Parkinson, Alasdair Anthony, James Wasmuth, Ralf Schmid, Ann Hedley,
+  and Mark Blaxter}.
+\newblock
+  \href{http://bioinformatics.oxfordjournals.org/cgi/content/abstract/20/9/139%
+8}{{\bf {PartiGene--constructing} partial genomes}}.
+\newblock {\em Bioinformatics}, {\bf 20}(9):1398--1404, June 2004.
+
+\bibitem{ewing_base-calling_1998}
+{\sc Brent Ewing, {LaDeana} Hillier, Michael~C. Wendl, and Phil Green}.
+\newblock \href{http://genome.cshlp.org/cgi/content/abstract/8/3/175}{{\bf
+  {Base-Calling} of automated sequencer traces using {Phred. I.} {Accuracy
+  Assessment}}}.
+\newblock {\em Genome Res.}, {\bf 8}(3):175--185, March 1998.
+
+\bibitem{PHRAP}
+{\sc Phil Green}.
+\newblock \href{http://www.phrap.org}{{\em PHRAP documentation.}}, 1994.
 
 \end{thebibliography}
