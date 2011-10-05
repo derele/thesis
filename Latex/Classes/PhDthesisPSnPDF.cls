@@ -55,6 +55,7 @@
 \setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
 \usepackage[nottoc]{tocbibind} % correct page numbers for bib in TOC, nottoc suppresses an entry for TOC itself
 %\usepackage{nextpage}
+\usepackage{rotating}
 
 %:-------------------------- Glossary/Abbrev./Symbols -----------------------
 
@@ -126,7 +127,7 @@
                  ]{hyperref} 
 
     \DeclareGraphicsExtensions{.png, .jpg, .jpeg, .pdf, .gif} %GIF doesn't work??
-    \usepackage[pdftex]{graphicx}
+    \usepackage[]{graphicx}
     \pdfcompresslevel=9
     \graphicspath{{0_frontmatter/figures/PNG/}{0_frontmatter/figures/PDF/}{0_frontmatter/figures/}}
 \else
@@ -148,7 +149,7 @@
 
     \DeclareGraphicsExtensions{.eps, .ps}
     \usepackage{epsfig}
-    \usepackage{graphicx}
+    \usepackage[]{graphicx}
     \graphicspath{{0_frontmatter/figures/EPS/}{0_frontmatter/figures/}}
 \fi
 
