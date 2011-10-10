@@ -7,10 +7,10 @@
 \contentsline {subsection}{\numberline {1.1.1}Ecological significance}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Evolutionary significance}{5}{subsection.1.1.2}
 \contentsline {subsubsection}{\numberline {1.1.2.1}Divergence of \textit {A. crassus} populations}{6}{subsubsection.1.1.2.1}
-\contentsline {subsubsection}{\numberline {1.1.2.2}Interest in \textit {A. crassus} based on its phylogeny}{6}{subsubsection.1.1.2.2}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Interest in \textit {A. crassus} based on its phylogeny}{7}{subsubsection.1.1.2.2}
 \contentsline {section}{\numberline {1.2}Functional insights from other nematodes used to formulate hypotheses for \textit {A.crassus}}{7}{section.1.2}
 \contentsline {section}{\numberline {1.3}Advances in sequencing technology enabeling this study}{8}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Pyro-sequencing}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Pyro-sequencing}{11}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Illumina-Solexa sequencing}{11}{subsection.1.3.2}
 \contentsline {section}{\numberline {1.4}Gene-expression and evolutionary divergence}{11}{section.1.4}
 \contentsline {chapter}{\numberline {2}Aims of the project}{13}{chapter.2}

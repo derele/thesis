@@ -16,44 +16,44 @@ The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: /home/ele/bibtex/master.bib
 Database file #2: /home/ele/bibtex/master2.bib
-You've used 108 entries,
+You've used 113 entries,
             2776 wiz_defined-function locations,
-            1317 strings with 47086 characters,
-and the built_in function-call counts, 85511 in all, are:
-= -- 7640
-> -- 7663
-< -- 2
-+ -- 3061
-- -- 2940
-* -- 8600
-:= -- 14515
-add.period$ -- 325
-call.type$ -- 108
-change.case$ -- 1686
+            1342 strings with 48131 characters,
+and the built_in function-call counts, 87890 in all, are:
+= -- 7889
+> -- 7766
+< -- 3
++ -- 3102
+- -- 2976
+* -- 8775
+:= -- 14878
+add.period$ -- 340
+call.type$ -- 113
+change.case$ -- 1714
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 1611
-empty$ -- 4292
-format.name$ -- 2940
-if$ -- 17260
+cite$ -- 113
+duplicate$ -- 1691
+empty$ -- 4484
+format.name$ -- 2976
+if$ -- 17810
 int.to.chr$ -- 0
-int.to.str$ -- 108
-missing$ -- 107
-newline$ -- 544
-num.names$ -- 216
-pop$ -- 1922
+int.to.str$ -- 113
+missing$ -- 112
+newline$ -- 569
+num.names$ -- 226
+pop$ -- 1966
 preamble$ -- 1
-purify$ -- 1685
+purify$ -- 1713
 quote$ -- 0
-skip$ -- 2522
+skip$ -- 2648
 stack$ -- 0
-substring$ -- 3026
-swap$ -- 487
-text.length$ -- 2
+substring$ -- 3157
+swap$ -- 515
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 430
+type$ -- 450
 warning$ -- 0
-while$ -- 409
-width$ -- 111
-write$ -- 1190
+while$ -- 427
+width$ -- 116
+write$ -- 1244
