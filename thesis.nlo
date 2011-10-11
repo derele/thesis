@@ -7,5 +7,7 @@
 \nomenclatureentry{aPCR@[{PCR}]\begingroup Polymerase Chain Reaction; a technique for the amplification of DNA by cyles of DNA-melting, annealing of primers and enzymatic replication. Heat-stable DNA-polymerase allows the use of thermal-cycling.\nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{aRNA@[{RNA}]\begingroup Ribonucleic Acid; \nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{amRNA@[{mRNA}]\begingroup Messenger RNA; \nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aLSU@[{LSU}]\begingroup Large Ribosomal Subunit; \nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aSSU@[{SSU}]\begingroup Small Ribosomal Subunit; \nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{aNGS@[{NGS}]\begingroup Next Generation Sequencing; \nomeqref {0}|nompageref}{viii}
 \nomenclatureentry{aEST@[{EST}]\begingroup Expressed Sequence Tag; randomly sampled sequence frome expressed RNA using Sequencing of cDNA preparations\nomeqref {0}|nompageref}{viii}

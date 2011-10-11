@@ -16,44 +16,47 @@ The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: /home/ele/bibtex/master.bib
 Database file #2: /home/ele/bibtex/master2.bib
-You've used 113 entries,
+Warning--to sort, need author or key in yamaguti_globiceps
+Warning--empty author in yamaguti_globiceps
+You've used 117 entries,
             2776 wiz_defined-function locations,
-            1342 strings with 48131 characters,
-and the built_in function-call counts, 87890 in all, are:
-= -- 7889
-> -- 7766
+            1366 strings with 49126 characters,
+and the built_in function-call counts, 89570 in all, are:
+= -- 8069
+> -- 7826
 < -- 3
-+ -- 3102
-- -- 2976
-* -- 8775
-:= -- 14878
-add.period$ -- 340
-call.type$ -- 113
-change.case$ -- 1714
++ -- 3126
+- -- 2996
+* -- 8908
+:= -- 15126
+add.period$ -- 351
+call.type$ -- 117
+change.case$ -- 1732
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 1691
-empty$ -- 4484
-format.name$ -- 2976
-if$ -- 17810
+cite$ -- 119
+duplicate$ -- 1747
+empty$ -- 4633
+format.name$ -- 2996
+if$ -- 18203
 int.to.chr$ -- 0
-int.to.str$ -- 113
-missing$ -- 112
-newline$ -- 569
-num.names$ -- 226
-pop$ -- 1966
+int.to.str$ -- 117
+missing$ -- 116
+newline$ -- 588
+num.names$ -- 232
+pop$ -- 1993
 preamble$ -- 1
-purify$ -- 1713
+purify$ -- 1731
 quote$ -- 0
-skip$ -- 2648
+skip$ -- 2741
 stack$ -- 0
-substring$ -- 3157
-swap$ -- 515
+substring$ -- 3252
+swap$ -- 531
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 450
-warning$ -- 0
-while$ -- 427
-width$ -- 116
-write$ -- 1244
+type$ -- 466
+warning$ -- 2
+while$ -- 439
+width$ -- 120
+write$ -- 1286
+(There were 2 warnings)
