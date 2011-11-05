@@ -290,7 +290,7 @@
     \vspace{2mm}
     {{Korreferent: Prof. Mark Blaxter} \par}
     \vspace{2mm}
-    {{Tag der mündlichen Prüfung: \par}
+    {{Tag der m\"undlichen Prüfung: \par}
     }%end large    
     \null\vfill
   \end{alwayssingle}}
@@ -363,6 +363,25 @@
   \vspace{0.5cm}
    \begin{quote}}
 {\end{quote}\end{alwayssingle}}
+
+%ZUSAMMENFASSUNG
+%
+%The zusammenfassung environment puts a large, bold, centered
+% "Zusammenfassung" label at the top of the page. The zusammenfassung
+% itself appears in a quote environment, i.e. tabbed in at both sides,
+% and on its own page. Zusammenfassung is german for abstract and some
+% Universities require a german abstract even if the thesis is in
+% English.
+
+\newenvironment{zusammenfassung} {\begin{alwayssingle} \pagestyle{empty}
+  \begin{center}
+  \vspace*{1.5cm}
+  {\Large \bfseries  Zusammenfassung}
+  \end{center}
+  \vspace{0.5cm}
+   \begin{quote}}
+{\end{quote}\end{alwayssingle}}
+
 
 %The abstractlong environment puts a large, bold, centered "Abstract" label at
 %the top of the page. The abstract itself does not appears in a quote
