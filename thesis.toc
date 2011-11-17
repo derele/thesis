@@ -5,18 +5,18 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The study organism: \textit {Anguillicola crassus}}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Ecological significance}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Evolutionary significance}{6}{subsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.2.1}Interest in \textit {A. crassus} based on its phylogeny}{7}{subsubsection.1.1.2.1}
-\contentsline {subsubsection}{\numberline {1.1.2.2}Divergence of \textit {A. crassus} populations}{10}{subsubsection.1.1.2.2}
-\contentsline {section}{\numberline {1.2}DNA sequencing}{12}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}A very short history of DNA-sequencing}{12}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Computational methods in DNA-sequence analysis}{14}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}DNA-sequencing in Nematodes}{15}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.1.2}Evolutionary significance}{5}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Interest in \textit {A. crassus} based on its phylogeny}{6}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Divergence of \textit {A. crassus} populations}{11}{subsubsection.1.1.2.2}
+\contentsline {section}{\numberline {1.2}DNA sequencing}{13}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}A very short history of DNA-sequencing}{13}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Computational methods in DNA-sequence analysis}{13}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}DNA-sequencing in Nematodes}{14}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}Advances in sequencing technology}{16}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Pyro-sequencing}{16}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Illumina-Solexa sequencing}{18}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Applications of NGS in ecology and evolution}{19}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Gene-expression and evolutionary divergence}{19}{section.1.4}
+\contentsline {subsection}{\numberline {1.3.2}Illumina-Solexa sequencing}{16}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Applications of NGS in ecology and evolution}{18}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Gene-expression and evolutionary divergence}{18}{section.1.4}
 \contentsline {chapter}{\numberline {2}Aims of the project}{21}{chapter.2}
 \contentsline {section}{\numberline {2.1}Preliminary aims}{21}{section.2.1}
 \contentsline {section}{\numberline {2.2}Final aim}{21}{section.2.2}

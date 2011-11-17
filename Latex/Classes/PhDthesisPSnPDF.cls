@@ -39,6 +39,11 @@
 
 %:-------------------------- packages for fancy things -----------------------
 
+%% For CV
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+\usepackage{sectsty}
 
 \usepackage{amssymb}
 \usepackage{graphics} % for improved inclusion of graphics
