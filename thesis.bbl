@@ -282,6 +282,28 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
   anguilla}}}.
 \newblock {\em Parasitology}, {\bf 135}(-1):1--10, 2008.
 
+\bibitem{pmid19779192}
+{\sc K.~Aarestrup, F.~Okland, M.~M. Hansen, D.~Righton, P.~Gargan,
+  M.~Castonguay, L.~Bernatchez, P.~Howey, H.~Sparholt, M.~I. Pedersen, and
+  R.~S. McKinley}.
+\newblock {\bf {{O}ceanic spawning migration of the {E}uropean eel ({A}nguilla
+  anguilla)}}.
+\newblock {\em Science}, {\bf 325}:1660, Sep 2009.
+
+\bibitem{pmid20735676}
+{\sc M.~Kuroki, J.~Aoyama, M.~J. Miller, T.~Yoshinaga, A.~Shinoda, S.~Hagihara,
+  and K.~Tsukamoto}.
+\newblock {\bf {{S}ympatric spawning of {A}nguilla marmorata and {A}nguilla
+  japonica in the western {N}orth {P}acific {O}cean}}.
+\newblock {\em J. Fish Biol.}, {\bf 74}:1853--1865, Jun 2009.
+
+\bibitem{pmid21299662}
+{\sc T.~D. Als, M.~M. Hansen, G.~E. Maes, M.~Castonguay, L.~Riemann,
+  K.~Aarestrup, P.~Munk, H.~Sparholt, R.~Hanel, and L.~Bernatchez}.
+\newblock {\bf {{A}ll roads lead to home: panmixia of {E}uropean eel in the
+  {S}argasso {S}ea}}.
+\newblock {\em Mol. Ecol.}, {\bf 20}:1333--1346, Apr 2011.
+
 \bibitem{pmid20735687}
 {\sc J.~M. Pujolar, G.~A. De~Leo, E.~Ciccotti, and L.~Zane}.
 \newblock {\bf {{G}enetic composition of {A}tlantic and {M}editerranean
@@ -300,13 +322,6 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
   between maturing adults from southern and northern {E}urope}}.
 \newblock {\em Heredity}, {\bf 103}:82--89, Jul 2009.
 
-\bibitem{pmid21299662}
-{\sc T.~D. Als, M.~M. Hansen, G.~E. Maes, M.~Castonguay, L.~Riemann,
-  K.~Aarestrup, P.~Munk, H.~Sparholt, R.~Hanel, and L.~Bernatchez}.
-\newblock {\bf {{A}ll roads lead to home: panmixia of {E}uropean eel in the
-  {S}argasso {S}ea}}.
-\newblock {\em Mol. Ecol.}, {\bf 20}:1333--1346, Apr 2011.
-
 \bibitem{pmid16024374}
 {\sc J.~Dannewitz, G.~E. Maes, L.~Johansson, H.~Wickstrom, F.~A. Volckaert, and
   T.~Jarvi}.
@@ -317,6 +332,12 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
 {\sc {DJ} {CONWAY} and {SD} {POLLEY}}.
 \newblock {\bf Measuring immune selection}.
 \newblock {\em {Parasitology(London.} Print)}, {\bf 125}:3--16, 2002.
+
+\bibitem{nielsen_eel_2006}
+{\sc M~E Nielsen and M~D {Esteve-Gassent}}.
+\newblock \href{http://dx.doi.org/10.1111/j.1365-2761.2006.00695.x}{{\bf The
+  eel immune system: present knowledge and the need for research}}.
+\newblock {\em Journal of Fish Diseases}, {\bf 29}(2):65--78, 2006.
 
 \bibitem{taraschewski_revision_1988}
 {\sc H.~Taraschewski and F.~Moravec}.
@@ -394,6 +415,14 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock {\bf {{C}apillary gel electrophoresis for rapid, high resolution
   {D}{N}{A} sequencing}}.
 \newblock {\em Nucleic Acids Res.}, {\bf 18}:1415--1419, Mar 1990.
+
+\bibitem{pmid1264203}
+{\sc W.~Fiers, R.~Contreras, F.~Duerinck, G.~Haegeman, D.~Iserentant,
+  J.~Merregaert, W.~Min~Jou, F.~Molemans, A.~Raeymaekers, A.~Van~den Berghe,
+  G.~Volckaert, and M.~Ysebaert}.
+\newblock {\bf {{C}omplete nucleotide sequence of bacteriophage {M}{S}2
+  {R}{N}{A}: primary and secondary structure of the replicase gene}}.
+\newblock {\em Nature}, {\bf 260}:500--507, Apr 1976.
 
 \bibitem{pmid9278503}
 {\sc F.~R. Blattner, G.~Plunkett, C.~A. Bloch, N.~T. Perna, V.~Burland,
@@ -512,24 +541,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock {\bf {{T}he sequence of the human genome}}.
 \newblock {\em Science}, {\bf 291}:1304--1351, Feb 2001.
 
-\bibitem{pmid6260957}
-{\sc F.~Sanger, A.~R. Coulson, B.~G. Barrell, A.~J. Smith, and B.~A. Roe}.
-\newblock {\bf {{C}loning in single-stranded bacteriophage as an aid to rapid
-  {D}{N}{A} sequencing}}.
-\newblock {\em J. Mol. Biol.}, {\bf 143}:161--178, Oct 1980.
-\newblock [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/6260957}{6260957}].
-
-\bibitem{pmid461197}
-{\sc R.~Staden}.
-\newblock {\bf {{A} strategy of {D}{N}{A} sequencing employing computer
-  programs}}.
-\newblock {\em Nucleic Acids Res.}, {\bf 6}:2601--2610, Jun 1979.
-
-\bibitem{pmid6251542}
-{\sc T.~R. Gingeras and R.~J. Roberts}.
-\newblock {\bf {{S}teps toward computer analysis of nucleotide sequences}}.
-\newblock {\em Science}, {\bf 209}:1322--1328, Sep 1980.
-
 \bibitem{blaxter_caenorhabditis_1998}
 {\sc Mark Blaxter}.
 \newblock
@@ -578,6 +589,14 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   Comparative Genomics}.
 \newblock {\em {PLoS} Biology}, {\bf 1}(2):e45 {EP} --, November 2003.
 
+\bibitem{pmid18806794}
+{\sc C.~Dieterich, S.~W. Clifton, L.~N. Schuster, A.~Chinwalla, K.~Delehaunty,
+  I.~Dinkelacker, L.~Fulton, R.~Fulton, J.~Godfrey, P.~Minx, M.~Mitreva,
+  W.~Roeseler, H.~Tian, H.~Witte, S.~P. Yang, R.~K. Wilson, and R.~J. Sommer}.
+\newblock {\bf {{T}he {P}ristionchus pacificus genome provides a unique
+  perspective on nematode lifestyle and parasitism}}.
+\newblock {\em Nat. Genet.}, {\bf 40}:1193--1198, Oct 2008.
+
 \bibitem{ghedin_draft_2007}
 {\sc Elodie Ghedin, Shiliang Wang, David Spiro, Elisabet Caler, Qi~Zhao,
   Jonathan Crabtree, Jonathan~E. Allen, Arthur~L. Delcher, David~B. Guiliano,
@@ -600,6 +619,15 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   \href{http://www.sciencemag.org/cgi/content/abstract/317/5845/1756}{{\bf
   Draft Genome of the Filarial Nematode Parasite Brugia malayi}}.
 \newblock {\em Science}, {\bf 317}(5845):1756--1760, September 2007.
+
+\bibitem{pmid22031327}
+{\sc A.~R. Jex, S.~Liu, B.~Li, N.~D. Young, R.~S. Hall, Y.~Li, L.~Yang,
+  N.~Zeng, X.~Xu, Z.~Xiong, F.~Chen, X.~Wu, G.~Zhang, X.~Fang, Y.~Kang, G.~A.
+  Anderson, T.~W. Harris, B.~E. Campbell, J.~Vlaminck, T.~Wang, C.~Cantacessi,
+  E.~M. Schwarz, S.~Ranganathan, P.~Geldhof, P.~Nejsum, P.~W. Sternberg,
+  H.~Yang, J.~Wang, J.~Wang, and R.~B. Gasser}.
+\newblock {\bf {{A}scaris suum draft genome}}.
+\newblock {\em Nature}, Oct 2011.
 
 \bibitem{pmid21336279}
 {\sc M.~Mitreva, D.~P. Jasmer, D.~S. Zarlenga, Z.~Wang, S.~Abubucker,
@@ -644,6 +672,14 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   {E}merging {P}lant {P}athogen {B}ursaphelenchus xylophilus}}.
 \newblock {\em PLoS Pathog.}, {\bf 7}:e1002219, Sep 2011.
 
+\bibitem{pmid22058131}
+{\sc S.~Kumar, P.~H. Schiffer, and M.~Blaxter}.
+\newblock {\bf {959 {N}ematode {G}enomes: a semantic wiki for coordinating
+  sequencing projects}}.
+\newblock {\em Nucleic Acids Res}, Nov 2011.
+\newblock [DOI:\href{http://dx.doi.org/10.1093/nar/gkr826}{10.1093/nar/gkr826}]
+  [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/22058131}{22058131}].
+
 \bibitem{parkinson_partigene--constructing_2004}
 {\sc John Parkinson, Alasdair Anthony, James Wasmuth, Ralf Schmid, Ann Hedley,
   and Mark Blaxter}.
@@ -675,6 +711,16 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   promoter sequences functional in Caenorhabditis elegans}}.
 \newblock {\em Molecular and Biochemical Parasitology}, {\bf 125}(1-2):59--71,
   2002.
+
+\bibitem{pmid11704277}
+{\sc J.~Murray, W.~F. Gregory, N.~Gomez-Escobar, A.~K. Atmadja, and R.~M.
+  Maizels}.
+\newblock {\bf {{E}xpression and immune recognition of {B}rugia malayi
+  {V}{A}{L}-1, a homologue of vespid venom allergens and {A}ncylostoma secreted
+  proteins}}.
+\newblock {\em Mol. Biochem. Parasitol.}, {\bf 118}:89--96, Nov 2001.
+\newblock
+  [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/11704277}{11704277}].
 
 \bibitem{harcus_signal_2004}
 {\sc Yvonne Harcus, John Parkinson, Cecilia Fernandez, Jennifer Daub, Murray
@@ -721,15 +767,91 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   differential immune recognition}}.
 \newblock {\em J. Biol. Chem.}, {\bf 278}:16941--16951, May 2003.
 
+\bibitem{pmid22044053}
+{\sc M.~Blaxter, S.~Kumar, G.~Kaur, G.~Koutsouvoulos, and B.~Elsworth}.
+\newblock {\bf {{G}enomics and transcriptomics across the diversity of the
+  {N}ematoda}}.
+\newblock {\em Parasite Immunol}, Nov 2011.
+
 \bibitem{pmid7630387}
 {\sc M.~K. Hughes and A.~L. Hughes}.
 \newblock {\bf {{N}atural selection on {P}lasmodium surface proteins}}.
 \newblock {\em Mol. Biochem. Parasitol.}, {\bf 71}:99--113, Apr 1995.
 
+\bibitem{pmid19997069}
+{\sc M.~L. Metzker}.
+\newblock {\bf {{S}equencing technologies - the next generation}}.
+\newblock {\em Nat. Rev. Genet.}, {\bf 11}:31--46, Jan 2010.
+
+\bibitem{pmid19327155}
+{\sc O.~Harismendy, P.~C. Ng, R.~L. Strausberg, X.~Wang, T.~B. Stockwell, K.~Y.
+  Beeson, N.~J. Schork, S.~S. Murray, E.~J. Topol, S.~Levy, and K.~A. Frazer}.
+\newblock {\bf {{E}valuation of next generation sequencing platforms for
+  population targeted sequencing studies}}.
+\newblock {\em Genome Biol.}, {\bf 10}:R32, 2009.
+
+\bibitem{pmid19015660}
+{\sc Z.~Wang, M.~Gerstein, and M.~Snyder}.
+\newblock {\bf {{R}{N}{A}-{S}eq: a revolutionary tool for transcriptomics}}.
+\newblock {\em Nat. Rev. Genet.}, {\bf 10}:57--63, Jan 2009.
+
+\bibitem{pmid21431759}
+{\sc K.~E. Steinmann, C.~E. Hart, J.~F. Thompson, and P.~M. Milos}.
+\newblock {\bf {{H}elicos single-molecule sequencing of bacterial genomes}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 733}:3--24, 2011.
+
+\bibitem{pmid21572978}
+{\sc W.~Timp, U.~M. Mirsaidov, D.~Wang, J.~Comer, A.~Aksimentiev, and G.~Timp}.
+\newblock {\bf {{N}anopore {S}equencing: {E}lectrical {M}easurements of the
+  {C}ode of {L}ife}}.
+\newblock {\em IEEE Trans Nanotechnol}, {\bf 9}:281--294, May 2010.
+
+\bibitem{pmid21431761}
+{\sc T.~Raz, M.~Causey, D.~R. Jones, A.~Kieu, S.~Letovsky, D.~Lipson,
+  E.~Thayer, J.~F. Thompson, and P.~M. Milos}.
+\newblock {\bf {{R}{N}{A} sequencing and quantitation using the {H}elicos
+  {G}enetic {A}nalysis {S}ystem}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 733}:37--49, 2011.
+
+\bibitem{pmid21957044}
+{\sc F.~Ozsolak and P.~M. Milos}.
+\newblock {\bf {{S}ingle-molecule direct {R}{N}{A} sequencing without
+  c{D}{N}{A} synthesis}}.
+\newblock {\em Wiley Interdiscip Rev RNA}, {\bf 2}:565--570, 2011.
+
 \bibitem{pmid20211242}
 {\sc J.~R. Miller, S.~Koren, and G.~Sutton}.
 \newblock {\bf {{A}ssembly algorithms for next-generation sequencing data}}.
 \newblock {\em Genomics}, {\bf 95}:315--327, Jun 2010.
+
+\bibitem{pmid18846085}
+{\sc J.~M. Rothberg and J.~H. Leamon}.
+\newblock {\bf {{T}he development and impact of 454 sequencing}}.
+\newblock {\em Nat. Biotechnol.}, {\bf 26}:1117--1124, Oct 2008.
+
+\bibitem{pmid20298868}
+{\sc M.~Larguinho, H.~M. Santos, G.~Doria, H.~Scholz, P.~V. Baptista, and J.~L.
+  Capelo}.
+\newblock {\bf {{D}evelopment of a fast and efficient ultrasonic-based strategy
+  for {D}{N}{A} fragmentation}}.
+\newblock {\em Talanta}, {\bf 81}:881--886, May 2010.
+
+\bibitem{pmid17185753}
+{\sc P.~Nyren}.
+\newblock {\bf {{T}he history of pyrosequencing}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 373}:1--14, 2007.
+
+\bibitem{pmid21685085}
+{\sc S.~Balzer, K.~Malde, and I.~Jonassen}.
+\newblock {\bf {{S}ystematic exploration of error sources in pyrosequencing
+  flowgram data}}.
+\newblock {\em Bioinformatics}, {\bf 27}:i304--309, Jul 2011.
+
+\bibitem{pmid21514329}
+{\sc R.~C. Novais and Y.~R. Thorstenson}.
+\newblock {\bf {{T}he evolution of {P}yrosequencing® for microbiology: {F}rom
+  genes to genomes}}.
+\newblock {\em J. Microbiol. Methods}, {\bf 86}:1--7, Jul 2011.
 
 \bibitem{pmid16056220}
 {\sc M.~Margulies, M.~Egholm, W.~E. Altman, S.~Attiya, J.~S. Bader, L.~A.
@@ -758,11 +880,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   transcriptome}}.
 \newblock {\em BMC Biol.}, {\bf 9}:34, 2011.
 
-\bibitem{pmid19015660}
-{\sc Z.~Wang, M.~Gerstein, and M.~Snyder}.
-\newblock {\bf {{R}{N}{A}-{S}eq: a revolutionary tool for transcriptomics}}.
-\newblock {\em Nat. Rev. Genet.}, {\bf 10}:57--63, Jan 2009.
-
 \bibitem{pmid20967605}
 {\sc H.~Matsumura, K.~Yoshida, S.~Luo, D.~H. Kruger, G.~Kahl, G.~P. Schroth,
   and R.~Terauchi}.
@@ -773,6 +890,51 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 {\sc V.~E. Velculescu, L.~Zhang, B.~Vogelstein, and K.~W. Kinzler}.
 \newblock {\bf {{S}erial analysis of gene expression}}.
 \newblock {\em Science}, {\bf 270}:484--487, Oct 1995.
+
+\bibitem{pmid6260957}
+{\sc F.~Sanger, A.~R. Coulson, B.~G. Barrell, A.~J. Smith, and B.~A. Roe}.
+\newblock {\bf {{C}loning in single-stranded bacteriophage as an aid to rapid
+  {D}{N}{A} sequencing}}.
+\newblock {\em J. Mol. Biol.}, {\bf 143}:161--178, Oct 1980.
+\newblock [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/6260957}{6260957}].
+
+\bibitem{pmid461197}
+{\sc R.~Staden}.
+\newblock {\bf {{A} strategy of {D}{N}{A} sequencing employing computer
+  programs}}.
+\newblock {\em Nucleic Acids Res.}, {\bf 6}:2601--2610, Jun 1979.
+
+\bibitem{pmid6251542}
+{\sc T.~R. Gingeras and R.~J. Roberts}.
+\newblock {\bf {{S}teps toward computer analysis of nucleotide sequences}}.
+\newblock {\em Science}, {\bf 209}:1322--1328, Sep 1980.
+
+\bibitem{pmid7265238}
+{\sc T.~F. Smith and M.~S. Waterman}.
+\newblock {\bf {{I}dentification of common molecular subsequences}}.
+\newblock {\em J. Mol. Biol.}, {\bf 147}:195--197, Mar 1981.
+
+\bibitem{pmid7334527}
+{\sc T.~F. Smith, M.~S. Waterman, and W.~M. Fitch}.
+\newblock {\bf {{C}omparative biosequence metrics}}.
+\newblock {\em J. Mol. Evol.}, {\bf 18}:38--46, 1981.
+
+\bibitem{pmid11932250}
+{\sc W.~J. Kent}.
+\newblock {\bf {{B}{L}{A}{T}--the {B}{L}{A}{S}{T}-like alignment tool}}.
+\newblock {\em Genome Res.}, {\bf 12}:656--664, Apr 2002.
+
+\bibitem{pmid11591649}
+{\sc Z.~Ning, A.~J. Cox, and J.~C. Mullikin}.
+\newblock {\bf {{S}{S}{A}{H}{A}: a fast search method for large {D}{N}{A}
+  databases}}.
+\newblock {\em Genome Res.}, {\bf 11}:1725--1729, Oct 2001.
+
+\bibitem{pmid20080505}
+{\sc H.~Li and R.~Durbin}.
+\newblock {\bf {{F}ast and accurate long-read alignment with
+  {B}urrows-{W}heeler transform}}.
+\newblock {\em Bioinformatics}, {\bf 26}:589--595, Mar 2010.
 
 \bibitem{pmid20331779}
 {\sc F.~Goetz, D.~Rosauer, S.~Sitar, G.~Goetz, C.~Simchick, S.~Roberts,
@@ -828,12 +990,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 {\sc M.~A. Valasek and J.~J. Repa}.
 \newblock {\bf {{T}he power of real-time {P}{C}{R}}}.
 \newblock {\em Adv Physiol Educ}, {\bf 29}:151--159, Sep 2005.
-
-\bibitem{pmid21685085}
-{\sc S.~Balzer, K.~Malde, and I.~Jonassen}.
-\newblock {\bf {{S}ystematic exploration of error sources in pyrosequencing
-  flowgram data}}.
-\newblock {\em Bioinformatics}, {\bf 27}:i304--309, Jul 2011.
 
 \bibitem{pmid21143862}
 {\sc Andrew Adey, Hilary Morrison, X~Asan, Xu~Xun, Jacob Kitzman, Emily Turner,

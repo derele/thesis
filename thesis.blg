@@ -15,50 +15,51 @@ A level-1 auxiliary file: 7_discussion/discussion.aux
 A level-1 auxiliary file: 8_material_methods/materials_methods.aux
 The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
+A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
 Database file #1: /home/ele/bibtex/master.bib
 Database file #2: /home/ele/bibtex/master2.bib
 Warning--I didn't find a database entry for "kaltz_shykoff_rev"
 Warning--to sort, need author or key in yamaguti_globiceps
 Warning--empty author in yamaguti_globiceps
-You've used 120 entries,
+You've used 144 entries,
             2776 wiz_defined-function locations,
-            1378 strings with 49710 characters,
-and the built_in function-call counts, 91403 in all, are:
-= -- 8215
-> -- 8019
+            1493 strings with 54749 characters,
+and the built_in function-call counts, 104196 in all, are:
+= -- 9481
+> -- 8823
 < -- 2
-+ -- 3201
-- -- 3070
-* -- 9081
-:= -- 15461
-add.period$ -- 360
-call.type$ -- 120
-change.case$ -- 1775
++ -- 3520
+- -- 3364
+* -- 10169
+:= -- 17524
+add.period$ -- 434
+call.type$ -- 144
+change.case$ -- 1970
 chr.to.int$ -- 0
-cite$ -- 122
-duplicate$ -- 1774
-empty$ -- 4711
-format.name$ -- 3070
-if$ -- 18556
+cite$ -- 146
+duplicate$ -- 2109
+empty$ -- 5581
+format.name$ -- 3364
+if$ -- 21332
 int.to.chr$ -- 0
-int.to.str$ -- 120
-missing$ -- 119
-newline$ -- 603
-num.names$ -- 238
-pop$ -- 2039
+int.to.str$ -- 144
+missing$ -- 143
+newline$ -- 725
+num.names$ -- 286
+pop$ -- 2289
 preamble$ -- 1
-purify$ -- 1774
+purify$ -- 1969
 quote$ -- 0
-skip$ -- 2798
+skip$ -- 3354
 stack$ -- 0
-substring$ -- 3272
-swap$ -- 532
+substring$ -- 3853
+swap$ -- 626
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 478
+type$ -- 574
 warning$ -- 2
-while$ -- 446
-width$ -- 123
-write$ -- 1319
+while$ -- 534
+width$ -- 147
+write$ -- 1584
 (There were 3 warnings)

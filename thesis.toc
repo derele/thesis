@@ -9,37 +9,37 @@
 \contentsline {subsubsection}{\numberline {1.1.2.1}Interest in \textit {A. crassus} based on its phylogeny}{6}{subsubsection.1.1.2.1}
 \contentsline {subsubsection}{\numberline {1.1.2.2}Divergence of \textit {A. crassus} populations}{11}{subsubsection.1.1.2.2}
 \contentsline {section}{\numberline {1.2}DNA sequencing}{13}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}A very short history of DNA-sequencing}{13}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Computational methods in DNA-sequence analysis}{13}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}DNA-sequencing in Nematodes}{14}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Advances in sequencing technology}{16}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Pyro-sequencing}{16}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Illumina-Solexa sequencing}{16}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Applications of NGS in ecology and evolution}{18}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Gene-expression and evolutionary divergence}{18}{section.1.4}
-\contentsline {chapter}{\numberline {2}Aims of the project}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}Preliminary aims}{21}{section.2.1}
-\contentsline {section}{\numberline {2.2}Final aim}{21}{section.2.2}
-\contentsline {chapter}{\numberline {3}Pilot sequencing (Sanger method)}{23}{chapter.3}
-\contentsline {chapter}{\numberline {4}Pyrosequencing of the \textit {A. crassus} transcriptome}{29}{chapter.4}
-\contentsline {chapter}{\numberline {5}NlaIII-tag sequencing (Super-SAGE)}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Comparison with pyrosequencing-data}{31}{section.5.1}
-\contentsline {chapter}{\numberline {6}Transcriptomic divergence in common garden experiments }{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Infection experiments}{33}{section.6.1}
-\contentsline {section}{\numberline {6.2}Examination of data-quality}{33}{section.6.2}
-\contentsline {section}{\numberline {6.3}Expression differences between male and female}{33}{section.6.3}
-\contentsline {section}{\numberline {6.4}Expression differences between worms in European and Japanese Eels}{33}{section.6.4}
-\contentsline {section}{\numberline {6.5}Expression differences between worms in the European and Taiwanese worm-population}{33}{section.6.5}
-\contentsline {chapter}{\numberline {7}Discussion}{35}{chapter.7}
-\contentsline {section}{\numberline {7.1}Sanger-method pilot-sequencing}{35}{section.7.1}
-\contentsline {section}{\numberline {7.2}454-pyrosequencing}{35}{section.7.2}
-\contentsline {section}{\numberline {7.3}Experimental infections}{37}{section.7.3}
-\contentsline {chapter}{\numberline {8}Materials \& methods}{39}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels}{39}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Sampling in Taiwan}{39}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Sampling of European worms}{39}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{40}{section.8.2}
-\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{40}{section.8.3}
-\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{41}{section.8.4}
-\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{42}{section.8.5}
-\contentsline {chapter}{References}{45}{section*.17}
+\contentsline {subsection}{\numberline {1.2.1}A very short history of high-throughput DNA-sequencing}{13}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}DNA-sequencing in Nematodes}{13}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Advances in sequencing technology}{15}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Pyro-sequencing}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Illumina-Solexa sequencing}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Computational methods in DNA-sequence analysis}{20}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Applications of NGS in ecology and evolution}{21}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Gene-expression and evolutionary divergence}{22}{section.1.4}
+\contentsline {chapter}{\numberline {2}Aims of the project}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Preliminary aims}{23}{section.2.1}
+\contentsline {section}{\numberline {2.2}Final aim}{23}{section.2.2}
+\contentsline {chapter}{\numberline {3}Pilot sequencing (Sanger method)}{25}{chapter.3}
+\contentsline {chapter}{\numberline {4}Pyrosequencing of the \textit {A. crassus} transcriptome}{31}{chapter.4}
+\contentsline {chapter}{\numberline {5}NlaIII-tag sequencing (Super-SAGE)}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Comparison with pyrosequencing-data}{33}{section.5.1}
+\contentsline {chapter}{\numberline {6}Transcriptomic divergence in common garden experiments }{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Infection experiments}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Examination of data-quality}{35}{section.6.2}
+\contentsline {section}{\numberline {6.3}Expression differences between male and female}{35}{section.6.3}
+\contentsline {section}{\numberline {6.4}Expression differences between worms in European and Japanese Eels}{35}{section.6.4}
+\contentsline {section}{\numberline {6.5}Expression differences between worms in the European and Taiwanese worm-population}{35}{section.6.5}
+\contentsline {chapter}{\numberline {7}Discussion}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}Sanger-method pilot-sequencing}{37}{section.7.1}
+\contentsline {section}{\numberline {7.2}454-pyrosequencing}{37}{section.7.2}
+\contentsline {section}{\numberline {7.3}Experimental infections}{39}{section.7.3}
+\contentsline {chapter}{\numberline {8}Materials \& methods}{41}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels}{41}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Sampling in Taiwan}{41}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Sampling of European worms}{41}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{42}{section.8.2}
+\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{42}{section.8.3}
+\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{43}{section.8.4}
+\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{44}{section.8.5}
+\contentsline {chapter}{References}{47}{section*.17}
