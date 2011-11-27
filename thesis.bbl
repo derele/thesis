@@ -612,6 +612,14 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock {\bf {{R}{N}{A}-{S}eq: a revolutionary tool for transcriptomics}}.
 \newblock {\em Nat. Rev. Genet.}, {\bf 10}:57--63, Jan 2009.
 
+\bibitem{pmid20121477}
+{\sc J.~Armengaud}.
+\newblock {\bf {{P}roteogenomics and systems biology: quest for the ultimate
+  missing parts}}.
+\newblock {\em Expert Rev Proteomics}, {\bf 7}:65--77, Feb 2010.
+\newblock [DOI:\href{http://dx.doi.org/10.1586/epr.09.104}{10.1586/epr.09.104}]
+  [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/20121477}{20121477}].
+
 \bibitem{pmid21593866}
 {\sc B.~Schwanhausser, D.~Busse, N.~Li, G.~Dittmar, J.~Schuchhardt, J.~Wolf,
   W.~Chen, and M.~Selbach}.
@@ -758,8 +766,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 {\sc C.~Fields, M.~D. Adams, O.~White, and J.~C. Venter}.
 \newblock {\bf {{H}ow many genes in the human genome?}}
 \newblock {\em Nat. Genet.}, {\bf 7}:345--346, Jul 1994.
-\newblock [DOI:\href{http://dx.doi.org/10.1038/ng0794-345}{10.1038/ng0794-345}]
-  [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/7920649}{7920649}].
 
 \bibitem{pmid19997069}
 {\sc M.~L. Metzker}.
@@ -796,147 +802,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock {\bf {{S}ingle-molecule direct {R}{N}{A} sequencing without
   c{D}{N}{A} synthesis}}.
 \newblock {\em Wiley Interdiscip Rev RNA}, {\bf 2}:565--570, 2011.
-
-\bibitem{pmid18846085}
-{\sc J.~M. Rothberg and J.~H. Leamon}.
-\newblock {\bf {{T}he development and impact of 454 sequencing}}.
-\newblock {\em Nat. Biotechnol.}, {\bf 26}:1117--1124, Oct 2008.
-
-\bibitem{pmid20298868}
-{\sc M.~Larguinho, H.~M. Santos, G.~Doria, H.~Scholz, P.~V. Baptista, and J.~L.
-  Capelo}.
-\newblock {\bf {{D}evelopment of a fast and efficient ultrasonic-based strategy
-  for {D}{N}{A} fragmentation}}.
-\newblock {\em Talanta}, {\bf 81}:881--886, May 2010.
-
-\bibitem{pmid17185753}
-{\sc P.~Nyren}.
-\newblock {\bf {{T}he history of pyrosequencing}}.
-\newblock {\em Methods Mol. Biol.}, {\bf 373}:1--14, 2007.
-
-\bibitem{pmid21685085}
-{\sc S.~Balzer, K.~Malde, and I.~Jonassen}.
-\newblock {\bf {{S}ystematic exploration of error sources in pyrosequencing
-  flowgram data}}.
-\newblock {\em Bioinformatics}, {\bf 27}:i304--309, Jul 2011.
-
-\bibitem{pmid21514329}
-{\sc R.~C. Novais and Y.~R. Thorstenson}.
-\newblock {\bf {{T}he evolution of {P}yrosequencing® for microbiology: {F}rom
-  genes to genomes}}.
-\newblock {\em J. Microbiol. Methods}, {\bf 86}:1--7, Jul 2011.
-
-\bibitem{pmid16056220}
-{\sc M.~Margulies, M.~Egholm, W.~E. Altman, S.~Attiya, J.~S. Bader, L.~A.
-  Bemben, J.~Berka, M.~S. Braverman, Y.~J. Chen, Z.~Chen, S.~B. Dewell, L.~Du,
-  J.~M. Fierro, X.~V. Gomes, B.~C. Godwin, W.~He, S.~Helgesen, C.~H. Ho, C.~H.
-  Ho, G.~P. Irzyk, S.~C. Jando, M.~L. Alenquer, T.~P. Jarvie, K.~B. Jirage,
-  J.~B. Kim, J.~R. Knight, J.~R. Lanza, J.~H. Leamon, S.~M. Lefkowitz, M.~Lei,
-  J.~Li, K.~L. Lohman, H.~Lu, V.~B. Makhijani, K.~E. McDade, M.~P. McKenna,
-  E.~W. Myers, E.~Nickerson, J.~R. Nobile, R.~Plant, B.~P. Puc, M.~T. Ronan,
-  G.~T. Roth, G.~J. Sarkis, J.~F. Simons, J.~W. Simpson, M.~Srinivasan, K.~R.
-  Tartaro, A.~Tomasz, K.~A. Vogt, G.~A. Volkmer, S.~H. Wang, Y.~Wang, M.~P.
-  Weiner, P.~Yu, R.~F. Begley, and J.~M. Rothberg}.
-\newblock \href{http://dx.doi.org/10.1038/nature03959}{{\bf {{G}enome
-  sequencing in microfabricated high-density picolitre reactors}}}.
-\newblock {\em Nature}, {\bf 437}:376--380, Sep 2005.
-
-\bibitem{pmid20950480}
-{\sc S.~Kumar and M.~L. Blaxter}.
-\newblock \href{http://dx.doi.org/10.1186/1471-2164-11-571}{{\bf {{C}omparing
-  de novo assemblers for 454 transcriptome data}}}.
-\newblock {\em BMC Genomics}, {\bf 11}:571, Oct 2010.
-
-\bibitem{pmid18987734}
-{\sc D.~R. Bentley, S.~Balasubramanian, H.~P. Swerdlow, G.~P. Smith, J.~Milton,
-  C.~G. Brown, K.~P. Hall, D.~J. Evers, C.~L. Barnes, H.~R. Bignell, J.~M.
-  Boutell, J.~Bryant, R.~J. Carter, R.~Keira~Cheetham, A.~J. Cox, D.~J. Ellis,
-  M.~R. Flatbush, N.~A. Gormley, S.~J. Humphray, L.~J. Irving, M.~S.
-  Karbelashvili, S.~M. Kirk, H.~Li, X.~Liu, K.~S. Maisinger, L.~J. Murray,
-  B.~Obradovic, T.~Ost, M.~L. Parkinson, M.~R. Pratt, I.~M. Rasolonjatovo,
-  M.~T. Reed, R.~Rigatti, C.~Rodighiero, M.~T. Ross, A.~Sabot, S.~V. Sankar,
-  A.~Scally, G.~P. Schroth, M.~E. Smith, V.~P. Smith, A.~Spiridou, P.~E.
-  Torrance, S.~S. Tzonev, E.~H. Vermaas, K.~Walter, X.~Wu, L.~Zhang, M.~D.
-  Alam, C.~Anastasi, I.~C. Aniebo, D.~M. Bailey, I.~R. Bancarz, S.~Banerjee,
-  S.~G. Barbour, P.~A. Baybayan, V.~A. Benoit, K.~F. Benson, C.~Bevis, P.~J.
-  Black, A.~Boodhun, J.~S. Brennan, J.~A. Bridgham, R.~C. Brown, A.~A. Brown,
-  D.~H. Buermann, A.~A. Bundu, J.~C. Burrows, N.~P. Carter, N.~Castillo,
-  M.~Chiara E~Catenazzi, S.~Chang, R.~Neil~Cooley, N.~R. Crake, O.~O. Dada,
-  K.~D. Diakoumakos, B.~Dominguez-Fernandez, D.~J. Earnshaw, U.~C. Egbujor,
-  D.~W. Elmore, S.~S. Etchin, M.~R. Ewan, M.~Fedurco, L.~J. Fraser, K.~V.
-  Fuentes~Fajardo, W.~Scott~Furey, D.~George, K.~J. Gietzen, C.~P. Goddard,
-  G.~S. Golda, P.~A. Granieri, D.~E. Green, D.~L. Gustafson, N.~F. Hansen,
-  K.~Harnish, C.~D. Haudenschild, N.~I. Heyer, M.~M. Hims, J.~T. Ho, A.~M.
-  Horgan, K.~Hoschler, S.~Hurwitz, D.~V. Ivanov, M.~Q. Johnson, T.~James, T.~A.
-  Huw~Jones, G.~D. Kang, T.~H. Kerelska, A.~D. Kersey, I.~Khrebtukova, A.~P.
-  Kindwall, Z.~Kingsbury, P.~I. Kokko-Gonzales, A.~Kumar, M.~A. Laurent, C.~T.
-  Lawley, S.~E. Lee, X.~Lee, A.~K. Liao, J.~A. Loch, M.~Lok, S.~Luo, R.~M.
-  Mammen, J.~W. Martin, P.~G. McCauley, P.~McNitt, P.~Mehta, K.~W. Moon, J.~W.
-  Mullens, T.~Newington, Z.~Ning, B.~Ling~Ng, S.~M. Novo, M.~J. O'Neill, M.~A.
-  Osborne, A.~Osnowski, O.~Ostadan, L.~L. Paraschos, L.~Pickering, A.~C. Pike,
-  A.~C. Pike, D.~Chris~Pinkard, D.~P. Pliskin, J.~Podhasky, V.~J. Quijano,
-  C.~Raczy, V.~H. Rae, S.~R. Rawlings, A.~Chiva~Rodriguez, P.~M. Roe,
-  J.~Rogers, M.~C. Rogert~Bacigalupo, N.~Romanov, A.~Romieu, R.~K. Roth, N.~J.
-  Rourke, S.~T. Ruediger, E.~Rusman, R.~M. Sanches-Kuiper, M.~R. Schenker,
-  J.~M. Seoane, R.~J. Shaw, M.~K. Shiver, S.~W. Short, N.~L. Sizto, J.~P.
-  Sluis, M.~A. Smith, J.~Ernest Sohna~Sohna, E.~J. Spence, K.~Stevens,
-  N.~Sutton, L.~Szajkowski, C.~L. Tregidgo, G.~Turcatti, S.~Vandevondele,
-  Y.~Verhovsky, S.~M. Virk, S.~Wakelin, G.~C. Walcott, J.~Wang, G.~J. Worsley,
-  J.~Yan, L.~Yau, M.~Zuerlein, J.~Rogers, J.~C. Mullikin, M.~E. Hurles, N.~J.
-  McCooke, J.~S. West, F.~L. Oaks, P.~L. Lundberg, D.~Klenerman, R.~Durbin, and
-  A.~J. Smith}.
-\newblock {\bf {{A}ccurate whole human genome sequencing using reversible
-  terminator chemistry}}.
-\newblock {\em Nature}, {\bf 456}:53--59, Nov 2008.
-
-\bibitem{pmid20010809}
-{\sc R.~Li, W.~Fan, G.~Tian, H.~Zhu, L.~He, J.~Cai, Q.~Huang, Q.~Cai, B.~Li,
-  Y.~Bai, Z.~Zhang, Y.~Zhang, W.~Wang, J.~Li, F.~Wei, H.~Li, M.~Jian, J.~Li,
-  Z.~Zhang, R.~Nielsen, D.~Li, W.~Gu, Z.~Yang, Z.~Xuan, O.~A. Ryder, F.~C.
-  Leung, Y.~Zhou, J.~Cao, X.~Sun, Y.~Fu, X.~Fang, X.~Guo, B.~Wang, R.~Hou,
-  F.~Shen, B.~Mu, P.~Ni, R.~Lin, W.~Qian, G.~Wang, C.~Yu, W.~Nie, J.~Wang,
-  Z.~Wu, H.~Liang, J.~Min, Q.~Wu, S.~Cheng, J.~Ruan, M.~Wang, Z.~Shi, M.~Wen,
-  B.~Liu, X.~Ren, H.~Zheng, D.~Dong, K.~Cook, G.~Shan, H.~Zhang, C.~Kosiol,
-  X.~Xie, Z.~Lu, H.~Zheng, Y.~Li, C.~C. Steiner, T.~T. Lam, S.~Lin, Q.~Zhang,
-  G.~Li, J.~Tian, T.~Gong, H.~Liu, D.~Zhang, L.~Fang, C.~Ye, J.~Zhang, W.~Hu,
-  A.~Xu, Y.~Ren, G.~Zhang, M.~W. Bruford, Q.~Li, L.~Ma, Y.~Guo, N.~An, Y.~Hu,
-  Y.~Zheng, Y.~Shi, Z.~Li, Q.~Liu, Y.~Chen, J.~Zhao, N.~Qu, S.~Zhao, F.~Tian,
-  X.~Wang, H.~Wang, L.~Xu, X.~Liu, T.~Vinar, Y.~Wang, T.~W. Lam, S.~M. Yiu,
-  S.~Liu, H.~Zhang, D.~Li, Y.~Huang, X.~Wang, G.~Yang, Z.~Jiang, J.~Wang,
-  N.~Qin, L.~Li, J.~Li, L.~Bolund, K.~Kristiansen, G.~K. Wong, M.~Olson,
-  X.~Zhang, S.~Li, H.~Yang, J.~Wang, and J.~Wang}.
-\newblock {\bf {{T}he sequence and de novo assembly of the giant panda
-  genome}}.
-\newblock {\em Nature}, {\bf 463}:311--317, Jan 2010.
-
-\bibitem{pmid21679424}
-{\sc B.~Feldmeyer, C.~W. Wheat, N.~Krezdorn, B.~Rotter, and M.~Pfenninger}.
-\newblock {\bf {{S}hort read {I}llumina data for the de novo assembly of a
-  non-model snail species transcriptome ({R}adix balthica, {B}asommatophora,
-  {P}ulmonata), and a comparison of assembler performance}}.
-\newblock {\em BMC Genomics}, {\bf 12}:317, 2011.
-
-\bibitem{pmid21627854}
-{\sc J.~H. Malone and B.~Oliver}.
-\newblock {\bf {{M}icroarrays, deep sequencing and the true measure of the
-  transcriptome}}.
-\newblock {\em BMC Biol.}, {\bf 9}:34, 2011.
-
-\bibitem{pmid20967605}
-{\sc H.~Matsumura, K.~Yoshida, S.~Luo, D.~H. Kruger, G.~Kahl, G.~P. Schroth,
-  and R.~Terauchi}.
-\newblock {\bf {{H}igh-throughput {S}uper{S}{A}{G}{E}}}.
-\newblock {\em Methods Mol. Biol.}, {\bf 687}:135--146, 2011.
-
-\bibitem{pmid7570003}
-{\sc V.~E. Velculescu, L.~Zhang, B.~Vogelstein, and K.~W. Kinzler}.
-\newblock {\bf {{S}erial analysis of gene expression}}.
-\newblock {\em Science}, {\bf 270}:484--487, Oct 1995.
-
-\bibitem{pmid20211242}
-{\sc J.~R. Miller, S.~Koren, and G.~Sutton}.
-\newblock {\bf {{A}ssembly algorithms for next-generation sequencing data}}.
-\newblock {\em Genomics}, {\bf 95}:315--327, Jun 2010.
 
 \bibitem{blaxter_caenorhabditis_1998}
 {\sc Mark Blaxter}.
@@ -1134,41 +999,195 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   Using Expressed Sequence Tags {(ESTs)}}.
 \newblock {\em {PLoS} Neglected Tropical Diseases}, {\bf 2}(9):e301, 2008.
 
-\bibitem{pmid18958170}
-{\sc Y.~Moreno and T.~G. Geary}.
-\newblock {\bf {{S}tage- and gender-specific proteomic analysis of {B}rugia
-  malayi excretory-secretory products}}.
-\newblock {\em PLoS Negl Trop Dis}, {\bf 2}:e326, 2008.
+\bibitem{parkinson_nembase:resource_2004}
+{\sc John Parkinson, Claire Whitton, Ralf Schmid, Marian Thomson, and Mark
+  Blaxter}.
+\newblock
+  \href{http://nar.oxfordjournals.org/cgi/content/abstract/32/suppl_1/D427}{{\%
+bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
+\newblock {\em Nucl. Acids Res.}, {\bf 32}(suppl\_1):D427--430, 2004.
 
-\bibitem{pmid19352421}
-{\sc S.~Bennuru, R.~Semnani, Z.~Meng, J.~M. Ribeiro, T.~D. Veenstra, and T.~B.
-  Nutman}.
-\newblock {\bf {{B}rugia malayi excreted/secreted proteins at the host/parasite
-  interface: stage- and gender-specific proteomic profiling}}.
-\newblock {\em PLoS Negl Trop Dis}, {\bf 3}:e410, 2009.
+\bibitem{wasmuth_extent_2008}
+{\sc James Wasmuth, Ralf Schmid, Ann Hedley, and Mark Blaxter}.
+\newblock
+  \href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2432500}{{\bf
+  On the Extent and Origins of Genic Novelty in the Phylum Nematoda}}.
+\newblock {\em {PLoS} Neglected Tropical Diseases}, {\bf 2}(7):e258, July 2008.
 
-\bibitem{pmid21722761}
-{\sc J.~P. Hewitson, Y.~Harcus, J.~Murray, M.~van Agtmaal, K.~J. Filbey, J.~R.
-  Grainger, S.~Bridgett, M.~L. Blaxter, P.~D. Ashton, D.~A. Ashford, R.~S.
-  Curwen, R.~A. Wilson, A.~A. Dowle, and R.~M. Maizels}.
-\newblock {\bf {{P}roteomic analysis of secretory products from the model
-  gastrointestinal nematode {H}eligmosomoides polygyrus reveals dominance of
-  {V}enom {A}llergen-{L}ike ({V}{A}{L}) proteins}}.
-\newblock {\em J Proteomics}, {\bf 74}:1573--1594, Aug 2011.
+\bibitem{pmid21550347}
+{\sc B.~Elsworth, J.~Wasmuth, and M.~Blaxter}.
+\newblock {\bf {{N}{E}{M}{B}{A}{S}{E}4: {T}he nematode transcriptome
+  resource}}.
+\newblock {\em Int. J. Parasitol.}, {\bf 41}:881--894, Jul 2011.
 
-\bibitem{pmid12576473}
-{\sc A.~P. Yatsuda, J.~Krijgsveld, A.~W. Cornelissen, A.~J. Heck, and
-  E.~de~Vries}.
-\newblock {\bf {{C}omprehensive analysis of the secreted proteins of the
-  parasite {H}aemonchus contortus reveals extensive sequence variation and
-  differential immune recognition}}.
-\newblock {\em J. Biol. Chem.}, {\bf 278}:16941--16951, May 2003.
+\bibitem{pmid20470405}
+{\sc Z.~Wang, S.~Abubucker, J.~Martin, R.~K. Wilson, J.~Hawdon, and
+  M.~Mitreva}.
+\newblock {\bf {{C}haracterizing {A}ncylostoma caninum transcriptome and
+  exploring nematode parasitic adaptation}}.
+\newblock {\em BMC Genomics}, {\bf 11}:307, 2010.
+
+\bibitem{pmid20237107}
+{\sc N.~Borchert, C.~Dieterich, K.~Krug, W.~Schutz, S.~Jung, A.~Nordheim, R.~J.
+  Sommer, and B.~Macek}.
+\newblock {\bf {{P}roteogenomics of {P}ristionchus pacificus reveals distinct
+  proteome structure of nematode models}}.
+\newblock {\em Genome Res.}, {\bf 20}:837--846, Jun 2010.
+
+\bibitem{pmid20950480}
+{\sc S.~Kumar and M.~L. Blaxter}.
+\newblock \href{http://dx.doi.org/10.1186/1471-2164-11-571}{{\bf {{C}omparing
+  de novo assemblers for 454 transcriptome data}}}.
+\newblock {\em BMC Genomics}, {\bf 11}:571, Oct 2010.
+
+\bibitem{pmid21685128}
+{\sc J.~Wang, B.~Czech, A.~Crunk, A.~Wallace, M.~Mitreva, G.~J. Hannon, and
+  R.~E. Davis}.
+\newblock {\bf {{D}eep small {R}{N}{A} sequencing from the nematode {A}scaris
+  reveals conservation, functional diversification, and novel developmental
+  profiles}}.
+\newblock {\em Genome Res.}, {\bf 21}:1462--1477, Sep 2011.
 
 \bibitem{pmid22044053}
 {\sc M.~Blaxter, S.~Kumar, G.~Kaur, G.~Koutsouvoulos, and B.~Elsworth}.
 \newblock {\bf {{G}enomics and transcriptomics across the diversity of the
   {N}ematoda}}.
 \newblock {\em Parasite Immunol}, Nov 2011.
+
+\bibitem{pmid18846085}
+{\sc J.~M. Rothberg and J.~H. Leamon}.
+\newblock {\bf {{T}he development and impact of 454 sequencing}}.
+\newblock {\em Nat. Biotechnol.}, {\bf 26}:1117--1124, Oct 2008.
+
+\bibitem{pmid20298868}
+{\sc M.~Larguinho, H.~M. Santos, G.~Doria, H.~Scholz, P.~V. Baptista, and J.~L.
+  Capelo}.
+\newblock {\bf {{D}evelopment of a fast and efficient ultrasonic-based strategy
+  for {D}{N}{A} fragmentation}}.
+\newblock {\em Talanta}, {\bf 81}:881--886, May 2010.
+
+\bibitem{pmid17185753}
+{\sc P.~Nyren}.
+\newblock {\bf {{T}he history of pyrosequencing}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 373}:1--14, 2007.
+
+\bibitem{pmid21685085}
+{\sc S.~Balzer, K.~Malde, and I.~Jonassen}.
+\newblock {\bf {{S}ystematic exploration of error sources in pyrosequencing
+  flowgram data}}.
+\newblock {\em Bioinformatics}, {\bf 27}:i304--309, Jul 2011.
+
+\bibitem{pmid21514329}
+{\sc R.~C. Novais and Y.~R. Thorstenson}.
+\newblock {\bf {{T}he evolution of {P}yrosequencing® for microbiology: {F}rom
+  genes to genomes}}.
+\newblock {\em J. Microbiol. Methods}, {\bf 86}:1--7, Jul 2011.
+
+\bibitem{pmid16056220}
+{\sc M.~Margulies, M.~Egholm, W.~E. Altman, S.~Attiya, J.~S. Bader, L.~A.
+  Bemben, J.~Berka, M.~S. Braverman, Y.~J. Chen, Z.~Chen, S.~B. Dewell, L.~Du,
+  J.~M. Fierro, X.~V. Gomes, B.~C. Godwin, W.~He, S.~Helgesen, C.~H. Ho, C.~H.
+  Ho, G.~P. Irzyk, S.~C. Jando, M.~L. Alenquer, T.~P. Jarvie, K.~B. Jirage,
+  J.~B. Kim, J.~R. Knight, J.~R. Lanza, J.~H. Leamon, S.~M. Lefkowitz, M.~Lei,
+  J.~Li, K.~L. Lohman, H.~Lu, V.~B. Makhijani, K.~E. McDade, M.~P. McKenna,
+  E.~W. Myers, E.~Nickerson, J.~R. Nobile, R.~Plant, B.~P. Puc, M.~T. Ronan,
+  G.~T. Roth, G.~J. Sarkis, J.~F. Simons, J.~W. Simpson, M.~Srinivasan, K.~R.
+  Tartaro, A.~Tomasz, K.~A. Vogt, G.~A. Volkmer, S.~H. Wang, Y.~Wang, M.~P.
+  Weiner, P.~Yu, R.~F. Begley, and J.~M. Rothberg}.
+\newblock \href{http://dx.doi.org/10.1038/nature03959}{{\bf {{G}enome
+  sequencing in microfabricated high-density picolitre reactors}}}.
+\newblock {\em Nature}, {\bf 437}:376--380, Sep 2005.
+
+\bibitem{pmid18987734}
+{\sc D.~R. Bentley, S.~Balasubramanian, H.~P. Swerdlow, G.~P. Smith, J.~Milton,
+  C.~G. Brown, K.~P. Hall, D.~J. Evers, C.~L. Barnes, H.~R. Bignell, J.~M.
+  Boutell, J.~Bryant, R.~J. Carter, R.~Keira~Cheetham, A.~J. Cox, D.~J. Ellis,
+  M.~R. Flatbush, N.~A. Gormley, S.~J. Humphray, L.~J. Irving, M.~S.
+  Karbelashvili, S.~M. Kirk, H.~Li, X.~Liu, K.~S. Maisinger, L.~J. Murray,
+  B.~Obradovic, T.~Ost, M.~L. Parkinson, M.~R. Pratt, I.~M. Rasolonjatovo,
+  M.~T. Reed, R.~Rigatti, C.~Rodighiero, M.~T. Ross, A.~Sabot, S.~V. Sankar,
+  A.~Scally, G.~P. Schroth, M.~E. Smith, V.~P. Smith, A.~Spiridou, P.~E.
+  Torrance, S.~S. Tzonev, E.~H. Vermaas, K.~Walter, X.~Wu, L.~Zhang, M.~D.
+  Alam, C.~Anastasi, I.~C. Aniebo, D.~M. Bailey, I.~R. Bancarz, S.~Banerjee,
+  S.~G. Barbour, P.~A. Baybayan, V.~A. Benoit, K.~F. Benson, C.~Bevis, P.~J.
+  Black, A.~Boodhun, J.~S. Brennan, J.~A. Bridgham, R.~C. Brown, A.~A. Brown,
+  D.~H. Buermann, A.~A. Bundu, J.~C. Burrows, N.~P. Carter, N.~Castillo,
+  M.~Chiara E~Catenazzi, S.~Chang, R.~Neil~Cooley, N.~R. Crake, O.~O. Dada,
+  K.~D. Diakoumakos, B.~Dominguez-Fernandez, D.~J. Earnshaw, U.~C. Egbujor,
+  D.~W. Elmore, S.~S. Etchin, M.~R. Ewan, M.~Fedurco, L.~J. Fraser, K.~V.
+  Fuentes~Fajardo, W.~Scott~Furey, D.~George, K.~J. Gietzen, C.~P. Goddard,
+  G.~S. Golda, P.~A. Granieri, D.~E. Green, D.~L. Gustafson, N.~F. Hansen,
+  K.~Harnish, C.~D. Haudenschild, N.~I. Heyer, M.~M. Hims, J.~T. Ho, A.~M.
+  Horgan, K.~Hoschler, S.~Hurwitz, D.~V. Ivanov, M.~Q. Johnson, T.~James, T.~A.
+  Huw~Jones, G.~D. Kang, T.~H. Kerelska, A.~D. Kersey, I.~Khrebtukova, A.~P.
+  Kindwall, Z.~Kingsbury, P.~I. Kokko-Gonzales, A.~Kumar, M.~A. Laurent, C.~T.
+  Lawley, S.~E. Lee, X.~Lee, A.~K. Liao, J.~A. Loch, M.~Lok, S.~Luo, R.~M.
+  Mammen, J.~W. Martin, P.~G. McCauley, P.~McNitt, P.~Mehta, K.~W. Moon, J.~W.
+  Mullens, T.~Newington, Z.~Ning, B.~Ling~Ng, S.~M. Novo, M.~J. O'Neill, M.~A.
+  Osborne, A.~Osnowski, O.~Ostadan, L.~L. Paraschos, L.~Pickering, A.~C. Pike,
+  A.~C. Pike, D.~Chris~Pinkard, D.~P. Pliskin, J.~Podhasky, V.~J. Quijano,
+  C.~Raczy, V.~H. Rae, S.~R. Rawlings, A.~Chiva~Rodriguez, P.~M. Roe,
+  J.~Rogers, M.~C. Rogert~Bacigalupo, N.~Romanov, A.~Romieu, R.~K. Roth, N.~J.
+  Rourke, S.~T. Ruediger, E.~Rusman, R.~M. Sanches-Kuiper, M.~R. Schenker,
+  J.~M. Seoane, R.~J. Shaw, M.~K. Shiver, S.~W. Short, N.~L. Sizto, J.~P.
+  Sluis, M.~A. Smith, J.~Ernest Sohna~Sohna, E.~J. Spence, K.~Stevens,
+  N.~Sutton, L.~Szajkowski, C.~L. Tregidgo, G.~Turcatti, S.~Vandevondele,
+  Y.~Verhovsky, S.~M. Virk, S.~Wakelin, G.~C. Walcott, J.~Wang, G.~J. Worsley,
+  J.~Yan, L.~Yau, M.~Zuerlein, J.~Rogers, J.~C. Mullikin, M.~E. Hurles, N.~J.
+  McCooke, J.~S. West, F.~L. Oaks, P.~L. Lundberg, D.~Klenerman, R.~Durbin, and
+  A.~J. Smith}.
+\newblock {\bf {{A}ccurate whole human genome sequencing using reversible
+  terminator chemistry}}.
+\newblock {\em Nature}, {\bf 456}:53--59, Nov 2008.
+
+\bibitem{pmid20010809}
+{\sc R.~Li, W.~Fan, G.~Tian, H.~Zhu, L.~He, J.~Cai, Q.~Huang, Q.~Cai, B.~Li,
+  Y.~Bai, Z.~Zhang, Y.~Zhang, W.~Wang, J.~Li, F.~Wei, H.~Li, M.~Jian, J.~Li,
+  Z.~Zhang, R.~Nielsen, D.~Li, W.~Gu, Z.~Yang, Z.~Xuan, O.~A. Ryder, F.~C.
+  Leung, Y.~Zhou, J.~Cao, X.~Sun, Y.~Fu, X.~Fang, X.~Guo, B.~Wang, R.~Hou,
+  F.~Shen, B.~Mu, P.~Ni, R.~Lin, W.~Qian, G.~Wang, C.~Yu, W.~Nie, J.~Wang,
+  Z.~Wu, H.~Liang, J.~Min, Q.~Wu, S.~Cheng, J.~Ruan, M.~Wang, Z.~Shi, M.~Wen,
+  B.~Liu, X.~Ren, H.~Zheng, D.~Dong, K.~Cook, G.~Shan, H.~Zhang, C.~Kosiol,
+  X.~Xie, Z.~Lu, H.~Zheng, Y.~Li, C.~C. Steiner, T.~T. Lam, S.~Lin, Q.~Zhang,
+  G.~Li, J.~Tian, T.~Gong, H.~Liu, D.~Zhang, L.~Fang, C.~Ye, J.~Zhang, W.~Hu,
+  A.~Xu, Y.~Ren, G.~Zhang, M.~W. Bruford, Q.~Li, L.~Ma, Y.~Guo, N.~An, Y.~Hu,
+  Y.~Zheng, Y.~Shi, Z.~Li, Q.~Liu, Y.~Chen, J.~Zhao, N.~Qu, S.~Zhao, F.~Tian,
+  X.~Wang, H.~Wang, L.~Xu, X.~Liu, T.~Vinar, Y.~Wang, T.~W. Lam, S.~M. Yiu,
+  S.~Liu, H.~Zhang, D.~Li, Y.~Huang, X.~Wang, G.~Yang, Z.~Jiang, J.~Wang,
+  N.~Qin, L.~Li, J.~Li, L.~Bolund, K.~Kristiansen, G.~K. Wong, M.~Olson,
+  X.~Zhang, S.~Li, H.~Yang, J.~Wang, and J.~Wang}.
+\newblock {\bf {{T}he sequence and de novo assembly of the giant panda
+  genome}}.
+\newblock {\em Nature}, {\bf 463}:311--317, Jan 2010.
+
+\bibitem{pmid21679424}
+{\sc B.~Feldmeyer, C.~W. Wheat, N.~Krezdorn, B.~Rotter, and M.~Pfenninger}.
+\newblock {\bf {{S}hort read {I}llumina data for the de novo assembly of a
+  non-model snail species transcriptome ({R}adix balthica, {B}asommatophora,
+  {P}ulmonata), and a comparison of assembler performance}}.
+\newblock {\em BMC Genomics}, {\bf 12}:317, 2011.
+
+\bibitem{pmid21627854}
+{\sc J.~H. Malone and B.~Oliver}.
+\newblock {\bf {{M}icroarrays, deep sequencing and the true measure of the
+  transcriptome}}.
+\newblock {\em BMC Biol.}, {\bf 9}:34, 2011.
+
+\bibitem{pmid20967605}
+{\sc H.~Matsumura, K.~Yoshida, S.~Luo, D.~H. Kruger, G.~Kahl, G.~P. Schroth,
+  and R.~Terauchi}.
+\newblock {\bf {{H}igh-throughput {S}uper{S}{A}{G}{E}}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 687}:135--146, 2011.
+
+\bibitem{pmid7570003}
+{\sc V.~E. Velculescu, L.~Zhang, B.~Vogelstein, and K.~W. Kinzler}.
+\newblock {\bf {{S}erial analysis of gene expression}}.
+\newblock {\em Science}, {\bf 270}:484--487, Oct 1995.
+
+\bibitem{pmid20211242}
+{\sc J.~R. Miller, S.~Koren, and G.~Sutton}.
+\newblock {\bf {{A}ssembly algorithms for next-generation sequencing data}}.
+\newblock {\em Genomics}, {\bf 95}:315--327, Jun 2010.
 
 \bibitem{pmid6260957}
 {\sc F.~Sanger, A.~R. Coulson, B.~G. Barrell, A.~J. Smith, and B.~A. Roe}.
@@ -1347,20 +1366,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC310812}{{\bf
   {{C}{A}{P}3: {A} {D}{N}{A} sequence assembly program}}}.
 \newblock {\em Genome Res.}, {\bf 9}:868--877, Sep 1999.
-
-\bibitem{parkinson_nembase:resource_2004}
-{\sc John Parkinson, Claire Whitton, Ralf Schmid, Marian Thomson, and Mark
-  Blaxter}.
-\newblock
-  \href{http://nar.oxfordjournals.org/cgi/content/abstract/32/suppl_1/D427}{{\%
-bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
-\newblock {\em Nucl. Acids Res.}, {\bf 32}(suppl\_1):D427--430, 2004.
-
-\bibitem{pmid21550347}
-{\sc B.~Elsworth, J.~Wasmuth, and M.~Blaxter}.
-\newblock {\bf {{N}{E}{M}{B}{A}{S}{E}4: {T}he nematode transcriptome
-  resource}}.
-\newblock {\em Int. J. Parasitol.}, {\bf 41}:881--894, Jul 2011.
 
 \bibitem{wasmuth_prot4est:_2004}
 {\sc James Wasmuth and Mark Blaxter}.

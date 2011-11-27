@@ -21,45 +21,45 @@ Database file #2: /home/ele/bibtex/master2.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--to sort, need author or key in yamaguti_globiceps
 Warning--empty author in yamaguti_globiceps
-You've used 183 entries,
+You've used 184 entries,
             2776 wiz_defined-function locations,
-            1694 strings with 67583 characters,
-and the built_in function-call counts, 133763 in all, are:
-= -- 12136
-> -- 11420
+            1698 strings with 67522 characters,
+and the built_in function-call counts, 134061 in all, are:
+= -- 12173
+> -- 11417
 < -- 5
-+ -- 4559
-- -- 4360
-* -- 13042
-:= -- 22504
-add.period$ -- 554
-call.type$ -- 183
-change.case$ -- 2545
++ -- 4558
+- -- 4358
+* -- 13064
+:= -- 22547
+add.period$ -- 557
+call.type$ -- 184
+change.case$ -- 2546
 chr.to.int$ -- 0
-cite$ -- 185
-duplicate$ -- 2681
-empty$ -- 7088
-format.name$ -- 4360
-if$ -- 27334
+cite$ -- 186
+duplicate$ -- 2697
+empty$ -- 7124
+format.name$ -- 4358
+if$ -- 27411
 int.to.chr$ -- 0
-int.to.str$ -- 183
-missing$ -- 184
-newline$ -- 923
-num.names$ -- 364
-pop$ -- 2961
+int.to.str$ -- 184
+missing$ -- 185
+newline$ -- 928
+num.names$ -- 366
+pop$ -- 2964
 preamble$ -- 1
-purify$ -- 2544
+purify$ -- 2545
 quote$ -- 0
-skip$ -- 4284
+skip$ -- 4306
 stack$ -- 0
-substring$ -- 4946
-swap$ -- 800
+substring$ -- 4955
+swap$ -- 805
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 726
+type$ -- 730
 warning$ -- 2
-while$ -- 681
-width$ -- 186
-write$ -- 2017
+while$ -- 685
+width$ -- 187
+write$ -- 2028
 (There were 2 warnings)
