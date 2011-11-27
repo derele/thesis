@@ -18,48 +18,48 @@ A level-1 auxiliary file: 9_backmatter/declaration.aux
 A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
 Database file #1: /home/ele/bibtex/master.bib
 Database file #2: /home/ele/bibtex/master2.bib
-Warning--I didn't find a database entry for "kaltz_shykoff_rev"
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--to sort, need author or key in yamaguti_globiceps
 Warning--empty author in yamaguti_globiceps
-You've used 144 entries,
+You've used 183 entries,
             2776 wiz_defined-function locations,
-            1493 strings with 54749 characters,
-and the built_in function-call counts, 104196 in all, are:
-= -- 9481
-> -- 8823
-< -- 2
-+ -- 3520
-- -- 3364
-* -- 10169
-:= -- 17524
-add.period$ -- 434
-call.type$ -- 144
-change.case$ -- 1970
+            1694 strings with 67583 characters,
+and the built_in function-call counts, 133763 in all, are:
+= -- 12136
+> -- 11420
+< -- 5
++ -- 4559
+- -- 4360
+* -- 13042
+:= -- 22504
+add.period$ -- 554
+call.type$ -- 183
+change.case$ -- 2545
 chr.to.int$ -- 0
-cite$ -- 146
-duplicate$ -- 2109
-empty$ -- 5581
-format.name$ -- 3364
-if$ -- 21332
+cite$ -- 185
+duplicate$ -- 2681
+empty$ -- 7088
+format.name$ -- 4360
+if$ -- 27334
 int.to.chr$ -- 0
-int.to.str$ -- 144
-missing$ -- 143
-newline$ -- 725
-num.names$ -- 286
-pop$ -- 2289
+int.to.str$ -- 183
+missing$ -- 184
+newline$ -- 923
+num.names$ -- 364
+pop$ -- 2961
 preamble$ -- 1
-purify$ -- 1969
+purify$ -- 2544
 quote$ -- 0
-skip$ -- 3354
+skip$ -- 4284
 stack$ -- 0
-substring$ -- 3853
-swap$ -- 626
-text.length$ -- 2
+substring$ -- 4946
+swap$ -- 800
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 574
+type$ -- 726
 warning$ -- 2
-while$ -- 534
-width$ -- 147
-write$ -- 1584
-(There were 3 warnings)
+while$ -- 681
+width$ -- 186
+write$ -- 2017
+(There were 2 warnings)
