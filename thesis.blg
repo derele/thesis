@@ -8,58 +8,56 @@ A level-1 auxiliary file: 0_frontmatter/glossary.aux
 A level-1 auxiliary file: 1_introduction/introduction.aux
 A level-1 auxiliary file: 2_aims/aims.aux
 A level-1 auxiliary file: 3_pilot/pilot.aux
-A level-1 auxiliary file: 4_pyro/pyro.aux
-A level-1 auxiliary file: 5_tags/tags.aux
+A level-1 auxiliary file: 4_eval_ass/eval_ass.aux
+A level-1 auxiliary file: 5_pyro/pyro.aux
 A level-1 auxiliary file: 6_rna_seq/rna_seq.aux
 A level-1 auxiliary file: 7_discussion/discussion.aux
 A level-1 auxiliary file: 8_material_methods/materials_methods.aux
 The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
+Reallocated field_info (elt_size=4) to 10346 items from 5000.
 Database file #1: /home/ele/bibtex/master.bib
 Database file #2: /home/ele/bibtex/master2.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--to sort, need author or key in yamaguti_globiceps
-Warning--empty author in yamaguti_globiceps
-You've used 184 entries,
+You've used 198 entries,
             2776 wiz_defined-function locations,
-            1698 strings with 67522 characters,
-and the built_in function-call counts, 134061 in all, are:
-= -- 12173
-> -- 11417
+            1762 strings with 70084 characters,
+and the built_in function-call counts, 141395 in all, are:
+= -- 12905
+> -- 11844
 < -- 5
-+ -- 4558
-- -- 4358
-* -- 13064
-:= -- 22547
-add.period$ -- 557
-call.type$ -- 184
-change.case$ -- 2546
++ -- 4727
+- -- 4512
+* -- 13677
+:= -- 23718
+add.period$ -- 598
+call.type$ -- 198
+change.case$ -- 2651
 chr.to.int$ -- 0
-cite$ -- 186
-duplicate$ -- 2697
-empty$ -- 7124
-format.name$ -- 4358
-if$ -- 27411
+cite$ -- 198
+duplicate$ -- 2892
+empty$ -- 7652
+format.name$ -- 4512
+if$ -- 29017
 int.to.chr$ -- 0
-int.to.str$ -- 184
-missing$ -- 185
-newline$ -- 928
-num.names$ -- 366
-pop$ -- 2964
+int.to.str$ -- 198
+missing$ -- 198
+newline$ -- 997
+num.names$ -- 396
+pop$ -- 3103
 preamble$ -- 1
-purify$ -- 2545
+purify$ -- 2650
 quote$ -- 0
-skip$ -- 4306
+skip$ -- 4623
 stack$ -- 0
-substring$ -- 4955
-swap$ -- 805
+substring$ -- 5352
+swap$ -- 862
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 730
-warning$ -- 2
-while$ -- 685
-width$ -- 187
-write$ -- 2028
-(There were 2 warnings)
+type$ -- 786
+warning$ -- 0
+while$ -- 739
+width$ -- 201
+write$ -- 2178

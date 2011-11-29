@@ -17,30 +17,23 @@
 % ----------------------- contents from here ------------------------
 
 
-\section{Sampling of worms from  wild eels}
-
-\subsection{Sampling in Taiwan}
+\section{Sampling of worms from wild eels (Sanger- and
+  pyro-sequencing) }
 
 Cultured eels were acquired from an aquaculture directly adjacent to
 Kaoping river (22.6418N; 120.4440E) 15km stream upwards from it's
-estuary, on the 29th of April 2008. On the same day wild eels were
-picked up at Tunkang Biotechnology Research Centre Fisheries Research
-institute in Tunkang, Pintung, Taiwan, where they had been sheltered
-since the time of purchase during the 2nd two weeks of April 2008 from
-a fisherman, fishing in the estuary of Kao-Ping river (22.5074N;
-120.4220E). All eels were transported to the Institute of Fisheries
-Science at the National Taiwan University in Taipei in aerated plastic
-bags, where they were sheltered until dissection.
+estuary. Wild eel were bought from a fisherman, fishing in the estuary
+of Kao-Ping river (22.5074N; 120.4220E). All eels were transported to
+the Institute of Fisheries Science at the National Taiwan University
+in Taipei in aerated plastic bags, where they were sheltered until
+dissection.
 
-Dissection of eels was carried out during May 2008. Eels were
-decapitated, length (to the nearest 1.0mm) and weight (to the nearest
-0.1g) were measured, and sex was determined by visual inspection of
-the gonads. The swimbladder was opened, adult worms were removed from
-the lumen with a forceps, their sex was determined, and they were
-counted. All adult \textit{A. crassus} were preserved in
-RNAlater(Quiagen, Hilden, Germany) in individual plstic tubes.
-
-\subsection{Sampling of European worms}
+Eels were decapitated, length (to the nearest 1.0mm) and weight (to
+the nearest 0.1g) were measured, and sex was determined by visual
+inspection of the gonads. The swimbladder was opened, adult worms were
+removed from the lumen with a forceps, their sex was determined, and
+they were counted. All adult \textit{A. crassus} were preserved in
+RNAlater(Quiagen, Hilden, Germany) in individual plastic tubes.
 
 Worms from the European eel were sampled in Sniardwy Lake, Poland
 (53.751959N ,21.730957E) by Urszula Weclawski and from the
@@ -63,7 +56,7 @@ dT-primer for first strand synthesis and adds a second adapter
 complementary to the bases at the 5' end of the transcripts by
 terminal transferase activity and template switching. Using these
 adapters it is possible to specifically amplify mRNA enriched for
-full-length transcripts. 
+full-length transcripts.
 
 \section{Cloning for Sanger-sequencing}
 
@@ -133,10 +126,12 @@ project-identifier for \textit{Anguillicoloides crassus}, "Aj" for
 information on the sequencing primer (forward or reverse PCR primer
 \textit{Anguilla japonica} sequences were all sequenced using the
 forward PCR primer) was stored in the middle
-"library"-field, resulting in names of the following form:\\
+"library"-field, resulting in names of the following form:
 
-\texttt{Ac\_[\textbackslash{}d|\textbackslash{}w]\{2,4\}(f|r)\_\textbackslash{}d\textbackslash{}d\textbackslash{}w\textbackslash{}d\textbackslash{}d}\\
-\texttt{Aj\_[\textbackslash{}d|\textbackslash{}w]\{2,4\}\_\textbackslash{}d\textbackslash{}d\textbackslash{}w\textbackslash{}d\textbackslash{}d}\\
+\begin{itemize}
+\item \texttt{Ac\_[\textbackslash{}d|\textbackslash{}w]\{2,4\}(f|r)\_\textbackslash{}d\textbackslash{}d\textbackslash{}w\textbackslash{}d\textbackslash{}d}
+\item  \texttt{Aj\_[\textbackslash{}d|\textbackslash{}w]\{2,4\}\_\textbackslash{}d\textbackslash{}d\textbackslash{}w\textbackslash{}d\textbackslash{}d}
+\end{itemize}
 
 The last field indicates the plate number (two digits), the row (one
 letter) and the column (two digits) of the corresponding clone. For
@@ -159,7 +154,7 @@ The basic perl regular expression used for this was:\\
 
 Where \texttt{\$lengthfac} was set to the length of the sequence
 devided by 70 and rounded to the next integer. So only one
-homo-polymer-run of more then 5 bases was allowed per 105 bases.
+homo-polymer-run of more then 5 bases was allowed per 75 bases.
 
 Sequences were screened for host contamination by a comparison of
 \texttt{BLAST} searches against the version of nempep4 and a fish
@@ -174,156 +169,174 @@ non-redundant protein database and EST-submission-files were produced.
 
 \section{454-pyro-sequencing}
 
-\subsection*{Nematode samples, RNA extraction, cDNA synthesis and Sequencing}
+\subsection*{cDNA preparation and sequencing}
 
-\textit{A. crassus} from \textit{JAn. japonica} were sampled from
-Kao-Ping river and an adjacent aquaculture in Taiwan as described in
-\cite{heitlinger_massive_2009}. Worms from An. anguilla were sampled
-in Sniardwy Lake, Poland (53.751959N, 21.730957E) and from the
-Linkenheimer Altrhein, Germany (49.0262N, 8.310556E). After
-determination of the sex of adult nematodes, they were stored in
-RNA-later (Quiagen, Hilden, Germany) until extraction of RNA. RNA was
-extracted from individual adult male and female nematodes and from a
-population of L2 larvae (Table 1). RNA was reverse transcribed and
-amplified into cDNA using the MINT-cDNA synthesis kit (Evrogen,
+RNA was extracted from individual adult male and female nematodes and
+from a population of L2 larvae (Table 1). RNA was reverse transcribed
+and amplified into cDNA using the MINT-cDNA synthesis kit (Evrogen,
 Moscow, Russia).  For host contamination screening a liver-sample from
-an uninfected A. japonica was also processed.  Emulsion PCR was
-performed for each cDNA library according to the manufacturer’s
-potocols (Roche/454 Life Sciences), and sequenced on a Roche 454
+an uninfected \textit{An. japonica} was also processed. Emulsion PCR
+was performed for each cDNA library according to the manufacturer’s
+protocols (Roche/454 Life Sciences), and sequenced on a Roche 454
 Genome Sequencer FLX. All samples were sequenced using the FLX
 Titanium chemistry, except for the taiwanese female sample T2, which
 was sequenced using FLX standard chemistry, to generate between 99,000
 and 209,000 raw reads. For the L2 larval library, which had a larger
-number of non-A. crassus, non-An. anguilla reads, we confirmed that
-these data were not laboratory contaminants by screening Roche 454
-data produced on the same run in independent sequencing lanes.
+number of non-\textit{A. crassus}, non-\textit{Anguilla} reads, we
+confirmed that these data were not laboratory contaminants by
+screening Roche 454 data produced on the same run in independent
+sequencing lanes.
 
 
 \subsection*{Trimming, quality control and assembly}
 
-Raw sequences were extracted in fasta format (with the corresponding
-qualities files) using sffinfo (Roche/454) and screened for adapter
-sequences of the MINT-amplification-kit using cross-match \cite{PHRAP}
-(with parameters -minscore 20 and -minmatch 10). Seqclean
-\cite{tgicl_pertea} was used to identify and remove poly-A-tails, low
-quality, repetitive and short (<100 base) sequences. All reads were
-compared to a set of screening databases using BLAST (expect value
-cutoff E<1e-5, low complexity filtering turned off: -F F). The
-databases used were (a) a host sequence database comprising an
-assembly of the An. japonica Roche 454 data, an unpublished assembly
-of An. anguilla Sanger dideoxy sequencesd expressed sequence tags
+Raw sequences were extracted in \texttt{fasta}-format (with the
+corresponding qualities files) using \texttt{sffinfo} (Roche/454) and
+screened for adapter sequences of the MINT-amplification-kit using
+\texttt{cross-match} \cite{PHRAP} (with parameters \texttt{-minscore
+  20 -minmatch 10}). \texttt{Seqclean} \cite{tgicl_pertea} was used to
+identify and remove poly-A-tails, low quality, repetitive and short
+(<100 base) sequences. All reads were compared to a set of screening
+databases using \texttt{BLAST} (expect value cutoff E<1e-5, low
+complexity filtering turned off: -F F). The databases used were (a) a
+host sequence database comprising an assembly of the
+\textit{An. japonica} Roche 454 data, a unpublished assembly of
+\textit{An. anguilla} Sanger dideoxy sequenced expressed sequence tags
 (made available to us by Gordon Cramb, University of St Andrews) and
-transcripts from from EeelBase \cite{pmid21080939} a publically
-availble transcriptome database for the European eel; (b) a database
-of ribosomal RNA (rRNA) sequences from eel species derived from our
-Roche 454 data and EMBL-Bank; and (c) a database of rRNA sequences
-identified in our A. crassus data by comparing the reads to known
-nematode rRNAs from EMBL-Bank. This last database notably also
+transcripts from EeelBase \cite{pmid21080939} a publicly available
+transcriptome database for the European eel; (b) a database of
+ribosomal RNA (rRNA) sequences from eel species derived from our Roche
+454 data and EMBL-Bank; and (c) a database of rRNA sequences
+identified in our \textit{A. crassus} data by comparing the reads to
+known nematode rRNAs from EMBL-Bank. This last database notably also
 contained xenobiont rRNA sequences. Reads with matches to one of these
 databases over more than 80\% of their length and with greater than
 95\% identity were removed from the dataset. Screening and trimming
-information was written back into sff-format using sfffile (Roche
-454). The filtered and trimmed data were assembled using the combined
-assembly approach \cite{pmid20950480}, combining assemblies from the
-mira \cite{miraEST} and newbler \cite{pmid16056220}. ****Give the
-details here and we will trim the text later **** . The two assemblies
-were combined into one using Cap3 \cite{Cap3_Huang} at default
-settings and contigs labeled by whether they derived from both
-assemblies or one assembly only.
+information was written back into sff-format using \texttt{sfffile}
+(Roche 454). The filtered and trimmed data were assembled using the
+combined assembly approach \cite{pmid20950480}: Two assemblies were
+generated, one using \texttt{Newbler v2.6} \cite{pmid16056220} (with
+parameters \texttt{-cdna -urt}), the other using \texttt{Mira v3.2.1}
+\cite{miraEST} (with parameters
+\texttt{--job=denovo,est,accurate,454}). The resulting two assemblies
+were combined into one using \texttt{Cap3} \cite{Cap3_Huang} at
+default settings and contigs were labeled by whether they derived from
+both assemblies or one assembly only (for a detailed analysis of the
+assembly categories see the supporting Methods file).
 
 \subsection*{Post-assembly classification and taxonomic assignment of
   contigs}
 
 After assembly contigs were assessed a second time for host and other
-contamination by comparing them (using BLAST) to the three databases
-defined above, and also to nembase4, a nematode transcriptome database
-derived from whole genome sequencing and EST assemblies
-\cite{parkinson_nembase:resource_2004, pmid21550347}. For each contig,
-the highest-scoring match was recorded as long as it spanned more than
-50\% of the contig. We also compared the contigs to the NCBI
-non-redundant nucleotide (NCBI-nt) and protein (NCBI-nr) databases,
-recording the taxonomy of all best matches with expect values better
-than 1e-05.
+contamination by comparing them (using \texttt{BLAST}) to the three
+databases defined above, and also to nembase4, a nematode
+transcriptome database derived from whole genome sequencing and EST
+assemblies \cite{parkinson_nembase:resource_2004, pmid21550347}. For
+each contig, the highest-scoring match was recorded as long as it
+spanned more than 50\% of the contig. We also compared the contigs to
+the NCBI non-redundant nucleotide (NCBI-nt) and protein (NCBI-nr)
+databases, recording the taxonomy of all best matches with expect
+values better than 1e-05. TUGs with a best hit to non-Metazoans and to
+Chordata within Metazoa were additionally excluded from further
+analysis.
 
 \subsection*{Protein prediction and annotation}
 
-
-Protein translations were predicted from the contigs using prot4EST
-(version 3.0b) \cite{wasmuth_prot4est:_2004}. Proteins were predicted
-either by joining single high scoring segment pairs (HSPs) from a
-BLAST search of uniref100 \cite{pmid18836194}, or by ESTscan
-\cite{estscan}, using a training data the \textit{Brugia malayi}
+Protein translations were predicted from the contigs using
+\texttt{prot4EST} (version 3.0b)
+\cite{wasmuth_prot4est:_2004}. Proteins were predicted either by
+joining single high scoring segment pairs (HSPs) from a \texttt{BLAST}
+search of uniref100 \cite{pmid18836194}, or by \texttt{ESTscan}
+\cite{estscan}, using as training data the \textit{Brugia malayi}
 complete proteome back-translated using a codon usage table derived
-from the BLAST HSPs, or, if the first two methods failed, simply the
-longest ORF in the contig. For contigs where the proein prediction
-required insertion or deletion of bases in the original sequence, we
-also imputed an edited sequence for each affected contig. Annotations
-with Gene Ontology (GO), Enzyme Commission (EC) and Kyoto
-Encyclopaedia of Genes and Genomes (KEGG) terms were inferred for
-these proteins using Annot8r (version 1.1.1)
+from the \texttt{BLAST} HSPs, or, if the first two methods failed,
+simply the longest ORF in the contig. For contigs where the protein
+prediction required insertion or deletion of bases in the original
+sequence, we also imputed an edited sequence for each affected
+contig. Annotations with Gene Ontology (GO), Enzyme Commission (EC)
+and Kyoto Encyclopedia of Genes and Genomes (KEGG) terms were inferred
+for these proteins using \texttt{Annot8r} (version 1.1.1)
 \cite{schmid_annot8r:_2008}, using the annotated sequences available
 in uniref100 \cite{pmid18836194}. Up to 10 annotations based on a
-BLAST similarity bitscore cut-off of 55 were obtained for each
-annotation set. The complete \textit{B. malayi} proteome (as present
-in uniref100) and the complete \textit{C. elegans} proteome (as
-present in wormbase v.220) were also annotated in the same
-way. SignalP V4.0 \cite{pmid21959131} was used to predict signal
-peptide cleavage sites and signal anchor signatures.
+\texttt{BLAST} similarity bitscore cut-off of 55 were obtained for
+each annotation set. The complete \textit{B. malayi} proteome (as
+present in uniref100) and the complete \textit{C. elegans} proteome
+(as present in wormbase v.220) were also annotated in the same
+way. \texttt{SignalP V4.0} \cite{pmid21959131} was used to predict
+signal peptide cleavage sites and signal anchor signatures for the
+\textit{A. crassus}-transcriptome and similarly again for the
+proteomes of the tow model-worms.  Additionally \texttt{InterProScan}
+\cite{pmid11590104} (command line utility \texttt{iprscan} (version
+4.6) with options \texttt{-cli -format raw -iprlookup -seqtype p
+  -goterms}) was used to obtain domain based annotations for the high
+credibility assembly (highCA) derived contigs.
+
+We recorded the presence of a lethal rnai-phenotype in the
+\textit{C. elegans} ortholog of each TUG using the biomart-interface
+\cite{pmid22083790} to wormbase v. 220 through the R-package
+\texttt{biomaRt} \cite{pmid19617889}.
 
 \subsection*{Single nucleotide polymorphism analysis}
 
 We mapped the raw reads against the the complete set of contigs,
-replacing imputed sequences for originals where relevant, using ssaha2
-(with parameters -kmer 13 -skip 3 -seeds 6 -score 100 -cmatch 10
--ckmer 6 -output sam -best 1). From the ssaha2 output, pileup-files
-were produced using samtools
-\cite{journals/bioinformatics/LiHWFRHMAD09}, discarding reads mapping
-to multiple regions. VarScan \cite{pmid19542151} (pileup2snp) was used
-with default parameters on pileup-files to output lists of single
-nucleotide polymorphisms (SNPs) and their locations.
+replacing imputed sequences for originals where relevant, using
+\texttt{ssaha2} \cite{pmid11591649} (with parameters \texttt{-kmer 13
+  -skip 3 -seeds 6 -score 100 -cmatch 10 -ckmer 6 -output sam -best
+  1}). From the \texttt{ssaha2} output, pileup-files were produced
+using \texttt{samtools} \cite{journals/bioinformatics/LiHWFRHMAD09},
+discarding reads mapping to multiple regions. \texttt{VarScan}
+\cite{pmid19542151} (\texttt{pileup2snp}) was used with default
+parameters on pileup-files to output lists of single nucleotide
+polymorphisms (SNPs) and their locations. For enrichment analysis of
+GO-terms we used the R-package \texttt{GOstats} \cite{pmid17098774}.
 
-% \subsection*{Respiration analysis}
-% We extracted contigs annotated with ``GO:0009060 aerobic respiration''
-% and ``GO:0009061 anaerobic respiration''
+Using \texttt{Samtools} \cite{journals/bioinformatics/LiHWFRHMAD09}
+(\texttt{mpileup -u}) and \texttt{Vcftools} \cite{pmid21653522}
+(\texttt{view -gcv}) we genotyped individual libraries for the list of
+previously found overall SNPs. Genotype-calls were accepted at a
+phred-scaled genotype quality threshold of 10. In addition to the
+relative heterozygosity (number of homozygous sites/number of
+heterozygous sites) we used the R package \texttt{Rhh}
+\cite{pmid21565077} to calculate internal relatedness
+\cite{pmid11571049}, homozygosity by loci \cite{pmid17107491} and
+standardized heterozygosity \cite{coltman81j} from these data.
+
+Using 1000 bootstrap replicates we confirmed the significance of
+heterozygote-heterozygote correlation by analyzing the mean and 95\%
+confidence intervals from 1000 bootstrap replicates estimated for all
+measurements.
 
 \subsection*{Gene-expression analysis}
 
-For Roche 454 data, read counts for each transcript were obtained from
-the mapping to imputed sequence performed for SNP
-analyses. Tag-sequences were mapped using BWA \cite{pmid19451168}. And
-read counts extracted using Samtools
-\cite{journals/bioinformatics/LiHWFRHMAD09}. For deepSAGE
-NlaIII-tag-sequencing, total RNA was prepared as described above from
-a female nematode from the Polish sampling site. A deepSAGE library
-was constructed following the protocol supplied by Illumina. Briefly
-after synthesis of cDNA on oligo(dT)-beads, cDNA was digested with the
-NlaIII (recognition site CATG), and the oligo(dT)-anchored 3' ends of
-mRNAs retained. After ligation of an adaptor containing an MmeI
-restriction site, the type II enzyme MmeI was used to cut 17 bases
-from the 3' end fragment, genrating a 21 base tag, expected to be
-unique for most mRNAs. The R-package DESeq \cite{pmid20979621} was
-used to normalize for library size and analyse statistical
-significance of differential expression of both Roche 454 and deepSAGE
-data. Spearman correlation coefficients were calculated for raw
-counts.
+Read-counts were obtained from the \texttt{bam}-files generated also
+for genotyping using the R-package \texttt{Rsamtoools}
+\cite{rsamtools}. TUGs with less than 48 reads over all libraries were
+excluded from analysis, as diagnostic plot (not shown) indicated a lack
+of statistical power for lower overall expression. We used the
+R-package \texttt{DESeq} \cite{pmid20979621} to assess statistical
+significance of differences in counts according to groups of
+libraries.
+
+Additionally we collapsed TUGs by their orthologous assignment in
+\textit{C. elegans} and \textit{B. malayi}. We used the sums of counts
+for these orthologous-groups to asses the influence of mapping to our
+potentially fragmented reference. For both model-nematodes fold-change
+and p-values were obtained the same way than for the contigs and
+merged with these.
 
 
-\section{Differential expression in a common garden}
+\section{Transcriptomic divergence in a common garden experiment}
 
 \subsection{Experimental infeciton of eels} 
 
 \textit{An. anguilla} were obtained from the Albe-Fishfarm in
 Haren-Rütenbrock, Germany. \textit{An. japonica} were caught at the
-glass-eel stage in the estuary of Kao-ping River, Taiwan by a
-professional fisherman. Eels were transported to the laboratory in
-aerated tanks.
+glass-eel stage in the estuary of Kao-ping River, Taiwan by
+professional fishermen and kept at a water temperature of
+26$^{\circ}$C until they reached a size of $>$ 35 cm.
 
-\textit{An. japonica} were fed with commercial fish pellets (Dan-Ex
-2848, Dana Feed A/S Ltd, Horsens, Denmark) and kept at a water
-temperature of 26$^{\circ}$C until they reached a size of $>$ 35 cm.
-
-The absence of infecions with \textit{A. crassus} was confirmed by
-dissection of 10 individuals of each species.
+The absence of infecions with \textit{A. crassus} in both eel-species
+was confirmed by dissection of 10 individuals of each species.
 
 After an acclimatisation periode of 4 weeks (\textit{An. anguilla}) or
 when they reached a size of $>$ 35cm (\textit{An. japonica} eels were
@@ -331,15 +344,69 @@ infected using a stomach tube as described in
 \cite{boon1990effect}. During the infection periode water temperature
 was held constant at 20$^{\circ}$C. Eels were kept in 160-liter tanks
 in groups of 5-10 individuals and continuously provided with fresh,
-oxygenated water.
+oxygenated water and commercial fish pellets (Dan-Ex 2848, Dana Feed
+A/S Ltd, Horsens, Denmark).
 
-60 days post infection (dpi) eels were euthanized and dissected.
+L2 larvae used for the infection were collected from the swimbladders
+of wild yellow and silver eels from the River Rhine near Karlsruhe and
+from Lake M\"uggelsee near Berlin in Germany. Taiwanese larvae were
+obtained from aquacultre in Kao Ping and from 150km further north in
+Tainan County in Taiwan. They were stored at 4$^{\circ}$C for no
+longer than 2 weeks before copepods were infected. Mixed species
+samples of uninfected copepods were collected from a small pond near
+Karlsruhe, known to be free of eels. They were infected individually
+in wells of micro-titer plates at an intensity of 10 L2-larvae per
+copepod. One week after infection they were placed in bigger
+tanks. Twice a week yeast was provided as food and at 21 dpi the L3
+were harvested with a tissue potter using a modified procedure
+developed by \cite{haenen_improved_1994}. 50 L3 were suspended in 100
+$\mu$l RPMI-1640 medium (Quiagen, Hilden, Germany) and eels were
+infected.
 
+55-57 days post infection (dpi) eels were euthanized and dissected.
 %% The length and width of the adults were measured to the nearest
 %% 0.01 mm.
-After Determination of the sex of adult worms under a binocular
+After determination of the sex of adult worms under a binocular
 microscope (Semi 2000, Zeiss, Germany), they were immediately immersed
-in RNAlater (Quiagen, Hilden, Germany)
+in RNAlater (Quiagen, Hilden, Germany).
+
+\section{RNA exrtaction and preparation of sequencing libraries}
+
+RNA was extracted from 12 individual female worms and for 12 pools of
+male worms using the RNeasy-kit (Quiagen, Hilden, Germany) (see table
+XXX).
+
+The Paired-End TruSeqTM RNA sample preparation kit (illumina) was
+followed to build cDNA libraries with insert sizes of roughly 270 bp
+for paired-end sequencing: Poly‐T oligo‐attached magnetic beads were
+used for purification of mRNA and to simultaniously fragment the
+RNA. The RNA was then primed with random hexamer primers for cDNA
+synthesis and reverse transcribed into first strand cDNA using reverse
+transcriptase. The cDNA was cleaned from the 2nd strand reaction,
+overhangs were repaired to form blunt ends, a single ``A'' nucleotide
+was added at the 3' end and paired end sequencing adapters ware
+ligated with a complementary ``T''-overhang. At this step multiple
+different indexed paired-end adapters were used to enable multiplexing
+of the 24 different sequening libraries, in 3 pools of 8 samples each,
+on one lane of the instrument.  Molecules having adapter sequences
+were enriched in the mix using PCR and the libraries were controled
+for quality and quantity on the BioAnalyzer (Agilent). Clusters were
+generated by bridge amplification. The resulting clusters were
+sequenced on the Genome Analyzer IIX in combination with the
+paired-end module. The first read was sequenced using using the first
+primer Rd1 SP. The original template strand was then used to
+regenerate the complementary strand, the original strand was removed
+and complementary strand acted as a template for the second read
+sequenced primed by the second sequencing primer Rd1 SP.
+
+
+\section{Mapping and read-counts}
+
+
+\section{Statistical analysis}
+
+
+\section{Collapsing of orthologous for two model-species}
 
 
 %%% Local Variables: ***

@@ -2,38 +2,280 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- name of chapter  -------------------------
-\chapter{Transcriptomic divergence in common garden experiments
-} % top level followed by section, subsection
+\chapter{Transcriptomic divergence in a common garden experiment}
+% top level followed by section, subsection
 \label{cha:tra-diff}
 
 %: ----------------------- paths to graphics ------------------------
 
 % change according to folder and file names
 \ifpdf
-    \graphicspath{{X/figures/PNG/}{X/figures/PDF/}{X/figures/}}
+    \graphicspath{{6_rna_seq/figures/PNG/}{6_rna_seq/figures/PDF/}{6_rna_seq/figures/}}
 \else
-    \graphicspath{{X/figures/EPS/}{X/figures/}}
+    \graphicspath{{6_rna_seq/figures/EPS/}{6_rna_seq/figures/}}
 \fi
+
 
 %: ----------------------- contents from here ------------------------
 
 
 \section{Infection experiments}
 
+Dissection of eels 55-57 dpi showed a clear trend towards lower
+recovery of European worms in \textit{An. japonica} and lower recovery
+of Taiwanes worms in \textit{An. anguilla}.
+
+\figuremacro{stages_plot}{Recovery of worms in cross-infection
+  experiment}{Mean numbers of worms recovered after 55-57 dpi for
+  sample sizes given as n=x. Error-bars indicate the standard error
+  (s.e.) of the mean. Stages are L3-larvae (l3), L4-larvae (l4), adult
+  females (adult.f) and adult males (adult.m).}
+
+In the host-species/worm-population pairs found in nature roughly
+eight or nine adult worms could be recoverd per eel. In the
+transplanted host/parasite combinations only two or three adult worms
+were recovered on average (see figure \ref{stages_plot}). In
+\textit{An. anguilla} no differences in the recovery of larval stages
+was recorded. In \textit{An. japonica} roughly two individals more
+were recorded from both larval stages in the host/parasite combination
+found in nature.
+
+These differences are highly significant especially for adult worms
+(see table \ref{tab:ad-sig}) and are interpretable as a sign of local
+adaptation, as adult survival and recovery can be regarded a fitness
+component.
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+  (Intercept) & 9.5000 & 1.1109 & 8.55 & 0.0000 \\ 
+  host.spec.AJ & -8.0789 & 1.7472 & -4.62 & 0.0000 \\ 
+  worm.pop.T & -5.2222 & 1.3689 & -3.81 & 0.0002 \\ 
+  host.spec.AJ:worm.pop.T & 11.7345 & 2.2010 & 5.33 & 0.0000 \\ 
+   \hline
+\end{tabular}
+\caption[Linear model for recovery]{Linear model for recovery of adult
+  worms. The estimate gives the mean of the distribution of adult
+  worms for the factor values in the rows. The intercept is set to Aa
+  R (\textit{An. anguilla} and the European population) further rows
+  give variations for each factor. Std. Error is the standard error of
+  this value. Additonally the probabilty of a t-value as small or
+  smaller then the oberserved t-value are given. The signature of
+  local adaptation is visible in the highly significant interaction
+  term.}
+\label{tab:ad-sig}
+\end{center}
+\end{table}
+
+For Euroopean worms in \textit{An. japonica} all obtained male adult
+worms were of small size and preparation of RNA was impossible for all
+but the three biggest worms.
+
+\section{Sample preparation}
+
+Three biological replicates were obtained from each two worm
+population in two eel-host for two sexes of worms. This resulted in a
+total 24 RNA-extractions prepared for sequencing: Twelve individual
+female worms were choosen randomly from their respecitive experimental
+group. Additionally from three individual male worms, and from 9 pools
+of male worms RNA was extracted (see table \ref{tab:lib-prep}). Pools
+consisted of worms from one infected eel individual each. All worms or
+worm-pools were derived form infections of different eel individuals,
+with one small exception of this form of statistical independence:
+From eel AJ/R3 a male worms as well as a female worm had to be
+prepared, as it was impossible to extract enough RNA from all but the
+biggest worms of the Japanese eel/European worm combination. Because
+of the small size of male worms it was not possible to randomly choose
+individuals, as preparation of sufficient amounts of RNA was not even
+achieved in pools. All male worms were thus choosen for preparation
+based on large size, even when pools of worms were used.
+
+% latex table generated in R 2.13.0 by xtable 1.5-6 package
+% Tue Nov 29 10:05:46 2011
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{llllrrr}
+  \hline
+label & sex & host & population & intensity & worms in prep & conc in prep \\ 
+  \hline
+AA/T20F & female & AA & Taiwan & 1 & 1 & 5.60 \\ 
+  AA/T12F & female & AA & Taiwan & 14 & 1 & 6.80 \\ 
+  AA/T45F & female & AA & Taiwan & 5 & 1 & 8.00 \\ 
+  AA/T24M & male & AA & Taiwan & 6 & 3 & 4.80 \\ 
+  AA/T42M & male & AA & Taiwan & 11 & 1 & 5.60 \\ 
+  AA/T3M & male & AA & Taiwan & 5 & 4 & 4.88 \\ 
+  AA/R18F & female & AA & Europe & 4 & 1 & 4.80 \\ 
+  AA/R28F & female & AA & Europe & 10 & 1 & 5.20 \\ 
+  AA/R8F & female & AA & Europe & 27 & 1 & 5.20 \\ 
+  AA/R16M & male & AA & Europe & 10 & 4 & 5.20 \\ 
+  AA/R11M & male & AA & Europe & 25 & 14 & 6.40 \\ 
+  AA/R2M & male & AA & Europe & 10 & 4 & 6.60 \\ 
+  AJ/T8F & female & AJ & Taiwan & 10 & 1 & 5.91 \\ 
+  AJ/T5F & female & AJ & Taiwan & 2 & 1 & 4.80 \\ 
+  AJ/T26F & female & AJ & Taiwan & 2 & 1 & 2.40 \\ 
+  AJ/T25M & male & AJ & Taiwan & 24 & 5 & 4.05 \\ 
+  AJ/T19M & male & AJ & Taiwan & 24 & 7 & 3.50 \\ 
+  AJ/T20M & male & AJ & Taiwan & 20 & 8 & 3.80 \\ 
+  AJ/R1F & female & AJ & Europe & 3 & 1 & 5.92 \\ 
+  AJ/R3F & female & AJ & Europe & 3 & 1 & 6.90 \\ 
+  AJ/R5F & female & AJ & Europe & 10 & 1 & 4.04 \\ 
+  AJ/R1M & male & AJ & Europe & 3 & 1 & 2.50 \\ 
+  AJ/R3M & male & AJ & Europe & 3 & 2 & 2.60 \\ 
+  AJ/R5M & male & AJ & Europe & 10 & 1 & 2.23 \\ 
+   \hline
+\end{tabular}
+\caption[Summary of RNA preparation]{\textbf{A summary of all 24
+    samples prepared for RNA-seq -} The label of the RNA preparation
+  follows a convention based on the eel species (host; first two
+  letter of label, AA for \textit{An. anguilla} AJ for
+  \textit{An. japonica}), worm population (population - R for
+  European, T for Taiwanese; letter after the slash) and sex of
+  worm(s) in preparation (F for female, M for male; last letter in
+  label). Additionally the intensity of infection (number of adult
+  worms found in the infected eel; intensity) and the number of worms
+  pooled in the preparation (only male worms are pooled for RNA
+  extraction, individual female worms were used). Finally
+  RNA-concentration (conc in prep) in the preparation is given in
+  $\mu$g per ml}
+\label{tab:lib-prep}
+\end{center}
+\end{table}
+
+Sequencing was performed in three multiplexed pools of eigt libraries
+each. The samples were partitioned into these pools spreading
+replicates over lanes in a blocking design to further guarantee
+statistical independence from sequencing-lane effects. Each pool of
+eight was sequenced on two lanes, giving in total six lanes of data
+and two technical replicates for each library.
+
 \section{Examination of data-quality}
 
-\section{Expression differences between male and female}
+Reads were mapped against the fullest assembly (see
+\ref{sec:final-full-assembly} and \ref{xxx}) using \texttt{BWA}
+\cite{pmid20080505}. Of in total 263.668.952 raw sequencing read-pairs
+173.602.387 mapped uniquely to the assembly and were counted on a
+per-library base.
+
+Read counts for one library were obtained form two different technical
+replicate lanes of a flow-cell. The technical replicate of read-counts
+demonstrated very low differences as inferred from a clustering
+analysis using variance stabilized data and euclidian distances (see
+\ref{heat_tech_rep}).
+
+\figuremacro{heat_tech_rep}{Distances between technical replicates and
+  samples}{Euclidean distance (square distance between the two count
+  vectors) for variance stabilized read-counts for all libraries
+  including technical replicates; Red indicates low distance, yellow
+  hight distance. All technical replicates are clusterd very closely.}
+
+After this analysis we summed up read-counts for technical replicates
+of each library. 158.232.523 read-pairs were left after removal of
+hits to contigs for which non-\textit{A. crassus} origin had been
+inferred in the curration of the 454-transcriptome assembly.
+
+
+% latex table generated in R 2.13.0 by xtable 1.5-6 package
+% Tue Nov 29 14:12:43 2011
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{llrrr}
+  \hline
+library & raw.reads & raw.mapped & tax.mapped & screened \\ 
+  \hline
+AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\ 
+  AA\_R16M & 10810349 & 6858585 & 6217540 & 5276284 \\ 
+  AA\_R18F & 9227615 & 6552527 & 5933235 & 5200958 \\ 
+  AA\_R28F & 10135670 & 6665381 & 6005399 & 5171806 \\ 
+  AA\_R2M & 12469746 & 7628428 & 6929651 & 5906422 \\ 
+  AA\_R8F & 15270570 & 11527867 & 10758535 & 9453468 \\ 
+  AA\_T12F & 11299438 & 7842479 & 7195621 & 6332396 \\ 
+  AA\_T20F & 11740839 & 7744179 & 7114349 & 6323422 \\ 
+  AA\_T24M & 8552723 & 5254194 & 4662053 & 3969305 \\ 
+  AA\_T3M & 11031751 & 6460836 & 5800042 & 4993726 \\ 
+  AA\_T42M & 11573501 & 7567845 & 6787375 & 5694801 \\ 
+  AA\_T45F & 10646847 & 7714472 & 7173709 & 6283585 \\ 
+  AJ\_R1F & 9855005 & 6400558 & 5890748 & 5167912 \\ 
+  AJ\_R1M & 10211903 & 5851063 & 5313544 & 4506254 \\ 
+  AJ\_R3F & 9897937 & 6425201 & 5948079 & 5124077 \\ 
+  AJ\_R3M & 8775211 & 4562324 & 4073621 & 3422526 \\ 
+  AJ\_R5F & 11949105 & 8442537 & 7830247 & 6882280 \\ 
+  AJ\_R5M & 11231532 & 7504494 & 6772010 & 5913016 \\ 
+  AJ\_T19M & 9195576 & 4798404 & 4293123 & 3635843 \\ 
+  AJ\_T20M & 10862591 & 6880937 & 6251674 & 5280529 \\ 
+  AJ\_T25M & 11195315 & 7162880 & 6480185 & 5645097 \\ 
+  AJ\_T26F & 11195335 & 7439917 & 6641973 & 6031374 \\ 
+  AJ\_T5F & 10357569 & 7413685 & 6794507 & 6007930 \\ 
+  AJ\_T8F & 14196382 & 10275074 & 9496489 & 8364594 \\ 
+   \hline
+\end{tabular}
+\caption[Mapping Summary]{\textbf{Maping summarized for all 24
+    libraries -} Rows indicate different libraries (worms or
+  worm-pools as indicated in \ref{tab:lib-prep}) raw.reads gives the
+  number of read-paires sequenced, raw.mapped the number of reads
+  mapping uniquely with their best hit, tax.mapped the number of reads
+  after substraction of reads to putatively eel-host derived contigs
+  and screened after substraction of all reads mapping not to the
+  higCA-derived assembly or to contigs with overall counts less than
+  32.}
+\label{tab:read-clean}
+\end{center}
+\end{table}
+
+
+After another screening for spurious read-counts to low covered
+transcripts and to transcripts of low relieability (lowCA in the
+454-assembly; see \ref{xxx}) 137.477.156 read-pairs were left for
+further analysis. Distribution of these read-pairs over libraries
+showd roughly three fold differences, with a mean of 5.728.215 reads
+and a range form 3.422.526 read-pais for library AJ\_R3M to 9.453.468
+read-pairs for library AA\_R8F (see \ref{tab:read-clean}).
+
+\figuremacro{heat_rep}{Distances between sequencing samples}{Euclidean
+  distance (square distance between the two count vectors) for
+  variance stabilized read-counts for all libraries including
+  technical replicates; Red indicates low distance, yellow hight
+  distance. Samples clustering according to the sex of the worm (or
+  pool of worms), as expected gene-expression is mostly correlated
+  with sex.}
+
+
+
+
+
+\figuremacro{mds}{Principle coordinate plot for expression inRNA-seq
+  libraries}{Distance between sample-pairs is the root-mean-square
+  deviation (Euclidean distance) for the most differentially expressed
+  genes. Distances can be interpreted as the log2-fold-change of the
+  genes with the biggest changes, i.e. the log2-fold-change for the
+  genes that distinguish the samples.}
+
+
+\section{Expression differences in general linear models}
+
+Generalized linear models (GLMs) were used as implemented in the
+R-package \texttt{edgeR}. These models are 
+
+\subsection{Foo}
 
 \section{Expression differences between worms in European and Japanese
   Eels}
 
+
+
 \section{Expression differences between worms in the European and
   Taiwanese worm-population}
+
+\figuremacro{pop_only_contigs_heat}{Variance/mean stabilized
+  expression values for contigs different between populations}{foobar}
+
 
 
 
 %%% Local Variables: ***
-%%% mode:auctex ***
+%%% mode:latex ***
 %%% TeX-master: "../thesis.tex"  ***
 %%% tex-main-file: "../thesis.tex" ***
 %%% End: ***

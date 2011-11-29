@@ -22,27 +22,40 @@
 \BOOKMARK [1][]{section.2.1}{2.1 Preliminary aims}{chapter.2}
 \BOOKMARK [1][]{section.2.2}{2.2 Final aim}{chapter.2}
 \BOOKMARK [0][]{chapter.3}{3 Pilot sequencing \(Sanger method\)}{}
-\BOOKMARK [0][]{chapter.4}{4 Pyrosequencing of the A. crassus transcriptome}{}
-\BOOKMARK [0][]{chapter.5}{5 NlaIII-tag sequencing \(Super-SAGE\)}{}
-\BOOKMARK [1][]{section.5.1}{5.1 Comparison with pyrosequencing-data}{chapter.5}
-\BOOKMARK [0][]{chapter.6}{6 Transcriptomic divergence in common garden experiments }{}
+\BOOKMARK [0][]{chapter.4}{4 Evaluation of an assembly strategy for pyrosequencing reads}{}
+\BOOKMARK [1][]{section.4.1}{4.1 Overview}{chapter.4}
+\BOOKMARK [1][]{section.4.2}{4.2 The newbler first-order assembly}{chapter.4}
+\BOOKMARK [1][]{section.4.3}{4.3 The mira-assembly and the second-order assembly}{chapter.4}
+\BOOKMARK [1][]{section.4.4}{4.4 Data-categories in the second-order assembly}{chapter.4}
+\BOOKMARK [1][]{section.4.5}{4.5 Contribution of first-order assemblies to second-order contigs}{chapter.4}
+\BOOKMARK [1][]{section.4.6}{4.6 Evaluation of the assemblies}{chapter.4}
+\BOOKMARK [1][]{section.4.7}{4.7 Measurments on second-order assembly}{chapter.4}
+\BOOKMARK [2][]{subsection.4.7.1}{4.7.1 Contig coverage}{section.4.7}
+\BOOKMARK [2][]{subsection.4.7.2}{4.7.2 Example use of the contig-measurements}{section.4.7}
+\BOOKMARK [1][]{section.4.8}{4.8 Finalising the fullest assembly set}{chapter.4}
+\BOOKMARK [0][]{chapter.5}{5 Pyrosequencing of the A. crassus transcriptome}{}
+\BOOKMARK [0][]{chapter.6}{6 Transcriptomic divergence in a common garden experiment}{}
 \BOOKMARK [1][]{section.6.1}{6.1 Infection experiments}{chapter.6}
-\BOOKMARK [1][]{section.6.2}{6.2 Examination of data-quality}{chapter.6}
-\BOOKMARK [1][]{section.6.3}{6.3 Expression differences between male and female}{chapter.6}
-\BOOKMARK [1][]{section.6.4}{6.4 Expression differences between worms in European and Japanese Eels}{chapter.6}
-\BOOKMARK [1][]{section.6.5}{6.5 Expression differences between worms in the European and Taiwanese worm-population}{chapter.6}
+\BOOKMARK [1][]{section.6.2}{6.2 Sample preparation}{chapter.6}
+\BOOKMARK [1][]{section.6.3}{6.3 Examination of data-quality}{chapter.6}
+\BOOKMARK [1][]{section.6.4}{6.4 Expression differences in general linear models}{chapter.6}
+\BOOKMARK [2][]{subsection.6.4.1}{6.4.1 Foo}{section.6.4}
+\BOOKMARK [1][]{section.6.5}{6.5 Expression differences between worms in European and Japanese Eels}{chapter.6}
+\BOOKMARK [1][]{section.6.6}{6.6 Expression differences between worms in the European and Taiwanese worm-population}{chapter.6}
 \BOOKMARK [0][]{chapter.7}{7 Discussion}{}
 \BOOKMARK [1][]{section.7.1}{7.1 Sanger-method pilot-sequencing}{chapter.7}
 \BOOKMARK [1][]{section.7.2}{7.2 454-pyrosequencing}{chapter.7}
 \BOOKMARK [1][]{section.7.3}{7.3 Experimental infections}{chapter.7}
 \BOOKMARK [0][]{chapter.8}{8 Materials \046 methods}{}
-\BOOKMARK [1][]{section.8.1}{8.1 Sampling of worms from wild eels}{chapter.8}
-\BOOKMARK [2][]{subsection.8.1.1}{8.1.1 Sampling in Taiwan}{section.8.1}
-\BOOKMARK [2][]{subsection.8.1.2}{8.1.2 Sampling of European worms}{section.8.1}
+\BOOKMARK [1][]{section.8.1}{8.1 Sampling of worms from wild eels \(Sanger- and pyro-sequencing\) }{chapter.8}
 \BOOKMARK [1][]{section.8.2}{8.2 RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{chapter.8}
 \BOOKMARK [1][]{section.8.3}{8.3 Cloning for Sanger-sequencing}{chapter.8}
 \BOOKMARK [1][]{section.8.4}{8.4 Pilot Sanger-sequencing}{chapter.8}
 \BOOKMARK [1][]{section.8.5}{8.5 454-pyro-sequencing}{chapter.8}
-\BOOKMARK [1][]{section.8.6}{8.6 Differential expression in a common garden}{chapter.8}
+\BOOKMARK [1][]{section.8.6}{8.6 Transcriptomic divergence in a common garden experiment}{chapter.8}
 \BOOKMARK [2][]{subsection.8.6.1}{8.6.1 Experimental infeciton of eels}{section.8.6}
+\BOOKMARK [1][]{section.8.7}{8.7 RNA exrtaction and preparation of sequencing libraries}{chapter.8}
+\BOOKMARK [1][]{section.8.8}{8.8 Mapping and read-counts}{chapter.8}
+\BOOKMARK [1][]{section.8.9}{8.9 Statistical analysis}{chapter.8}
+\BOOKMARK [1][]{section.8.10}{8.10 Collapsing of orthologous for two model-species}{chapter.8}
 \BOOKMARK [0][]{section*.17}{References}{}
