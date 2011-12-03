@@ -26,9 +26,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Recovery of worms in cross-infection experiment}}{56}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between technical replicates and samples}}{59}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Distances between sequencing samples}}{60}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{61}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{62}{figure.6.5}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between RNA-seq read-count for different samples}}{59}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{60}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{62}{figure.6.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

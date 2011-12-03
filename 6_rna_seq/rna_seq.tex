@@ -21,9 +21,11 @@
 
 \section{Infection experiments}
 
-Dissection of eels 55-57 dpi showed a clear trend towards lower
-recovery of European worms in \textit{An. japonica} and lower recovery
-of Taiwanes worms in \textit{An. anguilla}.
+Dissection of eels 55-57 dpi showed higher recovery of European worms
+in \textit{An. anguilla} and higher recovery of Taiwanes worms in
+\textit{An. japonica}, compared to the other parasite populations. In
+other words, in host-parasite combinations of matching origin,
+parastites performed better.
 
 \figuremacro{stages_plot}{Recovery of worms in cross-infection
   experiment}{Mean numbers of worms recovered after 55-57 dpi for
@@ -31,19 +33,23 @@ of Taiwanes worms in \textit{An. anguilla}.
   (s.e.) of the mean. Stages are L3-larvae (l3), L4-larvae (l4), adult
   females (adult.f) and adult males (adult.m).}
 
-In the host-species/worm-population pairs found in nature roughly
+In host-species/parastite-population pairs found in nature roughly
 eight or nine adult worms could be recoverd per eel. In the
 transplanted host/parasite combinations only two or three adult worms
 were recovered on average (see figure \ref{stages_plot}). In
 \textit{An. anguilla} no differences in the recovery of larval stages
-was recorded. In \textit{An. japonica} roughly two individals more
-were recorded from both larval stages in the host/parasite combination
-found in nature.
+was recorded. In \textit{An. japonica} however roughly two individals
+more were recorded from both larval stages in the host/parasite
+combination found in nature.
 
 These differences are highly significant especially for adult worms
 (see table \ref{tab:ad-sig}) and are interpretable as a sign of local
 adaptation, as adult survival and recovery can be regarded a fitness
 component.
+
+Recovery as a proportion of the 50 larvae eels were inocculated with,
+was thus roughly 30\% for the adapted pairs compared to only roughly
+10\% in non-adapted host-parasite pairs.
 
 \begin{table}[ht]
 \begin{center}
@@ -70,28 +76,27 @@ component.
 \end{center}
 \end{table}
 
-For Euroopean worms in \textit{An. japonica} all obtained male adult
-worms were of small size and preparation of RNA was impossible for all
-but the three biggest worms.
 
-\section{Sample preparation}
+\section{Sample preparation and sequencing }
 
-Three biological replicates were obtained from each two worm
-population in two eel-host for two sexes of worms. This resulted in a
-total 24 RNA-extractions prepared for sequencing: Twelve individual
-female worms were choosen randomly from their respecitive experimental
-group. Additionally from three individual male worms, and from 9 pools
-of male worms RNA was extracted (see table \ref{tab:lib-prep}). Pools
-consisted of worms from one infected eel individual each. All worms or
-worm-pools were derived form infections of different eel individuals,
-with one small exception of this form of statistical independence:
-From eel AJ/R3 a male worms as well as a female worm had to be
-prepared, as it was impossible to extract enough RNA from all but the
-biggest worms of the Japanese eel/European worm combination. Because
-of the small size of male worms it was not possible to randomly choose
-individuals, as preparation of sufficient amounts of RNA was not even
-achieved in pools. All male worms were thus choosen for preparation
-based on large size, even when pools of worms were used.
+Three biological replicates were obtained from each of the two worm
+population in each of th two eel-host for each of the two sexes of
+worms. This resulted in a total 24 RNA-extractions prepared for
+sequencing: 3 individual female worms from each experimental group
+were choosen randomly, to give in total twelve females. Additionally
+from three individual male worms, and from 9 pools of male worms RNA
+was extracted (see table \ref{tab:lib-prep}). Pools consisted of worms
+from one infected eel individual each. All worms or worm-pools were
+derived form infections of different eel individuals, with one small
+exception from this form of statistical independence: From eel AJ/R3 a
+male worms as well as a female worm had to be prepared. It was
+impossible to extract enough RNA from all but the biggest male worms
+especially of the Japanese eel/European worm combination, leaving no
+other choice. Because of the small size of male worms it was generally
+not possible to randomly choose individuals. Preparation of sufficient
+amounts of RNA was only achieved in pools of the biggest
+individuals. All male worms were thus choosen for preparation based on
+large size, even when pools of worms were used.
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
 % Tue Nov 29 10:05:46 2011
@@ -144,38 +149,44 @@ AA/T20F & female & AA & Taiwan & 1 & 1 & 5.60 \\
 \end{center}
 \end{table}
 
-Sequencing was performed in three multiplexed pools of eigt libraries
+Sequencing was performed in three multiplexed pools of eight libraries
 each. The samples were partitioned into these pools spreading
 replicates over lanes in a blocking design to further guarantee
 statistical independence from sequencing-lane effects. Each pool of
 eight was sequenced on two lanes, giving in total six lanes of data
-and two technical replicates for each library.
+and two technical replicates for each library. Sequencing resulted in
+a total of 263.668.952 raw sequencing read-pairs.
 
 \section{Examination of data-quality}
 
 Reads were mapped against the fullest assembly (see
 \ref{sec:final-full-assembly} and \ref{xxx}) using \texttt{BWA}
-\cite{pmid20080505}. Of in total 263.668.952 raw sequencing read-pairs
-173.602.387 mapped uniquely to the assembly and were counted on a
-per-library base.
+\cite{pmid20080505}. Of the 263.668.952 raw read-pairs 173.602.387
+mapped uniquely to the assembly and were counted on a per-library
+base.
 
-Read counts for one library were obtained form two different technical
-replicate lanes of a flow-cell. The technical replicate of read-counts
-demonstrated very low differences as inferred from a clustering
-analysis using variance stabilized data and euclidian distances (see
-\ref{heat_tech_rep}).
+Read counts for one library were originally obtained from two
+different technical replicate lanes of a flow-cell. The technical
+replicate of read-counts demonstrated very low differences as inferred
+from a clustering analysis using variance stabilized data and
+euclidian distances as implemented in \texttt{DESeq}
+\cite{pmid20979621} (see \ref{heat_tech_rep}).
 
-\figuremacro{heat_tech_rep}{Distances between technical replicates and
-  samples}{Euclidean distance (square distance between the two count
-  vectors) for variance stabilized read-counts for all libraries
-  including technical replicates; Red indicates low distance, yellow
-  hight distance. All technical replicates are clusterd very closely.}
+\figuremacro{heat_all}{Distances between RNA-seq read-count for
+  different samples}{Euclidean distance (square distance between the
+  two count vectors) for variance stabilized read-counts for all
+  libraries including technical replicates; Red indicates low distance
+  (high similarity), blue heigh distance (low similarity). a) Data
+  before screening and summation of technical replicates. All
+  technical replicates are clusterd very closely, the distance between
+  an outlier female sample (AJ\_T26F) is high. b) Same illustration
+  after summation of technical replicates and screening. Distance
+  between outlier-sample and other female samples is reduced.}
 
 After this analysis we summed up read-counts for technical replicates
 of each library. 158.232.523 read-pairs were left after removal of
 hits to contigs for which non-\textit{A. crassus} origin had been
 inferred in the curration of the 454-transcriptome assembly.
-
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
 % Tue Nov 29 14:12:43 2011
@@ -224,26 +235,13 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
 \end{center}
 \end{table}
 
-
 After another screening for spurious read-counts to low covered
 transcripts and to transcripts of low relieability (lowCA in the
 454-assembly; see \ref{xxx}) 137.477.156 read-pairs were left for
 further analysis. Distribution of these read-pairs over libraries
 showd roughly three fold differences, with a mean of 5.728.215 reads
-and a range form 3.422.526 read-pais for library AJ\_R3M to 9.453.468
+and a range from 3.422.526 read-pais for library AJ\_R3M to 9.453.468
 read-pairs for library AA\_R8F (see \ref{tab:read-clean}).
-
-\figuremacro{heat_rep}{Distances between sequencing samples}{Euclidean
-  distance (square distance between the two count vectors) for
-  variance stabilized read-counts for all libraries including
-  technical replicates; Red indicates low distance, yellow hight
-  distance. Samples clustering according to the sex of the worm (or
-  pool of worms), as expected gene-expression is mostly correlated
-  with sex.}
-
-
-
-
 
 \figuremacro{mds}{Principle coordinate plot for expression inRNA-seq
   libraries}{Distance between sample-pairs is the root-mean-square
@@ -252,11 +250,23 @@ read-pairs for library AA\_R8F (see \ref{tab:read-clean}).
   genes with the biggest changes, i.e. the log2-fold-change for the
   genes that distinguish the samples.}
 
+Thes reads mapped to xxx contigs from our 454 assembly, making them
+the basis for all further inverstigations.
 
 \section{Expression differences in general linear models}
 
 Generalized linear models (GLMs) were used as implemented in the
-R-package \texttt{edgeR}. These models are 
+R-package \texttt{edgeR}. Using these models we highlighted xxx
+contigs as differentially expressed between male and female worms at a
+false discovery rate of 5\%. At the same threshold XX contigs showed
+significant differential response to the host-species, XX contigs
+according to the population of the worm.
+
+In these models interaction-terms were prevalent. XX contigs showed
+differential expression according to 
+
+
+
 
 \subsection{Foo}
 

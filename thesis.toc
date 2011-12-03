@@ -37,12 +37,12 @@
 \contentsline {chapter}{\numberline {5}Pyrosequencing of the \textit {A. crassus} transcriptome}{53}{chapter.5}
 \contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{55}{chapter.6}
 \contentsline {section}{\numberline {6.1}Infection experiments}{55}{section.6.1}
-\contentsline {section}{\numberline {6.2}Sample preparation}{55}{section.6.2}
-\contentsline {section}{\numberline {6.3}Examination of data-quality}{57}{section.6.3}
+\contentsline {section}{\numberline {6.2}Sample preparation and sequencing }{57}{section.6.2}
+\contentsline {section}{\numberline {6.3}Examination of data-quality}{58}{section.6.3}
 \contentsline {section}{\numberline {6.4}Expression differences in general linear models}{58}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Foo}{58}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Expression differences between worms in European and Japanese Eels}{58}{section.6.5}
-\contentsline {section}{\numberline {6.6}Expression differences between worms in the European and Taiwanese worm-population}{58}{section.6.6}
+\contentsline {subsection}{\numberline {6.4.1}Foo}{61}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Expression differences between worms in European and Japanese Eels}{61}{section.6.5}
+\contentsline {section}{\numberline {6.6}Expression differences between worms in the European and Taiwanese worm-population}{61}{section.6.6}
 \contentsline {chapter}{\numberline {7}Discussion}{65}{chapter.7}
 \contentsline {section}{\numberline {7.1}Sanger-method pilot-sequencing}{65}{section.7.1}
 \contentsline {section}{\numberline {7.2}454-pyrosequencing}{65}{section.7.2}
