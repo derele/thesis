@@ -19,45 +19,54 @@
 
 
 \section{Overview}
-\label{sec:overview}
+\label{sec:over-eval}
 
-The pre-processed \textit{Anguillicola crassus} data-set consisting of
-100491819 bases in 353055 reads (58617
-generated using ``FLX-chemistry'', 294438 using
-``Titanium-chemistry'') was assembled following an approach proposed
-by \cite{pmid20950480}: Two assemblies were generated, one using
-\texttt{newbler v2.6} \cite{pmid16056220}, the other using
+This chapter reports on an important methodical detail of
+\ref{cha:pyro}: the sequence-assembly. The quality of this sequence
+assembly constitues a fundamental foundation of the later
+chapters. 
+
+The pre-processed \textit{A. crassus} data-set consisting of 100491819
+bases in 353055 reads (58617 generated using ``FLX-chemistry'', 294438
+using ``Titanium-chemistry'') was assembled following an approach
+proposed by \cite{pmid20950480}: Two assemblies were generated, one
+using \texttt{newbler v2.6} \cite{pmid16056220}, the other using
 \texttt{mira v3.2.1} \cite{miraEST}. The resulting assemblies
 (referred to as first-order assemblies) were merged with \texttt{Cap3}
 \cite{Cap3_Huang} into a combined assembly (referred to as
-second-order assembly).
+second-order assembly). 
 
+Summary statistics for the assemblies, demonstrating the superiority
+of the second-order assembly are reported as well as summary
+statistics for single contigs. These metadata on contigs are important
+in evalutation of downsteam results. As a perfect assembly with each
+contig represtenting a single full transcript is illusive and every
+contig constitutes an hypothesis, it becomes important to validate and
+question analyses based on as much information as possible.
 
 \section{The \texttt{newbler} first-order assembly}
 \label{sec:new-fist}
 
-
-During transcriptome-assembly (with options \texttt{-cdna -urt})
-\texttt{newbler} can split individual reads spanning the breakpoints
-of alternate isoforms, to assemble e.g. the first portion of the reads
-in one contig, the second portion in two different contigs. Later
-multiple so called isotigs would be constructed and reported, one for
-each putative transcript-variant. While this approach could be helpful
-for the detection of alternate isoforms, it also produces short
-contigs (especially at error-prone edges of high-coverage transcripts)
-when the building of isotigs fails. The read-status report and the
-assembly output in \texttt{ace}-format the program provides are
-including short contigs only used during the assembly-process, but not
-reported in the contigs-file used in transcriptome-assembly projects
+During transcriptome-assembly \texttt{newbler} can split individual
+reads spanning the breakpoints of alternate isoforms, to assemble
+e.g. the first portion of the reads in one contig, the second portion
+in two different contigs. Later multiple so called isotigs would be
+constructed and reported, one for each putative
+transcript-variant. While this approach could be helpful for the
+detection of alternate isoforms, it also produces short contigs
+(especially at error-prone edges of high-coverage transcripts) when
+the building of isotigs fails. The read-status report and the assembly
+output in \texttt{ace}-format the program provides are including short
+contigs only used during the assembly-process, but not reported in the
+contigs-file used in transcriptome-assembly projects
 (\texttt{454Isotigs.fna}). Therefore to get all reads not included in
 contigs (i.e. a consistent definition of ``singleton'') it was
 necessary to add all reads appearing only in contigs not reported in
 the fasta-file to the reported singletons. The number of singletons
-increased in this step form the 26211
-reported to 109052. We later also address the
-usefulness of \texttt{newbler's} report vs. the expanded
-singleton-category, but for the meantime we define singletons as all
-reads not present in a given assembly.
+increased in this step form the 26211 reported to 109052. We later
+also address the usefulness of \texttt{newbler's} report vs. the
+expanded singleton-category, but for the meantime we define singletons
+as all reads not present in a given assembly.
 
 \figuremacro{split_454}{Number of contigs/isotigs splitted}{A
   histogram of the number of contigs or isotigs \texttt{newbler}
@@ -76,17 +85,15 @@ later in greater detail.
 \section{The \texttt{mira}-assembly and the second-order assembly}
 \label{sec:assembly-sec}
 
-The \texttt{mira} assembly (with options
-\texttt{--job=denovo,est,accurate,454}) provided a second estimate of
-the transcriptome. In this assembly individual reads are not
-split. The number of reads not used in the \texttt{mira}-assembly was
-65368.
+The \texttt{mira} assembly provided a second estimate of the
+transcriptome. In this assembly individual reads are not split. The
+number of reads not used in the \texttt{mira}-assembly was 65368.
 
 To combine the two assemblies \texttt{cap3} was used with default
 parameters and including the quality information from first-order
 assemblies. The reminder of this text deals with the exploratory
 analysis of how information from both estimates of the transcriptome
-are integrated into the final second-order assembly. 
+are integrated into the final second-order assembly.
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
 % Tue Nov 15 23:52:26 2011
@@ -113,13 +120,14 @@ Max length & 6300 & 6352 & 6377 \\
 \label{tab:pc}
 \end{center}
 \end{table}
+
+
 Table \ref{tab:pc} gives basic summary-statistics of the different
 assemblies. \texttt{mira} clearly produced the biggest assembly, both
 in terms of number of contigs and bases), the second-order assembly is
 slightly smaller size than the \texttt{newbler} assembly.  The
 second-order assembly had on average longer contigs than both
 first-order assemblies and a higher weighted median contig size (N50).
-
 
 \section{Data-categories in the second-order assembly}
 \label{sec:data-categ-second}
@@ -170,15 +178,16 @@ Snd.o.con &   & 164 & 13887 & 13 &   \\
 \label{tab:categ}
 \end{center}
 \end{table}
+
 For the last, most reliable (MN) category, reads contained in the
 assembly can be categorized depending on whether they entered the
-assembly via both or only via one first-order assembly. 
+assembly via both or only via one first-order assembly.
 
 \figuremacro{read_origin}{Origing of reads}{Reads in the most reliable
   (MN) assembly-category are categorized by the way they entered the
   assembly: Although they are in a highly credible contig, reads can
   still have entered from only one first order assembly (Mira\_in\_MN
-  or Newbler\_in\_MN). The intersection gives the reads whiche entered
+  or Newbler\_in\_MN). The intersection gives the reads which entered
   via both routes. The duplicated category gives the number of reads
   splitted by Newber and the intersection reads, which were splitted
   and entered the assembly.}
@@ -217,9 +226,7 @@ assemblies including or excluding their singletons) and the
 second-order assembly (including different contigs-categories and
 singletons) we evaluated the number of bases or proteins their contigs
 and singletons (partially) cover in the related model-nematodes,
-\textit{Caenorhabditis elegans} and \textit{Brugia malayi}. To this
-purpose we used \texttt{blast} (\texttt{blastx} e-value cut-off 1e-5)
-and a custom perl-script provided by S. Kumar.
+\textit{Caenorhabditis elegans} and \textit{Brugia malayi}. 
 
 In addition, the size of the assembly can give an indication of
 redundancy or artificially assembled data: If it increases without
@@ -303,11 +310,11 @@ the first-order assemblies. Moderate gains in reference coverage were
 made again for the addition of dubious single-assembler supported
 second-order contigs. We give most weight in our analysis to these
 results as in average longer correct contigs will allow finding the
-highest number of putative full-lenth genes.
+highest number of putative full-length genes.
 
 Given this evaluation we defined a ``minimal adequate'' assembly as
 the subset of contigs of the second-order assembly supported by both
-assemblers (labeled NM above).
+assemblers (labeled MN above).
 
 Given the performance of the singletons \texttt{newbler} reported we
 defined a ``fullest-assembly'' as all second-order contigs (including

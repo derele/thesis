@@ -17,46 +17,62 @@
 \contentsline {subsubsection}{\numberline {1.2.4.1}Pyro-sequencing}{23}{subsubsection.1.2.4.1}
 \contentsline {subsubsection}{\numberline {1.2.4.2}Illumina-Solexa sequencing}{25}{subsubsection.1.2.4.2}
 \contentsline {subsection}{\numberline {1.2.5}Computational methods in DNA-sequence analysis}{27}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Applications of NGS in ecology and evolution}{29}{subsection.1.2.6}
-\contentsline {section}{\numberline {1.3}Gene-expression and evolutionary divergence}{30}{section.1.3}
-\contentsline {chapter}{\numberline {2}Aims of the project}{31}{chapter.2}
-\contentsline {section}{\numberline {2.1}Preliminary aims}{31}{section.2.1}
-\contentsline {section}{\numberline {2.2}Final aim}{31}{section.2.2}
-\contentsline {chapter}{\numberline {3}Pilot sequencing (Sanger method)}{33}{chapter.3}
-\contentsline {chapter}{\numberline {4}Evaluation of an assembly strategy for pyrosequencing reads}{39}{chapter.4}
-\contentsline {section}{\numberline {4.1}Overview}{39}{section.4.1}
-\contentsline {section}{\numberline {4.2}The \texttt {newbler} first-order assembly}{39}{section.4.2}
-\contentsline {section}{\numberline {4.3}The \texttt {mira}-assembly and the second-order assembly}{41}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data-categories in the second-order assembly}{42}{section.4.4}
-\contentsline {section}{\numberline {4.5}Contribution of first-order assemblies to second-order contigs}{44}{section.4.5}
-\contentsline {section}{\numberline {4.6}Evaluation of the assemblies}{44}{section.4.6}
-\contentsline {section}{\numberline {4.7}Measurments on second-order assembly}{46}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Contig coverage}{50}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Example use of the contig-measurements}{50}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Finalising the fullest assembly set}{52}{section.4.8}
-\contentsline {chapter}{\numberline {5}Pyrosequencing of the \textit {A. crassus} transcriptome}{53}{chapter.5}
-\contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{55}{chapter.6}
-\contentsline {section}{\numberline {6.1}Infection experiments}{55}{section.6.1}
-\contentsline {section}{\numberline {6.2}Sample preparation and sequencing }{57}{section.6.2}
-\contentsline {section}{\numberline {6.3}Examination of data-quality}{58}{section.6.3}
-\contentsline {section}{\numberline {6.4}Expression differences in general linear models}{58}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Foo}{61}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Expression differences between worms in European and Japanese Eels}{61}{section.6.5}
-\contentsline {section}{\numberline {6.6}Expression differences between worms in the European and Taiwanese worm-population}{61}{section.6.6}
-\contentsline {chapter}{\numberline {7}Discussion}{65}{chapter.7}
-\contentsline {section}{\numberline {7.1}Sanger-method pilot-sequencing}{65}{section.7.1}
-\contentsline {section}{\numberline {7.2}454-pyrosequencing}{65}{section.7.2}
-\contentsline {section}{\numberline {7.3}Experimental infections}{67}{section.7.3}
-\contentsline {chapter}{\numberline {8}Materials \& methods}{69}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{69}{section.8.1}
-\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{69}{section.8.2}
-\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{70}{section.8.3}
-\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{71}{section.8.4}
-\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{72}{section.8.5}
-\contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{75}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{75}{subsection.8.6.1}
-\contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{76}{section.8.7}
-\contentsline {section}{\numberline {8.8}Mapping and read-counts}{77}{section.8.8}
-\contentsline {section}{\numberline {8.9}Statistical analysis}{77}{section.8.9}
-\contentsline {section}{\numberline {8.10}Collapsing of orthologous for two model-species}{77}{section.8.10}
-\contentsline {chapter}{References}{79}{section*.17}
+\contentsline {subsection}{\numberline {1.2.6}Applications of NGS in ecology and evolution and gene-expression divergence}{30}{subsection.1.2.6}
+\contentsline {chapter}{\numberline {2}Aims of the project}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}Final aim}{33}{section.2.1}
+\contentsline {section}{\numberline {2.2}Preliminary aims}{33}{section.2.2}
+\contentsline {chapter}{\numberline {3}Pilot sequencing (Sanger method)}{35}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}Overview}{35}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Initial quality screening}{35}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.0.3}rRNA screening}{36}{subsection.3.0.3}
+\contentsline {subsection}{\numberline {3.0.4}Screening for host-contamination}{36}{subsection.3.0.4}
+\contentsline {chapter}{\numberline {4}Evaluation of an assembly strategy for pyrosequencing reads}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}The \texttt {newbler} first-order assembly}{41}{section.4.2}
+\contentsline {section}{\numberline {4.3}The \texttt {mira}-assembly and the second-order assembly}{42}{section.4.3}
+\contentsline {section}{\numberline {4.4}Data-categories in the second-order assembly}{44}{section.4.4}
+\contentsline {section}{\numberline {4.5}Contribution of first-order assemblies to second-order contigs}{46}{section.4.5}
+\contentsline {section}{\numberline {4.6}Evaluation of the assemblies}{46}{section.4.6}
+\contentsline {section}{\numberline {4.7}Measurments on second-order assembly}{52}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Contig coverage}{52}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Example use of the contig-measurements}{53}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}Finalising the fullest assembly set}{54}{section.4.8}
+\contentsline {chapter}{\numberline {5}Pyrosequencing of the \textit {A. crassus} transcriptome}{57}{chapter.5}
+\contentsline {section}{\numberline {5.1}Overview}{57}{section.5.1}
+\contentsline {section}{\numberline {5.2}Sampling \textit {A. crassus}}{57}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sequencing, trimming and pre-assembly screening}{58}{section.5.3}
+\contentsline {section}{\numberline {5.4}Assembly}{58}{section.5.4}
+\contentsline {section}{\numberline {5.5}Protein prediction}{61}{section.5.5}
+\contentsline {section}{\numberline {5.6}Annotation}{61}{section.5.6}
+\contentsline {section}{\numberline {5.7}Evolutionary conservation}{62}{section.5.7}
+\contentsline {section}{\numberline {5.8}Identification of single nucleotide polymorphisms}{66}{section.5.8}
+\contentsline {section}{\numberline {5.9}Polymorphisms associated with biological processes}{70}{section.5.9}
+\contentsline {section}{\numberline {5.10}SNP markers for single worms}{77}{section.5.10}
+\contentsline {section}{\numberline {5.11}Differential expression}{78}{section.5.11}
+\contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{81}{chapter.6}
+\contentsline {section}{\numberline {6.1}Infection experiments}{81}{section.6.1}
+\contentsline {section}{\numberline {6.2}Sample preparation and sequencing }{83}{section.6.2}
+\contentsline {section}{\numberline {6.3}Examination of data-quality}{84}{section.6.3}
+\contentsline {section}{\numberline {6.4}Orthologous-screened expression differences}{84}{section.6.4}
+\contentsline {section}{\numberline {6.5}Expression differences in general linear models}{84}{section.6.5}
+\contentsline {section}{\numberline {6.6}Confirmation of contig categories through multivariate clustering}{89}{section.6.6}
+\contentsline {section}{\numberline {6.7}Biological processes associated with DE contigs}{89}{section.6.7}
+\contentsline {chapter}{\numberline {7}Discussion}{95}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overview}{95}{section.7.1}
+\contentsline {section}{\numberline {7.2}Sanger-method pilot-sequencing}{95}{section.7.2}
+\contentsline {section}{\numberline {7.3}454-pyrosequencing}{96}{section.7.3}
+\contentsline {section}{\numberline {7.4}Experimental infections}{100}{section.7.4}
+\contentsline {chapter}{\numberline {8}Materials \& methods}{103}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{103}{section.8.1}
+\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{103}{section.8.2}
+\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{104}{section.8.3}
+\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{105}{section.8.4}
+\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{106}{section.8.5}
+\contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{110}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{110}{subsection.8.6.1}
+\contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{110}{section.8.7}
+\contentsline {section}{\numberline {8.8}Mapping and normalistion of read-counts}{111}{section.8.8}
+\contentsline {section}{\numberline {8.9}Statistical analysis with GLMs}{112}{section.8.9}
+\contentsline {section}{\numberline {8.10}Count-collapsing for orthologous from two model-species}{112}{section.8.10}
+\contentsline {section}{\numberline {8.11}Multivarite confirmation of linear models}{112}{section.8.11}
+\contentsline {chapter}{References}{113}{section*.15}

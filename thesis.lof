@@ -14,20 +14,29 @@
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Schematic representation of illumina sequencing}}{26}{figure.1.12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Proportion of rRNA in different libraries for \textit {A. crassus} and \textit {A. japonica}}}{34}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces GC-content of sequences from \textit {A. japonica} and \textit {A. crassus}}}{36}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Proportion of rRNA in different libraries for \textit {A. crassus} and \textit {A. japonica}}}{36}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces GC-content of sequences from \textit {A. japonica} and \textit {A. crassus}}}{38}{figure.3.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Number of contigs/isotigs splitted}}{40}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Origing of reads}}{43}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Contribution to second-order assembly}}{45}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Base-content and reference-transcriptome coverage in percent of bases}}{47}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Base-content and reference-transcriptome coverage}}{48}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Base-content and reference-transcriptome coverage in percent of proteins coverd to at least 80\%}}{49}{figure.4.6}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Number of contigs/isotigs splitted}}{43}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Origing of reads}}{45}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Contribution to second-order assembly}}{47}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Base-content and reference-transcriptome coverage in percent of bases}}{49}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Base-content and reference-transcriptome coverage}}{50}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Base-content and reference-transcriptome coverage in percent of proteins coverd to at least 80\%}}{51}{figure.4.6}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Annotation using different identifiers}}{63}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Cross taxa comparison of annotation}}{64}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Enrichment of Signal-positives for categories of evolutionary conservations}}{67}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Homoploymer screening for SNP-calling}}{68}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces SNP calling and SNP categories}}{69}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Positive selection and evolutionary conservation}}{76}{figure.5.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Recovery of worms in cross-infection experiment}}{56}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between RNA-seq read-count for different samples}}{59}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{60}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{62}{figure.6.4}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Recovery of worms in cross-infection experiment}}{82}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between RNA-seq read-count for different samples}}{85}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{86}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Venn diagramm of contigs significant for different terms in \texttt {edgeR}-GLMs}}{88}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Constrained redundancy analysis for host-DE contigs}}{90}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Constrained redundancy analysis for population-DE contigs}}{91}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{92}{figure.6.7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

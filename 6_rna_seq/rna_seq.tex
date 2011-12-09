@@ -160,7 +160,7 @@ a total of 263.668.952 raw sequencing read-pairs.
 \section{Examination of data-quality}
 
 Reads were mapped against the fullest assembly (see
-\ref{sec:final-full-assembly} and \ref{xxx}) using \texttt{BWA}
+\ref{sec:final-full-assembly}) using \texttt{BWA}
 \cite{pmid20080505}. Of the 263.668.952 raw read-pairs 173.602.387
 mapped uniquely to the assembly and were counted on a per-library
 base.
@@ -172,7 +172,7 @@ from a clustering analysis using variance stabilized data and
 euclidian distances as implemented in \texttt{DESeq}
 \cite{pmid20979621} (see \ref{heat_tech_rep}).
 
-\figuremacro{heat_all}{Distances between RNA-seq read-count for
+\figuremacroW{heat_all}{Distances between RNA-seq read-count for
   different samples}{Euclidean distance (square distance between the
   two count vectors) for variance stabilized read-counts for all
   libraries including technical replicates; Red indicates low distance
@@ -181,12 +181,11 @@ euclidian distances as implemented in \texttt{DESeq}
   technical replicates are clusterd very closely, the distance between
   an outlier female sample (AJ\_T26F) is high. b) Same illustration
   after summation of technical replicates and screening. Distance
-  between outlier-sample and other female samples is reduced.}
+  between outlier-sample and other female samples is reduced.}{0.5}
 
-After this analysis we summed up read-counts for technical replicates
-of each library. 158.232.523 read-pairs were left after removal of
-hits to contigs for which non-\textit{A. crassus} origin had been
-inferred in the curration of the 454-transcriptome assembly.
+158.232.523 read-pairs were left after removal of hits to contigs for
+which non-\textit{A. crassus} origin had been inferred in the
+curration of the 454-transcriptome assembly.
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
 % Tue Nov 29 14:12:43 2011
@@ -237,51 +236,147 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
 
 After another screening for spurious read-counts to low covered
 transcripts and to transcripts of low relieability (lowCA in the
-454-assembly; see \ref{xxx}) 137.477.156 read-pairs were left for
-further analysis. Distribution of these read-pairs over libraries
-showd roughly three fold differences, with a mean of 5.728.215 reads
-and a range from 3.422.526 read-pais for library AJ\_R3M to 9.453.468
-read-pairs for library AA\_R8F (see \ref{tab:read-clean}).
+454-assembly; see \ref{sec:final-full-assembly}) 137.477.156
+read-pairs were left for further analysis. Distribution of these
+read-pairs over libraries showd roughly three fold differences, with a
+mean of 5.728.215 reads and a range from 3.422.526 read-pais for
+library AJ\_R3M to 9.453.468 read-pairs for library AA\_R8F (see
+\ref{tab:read-clean}).
 
 \figuremacro{mds}{Principle coordinate plot for expression inRNA-seq
   libraries}{Distance between sample-pairs is the root-mean-square
   deviation (Euclidean distance) for the most differentially expressed
-  genes. Distances can be interpreted as the log2-fold-change of the
-  genes with the biggest changes, i.e. the log2-fold-change for the
-  genes that distinguish the samples.}
+  (DE) genes. Distances can be interpreted as the log2-fold-change of
+  the genes with the biggest changes, i.e. the log2-fold-change for
+  the genes that distinguish the samples.}
 
-Thes reads mapped to xxx contigs from our 454 assembly, making them
-the basis for all further inverstigations.
+These reads mapped to 7520 contigs from our 454 assembly, making them
+the basis for all further inverstigations. Analysis of between-sample
+distance confirmed the library clustering. Sex of the worms defined
+the overall distances between libraries, host- or
+population-differences were not visible in an overall effect in the
+top differentially expressed (DE) genes (see figure \ref{mds}).
+
+
+\section{Orthologous-screened expression differences}
+
+For the 7520 contigs with analysed exprssion values 4382
+\textit{C. elegans}-orthologs and 4292 \textit{B. malayi}-orthologs
+with read more than 32 read-counts over all libraries were determined
+based on the annotation of the assembly (see \ref{454-annot}). This
+resulted in 3596 contigs with measured expression also having a
+measurement for a corresponding orhtolog (or group of orthologs) in
+both model-species and thus being available for analysis.
+
+For all further evaluations the congruence of the basic contig-based
+statistics with orthologous-derived statistics is considered.
 
 \section{Expression differences in general linear models}
 
 Generalized linear models (GLMs) were used as implemented in the
-R-package \texttt{edgeR}. Using these models we highlighted xxx
-contigs as differentially expressed between male and female worms at a
-false discovery rate of 5\%. At the same threshold XX contigs showed
-significant differential response to the host-species, XX contigs
-according to the population of the worm.
+R-package \texttt{edgeR}. Using these models we obtained 2588 contigs
+(34\% of total) de between male and female worms at a false discovery
+rate (FDR) of 5\%. 1101 (31\% of total orthologous available) of these
+contigs of were confirmed by contigs in the orthologous
+evaluation. 1425 (556 orthologous confirmed; OC) of these were
+upregulated in male worms 1163 (545 OC) upregulated in female worms.
 
-In these models interaction-terms were prevalent. XX contigs showed
-differential expression according to 
+At the same threshold 55 contigs (0.7\% of total; 9, 0.25\% OC) showed
+significant differential response to the host-species. 38 (5 OC) were
+upregulated upregulated in \textit{An. japonica}, 17 (4 OC)
+upregulated in \textit{An. anguilla}.
 
+68 contigs (0.9\% of total; 15, 0.42\% OC) showed differences
+according to the population of the worm. 39 (11 OC) of these were
+upregulated in the Taiwanese population, 29 (4 OC) in the European
+population.
 
+An important observation in these models is the prevalence of
+co-occuring significance of simple main effects. Expression changes
+overlapping for two main effects mean a significant difference in
+expression according to both factors. These differences are in the
+same direction for a combination of the factors. Most contigs DE
+according to the main effects of host-species or worm-population were
+also DE according to the sex of the worm. There was also a number of
+contigs differing for all three predictors in the same way. No contigs
+were observed DE in both the host-species and worm-populations in the
+same direction but not according to worm-sex. From the 68 contigs DE
+in different \textit{A. crassus}-populations, 38 were also DE
+according to worm sex and 16 according to all 3 main effects (see
+figure \ref{venn_mod}).
 
+The benefit of also allowing contrasting significant differences in
+interaction terms highlights the power of the GLM-approach. In these
+interactions a difference according to both focal factors in different
+directions for factor combinations is indicated. For interactions
+between host-species and parasite-population (eel*pop) for example
+this mirrors the result of adult recovery i.e. a differential
+regulation according to host-species/parasite-population combinations
+found in nature.
 
-\subsection{Foo}
+And indeed also interaction-effects were observed: 7 contigs (0 OC)
+showed differential expression according to the worm-sex*eel-species
+interaction, 12 (3 OC) to worm-sex*parasite-population, 13 (2 OC) to
+host-species*parastie-population, 1 (0 OC) contig showed significance
+for the 3-way interaciton (see figure \ref{venn_mod}).
 
-\section{Expression differences between worms in European and Japanese
-  Eels}
+\figuremacroW{venn_mod_man}{Venn diagramm of contigs significant for
+  different terms in \texttt{edgeR}-GLMs}{Overlap between differences
+  in simple main effects are given as black numbers in the
+  Venn-Diagramm. Numbers outside the circles in the lower left corner
+  idicated non-significant contigs. The number of significant contigs
+  for interaction effects are indicated in red for comparison. In (a)
+  values for all contigs are given in (b) for orhtolog-confirmed (OC)
+  contigs.}{0.6}
 
+In summary, a low amount of overlap in main effects between
+populations and host-species compared to the other main-effect
+overlaps and in relation a higher amount of interaction effects
+between these two conditions was observed.
 
+\section{Confirmation of contig categories through multivariate
+  clustering}
 
-\section{Expression differences between worms in the European and
-  Taiwanese worm-population}
+We performed constrained redundancy analysis for the effects of
+eel-host and worm-population. This technique similarly to principal
+components analysis can partition the variance into orthogonal
+components, and additionally constrain one of the components to the
+factor of interest. We found 7\% of the variance in contigs DE between
+eel-hosts and 11\% of the variance in contigs DE between
+worm-population were explained by the corresponding factor. In both
+evaluations more than 50\% of the remaining variance could be
+explained by a single principal component, which was mainly consisting
+of worm-sex (see figure \ref{pca_eel} a and \ref{pca_pop} a). When
+only OC-DE contigs were considered the explained variance for
+difference between eel-host droped to 3.3\% and the explained variance
+for differences between worm-population was raised to 23\%, while the
+sex-effect explained 70\% and 50\% of the variance (see figure
+\ref{pca_eel} b and \ref{pca_pop} b). Significance of the constrained
+component reported ba a premutation could be established at a p = 0.05
+threshold for all but the OC eel-host DE subset.
 
-\figuremacro{pop_only_contigs_heat}{Variance/mean stabilized
-  expression values for contigs different between populations}{foobar}
+\figuremacroW{pca_eel}{Constrained redundancy analysis for host-DE
+  contigs}{Eel-host differences are displayed as constrained component
+  on the x-axis, the principal component on the y-axis corresponds to
+  the sex of the worm. (a) Host differences patition the variance in
+  samples in like expcted for all contigs, the constrained component
+  showed significance. (b) For OC contigs the constrained component
+  fails to to partition the variance as expected, the component showed
+  no significance}{0.65}
 
+\figuremacroW{pca_pop}{Constrained redundancy analysis for
+  population-DE contigs}{Population differences are displayed as
+  constrained component on the x-axis, the principal component on the
+  y-axis corresponds to the sex of the worm. Host differences patition
+  the variance in samples like expcted for all contigs (a) as well as
+  for OC-contigs (b). The constrained component showed significance in
+  both subsets.}{0.65}
 
+\section{Biological processes associated with DE contigs}
+
+\figuremacro{pop_all_heat}{Variance/mean stabilized expression values
+  for contigs different between populations}{green indicates
+  expression below the mean, red above the mean}
 
 
 %%% Local Variables: ***

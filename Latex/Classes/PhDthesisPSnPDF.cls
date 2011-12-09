@@ -45,6 +45,8 @@
 %\usepackage[urw-garamond]{mathdesign}
 \usepackage{sectsty}
 
+\usepackage{afterpage}
+\usepackage{longtable}
 \usepackage{amssymb}
 \usepackage{graphics} % for improved inclusion of graphics
 \usepackage{wrapfig} % to include figure with text wrapping around it
@@ -276,10 +278,10 @@
       {{Zur Erlangung des akademischen Grades eines} \par}
       {{\submittedtext} \par}
       {{(\@degree)} \par}
-      {{\@collegeordept} \par}
+      {{an der \@collegeordept} \par}
       \vspace*{1ex}
-      {{\@university} \par}
-      {{vorgelege} \par}
+      {des {\@university} \par}
+      {{vorgelegte} \par}
       {{Dissertation} \par}
       {{von} \par}
       {{\Large \@author} \par}
@@ -295,7 +297,7 @@
     \vspace{2mm}
     {{Korreferent: Prof. Mark Blaxter} \par}
     \vspace{2mm}
-    {{Tag der m\"undlichen Prüfung: \par}
+    {{Tag der m\"undlichen Pr\"ufung: \par}
     }%end large    
     \null\vfill
   \end{alwayssingle}}

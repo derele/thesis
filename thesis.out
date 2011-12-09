@@ -16,12 +16,15 @@
 \BOOKMARK [3][]{subsubsection.1.2.4.1}{1.2.4.1 Pyro-sequencing}{subsection.1.2.4}
 \BOOKMARK [3][]{subsubsection.1.2.4.2}{1.2.4.2 Illumina-Solexa sequencing}{subsection.1.2.4}
 \BOOKMARK [2][]{subsection.1.2.5}{1.2.5 Computational methods in DNA-sequence analysis}{section.1.2}
-\BOOKMARK [2][]{subsection.1.2.6}{1.2.6 Applications of NGS in ecology and evolution}{section.1.2}
-\BOOKMARK [1][]{section.1.3}{1.3 Gene-expression and evolutionary divergence}{chapter.1}
+\BOOKMARK [2][]{subsection.1.2.6}{1.2.6 Applications of NGS in ecology and evolution and gene-expression divergence}{section.1.2}
 \BOOKMARK [0][]{chapter.2}{2 Aims of the project}{}
-\BOOKMARK [1][]{section.2.1}{2.1 Preliminary aims}{chapter.2}
-\BOOKMARK [1][]{section.2.2}{2.2 Final aim}{chapter.2}
+\BOOKMARK [1][]{section.2.1}{2.1 Final aim}{chapter.2}
+\BOOKMARK [1][]{section.2.2}{2.2 Preliminary aims}{chapter.2}
 \BOOKMARK [0][]{chapter.3}{3 Pilot sequencing \(Sanger method\)}{}
+\BOOKMARK [1][]{subsection.3.0.1}{3.0.1 Overview}{chapter.3}
+\BOOKMARK [2][]{subsection.3.0.2}{3.0.2 Initial quality screening}{subsection.3.0.1}
+\BOOKMARK [2][]{subsection.3.0.3}{3.0.3 rRNA screening}{subsection.3.0.1}
+\BOOKMARK [2][]{subsection.3.0.4}{3.0.4 Screening for host-contamination}{subsection.3.0.1}
 \BOOKMARK [0][]{chapter.4}{4 Evaluation of an assembly strategy for pyrosequencing reads}{}
 \BOOKMARK [1][]{section.4.1}{4.1 Overview}{chapter.4}
 \BOOKMARK [1][]{section.4.2}{4.2 The newbler first-order assembly}{chapter.4}
@@ -34,18 +37,30 @@
 \BOOKMARK [2][]{subsection.4.7.2}{4.7.2 Example use of the contig-measurements}{section.4.7}
 \BOOKMARK [1][]{section.4.8}{4.8 Finalising the fullest assembly set}{chapter.4}
 \BOOKMARK [0][]{chapter.5}{5 Pyrosequencing of the A. crassus transcriptome}{}
+\BOOKMARK [1][]{section.5.1}{5.1 Overview}{chapter.5}
+\BOOKMARK [1][]{section.5.2}{5.2 Sampling A. crassus}{chapter.5}
+\BOOKMARK [1][]{section.5.3}{5.3 Sequencing, trimming and pre-assembly screening}{chapter.5}
+\BOOKMARK [1][]{section.5.4}{5.4 Assembly}{chapter.5}
+\BOOKMARK [1][]{section.5.5}{5.5 Protein prediction}{chapter.5}
+\BOOKMARK [1][]{section.5.6}{5.6 Annotation}{chapter.5}
+\BOOKMARK [1][]{section.5.7}{5.7 Evolutionary conservation}{chapter.5}
+\BOOKMARK [1][]{section.5.8}{5.8 Identification of single nucleotide polymorphisms}{chapter.5}
+\BOOKMARK [1][]{section.5.9}{5.9 Polymorphisms associated with biological processes}{chapter.5}
+\BOOKMARK [1][]{section.5.10}{5.10 SNP markers for single worms}{chapter.5}
+\BOOKMARK [1][]{section.5.11}{5.11 Differential expression}{chapter.5}
 \BOOKMARK [0][]{chapter.6}{6 Transcriptomic divergence in a common garden experiment}{}
 \BOOKMARK [1][]{section.6.1}{6.1 Infection experiments}{chapter.6}
 \BOOKMARK [1][]{section.6.2}{6.2 Sample preparation and sequencing }{chapter.6}
 \BOOKMARK [1][]{section.6.3}{6.3 Examination of data-quality}{chapter.6}
-\BOOKMARK [1][]{section.6.4}{6.4 Expression differences in general linear models}{chapter.6}
-\BOOKMARK [2][]{subsection.6.4.1}{6.4.1 Foo}{section.6.4}
-\BOOKMARK [1][]{section.6.5}{6.5 Expression differences between worms in European and Japanese Eels}{chapter.6}
-\BOOKMARK [1][]{section.6.6}{6.6 Expression differences between worms in the European and Taiwanese worm-population}{chapter.6}
+\BOOKMARK [1][]{section.6.4}{6.4 Orthologous-screened expression differences}{chapter.6}
+\BOOKMARK [1][]{section.6.5}{6.5 Expression differences in general linear models}{chapter.6}
+\BOOKMARK [1][]{section.6.6}{6.6 Confirmation of contig categories through multivariate clustering}{chapter.6}
+\BOOKMARK [1][]{section.6.7}{6.7 Biological processes associated with DE contigs}{chapter.6}
 \BOOKMARK [0][]{chapter.7}{7 Discussion}{}
-\BOOKMARK [1][]{section.7.1}{7.1 Sanger-method pilot-sequencing}{chapter.7}
-\BOOKMARK [1][]{section.7.2}{7.2 454-pyrosequencing}{chapter.7}
-\BOOKMARK [1][]{section.7.3}{7.3 Experimental infections}{chapter.7}
+\BOOKMARK [1][]{section.7.1}{7.1 Overview}{chapter.7}
+\BOOKMARK [1][]{section.7.2}{7.2 Sanger-method pilot-sequencing}{chapter.7}
+\BOOKMARK [1][]{section.7.3}{7.3 454-pyrosequencing}{chapter.7}
+\BOOKMARK [1][]{section.7.4}{7.4 Experimental infections}{chapter.7}
 \BOOKMARK [0][]{chapter.8}{8 Materials \046 methods}{}
 \BOOKMARK [1][]{section.8.1}{8.1 Sampling of worms from wild eels \(Sanger- and pyro-sequencing\) }{chapter.8}
 \BOOKMARK [1][]{section.8.2}{8.2 RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{chapter.8}
@@ -55,7 +70,8 @@
 \BOOKMARK [1][]{section.8.6}{8.6 Transcriptomic divergence in a common garden experiment}{chapter.8}
 \BOOKMARK [2][]{subsection.8.6.1}{8.6.1 Experimental infeciton of eels}{section.8.6}
 \BOOKMARK [1][]{section.8.7}{8.7 RNA exrtaction and preparation of sequencing libraries}{chapter.8}
-\BOOKMARK [1][]{section.8.8}{8.8 Mapping and read-counts}{chapter.8}
-\BOOKMARK [1][]{section.8.9}{8.9 Statistical analysis}{chapter.8}
-\BOOKMARK [1][]{section.8.10}{8.10 Collapsing of orthologous for two model-species}{chapter.8}
-\BOOKMARK [0][]{section*.17}{References}{}
+\BOOKMARK [1][]{section.8.8}{8.8 Mapping and normalistion of read-counts}{chapter.8}
+\BOOKMARK [1][]{section.8.9}{8.9 Statistical analysis with GLMs}{chapter.8}
+\BOOKMARK [1][]{section.8.10}{8.10 Count-collapsing for orthologous from two model-species}{chapter.8}
+\BOOKMARK [1][]{section.8.11}{8.11 Multivarite confirmation of linear models}{chapter.8}
+\BOOKMARK [0][]{section*.15}{References}{}

@@ -2,18 +2,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Screening statistics for pilot sequencing}}{35}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Annotaion of putative host-derived sequences in the \textit {A. crassus}-dataset}}{38}{table.3.2}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Screening statistics for pilot sequencing}}{37}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Annotaion of putative host-derived sequences in the \textit {A. crassus}-dataset}}{40}{table.3.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics for the first-order assemblies}}{41}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces number of reads in assemblies}}{42}{table.4.2}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Example for assembly-measurements}}{51}{table.4.3}
-\contentsline {table}{\numberline {4.4}{\ignorespaces finalizing the assembly}}{52}{table.4.4}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics for the first-order assemblies}}{44}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces number of reads in assemblies}}{46}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Example for assembly-measurements}}{53}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces finalizing the assembly}}{54}{table.4.4}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Pyro-sequencing library statistics}}{59}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Assembly classification and contig statistics}}{60}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Evolutionary conservation and novelty}}{65}{table.5.3}
+\contentsline {table}{\numberline {5.4}{Over- and under-representation of GO-terms in positively selected}}{75}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Measurements of multi-locus heterozygosity for single worms}}{77}{table.5.5}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Linear model for recovery}}{83}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of RNA preparation}}{93}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Mapping Summary}}{94}{table.6.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Linear model for recovery}}{57}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of RNA preparation}}{63}{table.6.2}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Mapping Summary}}{64}{table.6.3}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces PCR protocol for insert amplification}}{70}{table.8.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces PCR protocol for insert amplification}}{104}{table.8.1}

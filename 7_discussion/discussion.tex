@@ -15,141 +15,398 @@
 
 
 % ----------------------- contents from here ------------------------
+\section{Overview}
+
 
 \section{Sanger-method pilot-sequencing}
 \label{sec:sanger-pil}
 
 In was not achieved to reproducibly alleviate the rRNA-levels in
-libraries prepared for sequencing.
-
-This has probably been due to the fact that extraction of total-RNA
-from worms filled with host blood resulted in low amounts of starting
-material, and amplification using standard kits did not allow to
-reproducibly alleviate rRNA abundance. As the same problems existed in
-preparation of liver tissue of the host species it seems likely that
-the blood of eels contains substances limiting the success of specific
-amplification protocols. In fact it is known that compounds like
-hemoglobin can inhibit PCR reactions \cite{pmid9327537} and reverse
-transcription \cite{pmid16109794}.
-
+libraries prepared for sequencing. This has probably been due to the
+fact that extraction of total-RNA from worms filled with host blood
+resulted in low amounts of starting material, and reaction conditions
+did not allow specific amplification of mRNA from a rRNA
+background. As the same problems existed in preparation of liver
+tissue of the host species it seems likely that the blood of eels
+contains substances limiting the success of specific amplification
+protocols. In fact it is known that compounds like hemoglobin can
+inhibit PCR reactions \cite{pmid9327537} and reverse transcription
+\cite{pmid16109794}.
 
 Nevertheless the stringent quality trimming and processing of raw
 reads, as summarized in \ref{pilot-seq}, made the remaining ESTs a
 valuable resource for comparison with future 454-sequencing-data.
 
-
+In fact all sequenced ESTs, for which host-orgin was inferrred were
+later found also in pyrosequencing: The observation hemoglobin and
+ferritin subunits form \textit{An. anguilla} are expected, as fish
+erythrocytes contain a nucleus and still transcribe genes actively
+\cite{pmid20614118} and these are typical proteins for the functioning
+of red blood cells. The overservation of fish cyclin G1 (in Sanger and
+pyrosequencing) and cohesin (in Sanger sequencing) is remarkable as
+fish erythrocytes are thought to exhibit low rates of mitosis
+\cite{pmid7506383}. Other obersvation of host-sequences like
+e.g. Leukocyte cell-derived chemotaxin 2 or natural killer
+cell-enhancing factor (NKEF)-B protein in pyrosequencing make an
+analysis of this fish-derived off-target data (form all sequencing
+technologies) a very promising, it is howerver beyond the scope of the
+present thesis.
 
 \section{454-pyrosequencing}
 \label{sec:454-pyr}
 
+We have generated a de novo transcriptome for \textit{A. crassus} an
+important invasive parasite that threatens wild stocks of the European
+eel \textit{An. anguilla}. These data enable a broad spectrum of
+molecular research on this ecologically and economically important
+parasite. As \textit{A. crassus} lives in close association with its
+host, we have used exhaustive filtering to attempt to remove all
+host-derived, and host-associated organism-derived contamination from
+the data. To do this we have also generated a transcriptome dataset
+from the definitive host \textit{An. japonica}. The non-nematode,
+non-eel data identified, particularly in the L2 sample, showed highest
+identity to flagellate protists, which may have been parasitising the
+eel (or the nematode). Encapsulated objects observed in eel swim
+bladder walls \cite{heitlinger_massive_2009} could be due solely to
+immune attrition of \textit{A. crassus} larvae or to other
+coinfections.
 
-We are providing transcriptome-data for the parasite
-\textit{A. crassus}, enabling a broad spectrum of molecular research
-on this ecologically and economically important species.
+A second examination of sequence origin was performed after assembly,
+employing higher stringency cutoffs.  Similar taxonomic screening was
+used in a garter snake transcriptome project \cite{pmid21138572}, and
+an analysis of lake sturgeon tested and rejected hypotheses of
+horizontal gene-transfer when xenobiont sequences were identified
+\cite{pmid20386959}. A custom pipeline for transcriptome assembly from
+pyrosequencing reads \cite{pmid20034392} proposed the use of EST3
+\cite{pmid17218127} to infer sequence origin based simply on
+nucleotide frequency. We were not able to use this approach
+successfully, probably due to the fact that xenobiont sequences in our
+data set derive from multiple sources with different GC content and
+codon usage.
 
-We emphasize the importance of screening for xenobiotics. We consider
-this aspect important in any deep transcriptome project. First the
-depth of sequencing is leading to the generation of large amounts of
-off-target data from a ``metatranscriptomic community'' associated with a
-target organism. Second due to the abundance of laboratory
-contamination and the possibility of cross-contamination if libraries
-are sequenced only on a subset of a picotiter-plate (i.e. without the
-use of barcodes distinguishing between samples \cite{pmid20137071})
-non-biological contamination can be introduced. 
-However, in the context of a parasite (or an infected host) the
-screening for off-target data and contamination becomes even more
-important: Correct inference of biological origin for a given contig
-constitutes a prerequisite for most downstream analysis or the
-interpretation of results.
+Compared to other NGS transcriptome sequencing projects
+\cite{pmid20478048}, the combined assembly approach (see
+\ref{sec:over-eval}) generated a smaller number of contigs that had
+lower redundancy and higher completeness. Projects using the mira
+assembler often report substantially greater numbers of contigs for
+datasets of similar size (see e.g. \cite{pmid21364769}), comparable to
+the mira sub-assembly in our approach. The use of oligo(dT) to capture
+mRNAs probably explains the bias towards 3' end completeness and a
+relative lack of true initiation codons in our protein
+prediction. This bias is near-ubiquitous in deep transcriptome
+sequencing projects (e.g. \cite{pmid20331785}).
 
-Cross-contamination from different compartments of a picolitre-plate
-was ruled out by our sequence provider, using Multiplex Indexes (MID)
-for one library and similarity searches to neighboring lanes for the
-other libraries.
+We were able to obtain high-quality annotations for a large set of
+TUGs: For 40\% of the complete assembly and 60\% of our highCA
+assembly \texttt{BLAST}-based annotations could be obtained. 45\% of
+the contigs in the highCA assembly were additionally decorated with
+domain-based annotations through \texttt{InterProScan}
+\cite{pmid11590104}.
 
-For the remaining off-target and contamination problem we archived
-separation of sequences in two steps, one before assembly, one
-afterward. Both screening-steps had to rely solely on sequence
-comparison. The screening-step before assembly has to employ lower
-stringency as sequence comparisons on sequence as short as reads are
-less informative than on longer contig-sequence. In our case of
-\textit{A. crassus}, neither of the two host species has genomic data
-available for use in similarity searches. A publicly available
-transcriptome-data-set for European eel \cite{pmid21080939} in addition
-to a unpublished data-set for the same species was augmented with a
-data-set generated from the Japanese eel sequenced for the purpose of
-screening \textit{A. crassus}-sequences in the present project. The
-pre-assembly screening had the rationale of facilitating the assembly
-process reducing the amount of divergent sequence from two
-host-species and the amount of extensively covered rRNA sequence. In
-our sequencing we were not able to reproducibly alleviate the rRNA
-coverage. This has probably been due to the fact that extraction of
-total-RNA from worms filled with host blood resulted in low amounts of
-starting material, and amplification using standard kits did not allow
-to reproducibly alleviate rRNA abundance. As the same problems
-existed in preparation of liver tissue of the host species it seems
-likely that the blood of eels contains substances limiting the success
-of specific amplification protocols. In fact it is known that
-compounds like hemoglobin can inhibit PCR reactions \cite{pmid9327537}
-and reverse transcription \cite{pmid16109794}.
+Comparison with complete protein sequence from the genomes of
+\textit{B. malayi} and \textit{C. elegans} showed a remarkable degree
+of agreement regarding the occurrence of terms in the two parasitic
+worms. This agreement was higher than with the free living nematode
+\textit{C. elegans} and even the two genome-sequencing-derived
+proteomes showed less agreement with each other than the filarial
+parasite with our dataset. This implies that our transcriptome is
+truly a representative partial genome
+\cite{parkinson_partigene--constructing_2004} of a parasitic nematode.
 
-Although raw reads with rRNA hits were screened out prior to assembly,
-it was still possible to gain insights from these off-target data, as
-we assembled and annotated screening databases. Some of the rRNA data
-especially from the L2 library showed high similarity to flagellate
-eukaryotes. It could be possibly derived from an unknown protist
-living in the swimbladder of eels (possibly as a commensal of
-\textit{A. crassus}), from where the L2 larvae for RNA-preparation
-were washed out. This seems worth further investigation, especially as
-it has been controversial whether encapsulated objects in the
-swimbladder of eels could be attributed solely to \textit{A. crassus}
-\cite{heitlinger_massive_2009} or to opportunist coinfections.
- 
-We were able to demonstrate, that screening of SNPs in or adjacent to
-homopolymer regions ``improved'' overall measurements on SNP-quality:
+Analysis of conservation identified more sequence novel in Nematode
+than in the eukaryote kingdom or in clade III this is in agreement
+with prevalence of genic novelty in the Nematoda
+\cite{wasmuth_extent_2008}. Furthermore the basal position of
+\textit{A. crassus} in clade III could be leading to most novelty in
+the clade not being shared with \textit{A. crassus}.
 
-First the ratio of transitions to transversions (ti/tv) increased.
-Such an increase is explainable by the removal of ``noise'' associated
-with common homopolymer-errors \cite{pmid21685085}. Assuming that
-errors would be independent of transversion-transition bias erroneous
-SNPs would have a ti/tv of 0.5 and thereby lower the overall
-value. Other explanations for these observations are hard to find so
-it can be concluded that removing noise from homopolymer
-sequencing-error ti/tv increases.  The value of XXX XXXX outside, XXX
+TUGs predicted to be novel in the phylum Nematoda and novel to
+\textit{A. crassus} contained the highest proportion of
+signal-positives. This confirms observations made in a study on
+\textit{Nippostrongylus brasiliensis} \cite{harcus_signal_2004}, where
+signal positives were reported as less conserved. Interestingly
+enrichment of signal sequence bearing TUGs in our dataset was
+constrained to sequences novel in nematodes and \textit{A. crassus}
+(i.e. not to the level of clade III). This may be explained, whit two
+different hypotheses involving the basal position of
+\textit{A. crassus}: First the signal positives shared with all
+nematodes could be conserved molecules not excreted by parasites. A
+different class of secreted/excreted molecules with prominent role in
+host parasite interactions would not have arisen early in the
+evolution of parasitism in clade III - or be too fast-evolving - and
+thus be detected as specific to deeper sub-clades (i.e. to
+\textit{A. crassus} in our dataset). A second explanation would be,
+that orthologs of excreted parasite-specific genes could be among
+those shared with other nematodes and the fewer shared with clade III
+implying a predisposition to parasitism outside of the Spirurina or
+even the convergent evolution of secreted molecules in other parasitic
+nematodes. However analysis of dn/ds (see below) across conservation
+categories favours the first hypothesis, as it identifies a higher
+amount of positive selection in TUGs novel to clade III and
+\textit{A. crassus} than to nematodes.
+
+We generated transcriptome data from multiple \textit{A. crassus} of
+Taiwanese and European origin, and identified SNPs both within and
+between populations. Screening of SNPs in or adjacent to homopolymer
+regions improved overall measurements of SNP quality. The ratio of
+transitions to transversions (ti/tv) increased. Such an increase is
+explained by the removal of ``noise'' associated with common homopolymer
+errors \cite{pmid21685085}. The value of 1.93 (1.25 outside, 2.41
 inside ORFs) is in good agreement with the overall ti/tv of humans
-(2.16) or \textit{Drosophila} (2.07 \cite{pmid21143862}).
+(2.16 \cite{pmid21169219}) or \textit{Drosophila} (2.07
+\cite{pmid21143862}). The ratio of non-synonymous SNPs per
+non-synonymous site to synonymous SNPs per synonymous site (dn/ds)
+decreased with removal of SNPs adjacent to homopolymer regions from
+0.42 to 0.231 after full screening. The most plausible explanation is
+the removal of error, as unbiased error would lead to a dn/ds of
+1. While dn/ds is not unproblematic to interpret within populations
+\cite{pmid19081788}, the assumption of negative (purifying) selection
+on most protein-coding genes makes lower mean values seem more
+plausible. We used a threshold value for the minority allele of 7\%
+for exclusion of SNPs, based on an estimate that approximately 10
+haploid equivalents were sampled (5 individual worms plus an
+negligible contribution from L2 larvae in the L2 library and within
+the female adult worms). The benefit of this screening was mainly a
+reduction of non-synonymous SNPs in high coverage contigs, and a
+removal of the dependence of dn/ds on coverage. Working with an
+estimate of dn/ds independent of coverage, efforts to control for
+sampling biased by depth (i.e. coverage; see \cite{pmid18590545} and
+\cite{pmid20478048}) could be avoided.
 
-The ratio of non-synonymous SNPs per non-synonymous site to synonymous
-SNPs per synonymous site (dn/ds) decreased with removal of SNPs
-adjacent to homopolymer regions from XXX  to
-XXXX after full screening. Similar to ti/tv it the most
-plausible explanation is the removal of error, as unbiased error would
-lead to a dn/ds of 1. While dn/ds is not unproblematic to interpret
-within populations \cite{pmid19081788}, assuming negative (purifying)
-selection on most protein-coding genes lower values seem more
-plausible, also in comparison with other studies (see further text).
+Also in comparison with published intra-species values of dn/ds our
+final estimate of seems plausible: in transcripts from the female
+reproductive tract of \textit{Drosophila} dn/ds was 0.15
+\cite{pmid15579698} and 0.21 in the male reproductive tract
+\cite{pmid11404480} (although for ESTs specific to the male accessory
+gland were shown to have a higher dn/ds of 0.47). A pyrosequencing
+study in the parasitic nematode \textit{Ancylostoma canium}
+\cite{pmid20470405} reported dn/ds of 0.3.
 
-We used a threshold value for the minority allele of 7\% for exclusion
-of SNPs, this corresponds to the ca. 10 ``haploid equivalents'' (5
-individual worms plus an negligible amount of L2 larvae - in the L2
-library and within the female adult worms - bearing possibly
-additional diversity). It is hard to explain, that ti/tv decreased in
-this filtering step, while dn/ds still further decreased.
+When the whole of coding sequences are studied, of which only a small
+subset of sites can be under diversifying selection, dn/ds of ~0.5 has
+been suggested as threshold for assuming diversifying selection
+\cite{pmid15579698} instead of the classical threshold of 1
+\cite{pmid6449605}. The use of this threshold for positive selection
+led to the identification of over-represented of GO-term highlighting
+very interesting transcripts:
 
-The benefit of this screening was mainly a reduction of non-synonymous
-SNPs in high coverage contigs. When it was applied dn/ds did not
-scale with coverage. Working with an estimate of dn/ds independent of
-coverage, efforts to control for sampling a biased by sampling depth
-(i.e. coverage) like developed \cite{pmid18590545} and used
-\cite{pmid20478048} could be avoided.  
+13 peptidases under positive selection (from 43 with a dn/ds obtained)
+meant an enrichment in the category. All 13 have different orthologs
+in \textit{B. malayi} and \textit{C. elgans} and are conserved across
+kingdoms. Despite their conservation peptidases are thought to have
+acquired new and prominent roles in host-parasite interaction compared
+to free living organisms: In \textit{A. crassus} a trypsin-like
+proteinase has been identified thought to be utilised by the
+tissue-dwelling L3 stage to penetrate host tissue and an aspartyl
+proteinase thought to be a digestive enzyme in adults
+\cite{polzer_identification_1993}. The 13 proteinases under positive
+selection could be the targets of the adaptive immunity developed
+against \textit{A. crassus} \cite{knopf_migratory_2008,
+  knopf_vaccination_2008}, which is often only elicited against
+subtypes of larvae \cite{molnar_caps}.
+
+The under-representation of ribosomal proteins (term ``structural
+constituent of ribosome'') in positive selected contigs is in good
+agreement with the notion that ribosomal proteins are extremely
+conserved across kingdoms \cite{pmid9664699} and should be under under
+strong negative selection.
+
+Genotyping of individual worms identified a set of 199
+SNPs with highest credibility and a high information content for
+population-genetic studies. Levels of genome-wide heterozygosity found
+for the 5 adult worms examined in our study are in agreement with
+microsattelite data \cite{wielgoss_population_2008} showing reduced
+heterozygosity in European populations of \textit{A. crassus}.
+
+We were able to use the DESeq \cite{pmid20979621} to report
+transcripts significantly differing in expression between male and
+female worms. This was possible for male worms, despite the fact that
+no replicated samples were obtained. However only over-expression in
+the non-repeated samples could be detected, as obviously lack of
+expression in one sample can't statistically validate
+under-expression. Genes over-expressed in male \textit{A. crassus}
+comprise major sperm proteins well known for their high expression in
+nematode sperm \cite{pmid15275275}.
+
+We developed a method to assess the possible influence of
+fragmentation of our reference-transcriptome on mapping. Using the
+annotation with orthologous sequences of \textit{C. elegans} and
+\textit{B. malayi} it is possible to highlight problems: For example a
+contig annotated as ``Phosphoenolpyruvate carboxykinase'' showed
+significant over-expression in the male. The 8 other contigs with this
+annotation however, were nearly identical for the middle region of
+their predicted proteins, had a high amount of homopolymeric regions in
+their nucleotide sequence and attracted the missing reads mapping from
+the other libraries. Our orthologous-collapsing method for read-counts
+following manual inspection, could thus exclude this contig as a
+false-positive.
+
+In the comparison of European with Asian libraries most
+differentially expressed contigs could be debunked as false positives
+with this method. From the 6 remaining contigs one was annotated with
+only one ortholog (`Contig200''), 3 were lacking any annotation
+(``Contig4'', ``Contig5311'' and ``Contig40''). The only contig with
+differential expression fully validated by our method (``Contig6355'')
+was annotated as (``Trypsin family protein''). The identification of
+another proteinase (it is not among those under positive selection) is
+highlighting the interesting nature of these molecules in
+\textit{A. crassus}.
+
+Analysis of the expression data made clear what data is required to
+analyse the differences in European vs. Asian nematodes: As variance
+is high in outbred individuals from natural populations both
+replication and depth of analysis have to be high. Furthermore it is
+important to disentangle the influence of the host and the nematode
+population e.g. in a co-inoculation experiment. The last approach
+would also allow the analysis of transcriptomes roughly synchronised
+for the time of development.
+
+The \textit{A. crassus} transcriptome provides a basis of molecular
+research on this important species. It further provides insight in
+the evolution of parasitism complementing the catalogue of available
+transcriptomic data with a member of the Spirurina phylogenetically
+distant to so far sequenced parasites in this clade.
+
 
 \section{Experimental infections}
 \label{sec:exp-inf}
 
+Whith some reservations discussed below our observation of higher
+recovery of adult worms from locally matching
+\textit{A. crassus}-\textit{Anguilla spp.}  host-parastite
+combinations allow the inferrence of local adaptation of the worm to a
+host-species.
+
+It has to be emphasized that the observations made in common-garden
+experiments first and foremost have to be interpreted as
+phenotypes. An ideally suited phenotype to infer local adaptation
+would be one with obviouse direct fitness-consequences, a so called
+fitness-component. Such a fitness-component would ideally be a
+measurement on a single individual and individual life-time
+reporductive success would be such an ideal measurement. However the
+techniques to measure this individual life-time reporductive success
+have not been established in \textit{A. crassus} and it would be very
+difficult to do so.
+
+The recovery of certain developmental stages of worms is not an
+optimal fitness-component. It is a composite measurement the speed of
+development from previouse lifecycle stages (or speed of migration
+towards the swimbladder) and of survival. While suvival is surely an
+important component of the fitness, it is not so clear if fast
+development and/or migration to the swimbladder are. It is immaginable
+that under certain requirements slower development could lead to
+higher fitness, if it would e.g. allow to develop without attracting
+the attention of the immune system. 
+
+Our results are also not in complete agreement with previouse findings
+by Weclawski et al. (unpublished; see \ref{div-ac}). Similar to our
+sutdy they found a higher recovery of the European population of worms
+in the European eel but did not find the complementary result of lower
+recovery in the Japanese eel. They recorded recovery at slightly
+different timepoints after infection (25, 50 and 100 dpi).
+
+
+A slight problem with recovery in the experiments is that this value
+is a mean measurement over many individuals.
+
+While mRNA abundance (or gene-exprssion in its synonymous meaning) is
+closely linked to a genetics basis, the observed value of expression
+in the expreient constituts a phenotype. Partly this phenotype has a
+genetic foundation partly it is ifluenced by environmental factors
+(such as host genotype).
+
+Nevertheless
+
+One of the dangers of genomic data and 
+
+Additionally, whereas functional effects are often caused by selec-
+tion, functional differences alone do not demonstrate the past or
+present action of selection.
+
+CHANGE
+Almost 30 years ago, Gould and Lewontin76 launched a crusade against
+the adaptive paradigm that functional differences must be adaptive,
+that is, caused by natural selection. Although their arguments were
+controversial at the time, they have been highly influential on the
+community of evolution- ary biologists. As a new generation of
+biologists with a background in genomics, molecular biology or bioin-
+formatics has taken leadership in the field of genomic evolutionary
+biology, the old lessons from Gould and Lewontin seem to have been
+forgotten. It is a desir- able addition to a story of selection to
+identify possible functional reasons why selection might be acting,
+but it will never be a method for identifying or verifying selection.
+CHANGE
+
+adaptationist \cite{gould_spandrels_1979} Nielsen genomics
+\cite{pmid19744124}
+
+
+--
 Such experiments have their problems because environmental factors,
 such as the general quality of the environment (i.e. water
 temperature) can interact with the host-environment
 \cite{kaltz_shykoff_rev}.
+--
+
+The orthologous screening method develped in the analysis of
+differential expression for the possibly fragmented transcriptome
+assembly uses stringent conditions for the detection
+significance. Demanding 
+
+---
+
+No surprise was the abundance of differential expression between male
+and female worms. A lage number of genes are known to be even
+sex-specific, regulating ovulation and spermatogenesis throughout the
+metazoa \cite{pmid16825664} and especially in nematodes
+\cite{pmid15987632}. On top of these sex-specific genes there is large
+number of genes differently expressed due to differences in
+metablolism between males and females.
+
+Sex specific genes, especially male specific genes show elevated rates
+of sequence evolution \cite{pmid11404480,pmid15371532}.
+
+A study on divergence between the transcriptome of \textit{Drosophila}
+species show that interspecific expression divergence is sex dependent
+\cite{pmid19720861} and inferred the action of sex-dependent natural
+selection during species divergence.
+
+in many species male-specific reproductive traits evolve faster than
+other traits (Eberhard 1985; Civetta and Singh 1998a).
+
+Genes differentially expressed between males and females can have
+generall highly modifieable expression level. 
+
+---
+
+A surprise was the low number of genes detected as differentially
+between the two host-species. The genetic differences in those host
+species leading to a different immune response have a big influence on
+other phenotypes of worms.
+
+Genes identified to differ between populatins can be rather
+categorized as important in general metabolic processes instead of
+specific host-parasite intereaction.
+
+
+
+Interpro lists 164 entries for \textit{C. elegans} ``Nematode cuticle
+collagen, N-terminal''
+(\href{http://www.ebi.ac.uk/interpro/ISpy?ipr=IPR002486&tax=6239}{IPR002486})
+and 51 for \textit{B. malayi}
+(\href{http://www.ebi.ac.uk/interpro/ISpy?ipr=IPR002486&tax=6279}{IPR002486}).
+
+
+Aerobic respiration is potential source for oxidative stress providing
+a steady source of reactive oxigen species (ROS) as electrons are
+leaking from the respiratory chain as superoxide anions.
+
+It is well established that such ROS production is especially harmful
+to blood-feeding parasites, as free inorganic iron as well as heme are
+generating additional ROS.
+
+An increase in glycogenic enzymes was observed in \textit{Aedes}
+
 
 %%% Local Variables: ***
 %%% mode:latex ***
