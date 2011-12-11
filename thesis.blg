@@ -16,48 +16,48 @@ A level-1 auxiliary file: 8_material_methods/materials_methods.aux
 The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
-Reallocated field_info (elt_size=4) to 11210 items from 5000.
+Reallocated field_info (elt_size=4) to 11237 items from 5000.
 Database file #1: /home/ele/bibtex/master.bib
 Database file #2: /home/ele/bibtex/master2.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 230 entries,
+You've used 231 entries,
             2776 wiz_defined-function locations,
-            1925 strings with 77685 characters,
-and the built_in function-call counts, 159070 in all, are:
-= -- 14675
-> -- 12895
+            1929 strings with 78031 characters,
+and the built_in function-call counts, 159753 in all, are:
+= -- 14734
+> -- 12958
 < -- 7
-+ -- 5144
-- -- 4896
-* -- 15192
-:= -- 26517
-add.period$ -- 694
-call.type$ -- 230
-change.case$ -- 2907
++ -- 5169
+- -- 4920
+* -- 15257
+:= -- 26635
+add.period$ -- 697
+call.type$ -- 231
+change.case$ -- 2921
 chr.to.int$ -- 0
-cite$ -- 230
-duplicate$ -- 3363
-empty$ -- 8887
-format.name$ -- 4896
-if$ -- 32879
+cite$ -- 231
+duplicate$ -- 3377
+empty$ -- 8921
+format.name$ -- 4920
+if$ -- 33018
 int.to.chr$ -- 0
-int.to.str$ -- 230
-missing$ -- 230
-newline$ -- 1157
-num.names$ -- 460
-pop$ -- 3433
+int.to.str$ -- 231
+missing$ -- 231
+newline$ -- 1162
+num.names$ -- 462
+pop$ -- 3449
 preamble$ -- 1
-purify$ -- 2906
+purify$ -- 2920
 quote$ -- 0
-skip$ -- 5388
+skip$ -- 5411
 stack$ -- 0
-substring$ -- 6297
-swap$ -- 1008
+substring$ -- 6311
+swap$ -- 1012
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 914
+type$ -- 918
 warning$ -- 0
-while$ -- 865
-width$ -- 233
-write$ -- 2529
+while$ -- 868
+width$ -- 234
+write$ -- 2540

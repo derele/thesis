@@ -788,12 +788,16 @@ comparison, validation and hypothesis generation when new
 transcriptomes are analysed as in the present project.
 
 Obviously NGS also leaves it's marks currently in nematode
-transcriptomics: While NGS analysis on the transcriptomes of
+transcriptomics: NGS analysis on the transcriptomes of
 \textit{Ancylostoma caninum} \cite{pmid20470405}, \textit{Pristionchus
   pacificus} \cite{pmid20237107}, \textit{Litomosoides sigmodontis}
 \cite{pmid20950480} and \textit{Ascaris suum} \cite{pmid21685128} have
-been published a recent review \cite{pmid22044053} lists 8 datasets
-for other species already available in public repositories.
+been published and a recent review \cite{pmid22044053} lists 8 further
+datasets for other species already available in public
+repositories. Additionally for \textit{Haemonchus contortus}
+pyrsequencing-transcriptome has been published \cite{pmid20420710}
+unnoticed by the above review, illustrating the explosive expansion of
+data and publications.
 
 \subsection{Advances in sequencing technology}
 \label{sec:ad-seq}
@@ -1120,13 +1124,13 @@ digital transcriptomics) needs a standardized vocabulary in a
 datastucture across species and databases. Gene ontolgy (GO) provides
 such an vocabulary of controlled terms.  The terms are organized in an
 directed, acyclic graph. This means, that a hierarchical stucture
-links lower level terms to higher level terms through a standardized
-set of directional relations, back-links forming circles are not
-allowed \cite{pmid10802651,pmid22123736}. E.g. ``endopeptidase
-activity'' ``is a'' ``peptidase activity'', not the other way
-round. The ``is a`` in the previous sentence is such a directional
-realtion and other possible links would be e.g. ``part of'' or
-``regulates''.
+links lower level ``child''-terms (more specific) to higher level
+``parent''-terms (less specific) through a standardized set of
+directional relations. Back-links forming circles are not allowed
+\cite{pmid10802651,pmid22123736}. E.g. ``endopeptidase activity'' ``is
+a'' ``peptidase activity'', not the other way round. The ``is a`` in
+the previous sentence is such a directional realtion and other
+possible links would be e.g. ``part of'' or ``regulates''.
 
 
 \subsection{Applications of NGS in ecology and evolution and

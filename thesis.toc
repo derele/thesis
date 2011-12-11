@@ -57,22 +57,26 @@
 \contentsline {section}{\numberline {6.5}Expression differences in general linear models}{84}{section.6.5}
 \contentsline {section}{\numberline {6.6}Confirmation of contig categories through multivariate clustering}{89}{section.6.6}
 \contentsline {section}{\numberline {6.7}Biological processes associated with DE contigs}{89}{section.6.7}
-\contentsline {chapter}{\numberline {7}Discussion}{95}{chapter.7}
-\contentsline {section}{\numberline {7.1}Overview}{95}{section.7.1}
-\contentsline {section}{\numberline {7.2}Sanger-method pilot-sequencing}{95}{section.7.2}
-\contentsline {section}{\numberline {7.3}454-pyrosequencing}{96}{section.7.3}
-\contentsline {section}{\numberline {7.4}Experimental infections}{100}{section.7.4}
-\contentsline {chapter}{\numberline {8}Materials \& methods}{103}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{103}{section.8.1}
-\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{103}{section.8.2}
-\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{104}{section.8.3}
-\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{105}{section.8.4}
-\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{106}{section.8.5}
-\contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{110}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{110}{subsection.8.6.1}
-\contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{110}{section.8.7}
-\contentsline {section}{\numberline {8.8}Mapping and normalistion of read-counts}{111}{section.8.8}
-\contentsline {section}{\numberline {8.9}Statistical analysis with GLMs}{112}{section.8.9}
-\contentsline {section}{\numberline {8.10}Count-collapsing for orthologous from two model-species}{112}{section.8.10}
-\contentsline {section}{\numberline {8.11}Multivarite confirmation of linear models}{112}{section.8.11}
-\contentsline {chapter}{References}{113}{section*.15}
+\contentsline {section}{\numberline {6.8}Single gene differences}{89}{section.6.8}
+\contentsline {chapter}{\numberline {7}Discussion}{101}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overview}{101}{section.7.1}
+\contentsline {section}{\numberline {7.2}Sanger-method pilot-sequencing}{101}{section.7.2}
+\contentsline {section}{\numberline {7.3}454-pyrosequencing}{102}{section.7.3}
+\contentsline {section}{\numberline {7.4}Experimental infections}{106}{section.7.4}
+\contentsline {chapter}{\numberline {8}Materials \& methods}{109}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{109}{section.8.1}
+\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{109}{section.8.2}
+\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{110}{section.8.3}
+\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{111}{section.8.4}
+\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{112}{section.8.5}
+\contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{116}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{116}{subsection.8.6.1}
+\contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{116}{section.8.7}
+\contentsline {section}{\numberline {8.8}Mapping and normalistion of read-counts}{117}{section.8.8}
+\contentsline {section}{\numberline {8.9}Statistical analysis with GLMs}{118}{section.8.9}
+\contentsline {section}{\numberline {8.10}Count-collapsing for orthologous from two model-species}{118}{section.8.10}
+\contentsline {section}{\numberline {8.11}Multivarite confirmation of linear models}{118}{section.8.11}
+\contentsline {chapter}{References}{119}{section*.15}
+\contentsline {chapter}{\numberline {9}Additional tables and figures}{131}{chapter.9}
+\contentsline {section}{\numberline {9.1}Additional tables}{131}{section.9.1}
+\contentsline {section}{\numberline {9.2}Additional figures}{131}{section.9.2}
