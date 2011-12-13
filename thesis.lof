@@ -33,20 +33,21 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Recovery of worms in cross-infection experiment}}{82}{figure.6.1}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between RNA-seq read-count for different samples}}{85}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{86}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Venn diagramm of contigs significant for different terms in \texttt {edgeR}-GLMs}}{88}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Constrained redundancy analysis for host-DE contigs}}{90}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Constrained redundancy analysis for population-DE contigs}}{91}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{92}{figure.6.7}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{89}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Venn diagramm of contigs significant for different terms in \texttt {edgeR}-GLMs}}{91}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Constrained redundancy analysis for host-DE contigs}}{95}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Constrained redundancy analysis for population-DE contigs}}{96}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces GO biological process graph for enriched terms in DE according to worm-population}}{97}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{98}{figure.6.8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in DE according to sex}}{132}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to sex}}{133}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces GO molecular function graph for enriched terms in DE according to sex}}{134}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces GO biological process graph for enriched terms in DE according to eel-host}}{135}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to eel-host}}{136}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces GO molcular function graph for enriched terms in DE according to eel-host}}{137}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces GO biological process graph for enriched terms in DE according to worm-population}}{138}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to worm-population}}{139}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces GO molecular function graph for enriched terms in DE according to worm-population}}{140}{figure.9.9}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in DE according to sex}}{136}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to sex}}{137}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces GO molecular function graph for enriched terms in DE according to sex}}{138}{figure.9.3}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces GO biological process graph for enriched terms in DE according to eel-host}}{139}{figure.9.4}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to eel-host}}{140}{figure.9.5}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces GO molcular function graph for enriched terms in DE according to eel-host}}{141}{figure.9.6}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces GO biological process graph for enriched terms in DE according to worm-population}}{142}{figure.9.7}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to worm-population}}{143}{figure.9.8}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces GO molecular function graph for enriched terms in DE according to worm-population}}{144}{figure.9.9}

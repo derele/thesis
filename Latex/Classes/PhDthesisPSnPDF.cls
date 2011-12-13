@@ -45,6 +45,8 @@
 %\usepackage[urw-garamond]{mathdesign}
 \usepackage{sectsty}
 
+%%\usepackage[utf8]{inputenc} %% ß et al.
+
 \usepackage{afterpage}
 \usepackage{longtable}
 \usepackage{amssymb}

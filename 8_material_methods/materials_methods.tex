@@ -451,21 +451,21 @@ Generalized linear models were used as implemented in \texttt{edgeR}
 expression was regresses on worm-sex, host-species and parasite
 population, including all their interactions and modeled as negative
 binomial distributed. The full model thus contained terms $ S_i + H_j
-+ P_k + (S × H)_{ij} + (S x P)_{ik} + (H x P)_{jk} + (S x H x
-P)_{ijk}$ where $S_i$ is the effect of the ith sex (male or female),
-$H_j$ is the effect of the ith host specis (\textit{An. anguilla} or
-\textit{An. japonica}), $P_k$ is the effect of the kth population
-(European or Asian), $(S × H)_{ij}$ is the sex-by-species interaction
-and similarly for the other interactions.
++ P_k + (SH)_{ij} + (SP)_{ik} + (HP)_{jk} + (SHP)_{ijk}$ where $S_i$
+is the effect of the ith sex (male or female), $H_j$ is the effect of
+the ith host specis (\textit{An. anguilla} or \textit{An. japonica}),
+$P_k$ is the effect of the kth population (European or Asian),
+$(SH)_{ij}$ is the sex-by-species interaction and similarly for the
+other interactions.
 
 The hierarchical nature of generalized linear models was respected
 considering (removing) all interaction effects of a main-term
-(e.g. $(S x P)_{ik}$, $(S × H)_{ij}$ and $(S x H x P)_{ijk}$) when
-analysing models for the significance of that term
-(e.g. $S_i$). Resulting p-values were corrected for multiple testing
-using the method of Benjamini and Hochberg
-\cite{benjamini1995controlling}. Differential expression was inferred
-at a false discovery rate (FDR) of 5\% (adjusted p-value of 0.05).
+(e.g. $(SP)_{ik}$, $(SH)_{ij}$ and $(SHP)_{ijk}$) when analysing
+models for the significance of that term (e.g. $S_i$). Resulting
+p-values were corrected for multiple testing using the method of
+Benjamini and Hochberg \cite{benjamini1995controlling}. Differential
+expression was inferred at a false discovery rate (FDR) of 5\%
+(adjusted p-value of 0.05).
 
 \section{Count-collapsing for orthologous from two model-species}
 \label{collapse}
