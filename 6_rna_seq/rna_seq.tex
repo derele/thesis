@@ -18,6 +18,8 @@
 
 %: ----------------------- contents from here ------------------------
 
+\section{Overview}
+
 
 \section{Infection experiments}
 
@@ -112,24 +114,24 @@ AA/T20F & female & AA & Taiwan & 1 & 1 & 5.60 \\
   AA/T24M & male & AA & Taiwan & 6 & 3 & 4.80 \\ 
   AA/T42M & male & AA & Taiwan & 11 & 1 & 5.60 \\ 
   AA/T3M & male & AA & Taiwan & 5 & 4 & 4.88 \\ 
-  AA/R18F & female & AA & Europe & 4 & 1 & 4.80 \\ 
-  AA/R28F & female & AA & Europe & 10 & 1 & 5.20 \\ 
-  AA/R8F & female & AA & Europe & 27 & 1 & 5.20 \\ 
-  AA/R16M & male & AA & Europe & 10 & 4 & 5.20 \\ 
-  AA/R11M & male & AA & Europe & 25 & 14 & 6.40 \\ 
-  AA/R2M & male & AA & Europe & 10 & 4 & 6.60 \\ 
+  AA/R18F & female & AA & Europe (R) & 4 & 1 & 4.80 \\ 
+  AA/R28F & female & AA & Europe (R) & 10 & 1 & 5.20 \\ 
+  AA/R8F & female & AA & Europe (B) & 27 & 1 & 5.20 \\ 
+  AA/R16M & male & AA & Europe (R) & 10 & 4 & 5.20 \\ 
+  AA/R11M & male & AA & Europe (R) & 25 & 14 & 6.40 \\ 
+  AA/R2M & male & AA & Europe (B) & 10 & 4 & 6.60 \\ 
   AJ/T8F & female & AJ & Taiwan & 10 & 1 & 5.91 \\ 
   AJ/T5F & female & AJ & Taiwan & 2 & 1 & 4.80 \\ 
   AJ/T26F & female & AJ & Taiwan & 2 & 1 & 2.40 \\ 
   AJ/T25M & male & AJ & Taiwan & 24 & 5 & 4.05 \\ 
   AJ/T19M & male & AJ & Taiwan & 24 & 7 & 3.50 \\ 
   AJ/T20M & male & AJ & Taiwan & 20 & 8 & 3.80 \\ 
-  AJ/R1F & female & AJ & Europe & 3 & 1 & 5.92 \\ 
-  AJ/R3F & female & AJ & Europe & 3 & 1 & 6.90 \\ 
-  AJ/R5F & female & AJ & Europe & 10 & 1 & 4.04 \\ 
-  AJ/R1M & male & AJ & Europe & 3 & 1 & 2.50 \\ 
-  AJ/R3M & male & AJ & Europe & 3 & 2 & 2.60 \\ 
-  AJ/R5M & male & AJ & Europe & 10 & 1 & 2.23 \\ 
+  AJ/R1F & female & AJ & Europe (R) & 3 & 1 & 5.92 \\ 
+  AJ/R3F & female & AJ & Europe (R) & 3 & 1 & 6.90 \\ 
+  AJ/R5F & female & AJ & Europe (B) & 10 & 1 & 4.04 \\ 
+  AJ/R1M & male & AJ & Europe (R) & 3 & 1 & 2.50 \\ 
+  AJ/R3M & male & AJ & Europe (R) & 3 & 2 & 2.60 \\ 
+  AJ/R5M & male & AJ & Europe (B) & 10 & 1 & 2.23 \\ 
    \hline
 \end{tabular}
 \caption[Summary of RNA preparation]{\textbf{A summary of all 24
@@ -137,8 +139,10 @@ AA/T20F & female & AA & Taiwan & 1 & 1 & 5.60 \\
   follows a convention based on the eel species (host; first two
   letter of label, AA for \textit{An. anguilla} AJ for
   \textit{An. japonica}), worm population (population - R for
-  European, T for Taiwanese; letter after the slash) and sex of
-  worm(s) in preparation (F for female, M for male; last letter in
+  European, T for Taiwanese; letter after the slash in the label, note
+  however, that the European samples were from two locations: River
+  Rhein, R and Berlin, B in population column) and sex of worm(s) in
+  preparation (F for female, M for male; last letter in
   label). Additionally the intensity of infection (number of adult
   worms found in the infected eel; intensity) and the number of worms
   pooled in the preparation (only male worms are pooled for RNA
@@ -149,30 +153,27 @@ AA/T20F & female & AA & Taiwan & 1 & 1 & 5.60 \\
 \end{center}
 \end{table}
 
-\afterpage{\clearpage}
+%% \afterpage{\clearpage}
 
 Sequencing was performed in three multiplexed pools of eight libraries
 each. The samples were partitioned into these pools spreading
-replicates over lanes in a blocking design to further guarantee
-statistical independence from sequencing-lane effects. Each pool of
-eight was sequenced on two lanes, giving in total six lanes of data
-and two technical replicates for each library. Sequencing resulted in
-a total of 263.668.952 raw sequencing read-pairs.
+replicates for each condition over the all three pools to further
+guarantee statistical independence from sequencing-lane effects. Each
+pool of eight was sequenced on two lanes, giving in total six lanes of
+data and two technical replicates for each library. Sequencing
+resulted in a total of 263.668.952 raw sequencing read-pairs.
 
 \section{Examination of data-quality}
 
-Reads were mapped against the fullest assembly (see
+Reads were mapped against the fullest pyrosequencing-assembly (see
 \ref{sec:final-full-assembly}) using \texttt{BWA}
 \cite{pmid20080505}. Of the 263.668.952 raw read-pairs 173.602.387
 mapped uniquely to the assembly and were counted on a per-library
-base.
+base. 
 
-Read counts for one library were originally obtained from two
-different technical replicate lanes of a flow-cell. The technical
-replicate of read-counts demonstrated very low differences as inferred
+The technical replicates demonstrated very low differences as inferred
 from a clustering analysis using variance stabilized data and
-euclidian distances as implemented in \texttt{DESeq}
-\cite{pmid20979621} (see \ref{heat_tech_rep}).
+euclidian distances (see figure \ref{heat_all} a).
 
 \figuremacroW{heat_all}{Distances between RNA-seq read-count for
   different samples}{Euclidean distance (square distance between the
@@ -223,7 +224,7 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
   AJ\_T8F & 14196382 & 10275074 & 9496489 & 8364594 \\ 
    \hline
 \end{tabular}
-\caption[Mapping Summary]{\textbf{Maping summarized for all 24
+\caption[mapping Summary]{\textbf{Maping summarized for all 24
     libraries -} Rows indicate different libraries (worms or
   worm-pools as indicated in \ref{tab:lib-prep}) raw.reads gives the
   number of read-paires sequenced, raw.mapped the number of reads
@@ -236,9 +237,9 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
 \end{center}
 \end{table}
 
-\afterpage{\clearpage}
+%% \afterpage{\clearpage}
 
-After another screening for spurious read-counts to low covered
+After another screening for spurious read-counts to low coverage
 transcripts and to transcripts of low relieability (lowCA in the
 454-assembly; see \ref{sec:final-full-assembly}) 137.477.156
 read-pairs were left for further analysis. Distribution of these
@@ -254,35 +255,45 @@ library AJ\_R3M to 9.453.468 read-pairs for library AA\_R8F (see
   the genes with the biggest changes, i.e. the log2-fold-change for
   the genes that distinguish the samples.}
 
+\afterpage{\clearpage}
+
 These reads mapped to 7520 contigs from our 454 assembly, making them
-the basis for all further inverstigations. Analysis of between-sample
-distance confirmed the library clustering. Sex of the worms defined
-the overall distances between libraries, host- or
+the basis for all further inverstigations. 
+
+Cluster analysis of variance stablilized expression levels grouped
+libraries according to the sex of worms (the greatest effect), but was
+unable to identify libraries with expression correlated in more subtle
+ways (see figure \ref{heat_all} b). Principle coordinate analysis of
+between-sample distance confirmed this library clustering. Sex of the
+worms defined the overall distances between libraries, host- or
 population-differences were not visible in an overall effect in the
-top differentially expressed (DE) genes (see figure \ref{mds}).
+top differentially expressed (DE) genes (see figure \ref{mds}). Male
+samples showed a smaller variance in congruence with the fact that
+they were made form pooled individuals balancing expression
+differences for individual worms.
 
-\section{Orthologous-screened expression differences}
+\section{Orthologous screeing for expression differences}
 
-For the 7520 contigs with analysed exprssion values 4382
+For the 7520 contigs with exprssion values 4382
 \textit{C. elegans}-orthologs and 4292 \textit{B. malayi}-orthologs
-with read more than 32 read-counts over all libraries were determined
-based on the annotation of the assembly (see \ref{454-annot}). This
-resulted in 3596 contigs with measured expression also having a
-measurement for a corresponding orhtolog (or group of orthologs) in
-both model-species and thus being available for analysis.
+were determined based on the annotation of our pyrosequencing-assembly
+(see \ref{454-annot}). This resulted in 3596 contigs with an
+expression measurement, having a measurement also for corresponding
+orhtologs (or group of orthologs) in both model-species and thus being
+available for analysis.
 
 For all further evaluations the congruence of the basic contig-based
-statistics with orthologous-derived statistics is considered.
+statistics with orthologous-confirmed (OC) statistics is considered.
 
-\section{Expression differences in general linear models}
+\section{Expression differences in generalized linear models}
 
 Generalized linear models (GLMs) were used as implemented in the
 R-package \texttt{edgeR}. Using these models we obtained 2588 contigs
 (34\% of total) DE between male and female worms at a false discovery
 rate (FDR) of 5\%. 1101 (31\% of total orthologous available) of these
 contigs of were confirmed by contigs in the orthologous
-evaluation. 1425 (556 orthologous confirmed; OC) of these were
-upregulated in male worms 1163 (545 OC) upregulated in female worms.
+evaluation. 1425 (556 OC) of these were upregulated in male worms 1163
+(545 OC) upregulated in female worms.
 
 At the same threshold 55 contigs (0.7\% of total; 9, 0.25\% OC) showed
 significant differential response to the host-species. 38 (5 OC) were
@@ -325,7 +336,7 @@ for the 3-way interaciton (see figure \ref{venn_mod_man}). It should
 be noted, that conclusions drawn from of simple main effects do not
 necessarily hold for contigs with significant interaction effects
 (e.g. significantly higher expression in European population can then
-mean higher only in \textit{An. anguilla}).
+mean higher values only in one of the host-species).
 
 \figuremacroW{venn_mod_man}{Venn diagramm of contigs significant for
   different terms in \texttt{edgeR}-GLMs}{Overlap between differences
@@ -335,6 +346,8 @@ mean higher only in \textit{An. anguilla}).
   for interaction effects are indicated in red for comparison. In (a)
   values for all contigs are given in (b) for orhtolog-confirmed (OC)
   contigs.}{0.6}
+
+\afterpage{\clearpage}
 
 In summary, a low amount of overlap in main effects between
 populations and host-species compared to the other main-effect
@@ -359,8 +372,8 @@ difference between eel-host droped to 3.3\% and the explained variance
 for differences between worm-population was raised to 23\%, while the
 sex-effect explained 70\% and 50\% of the variance (see figure
 \ref{pca_eel} b and \ref{pca_pop} b). Significance of the constrained
-component reported ba a premutation could be established at a p = 0.05
-threshold for all but the OC eel-host DE subset.
+component evaluated by a premutation could be established at a p $<$
+0.05 threshold for all but the OC eel-host DE subset.
 
 \figuremacroW{pca_eel}{Constrained redundancy analysis for host-DE
   contigs}{Eel-host differences are displayed as constrained component
@@ -467,13 +480,12 @@ face. However, annotations for contigs DE between eel-hosts
 highlighted redundant terms associated with ``antigen processing and
 presentation'' proteins which are in mammals usually involved in
 antigen processing and cleavage of the invariant chain of the MHCII
-complex. These terms led to Contig566 and Contig26 and thier
+complex. These terms led to Contig566 and Contig26 and their
 \textit{B. malayi}-orthologs ``Aspartic protease BmAsp-1, identical''
 and ``Eukaryotic aspartyl protease family protein''. In blood feeding
 helminths these enzymes are rather involved in early cleavage events
-during the digestion of host haemoglobin \cite{pmid12782060}.
+during the digestion of host hemoglobin \cite{pmid12782060}.
 
-For contigs DE between worm populations despite the small 
 
 \figuremacro{tGO_pop_BP_classic_10_all}{GO biological process graph
   for enriched terms in DE according to worm-population}{Subgraph of
@@ -482,27 +494,54 @@ For contigs DE between worm populations despite the small
   populations. Boxes indicate the 10 most significant terms. Box color
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  categoy-identifier, a (eventualy truncated) description of the term,
+  categoy-identifier, a (eventually truncated) description of the term,
   the significance for enrichment and the number of DE / total number
   of annotated gene is given. Black arrows indicate a is ``is-a''
   relationship.}
 
+For contigs DE between worm populations despite the limited number of
+DE contigs, enrichment analysis identified ``oxidoreductase activity''
+as an informative significantly enriched higher level term (see figure
+\ref{tGO_pop_MF_classic_10_all}). The biological processes ``response
+to metal ion'' and ``mitochondiral electron transport'' (see
+figure\ref{tGO_pop_BP_classic_10_all}) confirmed an evaluation linking
+these maily to enzymes used in respiratory processes and highlighted
+other enzymes from lipid metabolism.
+
+
+\section{Clustering analysis}
+
+Clustering alalysis revealed...
 
 \figuremacro{pop_all_heat}{Variance/mean stabilized expression values
   for contigs different between populations}{green indicates
   expression below the mean, red above the mean}
 
 
-
-
 \section{Single gene differences}
 \label{sec:single-gene-diff}
 
+Tables on single transcript values of OC contigs DE between eel-hosts
+and populations can be found in additonal tables \ref{eel.sing.diff}
+and \ref{pop.sing.diff}. Obviousely for some contigs differences are
+rendered unaccessible by comparing simple mean values because of
+superposed interaction effects.
 
+Cytochrome C oxidase subunit 2 (COX II) showed the clearest of all
+expression patterns for any of the observed genes. It differed
+significantly only between populations (showed no reaction an any
+other factor) and was over 8-fold stronger expressed in the Taiwanese
+population. Counts summed for orhologs were also significant only for
+this factor and showed over 2.5-fold stronger expression in the same
+direction. This accounts to the fact, that misassembled contigs
+containing fragments of COX II were only adding experimental noise.
 
+Malate/L-lactate dehydrogenase and a 3-hydroxyacyl-CoA dehydrogenase
+were also following more complicated expression patterns
 
+Two cholesterol acyltransferase transcipts
 
-
+Malate/L-lactate dehydrogenase    aspatyl protease
 
 
 

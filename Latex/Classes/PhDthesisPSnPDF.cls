@@ -435,6 +435,19 @@
 {\end{quote}\end{alwayssingle}}
 
 
+
+% \newenvironment{CV} {\begin{alwayssingle} \pagestyle{empty}
+%   \begin{center}
+%   \vspace*{1.5cm}
+%   {\Large \bfseries  Curriculum vitae}
+%   \end{center}
+%   \vspace{0.5cm}
+%    \begin{quote}}
+% {\end{quote}\end{alwayssingle}}
+
+
+
+
 %:-------------------------- page numbers: roman+arabic -----------------------
 
 % ROMANPAGES

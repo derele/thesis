@@ -1,6 +1,5 @@
 \BOOKMARK [0][]{section*.3}{List of Figures}{}
 \BOOKMARK [0][]{section*.5}{List of Tables}{}
-\BOOKMARK [0][]{chapter*.6}{Glossary}{}
 \BOOKMARK [0][]{chapter.1}{1 Introduction}{}
 \BOOKMARK [1][]{section.1.1}{1.1 The study organism: Anguillicola crassus}{chapter.1}
 \BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Ecological significance}{section.1.1}
@@ -49,19 +48,21 @@
 \BOOKMARK [1][]{section.5.10}{5.10 SNP markers for single worms}{chapter.5}
 \BOOKMARK [1][]{section.5.11}{5.11 Differential expression}{chapter.5}
 \BOOKMARK [0][]{chapter.6}{6 Transcriptomic divergence in a common garden experiment}{}
-\BOOKMARK [1][]{section.6.1}{6.1 Infection experiments}{chapter.6}
-\BOOKMARK [1][]{section.6.2}{6.2 Sample preparation and sequencing }{chapter.6}
-\BOOKMARK [1][]{section.6.3}{6.3 Examination of data-quality}{chapter.6}
-\BOOKMARK [1][]{section.6.4}{6.4 Orthologous-screened expression differences}{chapter.6}
-\BOOKMARK [1][]{section.6.5}{6.5 Expression differences in general linear models}{chapter.6}
-\BOOKMARK [1][]{section.6.6}{6.6 Confirmation of contig categories through multivariate clustering}{chapter.6}
-\BOOKMARK [1][]{section.6.7}{6.7 Biological processes associated with DE contigs}{chapter.6}
-\BOOKMARK [1][]{section.6.8}{6.8 Single gene differences}{chapter.6}
+\BOOKMARK [1][]{section.6.1}{6.1 Overview}{chapter.6}
+\BOOKMARK [1][]{section.6.2}{6.2 Infection experiments}{chapter.6}
+\BOOKMARK [1][]{section.6.3}{6.3 Sample preparation and sequencing }{chapter.6}
+\BOOKMARK [1][]{section.6.4}{6.4 Examination of data-quality}{chapter.6}
+\BOOKMARK [1][]{section.6.5}{6.5 Orthologous screeing for expression differences}{chapter.6}
+\BOOKMARK [1][]{section.6.6}{6.6 Expression differences in generalized linear models}{chapter.6}
+\BOOKMARK [1][]{section.6.7}{6.7 Confirmation of contig categories through multivariate clustering}{chapter.6}
+\BOOKMARK [1][]{section.6.8}{6.8 Biological processes associated with DE contigs}{chapter.6}
+\BOOKMARK [1][]{section.6.9}{6.9 Clustering analysis}{chapter.6}
+\BOOKMARK [1][]{section.6.10}{6.10 Single gene differences}{chapter.6}
 \BOOKMARK [0][]{chapter.7}{7 Discussion}{}
-\BOOKMARK [1][]{section.7.1}{7.1 Overview}{chapter.7}
-\BOOKMARK [1][]{section.7.2}{7.2 Sanger-method pilot-sequencing}{chapter.7}
-\BOOKMARK [1][]{section.7.3}{7.3 454-pyrosequencing}{chapter.7}
-\BOOKMARK [1][]{section.7.4}{7.4 Experimental infections}{chapter.7}
+\BOOKMARK [1][]{section.7.1}{7.1 Pilot-sequencing}{chapter.7}
+\BOOKMARK [1][]{section.7.2}{7.2 Pyrosequencing}{chapter.7}
+\BOOKMARK [1][]{section.7.3}{7.3 Transcriptomic divergence in a common garden experiment}{chapter.7}
+\BOOKMARK [1][]{section.7.4}{7.4 Outlook}{chapter.7}
 \BOOKMARK [0][]{chapter.8}{8 Materials \046 methods}{}
 \BOOKMARK [1][]{section.8.1}{8.1 Sampling of worms from wild eels \(Sanger- and pyro-sequencing\) }{chapter.8}
 \BOOKMARK [1][]{section.8.2}{8.2 RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{chapter.8}
@@ -75,7 +76,7 @@
 \BOOKMARK [1][]{section.8.9}{8.9 Statistical analysis with GLMs}{chapter.8}
 \BOOKMARK [1][]{section.8.10}{8.10 Count-collapsing for orthologous from two model-species}{chapter.8}
 \BOOKMARK [1][]{section.8.11}{8.11 Multivarite confirmation of linear models}{chapter.8}
-\BOOKMARK [0][]{section*.15}{References}{}
+\BOOKMARK [0][]{section*.14}{References}{}
 \BOOKMARK [0][]{chapter.9}{9 Additional tables and figures}{}
 \BOOKMARK [1][]{section.9.1}{9.1 Additional tables}{chapter.9}
 \BOOKMARK [1][]{section.9.2}{9.2 Additional figures}{chapter.9}

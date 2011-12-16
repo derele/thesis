@@ -1,14 +1,14 @@
 \begin{thebibliography}{100}
 
 \bibitem{kuwahara_Niimi_Itagaki_1974}
-{\sc A~Kuwahara, H~Niimi, and H~Itagaki}.
+{\sc A.~Kuwahara, H.~Niimi, and H.~Itagaki}.
 \newblock {\bf Studies on a nematode parasitic in the air bladder of the eel I.
   Descriptions of {Anguillicola crassa sp. n. (Philometridea,
   Anguillicolidae)}}.
 \newblock {\em Japanese Journal for Parasitology}, {\bf 23}(5):275--279, 1974.
 
 \bibitem{sures_development_1999}
-{\sc B~Sures, K~Knopf, and H~Taraschewski}.
+{\sc B.~Sures, K.~Knopf, and H.~Taraschewski}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11407407}{{\bf Development
   of Anguillicola crassus {(Dracunculoidea,} Anguillicolidae) in experimentally
   infected Balearic congers Ariosoma balearicum {(Anguilloidea,} Congridae)}}.
@@ -37,7 +37,7 @@ id=713884}{{\bf Hosts and Parasites as Aliens}}.
 \newblock {\em Comptes Rendus Biologies}, {\bf 329}(10):785--789, October 2006.
 
 \bibitem{loukili_dynamics_2007}
-{\sc Abdechahid Loukili and Driss Belghyti}.
+{\sc A.~Loukili and D.~Belghyti}.
 \newblock \href{http://dx.doi.org/10.1007/s00436-006-0349-y}{{\bf The dynamics
   of the nematode Anguillicola crassus, Kuvahara 1974 in eel Anguilla anguilla
   {(L.} 1758) in the Sebou estuary {(Morocco)}}}.
@@ -57,37 +57,36 @@ id=713884}{{\bf Hosts and Parasites as Aliens}}.
 \newblock {\em Diseases of Aquatic Organisms}, {\bf 33}:143--149, 1998.
 
 \bibitem{kirk_effect_2000}
-{\sc R~S Kirk, C~R Kennedy, and J~W Lewis}.
+{\sc R.~S. Kirk, C.~R. Kennedy, and J.~W. Lewis}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10843559}{{\bf Effect of
   salinity on hatching, survival and infectivity of Anguillicola crassus
   {(Nematoda:} Dracunculoidea) larvae}}.
 \newblock {\em Diseases of Aquatic Organisms}, {\bf 40}(3):211--8, April 2000.
 
 \bibitem{wielgoss_population_2008}
-{\sc S\'{e}bastien Wielgoss, Horst Taraschewski, Axel Meyer, and Thierry
-  Wirth}.
+{\sc S.~Wielgoss, H.~Taraschewski, A.~Meyer, and T.~Wirth}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18727770}{{\bf Population
   structure of the parasitic nematode Anguillicola crassus, an invader of
   declining North Atlantic eel stocks}}.
 \newblock {\em Molecular Ecology}, {\bf 17}(15):3478--95, August 2008.
 
 \bibitem{mnderle_kologische_2005}
-{\sc M\"{u}nderle}.
+{\sc M.~M\"{u}nderle}.
 \newblock {\em \"{O}kologische, morphometrische und genetische Untersuchungen
   an Populationen des invasiven {Schwimmblasen-Nematoden} Anguillicola crassus
   aus Europa und Taiwan}.
 \newblock {PhD} thesis, University of Karlsruhe, 2005.
 
 \bibitem{sasal_parasite_2008}
-{\sc Pierre Sasal, Horst Taraschewski, Pierre Valade, Henri Grondin,
-  S\'{e}bastien Wielgoss, and Franti\v{s}ek Moravec}.
+{\sc P.~Sasal, H.~Taraschewski, P.~Valade, H.~Grondin, S.~Wielgoss, and
+  F.~Moravec}.
 \newblock \href{http://dx.doi.org/10.1007/s00436-008-0916-5}{{\bf Parasite
   communities in eels of the Island of Reunion {(Indian} Ocean): a lesson in
   parasite introduction}}.
 \newblock {\em Parasitology Research}, {\bf 102}(6):1343--1350, May 2008.
 
 \bibitem{fischer_teichwirt}
-{\sc W~Neumann}.
+{\sc W.~Neumann}.
 \newblock {\bf Schwimblasenparasit {A}nguillicola bei Aalen}.
 \newblock {\em Fischer und Teichwirt}, page 322, 1985.
 
@@ -98,12 +97,20 @@ id=713884}{{\bf Hosts and Parasites as Aliens}}.
 
 \bibitem{pmid20646147}
 {\sc S.~Wielgoss, F.~Hollandt, T.~Wirth, and A.~Meyer}.
-\newblock {\bf {{G}enetic signatures in an invasive parasite of {A}nguilla
-  anguilla correlate with differential stock management}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20646147}{{\bf {{G}enetic
+  signatures in an invasive parasite of {A}nguilla anguilla correlate with
+  differential stock management}}}.
 \newblock {\em J. Fish Biol.}, {\bf 77}:191--210, Jul 2010.
 
+\bibitem{dl_py}
+{\sc D.~R. Laetsch, E.~G. Heitlinger, H.~Taraschewski, S.~A. Nadler, and
+  M.~Blaxter}.
+\newblock {\bf The phylogenetics of Anguillicolidae (Nematoda:
+  Anguillicolidea), swimbladder parasites of eels}.
+\newblock {\em BMC Evolutionary Biology}, {under review}.
+
 \bibitem{fries_notes:_1996}
-{\sc LT~Fries, DJ~Williams, and Sken Johnson}.
+{\sc L.~T. Fries, D.~J. Williams, and S.~Johnson}.
 \newblock {\bf Occurrence of Anguillicola crassus, an exotic parasitic swim
   bladder nematode of eels, in the Southeastern United States}.
 \newblock {\em Transactions of the American Fisheries Society}, {\bf
@@ -115,8 +122,8 @@ id=713884}{{\bf Hosts and Parasites as Aliens}}.
 \newblock {\em Fisheries}, {\bf 24}(2):6--10, 1999.
 
 \bibitem{barse_swimbladder_2001}
-{\sc Ann~M. Barse, Scott~A. {McGuire}, Melissa~A. Vinores, Laura~E. Eierman,
-  and Julie~A. Weeder}.
+{\sc A.~M. Barse, S.~A. {McGuire}, M.~A. Vinores, L.~E. Eierman, and J.~A.
+  Weeder}.
 \newblock
   \href{http://dx.doi.org/10.1645/0022-3395(2001)087[1366:TSNACI]2.0.CO;2}{{\bf
   The swimbladder nematode {Anguillicola crassus} in {American} eels {(Anguilla
@@ -124,7 +131,7 @@ id=713884}{{\bf Hosts and Parasites as Aliens}}.
 \newblock {\em Journal of Parasitology}, {\bf 87}(6):1366--1370, December 2001.
 
 \bibitem{moravec_first_2005}
-{\sc Frantisek Moravec, Kazuya Nagasawa, and Munenori Miyakawa}.
+{\sc F.~Moravec, K.~Nagasawa, and M.~Miyakawa}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16231644}{{\bf First record
   of ostracods as natural intermediate hosts of Anguillicola crassus, a
   pathogenic swimbladder parasite of eels Anguilla spp}}.
@@ -132,9 +139,9 @@ id=713884}{{\bf Hosts and Parasites as Aliens}}.
   2005.
 
 \bibitem{haenen_effects_1996}
-{\sc O.L.M. Haenen, T.A.M. {van Wijngaarden}, M.H.T. {van der Heijden},
-  J.~H\"{o}glund, J.B.J.W. Cornelissen, L.A.M.G. {van Leengoed}, F.H.M.
-  Borgsteede, and W.B. {van Muiswinkel}}.
+{\sc O.~L.~M. Haenen, T.~A.~M. {van Wijngaarden}, M.~H.~T. {van der Heijden},
+  J.~H\"{o}glund, J.~B. J.~W. Cornelissen, L.~A. M.~G. {van Leengoed}, F.~H.~M.
+  Borgsteede, and W.~B. {van Muiswinkel}}.
 \newblock
   \href{http://www.sciencedirect.com/science/article/B6T4D-3VYTVC1-5/2/c264d9e%
 a2a011bd3a9dd002909648731}{{\bf Effects of experimental infections with
@@ -144,7 +151,7 @@ a2a011bd3a9dd002909648731}{{\bf Effects of experimental infections with
 \newblock {PMID:} 16956057.
 
 \bibitem{polzer_identification_1993}
-{\sc M~Polzer and H~Taraschewski}.
+{\sc M.~Polzer and H.~Taraschewski}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/7682326}{{\bf Identification
   and characterization of the proteolytic enzymes in the developmental stages
   of the eel-pathogenic nematode Anguillicola crassus}}.
@@ -156,7 +163,7 @@ a2a011bd3a9dd002909648731}{{\bf Effects of experimental infections with
 \newblock {\em Diseases of Aquatic Organisms}, {\bf 8}(2):77--84, 1990.
 
 \bibitem{wrtz_distribution_1998}
-{\sc J~W\"{u}rtz, K~Knopf, and H~Taraschewski}.
+{\sc J.~W\"urtz, K.~Knopf, and H.~Taraschewski}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9676253}{{\bf Distribution
   and prevalence of Anguillicola crassus {(Nematoda)} in eels Anguilla anguilla
   of the rivers Rhine and Naab, Germany}}.
@@ -169,15 +176,15 @@ a2a011bd3a9dd002909648731}{{\bf Effects of experimental infections with
 \newblock {\em Diseases of aquatic organisms}, 1992.
 
 \bibitem{lefebvre_anguillicolosis:_2004}
-{\sc F~S Lefebvre and A~J Crivelli}.
+{\sc F.~S. Lefebvre and A.~J. Crivelli}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15672878}{{\bf
   Anguillicolosis: dynamics of the infection over two decades}}.
 \newblock {\em Diseases of Aquatic Organisms}, {\bf 62}(3):227--32, December
   2004.
 
 \bibitem{mnderle_occurrence_2006}
-{\sc M~M\"{u}nderle, H~Taraschewski, B~Klar, C~W Chang, J~C Shiao, K~N Shen,
-  J~T He, S~H Lin, and W~N Tzeng}.
+{\sc M.~M\"{u}nderle, G.~Taraschewski, B.~Klar, C.~W. Chang, J.~C. Shiao, K.~N.
+  Shen, J.~T. He, S.~H. Lin, and W.~N. Tzeng}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16956057}{{\bf Occurrence of
   Anguillicola crassus {(Nematoda:} Dracunculoidea) in Japanese eels Anguilla
   japonica from a river and an aquaculture unit in {SW} Taiwan}}.
@@ -200,7 +207,7 @@ id=710492}{{\bf Dynamics of Anguillicola Crassus Larval Infections in a
 \newblock {\em Journal of Helminthology}, {\bf 76}(03):235--240, 2002.
 
 \bibitem{rolbiecki_acndab_2004}
-{\sc Leszek Rolbiecki}.
+{\sc L.~Rolbiecki}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16859042}{{\bf Can the {DAB}
   {(Limanda} limanda) be a paratenic host of Anguillicola crassus {(Nematoda;}
   Dracunculoidea)? The Gulf of Gda\'{n}sk and Vistula Lagoon {(Poland)}
@@ -208,7 +215,7 @@ id=710492}{{\bf Dynamics of Anguillicola Crassus Larval Infections in a
 \newblock {\em Wiadomo\'{s}ci Parazytologiczne}, {\bf 50}(2):317--22, 2004.
 
 \bibitem{szkely_dynamics_1995}
-{\sc C~Sz\'{e}kely}.
+{\sc C.~Sz\'{e}kely}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8882739}{{\bf Dynamics of
   Anguillicola crassus {(Nematoda:} Dracunculoidea) larval infection in
   paratenic host fishes of Lake Balaton, Hungary}}.
@@ -237,11 +244,12 @@ id=713104}{{\bf Dynamics and Predicted Decline of Anguillicola Crassus
 
 \bibitem{pmid12713741}
 {\sc T.~Wirth and L.~Bernatchez}.
-\newblock {\bf {{D}ecline of {N}orth {A}tlantic eels: a fatal synergy?}}
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12713741}{{\bf {{D}ecline of
+  {N}orth {A}tlantic eels: a fatal synergy?}}}
 \newblock {\em Proc. Biol. Sci.}, {\bf 270}:681--688, Apr 2003.
 
 \bibitem{knopf_differences_2004}
-{\sc K~Knopf and M~Mahnke}.
+{\sc K.~Knopf and M.~Mahnke}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15521638}{{\bf Differences
   in susceptibility of the European eel {(Anguilla} anguilla) and the Japanese
   eel {(Anguilla} japonica) to the swim-bladder nematode Anguillicola
@@ -249,7 +257,7 @@ id=713104}{{\bf Dynamics and Predicted Decline of Anguillicola Crassus
 \newblock {\em Parasitology}, {\bf 129}(Pt 4):491--6, October 2004.
 
 \bibitem{knopf_swimbladder_2006}
-{\sc K~Knopf}.
+{\sc K.~Knopf}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16768856}{{\bf The
   swimbladder nematode Anguillicola crassus in the European eel Anguilla
   anguilla and the Japanese eel Anguilla japonica: differences in
@@ -264,9 +272,24 @@ id=713104}{{\bf Dynamics and Predicted Decline of Anguillicola Crassus
   infected with Anguillicola crassus}}.
 \newblock {\em Diseases of Aquatic Organisms}, {\bf 64}(3):223--8, May 2005.
 
+\bibitem{wurtz_tara_2000}
+{\sc J.~W\"urtz and H.~Taraschewski}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10715817}{{\bf
+  Histopathological changes in the swimbladder wall of the European eel
+  Anguilla anguilla due to infections with Anguillicola crassus}}.
+\newblock {\em Diseases of Aquatic Organisms}, {\bf 39}(2):121--34, 2000.
+
+\bibitem{beregi_radiodiagnostic_1998}
+{\sc A.~Beregi, K.~Moln\'{a}r, L.~B\'{e}k\'{e}si, and C.~Sz\'{e}kely}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9828409}{{\bf
+  Radiodiagnostic method for studying swimbladder inflammation caused by
+  Anguillicola crassus {(Nematoda:} Dracunculoidea)}}.
+\newblock {\em Diseases of Aquatic Organisms}, {\bf 34}(2):155--60, October
+  1998.
+
 \bibitem{palstra_swimming_2007}
-{\sc {A.P.} Palstra, {D.F.M.} Heppener, {V.J.T.} van Ginneken, C.~Sz?kely, and
-  {G.E.E.J.M.} van~den Thillart}.
+{\sc {A.P.} Palstra, {D.F.M.} Heppener, {V.J.T.} van Ginneken, C.~Sz\'{e}kely,
+  and {G.E.E.J.M.} van~den Thillart}.
 \newblock
   \href{http://www.sciencedirect.com/science/article/B6T8F-4PTF9DH-1/2/7791924%
 b77adbcb0e191e8003632758c}{{\bf Swimming performance of silver eels is severely
@@ -279,20 +302,6 @@ b77adbcb0e191e8003632758c}{{\bf Swimming performance of silver eels is severely
 \newblock {\bf Parasites as a threat to freshwater eels?}
 \newblock {\em Science}, {\bf 304}(5668):209--11, Apr 2004.
 
-\bibitem{wurtz_tara_2000}
-{\sc J~Würtz and H~Taraschewski}.
-\newblock {\bf Histopathological changes in the swimbladder wall of the
-  European eel Anguilla anguilla due to infections with Anguillicola crassus}.
-\newblock {\em Diseases of Aquatic Organisms}, {\bf 14}(39):121--134, 2000.
-
-\bibitem{beregi_radiodiagnostic_1998}
-{\sc A~Beregi, K~Moln\'{a}r, L~B\'{e}k\'{e}si, and C~Sz\'{e}kely}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9828409}{{\bf
-  Radiodiagnostic method for studying swimbladder inflammation caused by
-  Anguillicola crassus {(Nematoda:} Dracunculoidea)}}.
-\newblock {\em Diseases of Aquatic Organisms}, {\bf 34}(2):155--60, October
-  1998.
-
 \bibitem{fazio_regulation_2008}
 {\sc G.~Fazio, P.~Sasal, C.~Da Silva, B.~Fumet, J.~Boissier,
   R.~Lecomte-Finiger, and H.~Mon\`{e}}.
@@ -304,15 +313,14 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
 \newblock {\em Parasitology}, {\bf 135}(-1):1--10, 2008.
 
 \bibitem{knopf_vaccination_2008}
-{\sc K~Knopf and R~Lucius}.
+{\sc K.~Knopf and R.~Lucius}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18302804}{{\bf Vaccination
   of eels {(Anguilla} japonica and Anguilla anguilla) against Anguillicola
   crassus with irradiated L3}}.
 \newblock {\em Parasitology}, {\bf 135}(5):633--40, April 2008.
 
 \bibitem{heitlinger_massive_2009}
-{\sc Emanuel Heitlinger, Dominik Laetsch, Urszula Weclawski, Yu-San Han, and
-  Horst Taraschewski}.
+{\sc E.~Heitlinger, D.~Laetsch, U.~Weclawski, Y.~S. Han, and H.~Taraschewski}.
 \newblock \href{http://www.parasitesandvectors.com/content/2/1/48}{{\bf Massive
   encapsulation of larval {Anguillicoloides crassus} in the intestinal wall of
   Japanese eels}}.
@@ -322,86 +330,92 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
 {\sc K.~Aarestrup, F.~Okland, M.~M. Hansen, D.~Righton, P.~Gargan,
   M.~Castonguay, L.~Bernatchez, P.~Howey, H.~Sparholt, M.~I. Pedersen, and
   R.~S. McKinley}.
-\newblock {\bf {{O}ceanic spawning migration of the {E}uropean eel ({A}nguilla
-  anguilla)}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19779192}{{\bf {{O}ceanic
+  spawning migration of the {E}uropean eel ({A}nguilla anguilla)}}}.
 \newblock {\em Science}, {\bf 325}:1660, Sep 2009.
 
 \bibitem{pmid20735676}
 {\sc M.~Kuroki, J.~Aoyama, M.~J. Miller, T.~Yoshinaga, A.~Shinoda, S.~Hagihara,
   and K.~Tsukamoto}.
-\newblock {\bf {{S}ympatric spawning of {A}nguilla marmorata and {A}nguilla
-  japonica in the western {N}orth {P}acific {O}cean}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20735676}{{\bf {{S}ympatric
+  spawning of {A}nguilla marmorata and {A}nguilla japonica in the western
+  {N}orth {P}acific {O}cean}}}.
 \newblock {\em J. Fish Biol.}, {\bf 74}:1853--1865, Jun 2009.
 
 \bibitem{pmid21299662}
 {\sc T.~D. Als, M.~M. Hansen, G.~E. Maes, M.~Castonguay, L.~Riemann,
   K.~Aarestrup, P.~Munk, H.~Sparholt, R.~Hanel, and L.~Bernatchez}.
-\newblock {\bf {{A}ll roads lead to home: panmixia of {E}uropean eel in the
-  {S}argasso {S}ea}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21299662}{{\bf {{A}ll roads
+  lead to home: panmixia of {E}uropean eel in the {S}argasso {S}ea}}}.
 \newblock {\em Mol. Ecol.}, {\bf 20}:1333--1346, Apr 2011.
 
 \bibitem{pmid20735687}
 {\sc J.~M. Pujolar, G.~A. De~Leo, E.~Ciccotti, and L.~Zane}.
-\newblock {\bf {{G}enetic composition of {A}tlantic and {M}editerranean
-  recruits of {E}uropean eel {A}nguilla anguilla based on {E}{S}{T}-linked
-  microsatellite loci}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20735687}{{\bf {{G}enetic
+  composition of {A}tlantic and {M}editerranean recruits of {E}uropean eel
+  {A}nguilla anguilla based on {E}{S}{T}-linked microsatellite loci}}}.
 \newblock {\em J. Fish Biol.}, {\bf 74}:2034--2046, Jun 2009.
 
 \bibitem{pmid11234011}
 {\sc T.~Wirth and L.~Bernatchez}.
-\newblock {\bf {{G}enetic evidence against panmixia in the {E}uropean eel}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11234011}{{\bf {{G}enetic
+  evidence against panmixia in the {E}uropean eel}}}.
 \newblock {\em Nature}, {\bf 409}:1037--1040, Feb 2001.
 
 \bibitem{pmid19417764}
 {\sc S.~Palm, J.~Dannewitz, T.~Prestegaard, and H.~Wickstrom}.
-\newblock {\bf {{P}anmixia in {E}uropean eel revisited: no genetic difference
-  between maturing adults from southern and northern {E}urope}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19417764}{{\bf {{P}anmixia
+  in {E}uropean eel revisited: no genetic difference between maturing adults
+  from southern and northern {E}urope}}}.
 \newblock {\em Heredity}, {\bf 103}:82--89, Jul 2009.
 
 \bibitem{pmid16024374}
 {\sc J.~Dannewitz, G.~E. Maes, L.~Johansson, H.~Wickstrom, F.~A. Volckaert, and
   T.~Jarvi}.
-\newblock {\bf {{P}anmixia in the {E}uropean eel: a matter of time..}}
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16024374}{{\bf {{P}anmixia
+  in the {E}uropean eel: a matter of time..}}}
 \newblock {\em Proc. Biol. Sci.}, {\bf 272}:1129--1137, Jun 2005.
 
 \bibitem{pmid19840264}
 {\sc J.~M. Pujolar, D.~Bevacqua, F.~Capoccioni, E.~Ciccotti, G.~A. De~Leo, and
   L.~Zane}.
-\newblock {\bf {{G}enetic variability is unrelated to growth and parasite
-  infestation in natural populations of the {E}uropean eel ({A}nguilla
-  anguilla)}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19840264}{{\bf {{G}enetic
+  variability is unrelated to growth and parasite infestation in natural
+  populations of the {E}uropean eel ({A}nguilla anguilla)}}}.
 \newblock {\em Mol. Ecol.}, {\bf 18}:4604--4616, Nov 2009.
 
 \bibitem{pmid16262866}
 {\sc S.~D. Cote, A.~Stien, R.~J. Irvine, J.~F. Dallas, F.~Marshall,
   O.~Halvorsen, R.~Langvatn, and S.~D. Albon}.
-\newblock {\bf {{R}esistance to abomasal nematodes and individual genetic
-  variability in reindeer}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16262866}{{\bf {{R}esistance
+  to abomasal nematodes and individual genetic variability in reindeer}}}.
 \newblock {\em Mol. Ecol.}, {\bf 14}:4159--4168, Nov 2005.
 
 \bibitem{pmid18398424}
 {\sc J.~M. Rijks, J.~I. Hoffman, T.~Kuiken, A.~D. Osterhaus, and W.~Amos}.
-\newblock {\bf {{H}eterozygosity and lungworm burden in harbour seals ({P}hoca
-  vitulina)}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18398424}{{\bf
+  {{H}eterozygosity and lungworm burden in harbour seals ({P}hoca vitulina)}}}.
 \newblock {\em Heredity}, {\bf 100}:587--593, Jun 2008.
 
 \bibitem{pmid20078764}
 {\sc M.~Dionne}.
-\newblock {\bf {{P}athogens as potential selective agents in the wild}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20078764}{{\bf {{P}athogens
+  as potential selective agents in the wild}}}.
 \newblock {\em Mol. Ecol.}, {\bf 18}:4523--4525, Nov 2009.
 
 \bibitem{pmid19129114}
 {\sc M.~K. Oliver, S.~Telfer, and S.~B. Piertney}.
-\newblock {\bf {{M}ajor histocompatibility complex ({M}{H}{C}) heterozygote
-  superiority to natural multi-parasite infections in the water vole
-  ({A}rvicola terrestris)}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19129114}{{\bf {{M}ajor
+  histocompatibility complex ({M}{H}{C}) heterozygote superiority to natural
+  multi-parasite infections in the water vole ({A}rvicola terrestris)}}}.
 \newblock {\em Proc. Biol. Sci.}, {\bf 276}:1119--1128, Mar 2009.
 
 \bibitem{pmid17603099}
 {\sc P.~Ilmonen, D.~J. Penn, K.~Damjanovich, L.~Morrison, L.~Ghotbi, and W.~K.
   Potts}.
-\newblock {\bf {{M}ajor histocompatibility complex heterozygosity reduces
-  fitness in experimentally infected mice}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17603099}{{\bf {{M}ajor
+  histocompatibility complex heterozygosity reduces fitness in experimentally
+  infected mice}}}.
 \newblock {\em Genetics}, {\bf 176}:2501--2508, Aug 2007.
 
 \bibitem{wegner_parasite_2003}
@@ -412,17 +426,17 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
 \newblock {\em Science}, {\bf 301}(5638):1343, September 2003.
 
 \bibitem{conway_measuring_2002}
-{\sc {DJ} {CONWAY} and {SD} {POLLEY}}.
+{\sc D.~J. Conway and S.~D. Polley}.
 \newblock {\bf Measuring immune selection}.
 \newblock {\em {Parasitology(London.} Print)}, {\bf 125}:3--16, 2002.
 
 \bibitem{press1999morphology}
-{\sc C.M.L. Press and {\O}.~Evensen}.
+{\sc C.~M.~L. Press and {\O}.~Evensen}.
 \newblock {\bf The morphology of the immune system in teleost fishes}.
 \newblock {\em Fish \& Shellfish Immunology}, {\bf 9}(4):309--318, 1999.
 
 \bibitem{nielsen_eel_2006}
-{\sc M~E Nielsen and M~D {Esteve-Gassent}}.
+{\sc M.~E. Nielsen and M.~D. {Esteve-Gassent}}.
 \newblock \href{http://dx.doi.org/10.1111/j.1365-2761.2006.00695.x}{{\bf The
   eel immune system: present knowledge and the need for research}}.
 \newblock {\em Journal of Fish Diseases}, {\bf 29}(2):65--78, 2006.
@@ -436,28 +450,30 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
   H.~Kuhl, J.~Thorsen, K.~Malde, R.~Reinhardt, L.~Du, S.~D. Johansen,
   S.~Searle, S.~Lien, F.~Nilsen, I.~Jonassen, S.~W. Omholt, N.~C. Stenseth, and
   K.~S. Jakobsen}.
-\newblock {\bf {{T}he genome sequence of {A}tlantic cod reveals a unique immune
-  system}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21832995}{{\bf {{T}he genome
+  sequence of {A}tlantic cod reveals a unique immune system}}}.
 \newblock {\em Nature}, {\bf 477}:207--210, Sep 2011.
 
 \bibitem{pmid21078341}
 {\sc J.~Hikima, T.~S. Jung, and T.~Aoki}.
-\newblock {\bf {{I}mmunoglobulin genes and their transcriptional control in
-  teleosts}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21078341}{{\bf
+  {{I}mmunoglobulin genes and their transcriptional control in teleosts}}}.
 \newblock {\em Dev. Comp. Immunol.}, {\bf 35}:924--936, Sep 2011.
 
 \bibitem{pmid17666525}
 {\sc S.~Kalujnaia, I.~S. McWilliam, V.~A. Zaguinaiko, A.~L. Feilen,
   J.~Nicholson, N.~Hazon, C.~P. Cutler, and G.~Cramb}.
-\newblock {\bf {{T}ranscriptomic approach to the study of osmoregulation in the
-  {E}uropean eel {A}nguilla anguilla}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17666525}{{\bf
+  {{T}ranscriptomic approach to the study of osmoregulation in the {E}uropean
+  eel {A}nguilla anguilla}}}.
 \newblock {\em Physiol. Genomics}, {\bf 31}:385--401, Nov 2007.
 
 \bibitem{taraschewski_revision_1988}
 {\sc H.~Taraschewski and F.~Moravec}.
-\newblock {\bf Revision of the genus Anguillicola Yamaguti, 1935 {(Nematoda:}
-  Anguillicolidae) of the swimbladder of eels, including descriptions of two
-  new species, A. novaezelandiae sp. n. and A. papernai sp. n.}
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/3169643}{{\bf Revision of
+  the genus Anguillicola Yamaguti, 1935 {(Nematoda:} Anguillicolidae) of the
+  swimbladder of eels, including descriptions of two new species, A.
+  novaezelandiae sp. n. and A. papernai sp. n.}}
 \newblock {\em Folia Parasitol {(Praha)}}, {\bf 35}(2):125--146, 1988.
 
 \bibitem{yamaguti_globiceps}
@@ -467,20 +483,20 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
 \newblock {\em Japanese Journal of Zoology}, {\bf 6}, 1933.
 
 \bibitem{johnston1940some}
-{\sc T.H. JOHNSTON and P.M. Mawson}.
+{\sc T.H. Johnston and P.M. Mawson}.
 \newblock {\bf Some nematodes parasitic in Australian freshwater fish.}
 \newblock {\em Transactions of the Royal Society of South Australia}, {\bf
   64}(2):340--352, 1940.
 
 \bibitem{moravec_anguillicoloides}
-{\sc Frantisek Moravec}.
+{\sc F.~Moravec}.
 \newblock {\em Dracunculoid and anguillicoloid nematodes parasitic in
   vertebrates}.
 \newblock Academia, 2006.
 
 \bibitem{minegishi_molecular_2005}
-{\sc Yuki Minegishi, Jun Aoyama, Jun~G. Inoue, Masaki Miya, Mutsumi Nishida,
-  and Katsumi Tsukamoto}.
+{\sc Y.~Minegishi, J.~Aoyama, J.~G. Inoue, M.~Miya, M.~Nishida, and
+  K.~Tsukamoto}.
 \newblock
   \href{http://www.sciencedirect.com/science/article/B6WNH-4DTKC5P-7/2/aecb091%
 667df0203458b7ae44d92bebd}{{\bf Molecular phylogeny and evolution of the
@@ -490,16 +506,16 @@ id=2493156}{{\bf Regulation of {Anguillicola crassus} {(Nematoda)}
   2005.
 
 \bibitem{blaxter_molecular_1998}
-{\sc Mark~L. Blaxter, Paul~De Ley, James~R. Garey, Leo~X. Liu, Patsy
-  Scheldeman, Andy Vierstraete, Jacques~R. Vanfleteren, Laura~Y. Mackey, Mark
-  Dorris, Linda~M. Frisse, J.~T. Vida, and W.~Kelley Thomas}.
+{\sc M.~Blaxter, P.~{De Ley}, J.R. Garey, L.~{X. Liu}, P.~Scheldeman,
+  A.~Vierstraete, J.R. Vanfleteren, L.Y. Mackey, M~Dorris, L.M. Frisse, J.T.
+  Vida, and W.K. Thomas}.
 \newblock \href{http://dx.doi.org/10.1038/32160}{{\bf A molecular evolutionary
   framework for the phylum Nematoda}}.
 \newblock {\em Nature}, {\bf 392}(6671):71--75, March 1998.
 
 \bibitem{nadler_molecular_2007}
-{\sc {S.?A.} {NADLER}, {R.?A.} {CARRENO}, H.~{MEJ?A-MADRID}, J.~{ULLBERG},
-  C.~{PAGAN}, R.~{HOUSTON}, and {J.-P.} {HUGOT}}.
+{\sc S.~A. Nadler, R.~A. Carreno, H.~{Meja-Madrid}, J.~Ullberg, C.~C.~Pagan,
+  R.~Houston, and {J.-P.} Hugot}.
 \newblock
   \href{http://journals.cambridge.org/action/displayAbstract?fromPage=online&a%
 id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
@@ -507,7 +523,7 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock {\em Parasitology}, {\bf 134}(10):1421--1442, 2007.
 
 \bibitem{wijov_evolutionary_2006}
-{\sc Martina Wijov\'{a}, Frantisek Moravec, Ales Hor\'{a}k, and Julius Lukes}.
+{\sc M.~Wijov\'{a}, F.~Moravec, A.~Hor\'{a}k, and J.~Lukes}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16753171}{{\bf Evolutionary
   relationships of Spirurina {(Nematoda:} Chromadorea: Rhabditida) with special
   emphasis on dracunculoid nematodes inferred from {SSU} {rRNA} gene
@@ -516,42 +532,45 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   August 2006.
 
 \bibitem{kerner_classic_common_garden}
-{\sc A~Kerner}.
+{\sc A.~Kerner}.
 \newblock {\bf {The natural history of plants, their forms, growth,
   reproduction, and distribution}}.
 \newblock {\em Translated by F. W. Oliver.}, 1895.
 
 \bibitem{bonnier_classic_common_garden}
-{\sc G~Bonnier}.
-\newblock {\bf {Recherches expérimentales sur l’adaptation des plants au
+{\sc G.~Bonni\'{e}r}.
+\newblock {\bf {Recherches exp\'{e}rimentales sur l\'{}adaptation des plants au
   climat alpin}}.
 \newblock {\em Ann. Scie. Nat. (Bot.)}, {\bf 20}:217--358, 1895.
 
 \bibitem{kaltz_shykoff_rev}
 {\sc O~Kaltz and J.~A. Shykoff}.
-\newblock {\bf Local adaptation in host–parasite systems}.
-\newblock {\em Heredity}, pages 361--–370, May 1998.
+\newblock \href{http://dx.doi.org/10.1046/j.1365-2540.1998.00435.x}{{\bf Local
+  adaptation in host-parasite systems}}.
+\newblock {\em Heredity}, pages 361--370, May 1998.
 
 \bibitem{pmid3316130}
 {\sc T.~A. Mousseau and D.~A. Roff}.
-\newblock {\bf {{N}atural selection and the heritability of fitness
-  components}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/3316130}{{\bf {{N}atural
+  selection and the heritability of fitness components}}}.
 \newblock {\em Heredity}, {\bf 59 ( Pt 2)}:181--197, Oct 1987.
 
 \bibitem{pmid21708731}
 {\sc J.~N. Thompson, S.~L. Nuismer, and R.~Gomulkiewicz}.
-\newblock {\bf {{C}oevolution and maladaptation}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21708731}{{\bf
+  {{C}oevolution and maladaptation}}}.
 \newblock {\em Integr. Comp. Biol.}, {\bf 42}:381--387, Apr 2002.
 
 \bibitem{thompson2005geographic}
-{\sc J.N. Thompson}.
+{\sc J.~N. Thompson}.
 \newblock {\em The geographic mosaic of coevolution}.
 \newblock University of Chicago Press, 2005.
 
 \bibitem{pmid18419564}
 {\sc S.~L. Nuismer and S.~Gandon}.
-\newblock {\bf {{M}oving beyond common-garden and transplant designs: insight
-  into the causes of local adaptation in species interactions}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18419564}{{\bf {{M}oving
+  beyond common-garden and transplant designs: insight into the causes of local
+  adaptation in species interactions}}}.
 \newblock {\em Am. Nat.}, {\bf 171}:658--668, May 2008.
 
 \bibitem{crick1958biological}
@@ -560,91 +579,101 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock In {\em Symp. Soc. Exp. Biol}, ~{\bf 12}, pages 138--163, 1958.
 
 \bibitem{pmid5422595}
-{\sc Crick F.}
-\newblock {\bf {Central dogma of molecular biology}}.
+{\sc F.~Crick}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/5422595}{{\bf {Central dogma
+  of molecular biology}}}.
 \newblock {\em Nature}, {\bf 226}:1198--1199, Jun 1970.
-\newblock [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/5422595}{5422595}].
 
 \bibitem{pmid21821597}
 {\sc M.~Lynch}.
-\newblock {\bf {{T}he lower bound to the evolution of mutation rates}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21821597}{{\bf {{T}he lower
+  bound to the evolution of mutation rates}}}.
 \newblock {\em Genome Biol Evol}, {\bf 3}:1107--1118, 2011.
 
 \bibitem{pmid21850044}
 {\sc Y.~Wan, M.~Kertesz, R.~C. Spitale, E.~Segal, and H.~Y. Chang}.
-\newblock {\bf {{U}nderstanding the transcriptome through {R}{N}{A}
-  structure}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21850044}{{\bf
+  {{U}nderstanding the transcriptome through {R}{N}{A} structure}}}.
 \newblock {\em Nat. Rev. Genet.}, {\bf 12}:641--655, Sep 2011.
 
 \bibitem{pmid20703300}
 {\sc H.~Guo, N.~T. Ingolia, J.~S. Weissman, and D.~P. Bartel}.
-\newblock {\bf {{M}ammalian micro{R}{N}{A}s predominantly act to decrease
-  target m{R}{N}{A} levels}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20703300}{{\bf {{M}ammalian
+  micro{R}{N}{A}s predominantly act to decrease target m{R}{N}{A} levels}}}.
 \newblock {\em Nature}, {\bf 466}:835--840, Aug 2010.
 
 \bibitem{pmid11679654}
 {\sc G.~Ruvkun}.
-\newblock {\bf {{M}olecular biology. {G}limpses of a tiny {R}{N}{A} world}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11679654}{{\bf {{M}olecular
+  biology. {G}limpses of a tiny {R}{N}{A} world}}}.
 \newblock {\em Science}, {\bf 294}:797--799, Oct 2001.
 
 \bibitem{pmid19446021}
 {\sc G.~Dieci, M.~Preti, and B.~Montanini}.
-\newblock {\bf {{E}ukaryotic sno{R}{N}{A}s: a paradigm for gene expression
-  flexibility}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19446021}{{\bf {{E}ukaryotic
+  sno{R}{N}{A}s: a paradigm for gene expression flexibility}}}.
 \newblock {\em Genomics}, {\bf 94}:83--88, Aug 2009.
 
 \bibitem{pmid16344563}
-{\sc W.~Deng, X.~Zhu, G.~Skogerb?, Y.~Zhao, Z.~Fu, Y.~Wang, H.~He, L.~Cai,
+{\sc W.~Deng, X.~Zhu, G.~Skogerb, Y.~Zhao, Z.~Fu, Y.~Wang, H.~He, L.~Cai,
   H.~Sun, C.~Liu, B.~Li, B.~Bai, J.~Wang, D.~Jia, S.~Sun, H.~He, Y.~Cui,
   Y.~Wang, D.~Bu, and R.~Chen}.
-\newblock {\bf {{O}rganization of the {C}aenorhabditis elegans small non-coding
-  transcriptome: genomic features, biogenesis, and expression}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16344563}{{\bf
+  {{O}rganization of the {C}aenorhabditis elegans small non-coding
+  transcriptome: genomic features, biogenesis, and expression}}}.
 \newblock {\em Genome Res.}, {\bf 16}:20--29, Jan 2006.
 
 \bibitem{pmid4887876}
 {\sc F.~H. Crick}.
-\newblock {\bf {{T}he origin of the genetic code}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/4887876}{{\bf {{T}he origin
+  of the genetic code}}}.
 \newblock {\em J. Mol. Biol.}, {\bf 38}:367--379, Dec 1968.
 
 \bibitem{pmid17158149}
 {\sc E.~Kim, A.~Magen, and G.~Ast}.
-\newblock {\bf {{D}ifferent levels of alternative splicing among eukaryotes}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17158149}{{\bf {{D}ifferent
+  levels of alternative splicing among eukaryotes}}}.
 \newblock {\em Nucleic Acids Res.}, {\bf 35}:125--131, 2007.
 
 \bibitem{pmid19015660}
 {\sc Z.~Wang, M.~Gerstein, and M.~Snyder}.
-\newblock {\bf {{R}{N}{A}-{S}eq: a revolutionary tool for transcriptomics}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19015660}{{\bf
+  {{R}{N}{A}-{S}eq: a revolutionary tool for transcriptomics}}}.
 \newblock {\em Nat. Rev. Genet.}, {\bf 10}:57--63, Jan 2009.
 
 \bibitem{pmid20121477}
 {\sc J.~Armengaud}.
-\newblock {\bf {{P}roteogenomics and systems biology: quest for the ultimate
-  missing parts}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20121477}{{\bf
+  {{P}roteogenomics and systems biology: quest for the ultimate missing
+  parts}}}.
 \newblock {\em Expert Rev Proteomics}, {\bf 7}:65--77, Feb 2010.
 
 \bibitem{pmid21593866}
 {\sc B.~Schwanhausser, D.~Busse, N.~Li, G.~Dittmar, J.~Schuchhardt, J.~Wolf,
   W.~Chen, and M.~Selbach}.
-\newblock {\bf {{G}lobal quantification of mammalian gene expression control}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21593866}{{\bf {{G}lobal
+  quantification of mammalian gene expression control}}}.
 \newblock {\em Nature}, {\bf 473}:337--342, May 2011.
 
 \bibitem{pmid271968}
 {\sc F.~Sanger, S.~Nicklen, and A.~R. Coulson}.
-\newblock {\bf {{D}{N}{A} sequencing with chain-terminating inhibitors}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/271968}{{\bf {{D}{N}{A}
+  sequencing with chain-terminating inhibitors}}}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 74}:5463--5467, Dec 1977.
 
 \bibitem{pmid2326186}
 {\sc H.~Swerdlow and R.~Gesteland}.
-\newblock {\bf {{C}apillary gel electrophoresis for rapid, high resolution
-  {D}{N}{A} sequencing}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/2326186}{{\bf {{C}apillary
+  gel electrophoresis for rapid, high resolution {D}{N}{A} sequencing}}}.
 \newblock {\em Nucleic Acids Res.}, {\bf 18}:1415--1419, Mar 1990.
 
 \bibitem{pmid1264203}
 {\sc W.~Fiers, R.~Contreras, F.~Duerinck, G.~Haegeman, D.~Iserentant,
   J.~Merregaert, W.~Min~Jou, F.~Molemans, A.~Raeymaekers, A.~Van~den Berghe,
   G.~Volckaert, and M.~Ysebaert}.
-\newblock {\bf {{C}omplete nucleotide sequence of bacteriophage {M}{S}2
-  {R}{N}{A}: primary and secondary structure of the replicase gene}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/1264203}{{\bf {{C}omplete
+  nucleotide sequence of bacteriophage {M}{S}2 {R}{N}{A}: primary and secondary
+  structure of the replicase gene}}}.
 \newblock {\em Nature}, {\bf 260}:500--507, Apr 1976.
 
 \bibitem{pmid9278503}
@@ -652,26 +681,30 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   M.~Riley, J.~Collado-Vides, J.~D. Glasner, C.~K. Rode, G.~F. Mayhew,
   J.~Gregor, N.~W. Davis, H.~A. Kirkpatrick, M.~A. Goeden, D.~J. Rose, B.~Mau,
   and Y.~Shao}.
-\newblock {\bf {{T}he complete genome sequence of {E}scherichia coli {K}-12}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9278503}{{\bf {{T}he
+  complete genome sequence of {E}scherichia coli {K}-12}}}.
 \newblock {\em Science}, {\bf 277}:1453--1462, Sep 1997.
 
 \bibitem{pmid8849441}
 {\sc A.~Goffeau, B.~G. Barrell, H.~Bussey, R.~W. Davis, B.~Dujon, H.~Feldmann,
   F.~Galibert, J.~D. Hoheisel, C.~Jacq, M.~Johnston, E.~J. Louis, H.~W. Mewes,
   Y.~Murakami, P.~Philippsen, H.~Tettelin, and S.~G. Oliver}.
-\newblock {\bf {{L}ife with 6000 genes}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8849441}{{\bf {{L}ife with
+  6000 genes}}}.
 \newblock {\em Science}, {\bf 274}:563--567, Oct 1996.
 
 \bibitem{pmid9851916}
 {\sc {The C. elegans Sequencing Consortium}}.
-\newblock {\bf {{G}enome sequence of the nematode {C}. elegans: a platform for
-  investigating biology}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9851916}{{\bf {{G}enome
+  sequence of the nematode {C}. elegans: a platform for investigating
+  biology}}}.
 \newblock {\em Science}, {\bf 282}:2012--2018, Dec 1998.
 
 \bibitem{adams2000genome}
-{\sc M.D. Adams, S.E. Celniker, R.A. Holt, C.A. Evans, J.D. Gocayne, P.G.
-  Amanatides, S.E. Scherer, P.W. Li, R.A. Hoskins, R.F. Galle, et~al.}
-\newblock {\bf The genome sequence of Drosophila melanogaster}.
+{\sc M.~D. Adams, S.~E. Celniker, R.~A. Holt, C.~A. Evans, J.~D. Gocayne, P.~G.
+  Amanatides, S.~E. Scherer, P.~W. Li, R.~A. Hoskins, R.~F. Galle, et~al.}
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10731132}{{\bf The genome
+  sequence of Drosophila melanogaster}}.
 \newblock {\em Science}, {\bf 287}(5461):2185, 2000.
 
 \bibitem{pmid12466850}
@@ -713,8 +746,8 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   R.~Wheeler, S.~Whelan, J.~Wierzbowski, D.~Willey, S.~Williams, R.~K. Wilson,
   E.~Winter, K.~C. Worley, D.~Wyman, S.~Yang, S.~P. Yang, E.~M. Zdobnov, M.~C.
   Zody, and E.~S. Lander}.
-\newblock {\bf {{I}nitial sequencing and comparative analysis of the mouse
-  genome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12466850}{{\bf {{I}nitial
+  sequencing and comparative analysis of the mouse genome}}}.
 \newblock {\em Nature}, {\bf 420}:520--562, Dec 2002.
 
 \bibitem{pmid11181995}
@@ -761,23 +794,26 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   N.~Nguyen, M.~Nodell, S.~Pan, J.~Peck, M.~Peterson, W.~Rowe, R.~Sanders,
   J.~Scott, M.~Simpson, T.~Smith, A.~Sprague, T.~Stockwell, R.~Turner,
   E.~Venter, M.~Wang, M.~Wen, D.~Wu, M.~Wu, A.~Xia, A.~Zandieh, and X.~Zhu}.
-\newblock {\bf {{T}he sequence of the human genome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11181995}{{\bf {{T}he
+  sequence of the human genome}}}.
 \newblock {\em Science}, {\bf 291}:1304--1351, Feb 2001.
 
 \bibitem{pmid2047873}
 {\sc M.~D. Adams, J.~M. Kelley, J.~D. Gocayne, M.~Dubnick, M.~H.
   Polymeropoulos, H.~Xiao, C.~R. Merril, A.~Wu, B.~Olde, and R.~F. Moreno}.
-\newblock {\bf {{C}omplementary {D}{N}{A} sequencing: expressed sequence tags
-  and human genome project}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/2047873}{{\bf
+  {{C}omplementary {D}{N}{A} sequencing: expressed sequence tags and human
+  genome project}}}.
 \newblock {\em Science}, {\bf 252}:1651--1656, Jun 1991.
 
 \bibitem{pmid7920649}
 {\sc C.~Fields, M.~D. Adams, O.~White, and J.~C. Venter}.
-\newblock {\bf {{H}ow many genes in the human genome?}}
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/7920649}{{\bf {{H}ow many
+  genes in the human genome?}}}
 \newblock {\em Nat. Genet.}, {\bf 7}:345--346, Jul 1994.
 
 \bibitem{blaxter_caenorhabditis_1998}
-{\sc Mark Blaxter}.
+{\sc M.~Blaxter}.
 \newblock
   \href{http://www.sciencemag.org/cgi/content/abstract/282/5396/2041}{{\bf
   Caenorhabditis elegans Is a Nematode}}.
@@ -806,54 +842,51 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   G.~Zeller, Z.~Zha, M.~Zhong, X.~Zhou, J.~Ahringer, S.~Strome, K.~C. Gunsalus,
   G.~Micklem, X.~S. Liu, V.~Reinke, S.~K. Kim, L.~W. Hillier, S.~Henikoff,
   F.~Piano, M.~Snyder, L.~Stein, J.~D. Lieb, and R.~H. Waterston}.
-\newblock {\bf {{I}ntegrative analysis of the {C}aenorhabditis elegans genome
-  by the mod{E}{N}{C}{O}{D}{E} project}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21177976}{{\bf
+  {{I}ntegrative analysis of the {C}aenorhabditis elegans genome by the
+  mod{E}{N}{C}{O}{D}{E} project}}}.
 \newblock {\em Science}, {\bf 330}:1775--1787, Dec 2010.
 
 \bibitem{stein_genome_2003}
-{\sc Lincoln~D. Stein, Zhirong Bao, Darin Blasiar, Thomas Blumenthal,
-  Michael~R. Brent, Nansheng Chen, Asif Chinwalla, Laura Clarke, Chris Clee,
-  Avril Coghlan, Alan Coulson, Peter {D'Eustachio}, David H.~A. Fitch,
-  Lucinda~A. Fulton, Robert~E. Fulton, Sam {Griffiths-Jones}, Todd~W. Harris,
-  {LaDeana}~W. Hillier, Ravi Kamath, Patricia~E. Kuwabara, Elaine~R. Mardis,
-  Marco~A. Marra, Tracie~L. Miner, Patrick Minx, James~C. Mullikin, Robert~W.
-  Plumb, Jane Rogers, Jacqueline~E. Schein, Marc Sohrmann, John Spieth,
-  Jason~E. Stajich, Chaochun Wei, David Willey, Richard~K. Wilson, Richard
-  Durbin, and Robert~H. Waterston}.
-\newblock {\bf The Genome Sequence of Caenorhabditis briggsae: A Platform for
-  Comparative Genomics}.
-\newblock {\em {PLoS} Biology}, {\bf 1}(2):e45 {EP} --, November 2003.
+{\sc L.~D. Stein, Z.~Bao, D.~Blasiar, T.~Blumenthal, M.~R. Brent, N.~Chen,
+  A.~Chinwalla, L.~Clarke, C.~Clee, A.~Coghlan, A.~Coulson, P.~D'Eustachio,
+  D.~H. Fitch, L.~A. Fulton, R.~E. Fulton, S.~Griffiths-Jones, T.~W. Harris,
+  L.~W. Hillier, R.~Kamath, P.~E. Kuwabara, E.~R. Mardis, M.~A. Marra, T.~L.
+  Miner, P.~Minx, J.~C. Mullikin, R.~W. Plumb, J.~Rogers, J.~E. Schein,
+  M.~Sohrmann, J.~Spieth, J.~E. Stajich, C.~Wei, D.~Willey, R.~K. Wilson,
+  R.~Durbin, and R.~H. Waterston}.
+\newblock {\bf {{T}he genome sequence of {C}aenorhabditis briggsae: a platform
+  for comparative genomics}}.
+\newblock {\em PLoS Biol.}, {\bf 1}:E45, Nov 2003.
+\newblock http://www.ncbi.nlm.nih.gov/pubmed/14624247.
 
 \bibitem{pmid18806794}
 {\sc C.~Dieterich, S.~W. Clifton, L.~N. Schuster, A.~Chinwalla, K.~Delehaunty,
   I.~Dinkelacker, L.~Fulton, R.~Fulton, J.~Godfrey, P.~Minx, M.~Mitreva,
   W.~Roeseler, H.~Tian, H.~Witte, S.~P. Yang, R.~K. Wilson, and R.~J. Sommer}.
-\newblock {\bf {{T}he {P}ristionchus pacificus genome provides a unique
-  perspective on nematode lifestyle and parasitism}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18806794}{{\bf {{T}he
+  {P}ristionchus pacificus genome provides a unique perspective on nematode
+  lifestyle and parasitism}}}.
 \newblock {\em Nat. Genet.}, {\bf 40}:1193--1198, Oct 2008.
 
 \bibitem{ghedin_draft_2007}
-{\sc Elodie Ghedin, Shiliang Wang, David Spiro, Elisabet Caler, Qi~Zhao,
-  Jonathan Crabtree, Jonathan~E. Allen, Arthur~L. Delcher, David~B. Guiliano,
-  Diego {Miranda-Saavedra}, Samuel~V. Angiuoli, Todd Creasy, Paolo Amedeo,
-  Brian Haas, Najib~M. {El-Sayed}, Jennifer~R. Wortman, Tamara Feldblyum, Luke
-  Tallon, Michael Schatz, Martin Shumway, Hean Koo, Steven~L. Salzberg, Seth
-  Schobel, Mihaela Pertea, Mihai Pop, Owen White, Geoffrey~J. Barton, Clotilde
-  K.~S. Carlow, Michael~J. Crawford, Jennifer Daub, Matthew~W. Dimmic, Chris~F.
-  Estes, Jeremy~M. Foster, Mehul Ganatra, William~F. Gregory, Nicholas~M.
-  Johnson, Jinming Jin, Richard Komuniecki, Ian Korf, Sanjay Kumar, Sandra
-  Laney, {Ben-Wen} Li, Wen Li, Tim~H. Lindblom, Sara Lustigman, Dong Ma,
-  Claude~V. Maina, David M.~A. Martin, James~P. {McCarter}, Larry {McReynolds},
-  Makedonka Mitreva, Thomas~B. Nutman, John Parkinson, Jose~M.
-  {Peregrin-Alvarez}, Catherine Poole, Qinghu Ren, Lori Saunders, Ann~E.
-  Sluder, Katherine Smith, Mario Stanke, Thomas~R. Unnasch, Jenna Ware,
-  Aguan~D. Wei, Gary Weil, Deryck~J. Williams, Yinhua Zhang, Steven~A.
-  Williams, Claire {Fraser-Liggett}, Barton Slatko, Mark~L. Blaxter, and
-  Alan~L. Scott}.
-\newblock
-  \href{http://www.sciencemag.org/cgi/content/abstract/317/5845/1756}{{\bf
-  Draft Genome of the Filarial Nematode Parasite Brugia malayi}}.
-\newblock {\em Science}, {\bf 317}(5845):1756--1760, September 2007.
+{\sc E.~Ghedin, S.~Wang, D.~Spiro, E.~Caler, Q.~Zhao, J.~Crabtree, J.~E. Allen,
+  A.~L. Delcher, D.~B. Guiliano, D.~Miranda-Saavedra, S.~V. Angiuoli,
+  T.~Creasy, P.~Amedeo, B.~Haas, N.~M. El-Sayed, J.~R. Wortman, T.~Feldblyum,
+  L.~Tallon, M.~Schatz, M.~Shumway, H.~Koo, S.~L. Salzberg, S.~Schobel,
+  M.~Pertea, M.~Pop, O.~White, G.~J. Barton, C.~K. Carlow, M.~J. Crawford,
+  J.~Daub, M.~W. Dimmic, C.~F. Estes, J.~M. Foster, M.~Ganatra, W.~F. Gregory,
+  N.~M. Johnson, J.~Jin, R.~Komuniecki, I.~Korf, S.~Kumar, S.~Laney, B.~W. Li,
+  W.~Li, T.~H. Lindblom, S.~Lustigman, D.~Ma, C.~V. Maina, D.~M. Martin, J.~P.
+  McCarter, L.~McReynolds, M.~Mitreva, T.~B. Nutman, J.~Parkinson, J.~M.
+  Peregrin-Alvarez, C.~Poole, Q.~Ren, L.~Saunders, A.~E. Sluder, K.~Smith,
+  M.~Stanke, T.~R. Unnasch, J.~Ware, A.~D. Wei, G.~Weil, D.~J. Williams,
+  Y.~Zhang, S.~A. Williams, C.~Fraser-Liggett, B.~Slatko, M.~L. Blaxter, and
+  A.~L. Scott}.
+\newblock {\bf {{D}raft genome of the filarial nematode parasite {B}rugia
+  malayi}}.
+\newblock {\em Science}, {\bf 317}:1756--1760, Sep 2007.
+\newblock http://www.ncbi.nlm.nih.gov/pubmed/17885136.
 
 \bibitem{pmid22031327}
 {\sc A.~R. Jex, S.~Liu, B.~Li, N.~D. Young, R.~S. Hall, Y.~Li, L.~Yang,
@@ -861,7 +894,8 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   Anderson, T.~W. Harris, B.~E. Campbell, J.~Vlaminck, T.~Wang, C.~Cantacessi,
   E.~M. Schwarz, S.~Ranganathan, P.~Geldhof, P.~Nejsum, P.~W. Sternberg,
   H.~Yang, J.~Wang, J.~Wang, and R.~B. Gasser}.
-\newblock {\bf {{A}scaris suum draft genome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/22031327}{{\bf {{A}scaris
+  suum draft genome}}}.
 \newblock {\em Nature}, Oct 2011.
 
 \bibitem{pmid21336279}
@@ -869,8 +903,8 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   J.~Martin, C.~M. Taylor, Y.~Yin, L.~Fulton, P.~Minx, S.~P. Yang, W.~C.
   Warren, R.~S. Fulton, V.~Bhonagiri, X.~Zhang, K.~Hallsworth-Pepin, S.~W.
   Clifton, J.~P. McCarter, J.~Appleton, E.~R. Mardis, and R.~K. Wilson}.
-\newblock {\bf {{T}he draft genome of the parasitic nematode {T}richinella
-  spiralis}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21336279}{{\bf {{T}he draft
+  genome of the parasitic nematode {T}richinella spiralis}}}.
 \newblock {\em Nat. Genet.}, {\bf 43}:228--235, Mar 2011.
 
 \bibitem{pmid18660804}
@@ -884,8 +918,8 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   T.~Bleve-Zacheo, E.~L. Davis, J.~J. Ewbank, B.~Favery, E.~Grenier,
   B.~Henrissat, J.~T. Jones, V.~Laudet, A.~G. Maule, H.~Quesneville, M.~N.
   Rosso, T.~Schiex, G.~Smant, J.~Weissenbach, and P.~Wincker}.
-\newblock {\bf {{G}enome sequence of the metazoan plant-parasitic nematode
-  {M}eloidogyne incognita}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18660804}{{\bf {{G}enome
+  sequence of the metazoan plant-parasitic nematode {M}eloidogyne incognita}}}.
 \newblock {\em Nat. Biotechnol.}, {\bf 26}:909--915, Aug 2008.
 
 \bibitem{pmid18809916}
@@ -893,8 +927,9 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   J.~Cohn, J.~Cromer, S.~Diener, J.~Gajan, S.~Graham, T.~D. Houfek, Q.~Liu,
   T.~Mitros, J.~Schaff, R.~Schaffer, E.~Scholl, B.~R. Sosinski, V.~P. Thomas,
   and E.~Windham}.
-\newblock {\bf {{S}equence and genetic map of {M}eloidogyne hapla: {A} compact
-  nematode genome for plant parasitism}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18809916}{{\bf {{S}equence
+  and genetic map of {M}eloidogyne hapla: {A} compact nematode genome for plant
+  parasitism}}}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 105}:14802--14807, Sep
   2008.
 
@@ -903,21 +938,21 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   P.~McVeigh, T.~Takanashi, I.~J. Tsai, S.~A. Assefa, P.~J. Cock, T.~D. Otto,
   M.~Hunt, A.~J. Reid, A.~Sanchez-Flores, K.~Tsuchihara, T.~Yokoi, M.~C.
   Larsson, J.~Miwa, A.~G. Maule, N.~Sahashi, J.~T. Jones, and M.~Berriman}.
-\newblock {\bf {{G}enomic {I}nsights into the {O}rigin of {P}arasitism in the
-  {E}merging {P}lant {P}athogen {B}ursaphelenchus xylophilus}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21909270}{{\bf {{G}enomic
+  {I}nsights into the {O}rigin of {P}arasitism in the {E}merging {P}lant
+  {P}athogen {B}ursaphelenchus xylophilus}}}.
 \newblock {\em PLoS Pathog.}, {\bf 7}:e1002219, Sep 2011.
 
 \bibitem{pmid22058131}
 {\sc S.~Kumar, P.~H. Schiffer, and M.~Blaxter}.
-\newblock {\bf {959 {N}ematode {G}enomes: a semantic wiki for coordinating
-  sequencing projects}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/22058131}{{\bf {959
+  {N}ematode {G}enomes: a semantic wiki for coordinating sequencing
+  projects}}}.
 \newblock {\em Nucleic Acids Res}, Nov 2011.
-\newblock [DOI:\href{http://dx.doi.org/10.1093/nar/gkr826}{10.1093/nar/gkr826}]
-  [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/22058131}{22058131}].
 
 \bibitem{parkinson_partigene--constructing_2004}
-{\sc John Parkinson, Alasdair Anthony, James Wasmuth, Ralf Schmid, Ann Hedley,
-  and Mark Blaxter}.
+{\sc J.~Parkinson, A.~Anthony, J.~Wasmuth, R.~Schmid, A.~Hedley, and
+  M.~Blaxter}.
 \newblock
   \href{http://bioinformatics.oxfordjournals.org/cgi/content/abstract/20/9/139%
 8}{{\bf {PartiGene--constructing} partial genomes}}.
@@ -925,20 +960,20 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 
 \bibitem{pmid11406138}
 {\sc R.~M. Maizels, N.~Gomez-Escobar, W.~F. Gregory, J.~Murray, and X.~Zang}.
-\newblock {\bf {{I}mmune evasion genes from filarial nematodes}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11406138}{{\bf {{I}mmune
+  evasion genes from filarial nematodes}}}.
 \newblock {\em Int. J. Parasitol.}, {\bf 31}:889--898, Jul 2001.
 
 \bibitem{maizels_helminth_2004}
-{\sc Rick~M. Maizels, Adam Balic, Natalia {Gomez-Escobar}, Meera Nair, Matt~D.
-  Taylor, and Judith~E. Allen}.
+{\sc R.~M. Maizels, A.~Balic, N.~{Gomez-Escobar}, M.~Nair, M.~D. Taylor, and
+  J.~E. Allen}.
 \newblock \href{http://dx.doi.org/10.1111/j.0105-2896.2004.00191.x}{{\bf
   Helminth parasites; masters of regulation}}.
 \newblock {\em Immunological Reviews}, {\bf 201}(1):89--116, 2004.
 
 \bibitem{gomez-escobar_abundant_2002}
-{\sc Natalia {Gomez-Escobar}, William~F. Gregory, Collette Britton, Linda
-  Murray, Craig Corton, Neil Hall, Jen Daub, Mark~L. Blaxter, and Rick~M
-  Maizels}.
+{\sc N.~{Gomez-Escobar}, W.~F. Gregory, C.~Britton, L.~Murray, C.~Corton,
+  N.~Hall, J.~Daub, M.~Blaxter, and R.~M. Maizels}.
 \newblock
   \href{http://www.sciencedirect.com/science/article/B6T29-46X2H9H-1/2/380672a%
 1fd08da2690f9b3e560ca4047}{{\bf Abundant larval transcript-1 and -2 genes from
@@ -950,38 +985,36 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \bibitem{pmid11704277}
 {\sc J.~Murray, W.~F. Gregory, N.~Gomez-Escobar, A.~K. Atmadja, and R.~M.
   Maizels}.
-\newblock {\bf {{E}xpression and immune recognition of {B}rugia malayi
-  {V}{A}{L}-1, a homologue of vespid venom allergens and {A}ncylostoma secreted
-  proteins}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11704277}{{\bf {{E}xpression
+  and immune recognition of {B}rugia malayi {V}{A}{L}-1, a homologue of vespid
+  venom allergens and {A}ncylostoma secreted proteins}}}.
 \newblock {\em Mol. Biochem. Parasitol.}, {\bf 118}:89--96, Nov 2001.
-\newblock
-  [PubMed:\href{http://www.ncbi.nlm.nih.gov/pubmed/11704277}{11704277}].
 
 \bibitem{harcus_signal_2004}
-{\sc Yvonne Harcus, John Parkinson, Cecilia Fernandez, Jennifer Daub, Murray
-  Selkirk, Mark Blaxter, and Rick Maizels}.
+{\sc Y.~Harcus, J.~Parkinson, C.~Fernandez, J.~Daub, M.~Selkirk, M.~Blaxter,
+  and R.~Maizels}.
 \newblock \href{http://genomebiology.com/2004/5/6/R39}{{\bf Signal sequence
   analysis of expressed sequence tags from the nematode Nippostrongylus
   brasiliensis and the evolution of secreted proteins in parasites}}.
 \newblock {\em Genome Biology}, {\bf 5}(6):R39, 2004.
 
 \bibitem{nagaraj_needles_2008}
-{\sc Shivashankar~H. Nagaraj, Robin~B. Gasser, and Shoba Ranganathan}.
-\newblock {\bf Needles in the {EST} Haystack: {Large-Scale} Identification and
-  Analysis of {Excretory-Secretory} {(ES)} Proteins in Parasitic Nematodes
-  Using Expressed Sequence Tags {(ESTs)}}.
+{\sc S.~H. Nagaraj, R.~B. Gasser, and S.~Ranganathan}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18820748}{{\bf Needles in
+  the {EST} Haystack: {Large-Scale} Identification and Analysis of
+  {Excretory-Secretory} {(ES)} Proteins in Parasitic Nematodes Using Expressed
+  Sequence Tags {(ESTs)}}}.
 \newblock {\em {PLoS} Neglected Tropical Diseases}, {\bf 2}(9):e301, 2008.
 
 \bibitem{parkinson_nembase:resource_2004}
-{\sc John Parkinson, Claire Whitton, Ralf Schmid, Marian Thomson, and Mark
-  Blaxter}.
+{\sc J.~Parkinson, C.~Whitton, R.~Schmid, M.~Thomson, and M.~Blaxter}.
 \newblock
   \href{http://nar.oxfordjournals.org/cgi/content/abstract/32/suppl_1/D427}{{\%
-bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
+bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 \newblock {\em Nucl. Acids Res.}, {\bf 32}(suppl\_1):D427--430, 2004.
 
 \bibitem{wasmuth_extent_2008}
-{\sc James Wasmuth, Ralf Schmid, Ann Hedley, and Mark Blaxter}.
+{\sc J.~Wasmuth, R.~Schmid, A.~Hedley, and M.~Blaxter}.
 \newblock
   \href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2432500}{{\bf
   On the Extent and Origins of Genic Novelty in the Phylum Nematoda}}.
@@ -989,22 +1022,24 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid21550347}
 {\sc B.~Elsworth, J.~Wasmuth, and M.~Blaxter}.
-\newblock {\bf {{N}{E}{M}{B}{A}{S}{E}4: {T}he nematode transcriptome
-  resource}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21550347}{{\bf
+  {{N}{E}{M}{B}{A}{S}{E}4: {T}he nematode transcriptome resource}}}.
 \newblock {\em Int. J. Parasitol.}, {\bf 41}:881--894, Jul 2011.
 
 \bibitem{pmid20470405}
 {\sc Z.~Wang, S.~Abubucker, J.~Martin, R.~K. Wilson, J.~Hawdon, and
   M.~Mitreva}.
-\newblock {\bf {{C}haracterizing {A}ncylostoma caninum transcriptome and
-  exploring nematode parasitic adaptation}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20470405}{{\bf
+  {{C}haracterizing {A}ncylostoma caninum transcriptome and exploring nematode
+  parasitic adaptation}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:307, 2010.
 
 \bibitem{pmid20237107}
 {\sc N.~Borchert, C.~Dieterich, K.~Krug, W.~Schutz, S.~Jung, A.~Nordheim, R.~J.
   Sommer, and B.~Macek}.
-\newblock {\bf {{P}roteogenomics of {P}ristionchus pacificus reveals distinct
-  proteome structure of nematode models}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20237107}{{\bf
+  {{P}roteogenomics of {P}ristionchus pacificus reveals distinct proteome
+  structure of nematode models}}}.
 \newblock {\em Genome Res.}, {\bf 20}:837--846, Jun 2010.
 
 \bibitem{pmid20950480}
@@ -1016,88 +1051,62 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 \bibitem{pmid21685128}
 {\sc J.~Wang, B.~Czech, A.~Crunk, A.~Wallace, M.~Mitreva, G.~J. Hannon, and
   R.~E. Davis}.
-\newblock {\bf {{D}eep small {R}{N}{A} sequencing from the nematode {A}scaris
-  reveals conservation, functional diversification, and novel developmental
-  profiles}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21685128}{{\bf {{D}eep small
+  {R}{N}{A} sequencing from the nematode {A}scaris reveals conservation,
+  functional diversification, and novel developmental profiles}}}.
 \newblock {\em Genome Res.}, {\bf 21}:1462--1477, Sep 2011.
 
 \bibitem{pmid22044053}
 {\sc M.~Blaxter, S.~Kumar, G.~Kaur, G.~Koutsouvoulos, and B.~Elsworth}.
-\newblock {\bf {{G}enomics and transcriptomics across the diversity of the
-  {N}ematoda}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/22044053}{{\bf {{G}enomics
+  and transcriptomics across the diversity of the {N}ematoda}}}.
 \newblock {\em Parasite Immunol}, Nov 2011.
 
 \bibitem{pmid20420710}
 {\sc C.~Cantacessi, B.~E. Campbell, N.~D. Young, A.~R. Jex, R.~S. Hall, P.~J.
   Presidente, J.~L. Zawadzki, W.~Zhong, B.~Aleman-Meza, A.~Loukas, P.~W.
   Sternberg, and R.~B. Gasser}.
-\newblock {\bf {{D}ifferences in transcription between free-living and
-  {C}{O}2-activated third-stage larvae of {H}aemonchus contortus}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20420710}{{\bf
+  {{D}ifferences in transcription between free-living and {C}{O}2-activated
+  third-stage larvae of {H}aemonchus contortus}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:266, 2010.
 
 \bibitem{pmid19997069}
 {\sc M.~L. Metzker}.
-\newblock {\bf {{S}equencing technologies - the next generation}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19997069}{{\bf {{S}equencing
+  technologies - the next generation}}}.
 \newblock {\em Nat. Rev. Genet.}, {\bf 11}:31--46, Jan 2010.
-
-\bibitem{pmid19327155}
-{\sc O.~Harismendy, P.~C. Ng, R.~L. Strausberg, X.~Wang, T.~B. Stockwell, K.~Y.
-  Beeson, N.~J. Schork, S.~S. Murray, E.~J. Topol, S.~Levy, and K.~A. Frazer}.
-\newblock {\bf {{E}valuation of next generation sequencing platforms for
-  population targeted sequencing studies}}.
-\newblock {\em Genome Biol.}, {\bf 10}:R32, 2009.
-
-\bibitem{pmid21431759}
-{\sc K.~E. Steinmann, C.~E. Hart, J.~F. Thompson, and P.~M. Milos}.
-\newblock {\bf {{H}elicos single-molecule sequencing of bacterial genomes}}.
-\newblock {\em Methods Mol. Biol.}, {\bf 733}:3--24, 2011.
-
-\bibitem{pmid21572978}
-{\sc W.~Timp, U.~M. Mirsaidov, D.~Wang, J.~Comer, A.~Aksimentiev, and G.~Timp}.
-\newblock {\bf {{N}anopore {S}equencing: {E}lectrical {M}easurements of the
-  {C}ode of {L}ife}}.
-\newblock {\em IEEE Trans Nanotechnol}, {\bf 9}:281--294, May 2010.
-
-\bibitem{pmid21431761}
-{\sc T.~Raz, M.~Causey, D.~R. Jones, A.~Kieu, S.~Letovsky, D.~Lipson,
-  E.~Thayer, J.~F. Thompson, and P.~M. Milos}.
-\newblock {\bf {{R}{N}{A} sequencing and quantitation using the {H}elicos
-  {G}enetic {A}nalysis {S}ystem}}.
-\newblock {\em Methods Mol. Biol.}, {\bf 733}:37--49, 2011.
-
-\bibitem{pmid21957044}
-{\sc F.~Ozsolak and P.~M. Milos}.
-\newblock {\bf {{S}ingle-molecule direct {R}{N}{A} sequencing without
-  c{D}{N}{A} synthesis}}.
-\newblock {\em Wiley Interdiscip Rev RNA}, {\bf 2}:565--570, 2011.
 
 \bibitem{pmid18846085}
 {\sc J.~M. Rothberg and J.~H. Leamon}.
-\newblock {\bf {{T}he development and impact of 454 sequencing}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18846085}{{\bf {{T}he
+  development and impact of 454 sequencing}}}.
 \newblock {\em Nat. Biotechnol.}, {\bf 26}:1117--1124, Oct 2008.
 
 \bibitem{pmid20298868}
 {\sc M.~Larguinho, H.~M. Santos, G.~Doria, H.~Scholz, P.~V. Baptista, and J.~L.
   Capelo}.
-\newblock {\bf {{D}evelopment of a fast and efficient ultrasonic-based strategy
-  for {D}{N}{A} fragmentation}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20298868}{{\bf
+  {{D}evelopment of a fast and efficient ultrasonic-based strategy for
+  {D}{N}{A} fragmentation}}}.
 \newblock {\em Talanta}, {\bf 81}:881--886, May 2010.
 
 \bibitem{pmid17185753}
 {\sc P.~Nyren}.
-\newblock {\bf {{T}he history of pyrosequencing}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17185753}{{\bf {{T}he
+  history of pyrosequencing}}}.
 \newblock {\em Methods Mol. Biol.}, {\bf 373}:1--14, 2007.
 
 \bibitem{pmid21685085}
 {\sc S.~Balzer, K.~Malde, and I.~Jonassen}.
-\newblock {\bf {{S}ystematic exploration of error sources in pyrosequencing
-  flowgram data}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21685085}{{\bf {{S}ystematic
+  exploration of error sources in pyrosequencing flowgram data}}}.
 \newblock {\em Bioinformatics}, {\bf 27}:i304--309, Jul 2011.
 
 \bibitem{pmid21514329}
 {\sc R.~C. Novais and Y.~R. Thorstenson}.
-\newblock {\bf {{T}he evolution of {P}yrosequencing® for microbiology: {F}rom
-  genes to genomes}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21514329}{{\bf {{T}he
+  evolution of {P}yrosequencing® for microbiology: {F}rom genes to genomes}}}.
 \newblock {\em J. Microbiol. Methods}, {\bf 86}:1--7, Jul 2011.
 
 \bibitem{pmid16056220}
@@ -1173,37 +1182,41 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
   S.~Liu, H.~Zhang, D.~Li, Y.~Huang, X.~Wang, G.~Yang, Z.~Jiang, J.~Wang,
   N.~Qin, L.~Li, J.~Li, L.~Bolund, K.~Kristiansen, G.~K. Wong, M.~Olson,
   X.~Zhang, S.~Li, H.~Yang, J.~Wang, and J.~Wang}.
-\newblock {\bf {{T}he sequence and de novo assembly of the giant panda
-  genome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20010809}{{\bf {{T}he
+  sequence and de novo assembly of the giant panda genome}}}.
 \newblock {\em Nature}, {\bf 463}:311--317, Jan 2010.
 
 \bibitem{pmid21679424}
 {\sc B.~Feldmeyer, C.~W. Wheat, N.~Krezdorn, B.~Rotter, and M.~Pfenninger}.
-\newblock {\bf {{S}hort read {I}llumina data for the de novo assembly of a
-  non-model snail species transcriptome ({R}adix balthica, {B}asommatophora,
-  {P}ulmonata), and a comparison of assembler performance}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21679424}{{\bf {{S}hort read
+  {I}llumina data for the de novo assembly of a non-model snail species
+  transcriptome ({R}adix balthica, {B}asommatophora, {P}ulmonata), and a
+  comparison of assembler performance}}}.
 \newblock {\em BMC Genomics}, {\bf 12}:317, 2011.
 
 \bibitem{pmid21627854}
 {\sc J.~H. Malone and B.~Oliver}.
-\newblock {\bf {{M}icroarrays, deep sequencing and the true measure of the
-  transcriptome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21627854}{{\bf
+  {{M}icroarrays, deep sequencing and the true measure of the transcriptome}}}.
 \newblock {\em BMC Biol.}, {\bf 9}:34, 2011.
 
 \bibitem{pmid20967605}
 {\sc H.~Matsumura, K.~Yoshida, S.~Luo, D.~H. Kruger, G.~Kahl, G.~P. Schroth,
   and R.~Terauchi}.
-\newblock {\bf {{H}igh-throughput {S}uper{S}{A}{G}{E}}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20967605}{{\bf
+  {{H}igh-throughput {S}uper{S}{A}{G}{E}}}}.
 \newblock {\em Methods Mol. Biol.}, {\bf 687}:135--146, 2011.
 
 \bibitem{pmid7570003}
 {\sc V.~E. Velculescu, L.~Zhang, B.~Vogelstein, and K.~W. Kinzler}.
-\newblock {\bf {{S}erial analysis of gene expression}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/7570003}{{\bf {{S}erial
+  analysis of gene expression}}}.
 \newblock {\em Science}, {\bf 270}:484--487, Oct 1995.
 
 \bibitem{pmid20211242}
 {\sc J.~R. Miller, S.~Koren, and G.~Sutton}.
-\newblock {\bf {{A}ssembly algorithms for next-generation sequencing data}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20211242}{{\bf {{A}ssembly
+  algorithms for next-generation sequencing data}}}.
 \newblock {\em Genomics}, {\bf 95}:315--327, Jun 2010.
 
 \bibitem{pmid6260957}
@@ -1215,51 +1228,56 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid461197}
 {\sc R.~Staden}.
-\newblock {\bf {{A} strategy of {D}{N}{A} sequencing employing computer
-  programs}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/461197}{{\bf {{A} strategy
+  of {D}{N}{A} sequencing employing computer programs}}}.
 \newblock {\em Nucleic Acids Res.}, {\bf 6}:2601--2610, Jun 1979.
 
 \bibitem{pmid6251542}
 {\sc T.~R. Gingeras and R.~J. Roberts}.
-\newblock {\bf {{S}teps toward computer analysis of nucleotide sequences}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/6251542}{{\bf {{S}teps
+  toward computer analysis of nucleotide sequences}}}.
 \newblock {\em Science}, {\bf 209}:1322--1328, Sep 1980.
 
 \bibitem{pmid7265238}
 {\sc T.~F. Smith and M.~S. Waterman}.
-\newblock {\bf {{I}dentification of common molecular subsequences}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/7265238}{{\bf
+  {{I}dentification of common molecular subsequences}}}.
 \newblock {\em J. Mol. Biol.}, {\bf 147}:195--197, Mar 1981.
 
 \bibitem{pmid7334527}
 {\sc T.~F. Smith, M.~S. Waterman, and W.~M. Fitch}.
-\newblock {\bf {{C}omparative biosequence metrics}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/7334527}{{\bf {{C}omparative
+  biosequence metrics}}}.
 \newblock {\em J. Mol. Evol.}, {\bf 18}:38--46, 1981.
 
 \bibitem{pmid2231712}
 {\sc S.~F. Altschul, W.~Gish, W.~Miller, E.~W. Myers, and D.~J. Lipman}.
-\newblock {\bf {{B}asic local alignment search tool}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/2231712}{{\bf {{B}asic local
+  alignment search tool}}}.
 \newblock {\em J. Mol. Biol.}, {\bf 215}:403--410, Oct 1990.
 
 \bibitem{pmid11932250}
 {\sc W.~J. Kent}.
-\newblock {\bf {{B}{L}{A}{T}--the {B}{L}{A}{S}{T}-like alignment tool}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11932250}{{\bf
+  {{B}{L}{A}{T}--the {B}{L}{A}{S}{T}-like alignment tool}}}.
 \newblock {\em Genome Res.}, {\bf 12}:656--664, Apr 2002.
 
 \bibitem{pmid11591649}
 {\sc Z.~Ning, A.~J. Cox, and J.~C. Mullikin}.
-\newblock {\bf {{S}{S}{A}{H}{A}: a fast search method for large {D}{N}{A}
-  databases}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC311141}{{\bf
+  {{S}{S}{A}{H}{A}: a fast search method for large {D}{N}{A} databases}}}.
 \newblock {\em Genome Res.}, {\bf 11}:1725--1729, Oct 2001.
 
 \bibitem{pmid20080505}
 {\sc H.~Li and R.~Durbin}.
-\newblock {\bf {{F}ast and accurate long-read alignment with
-  {B}urrows-{W}heeler transform}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20080505}{{\bf {{F}ast and
+  accurate long-read alignment with {B}urrows-{W}heeler transform}}}.
 \newblock {\em Bioinformatics}, {\bf 26}:589--595, Mar 2010.
 
 \bibitem{pmid18349386}
 {\sc D.~R. Zerbino and E.~Birney}.
-\newblock {\bf {{V}elvet: algorithms for de novo short read assembly using de
-  {B}ruijn graphs}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18349386}{{\bf {{V}elvet:
+  algorithms for de novo short read assembly using de {B}ruijn graphs}}}.
 \newblock {\em Genome Res.}, {\bf 18}:821--829, May 2008.
 
 \bibitem{pmid21572440}
@@ -1267,29 +1285,33 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
   I.~Amit, X.~Adiconis, L.~Fan, R.~Raychowdhury, Q.~Zeng, Z.~Chen, E.~Mauceli,
   N.~Hacohen, A.~Gnirke, N.~Rhind, F.~di~Palma, B.~W. Birren, C.~Nusbaum,
   K.~Lindblad-Toh, N.~Friedman, and A.~Regev}.
-\newblock {\bf {{F}ull-length transcriptome assembly from {R}{N}{A}-{S}eq data
-  without a reference genome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21572440}{{\bf
+  {{F}ull-length transcriptome assembly from {R}{N}{A}-{S}eq data without a
+  reference genome}}}.
 \newblock {\em Nat. Biotechnol.}, {\bf 29}:644--652, Jul 2011.
 
 \bibitem{pmid21138572}
 {\sc T.~S. Schwartz, H.~Tae, Y.~Yang, K.~Mockaitis, J.~L. Van~Hemert, S.~R.
   Proulx, J.~H. Choi, and A.~M. Bronikowski}.
-\newblock {\bf {{A} garter snake transcriptome: pyrosequencing, de novo
-  assembly, and sex-specific differences}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21138572}{{\bf {{A} garter
+  snake transcriptome: pyrosequencing, de novo assembly, and sex-specific
+  differences}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:694, 2010.
 
 \bibitem{pmid19542151}
 {\sc D.~C. Koboldt, K.~Chen, T.~Wylie, D.~E. Larson, M.~D. McLellan, E.~R.
   Mardis, G.~M. Weinstock, R.~K. Wilson, and L.~Ding}.
-\newblock {\bf {{V}ar{S}can: variant detection in massively parallel sequencing
-  of individual and pooled samples}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19542151}{{\bf {{V}ar{S}can:
+  variant detection in massively parallel sequencing of individual and pooled
+  samples}}}.
 \newblock {\em Bioinformatics}, {\bf 25}:2283--2285, Sep 2009.
 
 \bibitem{pmid21653522}
 {\sc P.~Danecek, †A. Auton, G.~Abecasis, Albers CA., E.~Banks, MA. DePristo,
   Handsaker RE., Lunter G., Marth GT., Sherry ST., McVean GT., Durbin T., and
   {1000 Genomes Project}}.
-\newblock {\bf {{T}he variant call format and {V}{C}{F}tools}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21653522}{{\bf {{T}he
+  variant call format and {V}{C}{F}tools}}}.
 \newblock {\em Bioinformatics}, {\bf 27}:2156--2158, Aug 2011.
 
 \bibitem{pmid18204455}
@@ -1297,15 +1319,16 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
   D.~Barnett, P.~Fox, J.~I. Glasscock, M.~Hickenbotham, W.~Huang, V.~J.
   Magrini, R.~J. Richt, S.~N. Sander, D.~A. Stewart, M.~Stromberg, E.~F. Tsung,
   T.~Wylie, T.~Schedl, R.~K. Wilson, and E.~R. Mardis}.
-\newblock {\bf {{W}hole-genome sequencing and variant discovery in {C}.
-  elegans}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18204455}{{\bf
+  {{W}hole-genome sequencing and variant discovery in {C}. elegans}}}.
 \newblock {\em Nat. Methods}, {\bf 5}:183--188, Feb 2008.
 
 \bibitem{pmid22084086}
 {\sc S.~U. Franssen, J.~Gu, N.~Bergmann, G.~Winters, U.~C. Klostermeier,
   P.~Rosenstiel, E.~Bornberg-Bauer, and T.~B. Reusch}.
-\newblock {\bf {{T}ranscriptomic resilience to global warming in the seagrass
-  {Z}ostera marina, a marine foundation species}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/22084086}{{\bf
+  {{T}ranscriptomic resilience to global warming in the seagrass {Z}ostera
+  marina, a marine foundation species}}}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 108}:19276--19281, Nov
   2011.
 
@@ -1317,25 +1340,29 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid17728317}
 {\sc M.~D. Robinson and G.~K. Smyth}.
-\newblock {\bf {{S}mall-sample estimation of negative binomial dispersion, with
-  applications to {S}{A}{G}{E} data}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17728317}{{\bf
+  {{S}mall-sample estimation of negative binomial dispersion, with applications
+  to {S}{A}{G}{E} data}}}.
 \newblock {\em Biostatistics}, {\bf 9}:321--332, Apr 2008.
 
 \bibitem{pmid20979621}
 {\sc S.~Anders and W.~Huber}.
-\newblock {\bf {{D}ifferential expression analysis for sequence count data}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20979621}{{\bf
+  {{D}ifferential expression analysis for sequence count data}}}.
 \newblock {\em Genome Biol.}, {\bf 11}:R106, 2010.
 
 \bibitem{pmid19910308}
 {\sc M.~D. Robinson, D.~J. McCarthy, and G.~K. Smyth}.
-\newblock {\bf {edge{R}: a {B}ioconductor package for differential expression
-  analysis of digital gene expression data}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19910308}{{\bf {edge{R}: a
+  {B}ioconductor package for differential expression analysis of digital gene
+  expression data}}}.
 \newblock {\em Bioinformatics}, {\bf 26}:139--140, Jan 2010.
 
 \bibitem{pmid20698981}
 {\sc T.~J. Hardcastle and K.~A. Kelly}.
-\newblock {\bf {bay{S}eq: empirical {B}ayesian methods for identifying
-  differential expression in sequence count data}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20698981}{{\bf {bay{S}eq:
+  empirical {B}ayesian methods for identifying differential expression in
+  sequence count data}}}.
 \newblock {\em BMC Bioinformatics}, {\bf 11}:422, 2010.
 
 \bibitem{pmid10802651}
@@ -1343,8 +1370,9 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
   Cherry, A.~P. Davis, K.~Dolinski, S.~S. Dwight, J.~T. Eppig, M.~A. Harris,
   D.~P. Hill, L.~Issel-Tarver, A.~Kasarskis, S.~Lewis, J.~C. Matese, J.~E.
   Richardson, M.~Ringwald, G.~M. Rubin, and G.~Sherlock}.
-\newblock {\bf {{G}ene ontology: tool for the unification of biology. {T}he
-  {G}ene {O}ntology {C}onsortium}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10802651}{{\bf {{G}ene
+  ontology: tool for the unification of biology. {T}he {G}ene {O}ntology
+  {C}onsortium}}}.
 \newblock {\em Nat. Genet.}, {\bf 25}:25--29, May 2000.
 
 \bibitem{pmid22123736}
@@ -1358,57 +1386,23 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
   P.~Masson, M.~Moinat, I.~Pedruzzi, S.~Poux, C.~Rivoire, B.~Roechert,
   M.~Schneider, A.~Stutz, S.~Sundaram, M.~Tognolli, L.~Bougueleret,
   G.~Argoud-Puy, I.~Cusin, P.~Duek-Roggli, I.~Xenarios, and R.~Apweiler}.
-\newblock {\bf {{T}he {U}ni{P}rot-{G}{O} {A}nnotation database in 2011}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/22123736}{{\bf {{T}he
+  {U}ni{P}rot-{G}{O} {A}nnotation database in 2011}}}.
 \newblock {\em Nucleic Acids Res}, Nov 2011.
-
-\bibitem{via_ecological_2002}
-{\sc S.~Via}.
-\newblock {\bf The Ecological Genetics of Speciation}.
-\newblock {\em The American Naturalist}, {\bf 159}(S3):1--7, 2002.
-
-\bibitem{pmid20354124}
-{\sc C.~J. McManus, J.~D. Coolon, M.~O. Duff, J.~Eipper-Mains, B.~R. Graveley,
-  and P.~J. Wittkopp}.
-\newblock {\bf {{R}egulatory divergence in {D}rosophila revealed by
-  m{R}{N}{A}-seq}}.
-\newblock {\em Genome Res.}, {\bf 20}:816--825, Jun 2010.
-
-\bibitem{pmid16757655}
-{\sc W.~Haerty and R.~S. Singh}.
-\newblock {\bf {{G}ene regulation divergence is a major contributor to the
-  evolution of {D}obzhansky-{M}uller incompatibilities between species of
-  {D}rosophila}}.
-\newblock {\em Mol. Biol. Evol.}, {\bf 23}:1707--1714, Sep 2006.
 
 \bibitem{pmid20331779}
 {\sc F.~Goetz, D.~Rosauer, S.~Sitar, G.~Goetz, C.~Simchick, S.~Roberts,
   R.~Johnson, C.~Murphy, C.~R. Bronte, and S.~Mackenzie}.
-\newblock {\bf {{A} genetic basis for the phenotypic differentiation between
-  siscowet and lean lake trout ({S}alvelinus namaycush)}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20331779}{{\bf {{A} genetic
+  basis for the phenotypic differentiation between siscowet and lean lake trout
+  ({S}alvelinus namaycush)}}}.
 \newblock {\em Mol. Ecol.}, {\bf 19 Suppl 1}:176--196, Mar 2010.
 
 \bibitem{dassanayake2009shedding}
-{\sc M.~Dassanayake, JS~Haas, HJ~Bohnert, and JM~Cheeseman}.
-\newblock {\bf Shedding light on an extremophile lifestyle through
-  transcriptomics}.
+{\sc M.~Dassanayake, J.~S. Haas, H.~J. Bohnert, and J.~M. Cheeseman}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19549131}{{\bf Shedding
+  light on an extremophile lifestyle through transcriptomics}}.
 \newblock {\em New Phytologist}, {\bf 183}(3):764--775, 2009.
-
-\bibitem{pmid7630387}
-{\sc M.~K. Hughes and A.~L. Hughes}.
-\newblock {\bf {{N}atural selection on {P}lasmodium surface proteins}}.
-\newblock {\em Mol. Biochem. Parasitol.}, {\bf 71}:99--113, Apr 1995.
-
-\bibitem{pmid15913420}
-{\sc S.~L. Nuismer and S.~P. Otto}.
-\newblock {\bf {{H}ost-parasite interactions and the evolution of gene
-  expression}}.
-\newblock {\em PLoS Biol.}, {\bf 3}:e203, Jul 2005.
-
-\bibitem{pmid21124871}
-{\sc D.~Colinet, A.~Schmitz, D.~Cazes, J.~L. Gatti, and M.~Poirie}.
-\newblock {\bf {{T}he origin of intraspecific variation of virulence in an
-  eukaryotic immune suppressive parasite}}.
-\newblock {\em PLoS Pathog.}, {\bf 6}:e1001206, 2010.
 
 \bibitem{miraEST}
 {\sc B.~Chevreux, T.~Pfisterer, B.~Drescher, A.~J. Driesel, W.~E. Muller,
@@ -1425,9 +1419,10 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 \newblock {\em Genome Res.}, {\bf 9}:868--877, Sep 1999.
 
 \bibitem{journals/bioinformatics/LiHWFRHMAD09}
-{\sc Heng Li, Bob Handsaker, Alec Wysoker, Tim Fennell, Jue Ruan, Nils Homer,
-  Gabor Marth, Gonçalo~R. Abecasis, and Richard Durbin}.
-\newblock {\bf The Sequence Alignment/Map format and SAMtools.}
+{\sc H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
+  G.~R. Abecasis, and R.~Durbin}.
+\newblock \href{http://dx.doi.org/10.1093/bioinformatics/btp352}{{\bf The
+  Sequence Alignment/Map format and SAMtools.}}
 \newblock {\em Bioinformatics}, {\bf 25}(16):2078--2079, 2009.
 
 \bibitem{tgicl_pertea}
@@ -1439,13 +1434,13 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 \newblock {\em Bioinformatics}, {\bf 19}:651--652, Mar 2003.
 
 \bibitem{wasmuth_prot4est:_2004}
-{\sc James Wasmuth and Mark Blaxter}.
+{\sc J.~Wasmuth and M.~Blaxter}.
 \newblock \href{http://www.biomedcentral.com/1471-2105/5/187}{{\bf {prot4EST:}
   Translating Expressed Sequence Tags from neglected genomes}}.
 \newblock {\em {BMC} Bioinformatics}, {\bf 5}(1):187, 2004.
 
 \bibitem{schmid_annot8r:_2008}
-{\sc Ralf Schmid and Mark~L Blaxter}.
+{\sc R.~Schmid and Blaxter M.}
 \newblock
   \href{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2324097}{{\bf
   annot8r: {GO,} {EC} and {KEGG} annotation of {EST} datasets}}.
@@ -1453,94 +1448,104 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid11590104}
 {\sc E.~M. Zdobnov and R.~Apweiler}.
-\newblock {\bf {{I}nter{P}ro{S}can--an integration platform for the
-  signature-recognition methods in {I}nter{P}ro}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11590104}{{\bf
+  {{I}nter{P}ro{S}can--an integration platform for the signature-recognition
+  methods in {I}nter{P}ro}}}.
 \newblock {\em Bioinformatics}, {\bf 17}:847--848, Sep 2001.
 
 \bibitem{pmid21959131}
 {\sc T.~N. Petersen, S.~Brunak, G.~von Heijne, and H.~Nielsen}.
-\newblock {\bf {{S}ignal{P} 4.0: discriminating signal peptides from
-  transmembrane regions}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21959131}{{\bf {{S}ignal{P}
+  4.0: discriminating signal peptides from transmembrane regions}}}.
 \newblock {\em Nat. Methods}, {\bf 8}:785--786, 2011.
 
 \bibitem{pmid11571049}
 {\sc W.~Amos, J.~W. Wilmer, K.~Fullard, T.~M. Burg, J.~P. Croxall, D.~Bloch,
   and T.~Coulson}.
-\newblock {\bf {{T}he influence of parental relatedness on reproductive
-  success}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11571049}{{\bf {{T}he
+  influence of parental relatedness on reproductive success}}}.
 \newblock {\em Proc. Biol. Sci.}, {\bf 268}:2021--2027, Oct 2001.
 
 \bibitem{pmid17107491}
 {\sc J.~M. Aparicio, J.~Ortego, and P.~J. Cordero}.
-\newblock {\bf {{W}hat should we weigh to estimate heterozygosity, alleles or
-  loci?}}
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17107491}{{\bf {{W}hat
+  should we weigh to estimate heterozygosity, alleles or loci?}}}
 \newblock {\em Mol. Ecol.}, {\bf 15}:4659--4665, Dec 2006.
 
 \bibitem{coltman81j}
 {\sc W.~ColtMan, Pilkington~J. G., Smith~J. A., and Pember ton J.M.}
-\newblock {\bf Parasite-mediated selection against inbred Soay sheep in a
-  free-living, island population}.
+\newblock \href{http://www.jstor.org/stable/2640828}{{\bf Parasite-mediated
+  selection against inbred Soay sheep in a free-living, island population}}.
 \newblock {\em Evolution}, {\bf 81}:1259--1267, 1999.
 
 \bibitem{pmid21565077}
 {\sc J.~S. Alho, K.~Valimaki, and J.~Merila}.
-\newblock {\bf {{R}hh: an {R} extension for estimating multilocus
-  heterozygosity and heterozygosity-heterozygosity correlation}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21565077}{{\bf {{R}hh: an
+  {R} extension for estimating multilocus heterozygosity and
+  heterozygosity-heterozygosity correlation}}}.
 \newblock {\em Mol Ecol Resour}, {\bf 10}:720--722, Jul 2010.
 
 \bibitem{wormbook_sperm}
 {\sc H.~Smith}.
-\newblock {\bf Sperm motility and MSP}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/books/NBK19670/}{{\bf Sperm
+  motility and MSP}}.
 \newblock {\em {WormBook:} The Online Review of C. Elegans Biology}, 2006.
 
 \bibitem{fardilha2011protein}
 {\sc M.~Fardilha, S.L.C. Esteves, L.~Korrodi-Greg{\'o}rio, S.~Pelech, O.A.B.
   da~Cruz~e Silva, and E.~da~Cruz~e Silva}.
-\newblock {\bf Protein phosphatase 1 complexes modulate sperm motility and
-  present novel targets for male infertility}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21257602}{{\bf Protein
+  phosphatase 1 complexes modulate sperm motility and present novel targets for
+  male infertility}}.
 \newblock {\em Molecular human reproduction}, {\bf 17}(8):466--477, 2011.
 
 \bibitem{pmid12782060}
 {\sc J.~P. Dalton, P.~J. Brindley, D.~P. Knox, C.~P. Brady, P.~J. Hotez,
   S.~Donnelly, S.~M. O'Neill, G.~Mulcahy, and A.~Loukas}.
-\newblock {\bf {{H}elminth vaccines: from mining genomic information for
-  vaccine targets to systems used for protein expression}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12782060}{{\bf {{H}elminth
+  vaccines: from mining genomic information for vaccine targets to systems used
+  for protein expression}}}.
 \newblock {\em Int. J. Parasitol.}, {\bf 33}:621--640, May 2003.
 
 \bibitem{pmid9327537}
 {\sc I.~G. Wilson}.
-\newblock {\bf {{I}nhibition and facilitation of nucleic acid amplification}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9327537}{{\bf {{I}nhibition
+  and facilitation of nucleic acid amplification}}}.
 \newblock {\em Appl. Environ. Microbiol.}, {\bf 63}:3741--3751, Oct 1997.
 
 \bibitem{pmid16109794}
 {\sc M.~A. Valasek and J.~J. Repa}.
-\newblock {\bf {{T}he power of real-time {P}{C}{R}}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16109794}{{\bf {{T}he power
+  of real-time {P}{C}{R}}}}.
 \newblock {\em Adv Physiol Educ}, {\bf 29}:151--159, Sep 2005.
 
 \bibitem{pmid20614118}
 {\sc K.~Ohashi, F.~Takizawa, N.~Tokumaru, C.~Nakayasu, H.~Toda, U.~Fischer,
   T.~Moritomo, K.~Hashimoto, T.~Nakanishi, and J.~M. Dijkstra}.
-\newblock {\bf {{A} molecule in teleost fish, related with human
-  {M}{H}{C}-encoded {G}6{F}, has a cytoplasmic tail with {I}{T}{A}{M} and marks
-  the surface of thrombocytes and in some fishes also of erythrocytes}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20614118}{{\bf {{A} molecule
+  in teleost fish, related with human {M}{H}{C}-encoded {G}6{F}, has a
+  cytoplasmic tail with {I}{T}{A}{M} and marks the surface of thrombocytes and
+  in some fishes also of erythrocytes}}}.
 \newblock {\em Immunogenetics}, {\bf 62}:543--559, Aug 2010.
 
 \bibitem{pmid7506383}
 {\sc K.~al~Sabti}.
-\newblock {\bf {{M}icronuclei induced by selenium, mercury, methylmercury and
-  their mixtures in binucleated blocked fish erythrocyte cells}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/7506383}{{\bf {{M}icronuclei
+  induced by selenium, mercury, methylmercury and their mixtures in binucleated
+  blocked fish erythrocyte cells}}}.
 \newblock {\em Mutat. Res.}, {\bf 320}:157--163, Jan 1994.
 
 \bibitem{pmid20386959}
 {\sc M.~C. Hale, J.~R. Jackson, and J.~A. Dewoody}.
-\newblock {\bf {{D}iscovery and evaluation of candidate sex-determining genes
-  and xenobiotics in the gonads of lake sturgeon ({A}cipenser fulvescens)}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20386959}{{\bf {{D}iscovery
+  and evaluation of candidate sex-determining genes and xenobiotics in the
+  gonads of lake sturgeon ({A}cipenser fulvescens)}}}.
 \newblock {\em Genetica}, {\bf 138}:745--756, Jul 2010.
 
 \bibitem{pmid20034392}
 {\sc A.~Papanicolaou, R.~Stierli, R.~H. Ffrench-Constant, and D.~G. Heckel}.
-\newblock {\bf {{N}ext generation transcriptomes for next generation genomes
-  using est2assembly}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20034392}{{\bf {{N}ext
+  generation transcriptomes for next generation genomes using est2assembly}}}.
 \newblock {\em BMC Bioinformatics}, {\bf 10}:447, 2009.
 
 \bibitem{pmid17218127}
@@ -1553,76 +1558,81 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 \bibitem{pmid20478048}
 {\sc S.~T. O'Neil, J.~D. Dzurisin, R.~D. Carmichael, N.~F. Lobo, S.~J. Emrich,
   and J.~J. Hellmann}.
-\newblock {\bf {{P}opulation-level transcriptome sequencing of nonmodel
-  organisms {E}rynnis propertius and {P}apilio zelicaon}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20478048}{{\bf
+  {{P}opulation-level transcriptome sequencing of nonmodel organisms {E}rynnis
+  propertius and {P}apilio zelicaon}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:310, 2010.
 
 \bibitem{pmid21364769}
 {\sc R.~Gregory, A.~C. Darby, H.~Irving, M.~B. Coulibaly, M.~Hughes, L.~L.
   Koekemoer, M.~Coetzee, H.~Ranson, J.~Hemingway, N.~Hall, and C.~S. Wondji}.
-\newblock {\bf {{A} {D}e {N}ovo {E}xpression {P}rofiling of {A}nopheles
-  funestus, {M}alaria {V}ector in {A}frica, {U}sing 454 {P}yrosequencing}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21364769}{{\bf {{A} {D}e
+  {N}ovo {E}xpression {P}rofiling of {A}nopheles funestus, {M}alaria {V}ector
+  in {A}frica, {U}sing 454 {P}yrosequencing}}}.
 \newblock {\em PLoS ONE}, {\bf 6}:e17418, 2011.
 
 \bibitem{pmid20331785}
 {\sc A.~Kunstner, J.~B. Wolf, N.~Backstrom, O.~Whitney, C.~N. Balakrishnan,
   L.~Day, S.~V. Edwards, D.~E. Janes, B.~A. Schlinger, R.~K. Wilson, E.~D.
   Jarvis, W.~C. Warren, and H.~Ellegren}.
-\newblock {\bf {{C}omparative genomics based on massive parallel transcriptome
-  sequencing reveals patterns of substitution and selection across 10 bird
-  species}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20331785}{{\bf
+  {{C}omparative genomics based on massive parallel transcriptome sequencing
+  reveals patterns of substitution and selection across 10 bird species}}}.
 \newblock {\em Mol. Ecol.}, {\bf 19 Suppl 1}:266--276, Mar 2010.
 
 \bibitem{pmid21169219}
 {\sc H.~Yang, X.~Chen, and W.~H. Wong}.
-\newblock {\bf {{C}ompletely phased genome sequencing through chromosome
-  sorting}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21169219}{{\bf {{C}ompletely
+  phased genome sequencing through chromosome sorting}}}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 108}:12--17, Jan 2011.
 
 \bibitem{pmid21143862}
-{\sc Andrew Adey, Hilary Morrison, X~Asan, Xu~Xun, Jacob Kitzman, Emily Turner,
-  Bethany Stackhouse, Alexandra MacKenzie, Nicholas Caruccio, Xiuqing Zhang,
-  Jacob Shendure, Emily Turner, Bethany Stackhouse, Alexandra MacKenzie,
-  Nicholas Caruccio, Xiuqing Zhang, and Jay Shendure}.
-\newblock {\bf {Rapid, low-input, low-bias construction of shotgun fragment
-  libraries by high-density in vitro transposition}}.
+{\sc A.~Adey, H.~Morrison, X.~Asan, X.~Xun, J.~Kitzman, E.~Turner,
+  B.~Stackhouse, A.~MacKenzie, N.~Caruccio, X.~Zhang, and J.~Shendure}.
+\newblock \href{http://genomebiology.com/content/11/12/R119}{{\bf {Rapid,
+  low-input, low-bias construction of shotgun fragment libraries by
+  high-density in vitro transposition}}}.
 \newblock {\em Genome Biol.}, {\bf 11}(12):R119, 2010.
 
 \bibitem{pmid19081788}
 {\sc S.~Kryazhimskiy and J.~B. Plotkin}.
-\newblock {\bf {{T}he population genetics of d{N}/d{S}}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19081788}{{\bf {{T}he
+  population genetics of d{N}/d{S}}}}.
 \newblock {\em PLoS Genet.}, {\bf 4}:e1000304, Dec 2008.
 
 \bibitem{pmid18590545}
 {\sc E.~Novaes, D.~R. Drost, W.~G. Farmerie, G.~J. Pappas, D.~Grattapaglia,
   R.~R. Sederoff, and M.~Kirst}.
-\newblock {\bf {{H}igh-throughput gene and {S}{N}{P} discovery in {E}ucalyptus
-  grandis, an uncharacterized genome}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18590545}{{\bf
+  {{H}igh-throughput gene and {S}{N}{P} discovery in {E}ucalyptus grandis, an
+  uncharacterized genome}}}.
 \newblock {\em BMC Genomics}, {\bf 9}:312, 2008.
 
 \bibitem{pmid15579698}
 {\sc W.~J. Swanson, A.~Wong, M.~F. Wolfner, and C.~F. Aquadro}.
-\newblock {\bf {{E}volutionary expressed sequence tag analysis of {D}rosophila
-  female reproductive tracts identifies genes subjected to positive
-  selection}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15579698}{{\bf
+  {{E}volutionary expressed sequence tag analysis of {D}rosophila female
+  reproductive tracts identifies genes subjected to positive selection}}}.
 \newblock {\em Genetics}, {\bf 168}:1457--1465, Nov 2004.
 
 \bibitem{pmid11404480}
 {\sc W.~J. Swanson, A.~G. Clark, H.~M. Waldrip-Dail, M.~F. Wolfner, and C.~F.
   Aquadro}.
-\newblock {\bf {{E}volutionary {E}{S}{T} analysis identifies rapidly evolving
-  male reproductive proteins in {D}rosophila}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11404480}{{\bf
+  {{E}volutionary {E}{S}{T} analysis identifies rapidly evolving male
+  reproductive proteins in {D}rosophila}}}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 98}:7375--7379, Jun 2001.
 
 \bibitem{pmid6449605}
 {\sc T.~Miyata and T.~Yasunaga}.
-\newblock {\bf {{M}olecular evolution of m{R}{N}{A}: a method for estimating
-  evolutionary rates of synonymous and amino acid substitutions from homologous
-  nucleotide sequences and its application}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/6449605}{{\bf {{M}olecular
+  evolution of m{R}{N}{A}: a method for estimating evolutionary rates of
+  synonymous and amino acid substitutions from homologous nucleotide sequences
+  and its application}}}.
 \newblock {\em J. Mol. Evol.}, {\bf 16}:23--36, Sep 1980.
 
 \bibitem{knopf_migratory_2008}
-{\sc K~Knopf, A~Madriles Helm, R~Lucius, W~Bleiss, and H~Taraschewski}.
+{\sc K.~Knopf, A.~{Madriles Helm}, R.~Lucius, W.~Bleiss, and H.~Taraschewski}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18311570}{{\bf Migratory
   response of European eel {(Anguilla} anguilla) phagocytes to the eel
   swimbladder nematode Anguillicola crassus}}.
@@ -1637,14 +1647,55 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid9664699}
 {\sc A.~L. Veuthey and G.~Bittar}.
-\newblock {\bf {{P}hylogenetic relationships of fungi, plantae, and animalia
-  inferred from homologous comparison of ribosomal proteins}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9664699}{{\bf
+  {{P}hylogenetic relationships of fungi, plantae, and animalia inferred from
+  homologous comparison of ribosomal proteins}}}.
 \newblock {\em J. Mol. Evol.}, {\bf 47}:81--92, Jul 1998.
 
 \bibitem{pmid15275275}
 {\sc A.~L. Scott}.
-\newblock {\bf {{N}ematode sperm}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15275275}{{\bf {{N}ematode
+  sperm}}}.
 \newblock {\em Parasitol. Today (Regul. Ed.)}, {\bf 12}:425--430, Nov 1996.
+
+\bibitem{pmid12219088}
+{\sc M.~F. Oleksiak, G.~A. Churchill, and D.~L. Crawford}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12219088}{{\bf {{V}ariation
+  in gene expression within and among natural populations}}}.
+\newblock {\em Nat. Genet.}, {\bf 32}:261--266, Oct 2002.
+
+\bibitem{pmid15498452}
+{\sc J.~A. Stamatoyannopoulos}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15498452}{{\bf {{T}he
+  genomics of gene expression}}}.
+\newblock {\em Genomics}, {\bf 84}:449--457, Sep 2004.
+
+\bibitem{pmid11923494}
+{\sc R.~B. Brem, G.~Yvert, R.~Clinton, and L.~Kruglyak}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11923494}{{\bf {{G}enetic
+  dissection of transcriptional regulation in budding yeast}}}.
+\newblock {\em Science}, {\bf 296}:752--755, Apr 2002.
+
+\bibitem{pmid11726925}
+{\sc W.~Jin, R.~M. Riley, R.~D. Wolfinger, K.~P. White, G.~Passador-Gurgel, and
+  G.~Gibson}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11726925}{{\bf {{T}he
+  contributions of sex, genotype and age to transcriptional variance in
+  {D}rosophila melanogaster}}}.
+\newblock {\em Nat. Genet.}, {\bf 29}:389--395, Dec 2001.
+
+\bibitem{pmid11341673}
+{\sc J.~R. True and E.~S. Haag}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11341673}{{\bf
+  {{D}evelopmental system drift and flexibility in evolutionary
+  trajectories}}}.
+\newblock {\em Evol. Dev.}, {\bf 3}:109--119, 2001.
+
+\bibitem{pmid16567645}
+{\sc A.~Whitehead and D.~L. Crawford}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16567645}{{\bf {{N}eutral
+  and adaptive variation in gene expression}}}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 103}:5425--5430, Apr 2006.
 
 \bibitem{gould_spandrels_1979}
 {\sc S.~J. Gould and R.~C. Lewontin}.
@@ -1656,51 +1707,106 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid19744124}
 {\sc R.~Nielsen}.
-\newblock {\bf {{A}daptionism-30 years after {G}ould and {L}ewontin}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19744124}{{\bf
+  {{A}daptionism-30 years after {G}ould and {L}ewontin}}}.
 \newblock {\em Evolution}, {\bf 63}:2487--2490, Oct 2009.
+
+\bibitem{pmid15371532}
+{\sc A.~D. Cutter and S.~Ward}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15371532}{{\bf {{S}exual and
+  temporal dynamics of molecular evolution in {C}. elegans development}}}.
+\newblock {\em Mol. Biol. Evol.}, {\bf 22}:178--188, Jan 2005.
 
 \bibitem{pmid16825664}
 {\sc X.~Yang, E.~E. Schadt, S.~Wang, H.~Wang, A.~P. Arnold, L.~Ingram-Drake,
   T.~A. Drake, and A.~J. Lusis}.
-\newblock {\bf {{T}issue-specific expression and regulation of sexually
-  dimorphic genes in mice}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16825664}{{\bf
+  {{T}issue-specific expression and regulation of sexually dimorphic genes in
+  mice}}}.
 \newblock {\em Genome Res.}, {\bf 16}:995--1004, Aug 2006.
 
-\bibitem{pmid15987632}
-{\sc K.~Thoemke, W.~Yi, J.~M. Ross, S.~Kim, V.~Reinke, and D.~Zarkower}.
-\newblock {\bf {{G}enome-wide analysis of sex-enriched gene expression during
-  {C}. elegans larval development}}.
-\newblock {\em Dev. Biol.}, {\bf 284}:500--508, Aug 2005.
-
-\bibitem{pmid15371532}
-{\sc A.~D. Cutter and S.~Ward}.
-\newblock {\bf {{S}exual and temporal dynamics of molecular evolution in {C}.
-  elegans development}}.
-\newblock {\em Mol. Biol. Evol.}, {\bf 22}:178--188, Jan 2005.
+\bibitem{pmid15795858}
+{\sc W.~G. Eberhard}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15795858}{{\bf
+  {{E}volutionary conflicts of interest: are female sexual decisions
+  different?}}}
+\newblock {\em Am. Nat.}, {\bf 165 Suppl 5}:19--25, May 2005.
 
 \bibitem{pmid19720861}
 {\sc Z.~F. Jiang and C.~A. Machado}.
-\newblock {\bf {{E}volution of sex-dependent gene expression in three recently
-  diverged species of {D}rosophila}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19720861}{{\bf {{E}volution
+  of sex-dependent gene expression in three recently diverged species of
+  {D}rosophila}}}.
 \newblock {\em Genetics}, {\bf 183}:1175--1185, Nov 2009.
 
+\bibitem{pmid15034135}
+{\sc S.~V. Nuzhdin, M.~L. Wayne, K.~L. Harmon, and L.~M. McIntyre}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15034135}{{\bf {{C}ommon
+  pattern of evolution of gene expression level and protein sequence in
+  {D}rosophila}}}.
+\newblock {\em Mol. Biol. Evol.}, {\bf 21}:1308--1317, Jul 2004.
+
+\bibitem{pmid11786267}
+{\sc M.~Valachovic, V.~Klobucnikova, P.~Griac, and I.~Hapala}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/11786267}{{\bf
+  {{H}eme-regulated expression of two yeast acyl-{C}o{A}:sterol
+  acyltransferases is involved in the specific response of sterol
+  esterification to anaerobiosis}}}.
+\newblock {\em FEMS Microbiol. Lett.}, {\bf 206}:121--125, Jan 2002.
+
+\bibitem{pmid8454629}
+{\sc S.~Y. Yang and M.~Elzinga}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8454629}{{\bf {{A}ssociation
+  of both enoyl coenzyme {A} hydratase and 3-hydroxyacyl coenzyme {A} epimerase
+  with an active site in the amino-terminal domain of the multifunctional fatty
+  acid oxidation protein from {E}scherichia coli}}}.
+\newblock {\em J. Biol. Chem.}, {\bf 268}:6588--6592, Mar 1993.
+
+\bibitem{sturm1969vergleichende}
+{\sc G.~Sturm, C.~Hirschh\"{a}user, and F.~Zilliken}.
+\newblock \href{http://dx.doi.org/10.1515/bchm2.1969.350.1.696}{{\bf
+  Vergleichende Bestimmung von Enzymaktivit{\"a}ten in Fasciola hepatica und
+  Rinderleber}}.
+\newblock {\em Hoppe-Seyler{\'{}} s Zeitschrift f{\"u}r physiologische Chemie},
+  {\bf 350}(1):696--700, 1969.
+
+\bibitem{pmid21087517}
+{\sc S.~Q. Toh, A.~Glanfield, G.~N. Gobert, and M.~K. Jones}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21087517}{{\bf {{H}eme and
+  blood-feeding parasites: friends or foes?}}}
+\newblock {\em Parasit Vectors}, {\bf 3}:108, 2010.
+
+\bibitem{pmid12163151}
+{\sc P.~L. Oliveira and M.~F. Oliveira}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12163151}{{\bf {{V}ampires,
+  {P}asteur and reactive oxygen species. {I}s the switch from aerobic to
+  anaerobic metabolism a preventive antioxidant defence in blood-feeding
+  parasites?}}}
+\newblock {\em FEBS Lett.}, {\bf 525}:3--6, Aug 2002.
+
+\bibitem{mealloprot}
+{\sc R.~P. Mecham and Parks~W. C.}, editors.
+\newblock {\em Matrix Metalloproteinases}.
+\newblock Academic Press, 1989.
+
 \bibitem{ewing_base-calling_1998}
-{\sc Brent Ewing, {LaDeana} Hillier, Michael~C. Wendl, and Phil Green}.
+{\sc B.~Ewing, L.~Hillier, M.~C. Wendl, and P.~Green}.
 \newblock \href{http://genome.cshlp.org/cgi/content/abstract/8/3/175}{{\bf
   {Base-Calling} of automated sequencer traces using {Phred. I.} {Accuracy
   Assessment}}}.
 \newblock {\em Genome Res.}, {\bf 8}(3):175--185, March 1998.
 
 \bibitem{PHRAP}
-{\sc Phil Green}.
+{\sc P.~Green}.
 \newblock \href{http://www.phrap.org}{{\em PHRAP documentation.}}, 1994.
 
 \bibitem{pmid21080939}
 {\sc A.~Coppe, J.~M. Pujolar, G.~E. Maes, P.~F. Larsen, M.~M. Hansen,
   L.~Bernatchez, L.~Zane, and S.~Bortoluzzi}.
-\newblock {\bf {{S}equencing, de novo annotation and analysis of the first
-  {A}nguilla anguilla transcriptome: {E}eel{B}ase opens new perspectives for
-  the study of the critically endangered {E}uropean eel}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3012609}{{\bf
+  {{S}equencing, de novo annotation and analysis of the first {A}nguilla
+  anguilla transcriptome: {E}eel{B}ase opens new perspectives for the study of
+  the critically endangered {E}uropean eel}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:635, 2010.
 
 \bibitem{pmid18836194}
@@ -1728,11 +1834,12 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
   L.~Arminski, W.~Barker, Y.~Chen, Z.~Z. Hu, H.~K. Hua, H.~Huang, R.~Mazumder,
   P.~McGarvey, D.~A. Natale, A.~Nikolskaya, N.~Petrova, B.~E. Suzek,
   S.~Vasudevan, C.~R. Vinayaka, L.~S. Yeh, and J.~Zhang}.
-\newblock {\bf {{T}he {U}niversal {P}rotein {R}esource ({U}ni{P}rot) 2009}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18836194}{{\bf {{T}he
+  {U}niversal {P}rotein {R}esource ({U}ni{P}rot) 2009}}}.
 \newblock {\em Nucleic Acids Res.}, {\bf 37}:D169--174, Jan 2009.
 
 \bibitem{estscan}
-{\sc C~Iseli, CV~Jongeneel, and P~Bucher}.
+{\sc C.~Iseli, C.~V. Jongeneel, and P.~Bucher}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10786296}{{\bf {ESTScan:} a
   program for detecting, evaluating, and reconstructing potential coding
   regions in {EST} sequences.}}
@@ -1740,24 +1847,25 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid22083790}
 {\sc A.~Kasprzyk}.
-\newblock {\bf {{B}io{M}art: driving a paradigm change in biological data
-  management}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/22083790}{{\bf {{B}io{M}art:
+  driving a paradigm change in biological data management}}}.
 \newblock {\em Database (Oxford)}, {\bf 2011}:bar049, 2011.
 
 \bibitem{pmid19617889}
 {\sc S.~Durinck, P.~T. Spellman, E.~Birney, and W.~Huber}.
-\newblock {\bf {{M}apping identifiers for the integration of genomic datasets
-  with the {R}/{B}ioconductor package bioma{R}t}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19617889}{{\bf {{M}apping
+  identifiers for the integration of genomic datasets with the
+  {R}/{B}ioconductor package bioma{R}t}}}.
 \newblock {\em Nat Protoc}, {\bf 4}:1184--1191, 2009.
 
 \bibitem{pmid17098774}
 {\sc S.~Falcon and R.~Gentleman}.
-\newblock {\bf {{U}sing {G}{O}stats to test gene lists for {G}{O} term
-  association}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/17098774}{{\bf {{U}sing
+  {G}{O}stats to test gene lists for {G}{O} term association}}}.
 \newblock {\em Bioinformatics}, {\bf 23}:257--258, Jan 2007.
 
 \bibitem{rsamtools}
-{\sc Martin Morgan and Herv\'e Pag\`es}.
+{\sc M.~Morgan and H.~Pag\`es}.
 \newblock
   \href{http://bioconductor.org/packages/release/bioc/html/Rsamtools.html}{{\em
   {R}samtools: Import aligned BAM file format sequences into R /
@@ -1765,23 +1873,24 @@ bf {NEMBASE:} a resource for parasitic nematode {ESTs}}}.
 \newblock R package version 1.4.3.
 
 \bibitem{boon1990effect}
-{\sc JH~Boon, VMH Cannaerts, H.~Augustijn, MAM Machiels, D.~De~Charleroy, and
-  F.~Ollevier}.
-\newblock {\bf The effect of different infection levels with infective larvae
-  of Anguillicola crassus on haematological parameters of European eel
-  (Anguilla anguilla)}.
+{\sc J.~H. Boon, V.~M.~H. Cannaerts, H.~Augustijn, M.~A.~M. Machiels, D.~{De
+  Charleroy}, and F.~Ollevier}.
+\newblock \href{http://dx.doi.org/10.1016/0044-8486(90)90062-R}{{\bf The effect
+  of different infection levels with infective larvae of Anguillicola crassus
+  on haematological parameters of European eel (Anguilla anguilla)}}.
 \newblock {\em Aquaculture}, {\bf 87}(3-4):243--253, 1990.
 
 \bibitem{haenen_improved_1994}
 {\sc O.L.M. Haenen, T.A.M. {van Wijngaarden}, and F.H.M. Borgsteede}.
-\newblock {\bf An improved method for the production of infective third-stage
-  juveniles of {Anguillicola crassus}}.
+\newblock \href{http://dx.doi.org/10.1016/0044-8486(94)90128-7}{{\bf An
+  improved method for the production of infective third-stage juveniles of
+  {Anguillicola crassus}}}.
 \newblock {\em {Aquaculture(Amsterdam)}}, {\bf 123}(1-2):163--165, 1994.
 
 \bibitem{benjamini1995controlling}
 {\sc Y.~Benjamini and Y.~Hochberg}.
-\newblock {\bf Controlling the false discovery rate: a practical and powerful
-  approach to multiple testing}.
+\newblock \href{http://www.jstor.org/stable/2346101}{{\bf Controlling the false
+  discovery rate: a practical and powerful approach to multiple testing}}.
 \newblock {\em Journal of the Royal Statistical Society. Series B
   (Methodological)}, pages 289--300, 1995.
 

@@ -4,7 +4,6 @@ A level-1 auxiliary file: 0_frontmatter/abstract.aux
 A level-1 auxiliary file: 0_frontmatter/zusammenfassung.aux
 A level-1 auxiliary file: 0_frontmatter/dedication.aux
 A level-1 auxiliary file: 0_frontmatter/acknowledgement.aux
-A level-1 auxiliary file: 0_frontmatter/glossary.aux
 A level-1 auxiliary file: 1_introduction/introduction.aux
 A level-1 auxiliary file: 2_aims/aims.aux
 A level-1 auxiliary file: 3_pilot/pilot.aux
@@ -17,48 +16,47 @@ The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/additional_information.aux
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
-Reallocated field_info (elt_size=4) to 11318 items from 5000.
+Reallocated field_info (elt_size=4) to 11399 items from 5000.
 Database file #1: /home/ele/bibtex/master.bib
-Database file #2: /home/ele/bibtex/master2.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 234 entries,
+You've used 237 entries,
             2776 wiz_defined-function locations,
-            1945 strings with 78774 characters,
-and the built_in function-call counts, 161232 in all, are:
-= -- 14880
-> -- 13046
+            2108 strings with 84854 characters,
+and the built_in function-call counts, 165811 in all, are:
+= -- 15551
+> -- 12970
 < -- 7
-+ -- 5204
-- -- 4952
-* -- 15378
-:= -- 26873
-add.period$ -- 706
-call.type$ -- 234
-change.case$ -- 2943
++ -- 5172
+- -- 4918
+* -- 15954
+:= -- 27655
+add.period$ -- 714
+call.type$ -- 237
+change.case$ -- 2932
 chr.to.int$ -- 0
-cite$ -- 234
-duplicate$ -- 3418
-empty$ -- 9026
-format.name$ -- 4952
-if$ -- 33342
+cite$ -- 237
+duplicate$ -- 3761
+empty$ -- 9725
+format.name$ -- 4918
+if$ -- 34684
 int.to.chr$ -- 0
-int.to.str$ -- 234
-missing$ -- 234
-newline$ -- 1177
-num.names$ -- 468
-pop$ -- 3479
+int.to.str$ -- 237
+missing$ -- 237
+newline$ -- 1191
+num.names$ -- 475
+pop$ -- 3636
 preamble$ -- 1
-purify$ -- 2942
+purify$ -- 2931
 quote$ -- 0
-skip$ -- 5479
+skip$ -- 5389
 stack$ -- 0
-substring$ -- 6376
-swap$ -- 1023
+substring$ -- 6420
+swap$ -- 1183
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 930
+type$ -- 940
 warning$ -- 0
-while$ -- 878
-width$ -- 237
-write$ -- 2572
+while$ -- 888
+width$ -- 240
+write$ -- 2601
