@@ -7,7 +7,6 @@
 \label{cha:pyro}
 
 
-
 %: ----------------------- paths to graphics ------------------------
 
 % change according to folder and file names
@@ -22,27 +21,25 @@
 \section{Overview}
 \label{sec:454-overv}
 
-
 In this chater the transcriptome assembly of \textit{A. crassus} is
 analysed in its biological context. It constitues a basis for
 molecular research on this important species and furthermore provides
 unique insights into the evolution of parasitism in the Spirurina.
 
-After extensive screening of 756.363 raw pyrosequencing reads, we
+After extensive screening of 756.363 raw pyrosequencing reads, I
 assembled 353.055 into 11.371 contigs spanning 7.971.550 bases and
 additionally obtained 21.147 singleton and lower quality contigs
-spanning 8.095.986 bases. We obtained annotations for ca. 60\% of the
+spanning 8.095.986 bases. I obtained annotations for ca. 60\% of the
 contigs and 40\% of the tentatively unique genes (TUGs) confirming the
-high quality of especially the contigs. We found an overabundance of
+high quality of especially the contigs. I found an overabundance of
 predicted signal peptide cleavage sites in sequence conserved in
-Nematoda and novel in \textit{A. crassus}. We identified 5112 high
+Nematoda and novel in \textit{A. crassus}. I identified 5112 high
 quality Single nucleotide polymorphisms (SNPs) and suggest 199 of them
-as most suitable markers for population-genetic studies. GO-term
-analysis identified 13 proteinases under positive selection. Comparing
-male and female as well as Asian and European \textit{A. crassus} we
-developed a method for future work with this transcriptome as a
-reference in mapping experiments.
-
+as most suitable markers for population-genetic studies. The GO-term
+proteinase was identified as overrepresented in contigs under positive
+selection. Comparing male and female as well as Asian and European
+\textit{A. crassus} I developed a method for future work with this
+transcriptome as a reference in mapping experiments.
 
 \section{Sampling \textit{A. crassus}}
 
@@ -53,7 +50,7 @@ aquaculture. All these worms were parasitising endemic
 \textit{An. japonica}. A female worm and pool of L2 larval stages were
 sampled from \textit{An. anguilla} in the river Rhine, one female worm
 from a lake in Poland. All adult worms were filled with large amounts
-of host-blood, therefore we anticipated abundant host-contamination in
+of host-blood, therefore I anticipated abundant host-contamination in
 sequencing data and decided to sequence a liver sample of an
 uninfected \textit{An. japonica} for screening.
 
@@ -65,12 +62,12 @@ trimmed for base call quality, and filtered by length to give 585949
 high-quality reads (spanning 169863104 bases). In the eel dataset from
 159370 raw reads 135072 were assembled after basic quality screening.
 
-We then screened the \textit{A. crassus} reads for contamination by
+I then screened the \textit{A. crassus} reads for contamination by
 host (30071 matched previously sequenced eel genes or our own
 \textit{An. japonica} 454 transcriptome, which had been assembled into
 10639 mRNA contigs. (181783 reads matched large or small subunit
 nuclear or mitochondrial ribosomal RNA sequences of
-\textit{A. crassus}) . In addition to fish mRNAs, we identified (and
+\textit{A. crassus}) . In addition to fish mRNAs, I identified (and
 removed) 5286 reads in the library derived from the L2 nematodes that
 had significant similarity to cercozoan (likely parasite) ribosomal
 RNA genes (see table \ref{screening-lib}). 
@@ -125,10 +122,10 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
 \section{Assembly}
 
 
-We assembled the remaining 353055 reads (spanning 100491819 bases)
+I assembled the remaining 353055 reads (spanning 100491819 bases)
 using the combined assembler strategy \cite{pmid20950480} and Roche
 454 GSassembler (version 2.6) and MIRA (version 3.21)
-\cite{miraEST}. From this we derived 13851 contigs that were supported
+\cite{miraEST}. From this I derived 13851 contigs that were supported
 by both assembly algorithms, 3745 contigs only supported by one of the
 assembly algorithms and 22591 singletons that were not assembled by
 either approach (see table \ref{ass-stat}). When scored by matches to
@@ -198,12 +195,12 @@ statistics]{\textbf{Assembly classification and contig statistics -}
 
 \afterpage{\clearpage}
 
-We screened the complete assembly for residual host contamination, and
+I screened the complete assembly for residual host contamination, and
 identified 3441 TUGs that had higher, significant similarity to
 eel (and chordate) sequences (our 454 ESTs and EMBLBank Chordata
 proteins) than to nematode sequences \cite{pmid21550347}.
 
-Given our prior identification of cercozoan ribosomal RNAs, we also
+Given our prior identification of cercozoan ribosomal RNAs, I also
 screened the complete assembly for contamination with other
 transcriptomes.
 
@@ -216,7 +213,7 @@ Ectocarpaceae, 180 hits) and Stramenopiles (Albuginaceae, 63 hits) to
 Kinetoplasitda (Trypanosomatidae, 26 hits) and Heterolobosea
 (Vahlkampfiidae, 38 hits).
 
-Additionally we found 298 TUGs with hits to fungi (e.g
+Additionally I found 298 TUGs with hits to fungi (e.g
 Ajellomycetaceae, 53 hits) and 585 TUGs with hits to plants.
 
 Hits outside the Eukaryota were mainly to Bacteria (825 hits) and
@@ -225,7 +222,7 @@ hits were found to Wolbachia or related Bacteria known as symbionts of
 nematodes and arthropods. 9 TUGs were hitting sequence from Viruses
 and 8 from Archaea.
 
-We excluded all TUGs with best hits outside Metazoa and our assembly
+I excluded all TUGs with best hits outside Metazoa and our assembly
 thus has 32518 TUGs, spanning 154052 bases (of which 11371 are
 highCA-derived, and span 154052 bases) that are likely to derive from
 of \textit{A. crassus}.
@@ -242,12 +239,12 @@ to the raw sequence.
 \section{Annotation}
 \label{454-annot}
 
-We obtained basic annotations with orthologous sequences from
+I obtained basic annotations with orthologous sequences from
 \textit{C. elegans} for 9554 TUGs, from \textit{B. malayi} for 9662
 TUGs, from nempep \cite{parkinson_nembase:resource_2004, pmid21550347}
 for 11617 TUGs and with uniprot proteins for 11113 TUGs.
 
-We used annot8r \cite{schmid_annot8r:_2008} to assign gene ontology
+I used annot8r \cite{schmid_annot8r:_2008} to assign gene ontology
 (GO) terms for 6509 TUGs, Enzyme Commission (EC) numbers for 2458 TUGs
 and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway annotations
 for 3844 TUGs (see table \ref{ass-stat}). Additionally 5125 highCA
@@ -265,7 +262,7 @@ identifier, and 1829 had GO, EC and KEGG annotations (see figure
   additional domain-based annotations obtained with
   \texttt{InterProScan} \cite{pmid11590104}.}{0.65}
 
-We compared our \textit{A. crassus} GO annotations for high-level
+I compared our \textit{A. crassus} GO annotations for high-level
 GO-slim terms to the annotations (obtained the same way) for the
 complete proteome of the filarial nematode \textit{B. malayi} and the
 complete proteome of \textit{C. elegans} (see figure \ref{slim_com}).
@@ -283,8 +280,8 @@ in the occurrence of terms than the two parasites.
   categories is given as obtained through \texttt{Annot8r}
   \cite{schmid_annot8r:_2008}.}
 
-We inferred presence of signal peptide cleavage sites in the predicted
-protein sequence using \texttt{SignalP} \cite{pmid21959131}. We
+I inferred presence of signal peptide cleavage sites in the predicted
+protein sequence using \texttt{SignalP} \cite{pmid21959131}. I
 predicted 920 signal peptide cleavage sites and 65 signal peptides
 with a transmembrane signature. Again these predictions are more
 similar to predictions using the same methods for the proteome
@@ -293,7 +290,7 @@ transmembrane anchor) than for the proteome of \textit{C. elegans}
 (4273 signal peptide cleavage sites and 154 with transmembrane
 anchor).
 
-We inferred the presence of a lethal rnai phenotype in the orthologous
+I inferred the presence of a lethal rnai phenotype in the orthologous
 annotation of \textit{C. elegans}. For 257 TUGs a non-lethal phenotype
 was inferred for 6029 TUGs a lethal phenotype.
 
@@ -368,9 +365,9 @@ conserved (94.65\%) across kingdoms (p$<$0.001, Fisher's exact test).
 
 \section{Identification of single nucleotide polymorphisms}
 
-We called single nucleotide polymorphisms (SNPs) on the 1099419 bases
+I called single nucleotide polymorphisms (SNPs) on the 1099419 bases
 of the TUGs that had coverage of more then 8-fold available using
-\texttt{VARScan} \cite{pmid19542151}. We excluded SNPs predicted to
+\texttt{VARScan} \cite{pmid19542151}. I excluded SNPs predicted to
 have more than 2 alleles or that mapped to an undetermined (N) base in
 the reference, and retained 10458 SNPs. The ratio of transitions (ti;
 6890) to transversion (tv; 3568) in this set was 1.93 . Using the
@@ -380,11 +377,11 @@ positions, 1819 at second positions and 3024 at third positions. As
 expected ti/tv inside ORFs (2.41) was higher than outside ORFs
 (1.25). The ratio of synonymous polymorphisms per synonymous site to
 non-synonymous polymorphisms per non-synonymous site (dn/ds) was
-0.42. We filtered these SNPs to exclude those that might be associated
+0.42. I filtered these SNPs to exclude those that might be associated
 with analytical bias. As Roche 454 sequences have well-known
 systematic errors associated with homopolymeric nucleotide sequences
-\cite{pmid21685085}, we analysed the effect of exclusion of SNPs in,
-or close to, homopolymer regions. We observed changes in ti/tv and in
+\cite{pmid21685085}, I analysed the effect of exclusion of SNPs in,
+or close to, homopolymer regions. I observed changes in ti/tv and in
 dn/ds when SNPs were discarded using different size thresholds for
 homopolymer runs and proximity thresholds (see figure \ref{snp_hom}).
 
@@ -398,15 +395,15 @@ homopolymer runs and proximity thresholds (see figure \ref{snp_hom}).
   provides most plausible values (suggesting specificity) while still
   incorporating a high number of SNPs (sensitivity).}
 
-Based on this we decided to exclude SNPs with a homopolymer-run as
+Based on this I decided to exclude SNPs with a homopolymer-run as
 long as or longer than 4 bases inside a window of 11 bases (5 to bases
-to the right, 5 to the left) around the SNP. We also observed a
+to the right, 5 to the left) around the SNP. I also observed a
 relationship between TUG dn/ds and TUG coverage, associated with the
 presence of sites with low abundance minority alleles (less than 7\%
 of the allele calls), suggesting that some of these may be errors.
 Removing low abundance minority allele SNPs from the set removed this
 effect (see figure \ref{snp_final}).  Our filtered SNP dataset
-includes 5112 SNPs. We retained 4.65 SNPs per kb of contig sequence,
+includes 5112 SNPs. I retained 4.65 SNPs per kb of contig sequence,
 with 8.37 synonymous SNPs per 1000 synonymous bases and 2.4
 non-synonymous SNPs per 1000 non-synonymous bases. A mean dn/ds of
 0.231 was calculated for the 859 TUGs (762 highCA-derived contigs)
@@ -421,7 +418,7 @@ containing at least one synonymous SNP.
 
 \section{Polymorphisms associated with biological processes}
 
-We consolidated our annotation and polymorphism analyses by examining
+I consolidated our annotation and polymorphism analyses by examining
 correlations between nonsynonymous variability and particular
 classifications.
 
@@ -432,8 +429,8 @@ peptide cleavage sites in SignalP showed a trend towards higher dn/ds
 values than TUGs without signal peptide cleavage sites (p = 0.074; two
 sided Mann-Whitney-test).
 
-Positive selection can be inferred from dn/ds analyses, and we defined
-TUGs with a dn/ds higher than 0.5 as positively selected. We
+Positive selection can be inferred from dn/ds analyses, and I defined
+TUGs with a dn/ds higher than 0.5 as positively selected. I
 identified over- and under-represented GO ontology terms associated
 with these putatively positively selected genes (see table
 \ref{go-pos}). Within the molecular function category, ``peptidase
@@ -657,7 +654,7 @@ compared to a non-lethal phenotypes (p=0.138, two-sided U-test).
 
 \section{SNP markers for single worms}
 
-We used \texttt{Samtools}\cite{journals/bioinformatics/LiHWFRHMAD09}
+I used \texttt{Samtools}\cite{journals/bioinformatics/LiHWFRHMAD09}
 and \texttt{Vcftools}\cite{pmid21653522} to call genotypes in single
 worms (adult sequencing libraries). This resulted in 199 informative
 sites in 152 contigs, where two alleles were found in at least one
@@ -703,7 +700,7 @@ were all highlighting the Taiwanese worm from the wild population
 as the least heterozygous individual. The other worms had intermediate
 values between these two extremes (see table \ref{snp-sing}).
 
-We confirmed the genome-wide significance of these estimates using
+I confirmed the genome-wide significance of these estimates using
 heterozygosity-heterozygosity correlation \cite{pmid21565077}. These
 tests confirmed the representativeness of the 199 SNP-markers for the
 whole genome in population genetic studies ($\mu$ = 0.78,
@@ -718,7 +715,7 @@ inbreeding in populations of \textit{A. crassus}.
 \section{Differential expression}
 
 Using methods developed for sequencing data in the R-package DESeq
-\cite{pmid20979621}, we analysed gene-expression inferred from
+\cite{pmid20979621}, I analysed gene-expression inferred from
 mapping. Of the 353055 reads 252388 (71.49\%) mapped uniquely (with
 their best hit) to the fullest assembly (including the all assembled
 contigs as a ``filter'' later removing screened out sequences for

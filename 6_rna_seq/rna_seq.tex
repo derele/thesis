@@ -68,7 +68,7 @@ was thus roughly 30\% for the adapted pairs compared to only roughly
 \caption[Linear model for recovery]{Linear model for recovery of adult
   worms. The estimate gives the mean of the distribution of adult
   worms for the factor values in the rows. The intercept is set to Aa
-  R (\textit{An. anguilla} and the European population) further rows
+  R (\textit{An. anguilla} and the European populations) further rows
   give variations for each factor. Std. Error is the standard error of
   this value. Additonally the probabilty of a t-value as small or
   smaller then the oberserved t-value are given. The signature of
@@ -82,7 +82,7 @@ was thus roughly 30\% for the adapted pairs compared to only roughly
 \section{Sample preparation and sequencing }
 
 Three biological replicates were obtained from each of the two worm
-population in each of the two eel-host for each of the two sexes of
+populations in each of the two eel-host for each of the two sexes of
 worms. This resulted in a total 24 RNA-extractions prepared for
 sequencing: 3 individual female worms from each experimental group
 were choosen randomly, to give in total twelve females. Additionally
@@ -303,7 +303,7 @@ upregulated in \textit{An. anguilla}.
 68 contigs (0.9\% of total; 15, 0.42\% OC) showed differences
 according to the population of the worm. 39 (11 OC) of these were
 upregulated in the Taiwanese population, 29 (4 OC) in the European
-population.
+populations.
 
 An important observation in these models is the prevalence of
 co-occuring significance of simple main effects. Expression changes
@@ -313,7 +313,7 @@ same direction for a combination of the factors. Most contigs DE
 according to the main effects of host-species or worm-population were
 also DE according to the sex of the worm. There was also a number of
 contigs differing for all three predictors in the same way. No contigs
-were observed DE in both the host-species and worm-populations in the
+were observed DE in both the host-species and worm-population in the
 same direction but not according to worm-sex. From the 68 contigs DE
 in different \textit{A. crassus}-populations, 38 were also DE
 according to worm sex and 16 according to all 3 main effects (see
@@ -355,7 +355,7 @@ overlaps and in relation a higher proportion of interaction effects
 between these two conditions was observed.
 
 \section{Confirmation of contig categories through multivariate
-  clustering}
+  analysis}
 
 We performed constrained redundancy analysis for the effects of
 eel-host and worm-population. This technique similarly to principal
@@ -396,7 +396,7 @@ component evaluated by a premutation could be established at a p $<$
 
 \section{Biological processes associated with DE contigs}
 
-We employed tests for overrepresentation of categories in
+I employed tests for overrepresentation of categories in
 gene-ontology (GO). These tests respect the structure of the ontology
 and also consider overrepresentation of higher level (ancestor-)
 terms. Summarizing annotations at higher levels it is therefore
@@ -506,17 +506,58 @@ as an informative significantly enriched higher level term (see figure
 to metal ion'' and ``mitochondiral electron transport'' (see
 figure\ref{tGO_pop_BP_classic_10_all}) confirmed an evaluation linking
 these maily to enzymes used in respiratory processes and highlighted
-other enzymes from lipid metabolism.
-
+additionally other enzymes from lipid metabolism (especially
+$\beta$-oxidation of fatty acids).
 
 \section{Clustering analysis}
 
-Clustering alalysis revealed...
+For the remainder of the text I will concentrate on these differences
+of the European and Taiwanese populations and mention the other
+differences only as far as they are related to this focal factor. In
+\ref{add-figures} however, graphical analyses of the same type are
+portraied briefly.
+
+Clustering analysis uses distance measurements between samples as well
+as genes (or transcripts) to highlight paterns of similarity. The
+classical distance measure used in hierarchical clustering throughout
+this document is Euclidean distance or ``Eisen-Clustering'' from
+\cite{pmid9843981}. The gruouping of genes regulated in parallel in
+combination with annotation the status of cellular processes can
+support notions from single genes.
+
+Clustering alalysis of genes DE between populations confirmed the
+results of multivariate analysis. The main factor grouping libraries
+was the sex of the worm. A sub-grouping of samples fully according to
+European and Taiwanese populations was only observed for male
+worms. In female woms other unmeasured co-factors were preventing a
+clustering fully according to this factor. In male worm however,
+library clustering even followed a pattern of similar expression in
+according to the second factor of eel-host. These statements are true
+for both the full set of contigs (see figure \ref{pop_all_heat}) and
+OC congigs (see \ref{pop_ortho_heat}).
+
+Clustering of genes revealed three coregulated groups in the full set
+of contigs and the OC set. The first of gene-clusters (top in
+\ref{pop_all_heat} and \ref{pop_ortho_heat}) was in sex-subgroups
+mainly following an expression pattern differing between
+populations. The second gene-group was much larger in the full set
+than in the OC set of contigs (middle in \ref{pop_all_heat}). It was
+only very weakly reacting to any other factor but sex and was very
+sparsely anntotated (therfore this goup was much smaller in the OC set
+\ref{pop_ortho_heat}). The third gene-group found again in both the
+full and OC contigs (bottom in \ref{pop_all_heat} and
+\ref{pop_ortho_heat}) was reacting on both the host and population
+factor in a converse way, contigs in this cluster were mainly found to
+be significant for interaction effects.
 
 \figuremacro{pop_all_heat}{Variance/mean stabilized expression values
   for contigs different between populations}{green indicates
   expression below the mean, red above the mean}
 
+Consolidating the clusters with annotation and annotation-enrichment,
+the first cluster of genes was very well annotated and contained
+mostly catalytic enzymes involved in oxidoreductation, the bottom
+culster contained more unannotated genes and struktural genes.
 
 \section{Single gene differences}
 \label{sec:single-gene-diff}
@@ -525,13 +566,13 @@ Tables on single transcript values of OC contigs DE between eel-hosts
 and populations can be found in additonal tables \ref{eel.sing.diff}
 and \ref{pop.sing.diff}. Obviousely for some contigs differences are
 rendered unaccessible by comparing simple mean values because of
-superposed interaction effects.
+superposed interaction effects or overwhelming effects of worm sex.
 
 Cytochrome C oxidase subunit 2 (COX II) showed the clearest of all
 expression patterns for any of the observed genes. It differed
 significantly only between populations (showed no reaction an any
 other factor) and was over 8-fold stronger expressed in the Taiwanese
-population. Counts summed for orhologs were also significant only for
+population. Counts summed for orthologs were also significant only for
 this factor and showed over 2.5-fold stronger expression in the same
 direction. This accounts to the fact, that misassembled contigs
 containing fragments of COX II were only adding experimental noise.

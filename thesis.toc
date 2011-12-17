@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {1.2.4.1}Pyro-sequencing}{22}{subsubsection.1.2.4.1}
 \contentsline {subsubsection}{\numberline {1.2.4.2}Illumina-Solexa sequencing}{25}{subsubsection.1.2.4.2}
 \contentsline {subsection}{\numberline {1.2.5}Computational methods in DNA-sequence analysis}{27}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Applications of NGS in ecology and evolution and gene-expression divergence}{30}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.6}Applications of NGS in ecology and evolution and gene-expression divergence}{31}{subsection.1.2.6}
 \contentsline {chapter}{\numberline {2}Aims of the project}{33}{chapter.2}
 \contentsline {section}{\numberline {2.1}Preliminary aims}{33}{section.2.1}
 \contentsline {section}{\numberline {2.2}Final aim}{33}{section.2.2}
@@ -55,21 +55,28 @@
 \contentsline {section}{\numberline {6.4}Examination of data-quality}{84}{section.6.4}
 \contentsline {section}{\numberline {6.5}Orthologous screeing for expression differences}{86}{section.6.5}
 \contentsline {section}{\numberline {6.6}Expression differences in generalized linear models}{86}{section.6.6}
-\contentsline {section}{\numberline {6.7}Confirmation of contig categories through multivariate clustering}{90}{section.6.7}
+\contentsline {section}{\numberline {6.7}Confirmation of contig categories through multivariate analysis}{90}{section.6.7}
 \contentsline {section}{\numberline {6.8}Biological processes associated with DE contigs}{92}{section.6.8}
 \contentsline {section}{\numberline {6.9}Clustering analysis}{94}{section.6.9}
-\contentsline {section}{\numberline {6.10}Single gene differences}{94}{section.6.10}
+\contentsline {section}{\numberline {6.10}Single gene differences}{98}{section.6.10}
 \contentsline {chapter}{\numberline {7}Discussion}{101}{chapter.7}
 \contentsline {section}{\numberline {7.1}Pilot-sequencing}{101}{section.7.1}
 \contentsline {section}{\numberline {7.2}Pyrosequencing}{102}{section.7.2}
 \contentsline {section}{\numberline {7.3}Transcriptomic divergence in a common garden experiment}{106}{section.7.3}
-\contentsline {section}{\numberline {7.4}Outlook}{113}{section.7.4}
+\contentsline {section}{\numberline {7.4}Outlook}{114}{section.7.4}
 \contentsline {chapter}{\numberline {8}Materials \& methods}{115}{chapter.8}
 \contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{115}{section.8.1}
 \contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{115}{section.8.2}
 \contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{116}{section.8.3}
 \contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{117}{section.8.4}
 \contentsline {section}{\numberline {8.5}454-pyro-sequencing}{118}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}cDNA preparation and sequencing}{118}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Trimming, quality control and assembly}{118}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Evalutaion of the assemblies}{119}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Post-assembly classification and taxonomic assignment of contigs}{120}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Protein prediction and annotation}{120}{subsection.8.5.5}
+\contentsline {subsection}{\numberline {8.5.6}Single nucleotide polymorphism analysis}{121}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Gene-expression analysis}{121}{subsection.8.5.7}
 \contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{122}{section.8.6}
 \contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{122}{subsection.8.6.1}
 \contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{122}{section.8.7}
@@ -77,7 +84,10 @@
 \contentsline {section}{\numberline {8.9}Statistical analysis with GLMs}{124}{section.8.9}
 \contentsline {section}{\numberline {8.10}Count-collapsing for orthologous from two model-species}{124}{section.8.10}
 \contentsline {section}{\numberline {8.11}Multivarite confirmation of linear models}{124}{section.8.11}
-\contentsline {chapter}{References}{125}{section*.14}
-\contentsline {chapter}{\numberline {9}Additional tables and figures}{137}{chapter.9}
-\contentsline {section}{\numberline {9.1}Additional tables}{137}{section.9.1}
-\contentsline {section}{\numberline {9.2}Additional figures}{143}{section.9.2}
+\contentsline {section}{\numberline {8.12}GO-term enrichment analysis}{125}{section.8.12}
+\contentsline {section}{\numberline {8.13}Clustering analysis}{125}{section.8.13}
+\contentsline {section}{\numberline {8.14}General coding methods}{125}{section.8.14}
+\contentsline {chapter}{References}{127}{section*.7}
+\contentsline {chapter}{\numberline {9}Additional tables and figures}{141}{chapter.9}
+\contentsline {section}{\numberline {9.1}Additional tables}{141}{section.9.1}
+\contentsline {section}{\numberline {9.2}Additional figures}{147}{section.9.2}

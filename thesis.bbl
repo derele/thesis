@@ -1200,6 +1200,14 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {{M}icroarrays, deep sequencing and the true measure of the transcriptome}}}.
 \newblock {\em BMC Biol.}, {\bf 9}:34, 2011.
 
+\bibitem{pmid18927111}
+{\sc P.~A. 't~Hoen, Y.~Ariyurek, H.~H. Thygesen, E.~Vreugdenhil, R.~H. Vossen,
+  R.~X. de~Menezes, J.~M. Boer, G.~J. van Ommen, and J.~T. den Dunnen}.
+\newblock \href{http://dx.doi.org/10.1093/nar/gkn705}{{\bf {{D}eep
+  sequencing-based expression analysis shows major advances in robustness,
+  resolution and inter-lab portability over five microarray platforms}}}.
+\newblock {\em Nucleic Acids Res.}, {\bf 36}:e141, Dec 2008.
+
 \bibitem{pmid20967605}
 {\sc H.~Matsumura, K.~Yoshida, S.~Luo, D.~H. Kruger, G.~Kahl, G.~P. Schroth,
   and R.~Terauchi}.
@@ -1507,6 +1515,13 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   for protein expression}}}.
 \newblock {\em Int. J. Parasitol.}, {\bf 33}:621--640, May 2003.
 
+\bibitem{pmid9843981}
+{\sc M.~B. Eisen, P.~T. Spellman, P.~O. Brown, and D.~Botstein}.
+\newblock {\bf {{C}luster analysis and display of genome-wide expression
+  patterns}}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 95}:14863--14868, Dec 1998.
+\newblock http://www.ncbi.nlm.nih.gov/pubmed/9843981.
+
 \bibitem{pmid9327537}
 {\sc I.~G. Wilson}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9327537}{{\bf {{I}nhibition
@@ -1784,6 +1799,18 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   parasites?}}}
 \newblock {\em FEBS Lett.}, {\bf 525}:3--6, Aug 2002.
 
+\bibitem{pmid12417132}
+{\sc A.~G. Tielens, C.~Rotte, J.~J. van Hellemond, and W.~Martin}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12417132}{{\bf
+  {{M}itochondria as we don't know them}}}.
+\newblock {\em Trends Biochem. Sci.}, {\bf 27}:564--572, Nov 2002.
+
+\bibitem{pmid15275412}
+{\sc A.~G. Tielens}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15275412}{{\bf {{E}nergy
+  generation in parasitic helminths}}}.
+\newblock {\em Parasitol. Today (Regul. Ed.)}, {\bf 10}:346--352, Sep 1994.
+
 \bibitem{mealloprot}
 {\sc R.~P. Mecham and Parks~W. C.}, editors.
 \newblock {\em Matrix Metalloproteinases}.
@@ -1893,5 +1920,39 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   discovery rate: a practical and powerful approach to multiple testing}}.
 \newblock {\em Journal of the Royal Statistical Society. Series B
   (Methodological)}, pages 289--300, 1995.
+
+\bibitem{R_project}
+{\sc {R Development Core Team}}.
+\newblock \href{http://www.R-project.org}{{\em R: A language and environment
+  for statistical computing}}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2009.
+
+\bibitem{lmucs-papers:Leisch:2002}
+{\sc Friedrich Leisch}.
+\newblock \href{http://www.stat.uni-muenchen.de/~leisch/Sweave}{{\bf Sweave:
+  Dynamic Generation of Statistical Reports Using Literate Data Analysis}}.
+\newblock In {\sc Wolfgang H{\"a}rdle and Bernd R{\"o}nz}, editors, {\em
+  Compstat 2002 --- Proceedings in Computational Statistics}, pages 575--580.
+  Physica Verlag, Heidelberg, 2002.
+\newblock ISBN 3-7908-1517-9.
+
+\bibitem{weaver}
+{\sc Seth Falcon}.
+\newblock \href{http://www.springerlink.com/content/55411257n1473414}{{\bf
+  Caching code chunks in dynamic documents}}.
+\newblock {\em Computational Statistics}, {\bf 24}(2):255--261, 2009.
+
+\bibitem{ggplot-book}
+{\sc Hadley Wickham}.
+\newblock \href{http://had.co.nz/ggplot2/book}{{\em ggplot2: elegant graphics
+  for data analysis}}.
+\newblock Springer New York, 2009.
+
+\bibitem{pmid21269502}
+{\sc H.~Chen and P.~C. Boutros}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21269502}{{\bf
+  {{V}enn{D}iagram: a package for the generation of highly-customizable {V}enn
+  and {E}uler diagrams in {R}}}}.
+\newblock {\em BMC Bioinformatics}, {\bf 12}:35, 2011.
 
 \end{thebibliography}

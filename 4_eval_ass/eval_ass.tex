@@ -63,9 +63,9 @@ contigs-file used in transcriptome-assembly projects
 contigs (i.e. a consistent definition of ``singleton'') it was
 necessary to add all reads appearing only in contigs not reported in
 the fasta-file to the reported singletons. The number of singletons
-increased in this step form the 26211 reported to 109052. We later
+increased in this step form the 26211 reported to 109052. I later
 also address the usefulness of \texttt{newbler's} report vs. the
-expanded singleton-category, but for the meantime we define singletons
+expanded singleton-category, but for the meantime I define singletons
 as all reads not present in a given assembly.
 
 \figuremacro{split_454}{Number of contigs/isotigs splitted}{A
@@ -224,7 +224,7 @@ splitting of reads.
 To further compare assemblies (\texttt{mira, newber} first-order
 assemblies including or excluding their singletons) and the
 second-order assembly (including different contigs-categories and
-singletons) we evaluated the number of bases or proteins their contigs
+singletons) I evaluated the number of bases or proteins their contigs
 and singletons (partially) cover in the related model-nematodes,
 \textit{Caenorhabditis elegans} and \textit{Brugia malayi}. 
 
@@ -308,11 +308,11 @@ are considered the second-order assembly showed it's superiority: Both
 ex- and including singletons the second-order assembly outperformed
 the first-order assemblies. Moderate gains in reference coverage were
 made again for the addition of dubious single-assembler supported
-second-order contigs. We give most weight in our analysis to these
+second-order contigs. I give most weight in our analysis to these
 results as in average longer correct contigs will allow finding the
 highest number of putative full-length genes.
 
-Given this evaluation we defined a ``minimal adequate'' assembly as
+Given this evaluation I defined a ``minimal adequate'' assembly as
 the subset of contigs of the second-order assembly supported by both
 assemblers (labeled MN above).
 
@@ -324,7 +324,7 @@ reported \texttt{newbler}-singletons and \texttt{mira} singletons.
 \section{Measurments on second-order assembly}
 
 Based on the following reads through the complicated assembly process,
-we calculated the following for each contig in the second-order
+I calculated the following for each contig in the second-order
 assembly, to report it to for use in later analysis.
 
 \begin{itemize}
@@ -351,16 +351,16 @@ assembly, to report it to for use in later analysis.
 \subsection{Contig coverage}
 
 As well defined coverage-information is not readyly avaiable from the
-output of this combined assembly aproach (although we followed
-individual reads through the process) we inferred coverage by mapping
+output of this combined assembly aproach (although I followed
+individual reads through the process) I inferred coverage by mapping
 the reads used for assembly against the fullest assembly using ssaha2
 \cite{pmid11591649} with parameters (-kmer 13 -skip 3 -seeds 6 -score
-100 -cmatch 10 -ckmer 6 -output sam -best 1). We converted the
+100 -cmatch 10 -ckmer 6 -output sam -best 1). I converted the
 \texttt{sam}-ouput via a sorted \texttt{bam}-file to
 \texttt{pileup}-format using \texttt{samtools}
 \cite{journals/bioinformatics/LiHWFRHMAD09}.
 
-For a second evalutation we excluded best-hits mapping to multiple
+For a second evalutation I excluded best-hits mapping to multiple
 contigs before converting the \texttt{sam}-file. 
 \begin{itemize}
 \item mean per base coverage
@@ -452,10 +452,10 @@ demonstrated in later in the manuscript.
 \label{sec:final-full-assembly}
 
 In order to minimize the amount of sequence with artificially inferred
-isoform-breakpoints we used the unique-mapping-information described
+isoform-breakpoints I used the unique-mapping-information described
 above to detect contigs and singletons not supported by any raw data
 (reads). Table \ref{tab:cov.ex} gives a summary of these unsupported
-data by contig-category. For all downstream-analysis we removed all
+data by contig-category. For all downstream-analysis I removed all
 well trusted MN-category contigs having no coverage at all and the
 contigs (and singletons) from other categories having no unique
 coverage.
@@ -480,9 +480,9 @@ coverage == 0 & 546 &  34 &   2 &  36 & 158 &   0 \\
 \end{center}
 \end{table}
 
-Thereby we reduced our dataset to 40187 tentative unique genes (TUGs),
+Thereby I reduced our dataset to 40187 tentative unique genes (TUGs),
 redifining the ``fullest assembly'' dataset. Based on the above
-evaluation we decided to treat the MN-category of contigs as high
+evaluation I decided to treat the MN-category of contigs as high
 credibility assembly (highCA) and to subsume the M\_n, N\_n, M\_1,
 N\_1 and \texttt{Newbler's} reported singletons as additional low
 credibility assembly (lowCA).

@@ -169,7 +169,7 @@ non-redundant protein database and EST-submission-files were produced.
 
 \section{454-pyro-sequencing}
 
-\subsection*{cDNA preparation and sequencing}
+\subsection{cDNA preparation and sequencing}
 
 RNA was extracted from individual adult male and female nematodes and
 from a population of L2 larvae (Table 1). RNA was reverse transcribed
@@ -182,13 +182,13 @@ Genome Sequencer FLX. All samples were sequenced using the FLX
 Titanium chemistry, except for the taiwanese female sample T2, which
 was sequenced using FLX standard chemistry, to generate between 99,000
 and 209,000 raw reads. For the L2 larval library, which had a larger
-number of non-\textit{A. crassus}, non-\textit{Anguilla} reads, we
+number of non-\textit{A. crassus}, non-\textit{Anguilla} reads, I
 confirmed that these data were not laboratory contaminants by
 screening Roche 454 data produced on the same run in independent
 sequencing lanes.
 
 
-\subsection*{Trimming, quality control and assembly}
+\subsection{Trimming, quality control and assembly}
 
 Raw sequences were extracted in \texttt{fasta}-format (with the
 corresponding qualities files) using \texttt{sffinfo} (Roche/454) and
@@ -224,13 +224,13 @@ default settings and contigs were labeled by whether they derived from
 both assemblies or one assembly only (for a detailed analysis of the
 assembly categories see the supporting Methods file).
 
-\subsection*{Evalutaion of the assemblies}
+\subsection{Evalutaion of the assemblies}
 
 The ace-files for all three (two first-order, one second-order)
 assemblies were interrogated for the fate of single reads. This was
 used to tabulate the full read-first-order-second-order-associations.
 
-Based on reads shared between clusters we collapsed reads linked by
+Based on reads shared between clusters I collapsed reads linked by
 such read-paths, assigned a cluster-id and recorded the size of the
 cluster.
 
@@ -245,7 +245,7 @@ statistics were created summarizing the number of database-sequences
 with any coverage, the number with coverage over 80\% of teir
 sequence-length and the overall proportion of bases covered.
 
-\subsection*{Post-assembly classification and taxonomic assignment of
+\subsection{Post-assembly classification and taxonomic assignment of
   contigs}
 
 After assembly contigs were assessed a second time for host and other
@@ -254,14 +254,14 @@ databases defined above, and also to nembase4, a nematode
 transcriptome database derived from whole genome sequencing and EST
 assemblies \cite{parkinson_nembase:resource_2004, pmid21550347}. For
 each contig, the highest-scoring match was recorded as long as it
-spanned more than 50\% of the contig. We also compared the contigs to
+spanned more than 50\% of the contig. I also compared the contigs to
 the NCBI non-redundant nucleotide (NCBI-nt) and protein (NCBI-nr)
 databases, recording the taxonomy of all best matches with expect
 values better than 1e-05. TUGs with a best hit to non-Metazoans and to
 Chordata within Metazoa were additionally excluded from further
 analysis.
 
-\subsection*{Protein prediction and annotation}
+\subsection{Protein prediction and annotation}
 
 Protein translations were predicted from the contigs using
 \texttt{prot4EST} (version 3.0b)
@@ -273,7 +273,7 @@ complete proteome back-translated using a codon usage table derived
 from the \texttt{BLAST} HSPs, or, if the first two methods failed,
 simply the longest ORF in the contig. For contigs where the protein
 prediction required insertion or deletion of bases in the original
-sequence, we also imputed an edited sequence for each affected
+sequence, I also imputed an edited sequence for each affected
 contig. Annotations with Gene Ontology (GO), Enzyme Commission (EC)
 and Kyoto Encyclopedia of Genes and Genomes (KEGG) terms were inferred
 for these proteins using \texttt{Annot8r} (version 1.1.1)
@@ -292,14 +292,14 @@ proteomes of the tow model-worms.  Additionally \texttt{InterProScan}
   -goterms}) was used to obtain domain based annotations for the high
 credibility assembly (highCA) derived contigs.
 
-We recorded the presence of a lethal rnai-phenotype in the
+I recorded the presence of a lethal rnai-phenotype in the
 \textit{C. elegans} ortholog of each TUG using the biomart-interface
 \cite{pmid22083790} to wormbase v. 220 through the R-package
 \texttt{biomaRt} \cite{pmid19617889}.
 
-\subsection*{Single nucleotide polymorphism analysis}
+\subsection{Single nucleotide polymorphism analysis}
 
-We mapped the raw reads against the the complete set of contigs,
+I mapped the raw reads against the the complete set of contigs,
 replacing imputed sequences for originals where relevant, using
 \texttt{ssaha2} \cite{pmid11591649} (with parameters \texttt{-kmer 13
   -skip 3 -seeds 6 -score 100 -cmatch 10 -ckmer 6 -output sam -best
@@ -309,37 +309,37 @@ discarding reads mapping to multiple regions. \texttt{VarScan}
 \cite{pmid19542151} (\texttt{pileup2snp}) was used with default
 parameters on pileup-files to output lists of single nucleotide
 polymorphisms (SNPs) and their locations. For enrichment analysis of
-GO-terms we used the R-package \texttt{GOstats} \cite{pmid17098774}.
+GO-terms I used the R-package \texttt{GOstats} \cite{pmid17098774}.
 
 Using \texttt{Samtools} \cite{journals/bioinformatics/LiHWFRHMAD09}
 (\texttt{mpileup -u}) and \texttt{Vcftools} \cite{pmid21653522}
-(\texttt{view -gcv}) we genotyped individual libraries for the list of
+(\texttt{view -gcv}) I genotyped individual libraries for the list of
 previously found overall SNPs. Genotype-calls were accepted at a
 phred-scaled genotype quality threshold of 10. In addition to the
 relative heterozygosity (number of homozygous sites/number of
-heterozygous sites) we used the R package \texttt{Rhh}
+heterozygous sites) I used the R package \texttt{Rhh}
 \cite{pmid21565077} to calculate internal relatedness
 \cite{pmid11571049}, homozygosity by loci \cite{pmid17107491} and
 standardized heterozygosity \cite{coltman81j} from these data.
 
-Using 1000 bootstrap replicates we confirmed the significance of
+Using 1000 bootstrap replicates I confirmed the significance of
 heterozygote-heterozygote correlation by analyzing the mean and 95\%
 confidence intervals from 1000 bootstrap replicates estimated for all
 measurements.
 
-\subsection*{Gene-expression analysis}
+\subsection{Gene-expression analysis}
 
 Read-counts were obtained from the \texttt{bam}-files generated also
 for genotyping using the R-package \texttt{Rsamtoools}
 \cite{rsamtools}. TUGs with less than 48 reads over all libraries were
 excluded from analysis, as diagnostic plot (not shown) indicated a
-lack of statistical power for lower overall expression. We used the
+lack of statistical power for lower overall expression. I used the
 R-package \texttt{DESeq} \cite{pmid20979621} (version 1.6.1) to assess
 statistical significance of differences in counts according to groups
 of libraries.
 
-Additionally we collapsed TUGs by their orthologous assignment in
-\textit{C. elegans} and \textit{B. malayi}. We used the sums of counts
+Additionally I collapsed TUGs by their orthologous assignment in
+\textit{C. elegans} and \textit{B. malayi}. I used the sums of counts
 for these orthologous-groups to asses the influence of mapping to our
 potentially fragmented reference. For both model-nematodes fold-change
 and p-values were obtained the same way than for the contigs and
@@ -423,7 +423,7 @@ second read, sequenced primed by the second sequencing primer Rd2 SP.
 \section{Mapping and normalistion of read-counts}
 
 All sequencing reads were mapped to the fullest 454 assembly (as
-defined in \ref{sec:final-full-assembly}; we were including TUGs
+defined in \ref{sec:final-full-assembly}; I were including TUGs
 inferred as host or xenobiont origin as filter) using \texttt{BWA}
 \cite{pmid20080505} (version 0.5.9-r16; \texttt{BWA aln} and
 \texttt{BWA sampe} with default options) and processed with
@@ -440,7 +440,7 @@ these counts were used in further tests of reference fragmentation).
 
 The remaining counts were normalized using \texttt{DESeq} (version
 1.6.1) and all tables summarizing read-counts are based on these
-normalized counts. Additionally we obtained ``variance stabilized
+normalized counts. Additionally I obtained ``variance stabilized
 data'' in an expression matrix for each gene and library. These data
 were used in all heatmap and multivariate visualisations.
 
@@ -471,9 +471,9 @@ expression was inferred at a false discovery rate (FDR) of 5\%
 \label{collapse}
 
 In order to test the influence of deficiencies (i.e. fragmentation) of
-the assembly on mapping and read-counts we summed read counts over
+the assembly on mapping and read-counts I summed read counts over
 orthologous sequence in \textit{C. elegans} and
-\textit{B. malayi}. For this purpose we used all reference contigs
+\textit{B. malayi}. For this purpose I used all reference contigs
 (also lowCA-derived contigs to allow inference of fragmental mapping
 to those, but not contigs of non \textit{A. crassus} origin)
 Differential expression for these orthologous-counts was analysed the
@@ -486,7 +486,7 @@ evaluations.
 \section{Multivarite confirmation of linear models}
 \label{sec:mult-conf-line}
 
-We used the R-package \texttt{vegan} (version 2.0-2) to perform
+I used the R-package \texttt{vegan} (version 2.0-2) to perform
 constrained redundancy analysis on contigs identified as significant
 in GLMs before. For each set of contigs (different for sex, eel-host
 of worm-population) the appropriate constrained was used. The
@@ -494,9 +494,34 @@ proportion of the variance explained by the constrained component was
 recorded and the constrained component was tested for significance
 using a permutation test implemented in \texttt{vegan}.
 
+\section{GO-term enrichment analysis}
+
+The R-package topGO was used to analyse overrepresentation of GO-terms
+with the ``classic algorithm'' and Fisher's exact test after the
+fullest set of GO-term accociations (includign higher level terms) had
+been computed with the R-package AnnotationDbi.
+
+\section{Clustering analysis}
+
+The R-package HeatmapPlus was used to hierachicall cluster sequences
+according to standard euclidian distances and display the results
+along with annotations stored in a Bioconductor eSet-class object.
 
 
+\section{General coding methods}
 
+The bulk of analysis (unless otherwise cited) presented in this paper
+was carried out in \texttt{R} \cite{R_project} using custom scripts.
+I used a method provided in the R-packages \texttt{Sweave}
+\cite{lmucs-papers:Leisch:2002} and \texttt{Weaver} \cite{weaver} for
+``reproducible research'' combining \texttt{R} and \LaTeX code in a
+single file. The complete reproducible compilations were only carried
+out for sub-chapters of this document, the thesis-document was then
+compiled from plain \LaTeX sub-documents. Nevertheless all
+intermediate data files needed to compile sub-document of the thesis
+from data-sources are provided upon request. For general visualisation
+I used the R-packages \texttt{ggplot2} \cite{ggplot-book} and
+\texttt{VennDiagram} \cite{pmid21269502}.
 
 
 %%% Local Variables: ***
