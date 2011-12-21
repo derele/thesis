@@ -13,18 +13,18 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Pyro-sequencing library statistics}}{59}{table.5.1}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Assembly classification and contig statistics}}{60}{table.5.2}
 \contentsline {table}{\numberline {5.3}{\ignorespaces Evolutionary conservation and novelty}}{65}{table.5.3}
-\contentsline {table}{\numberline {5.4}{Over- and under-representation of GO-terms in positively selected}}{75}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Measurements of multi-locus heterozygosity for single worms}}{77}{table.5.5}
+\contentsline {table}{\numberline {5.4}{Over-representation of GO-terms in positively selected}}{71}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Measurements of multi-locus heterozygosity for single worms}}{73}{table.5.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Linear model for recovery}}{83}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of RNA preparation}}{88}{table.6.2}
-\contentsline {table}{\numberline {6.3}{\ignorespaces mapping Summary}}{89}{table.6.3}
-\contentsline {table}{\numberline {6.4}{GO-terms enriched in DE between male and female}}{94}{table.6.4}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Linear model for recovery}}{77}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of RNA preparation}}{82}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces mapping Summary}}{83}{table.6.3}
+\contentsline {table}{\numberline {6.4}{GO-terms enriched in DE between male and female}}{88}{table.6.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces PCR protocol for insert amplification}}{116}{table.8.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces PCR protocol for insert amplification}}{112}{table.8.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{GO-terms enriched in DE between eel-hosts}}{141}{table.9.1}
-\contentsline {table}{\numberline {9.2}{GO-terms enriched in DE between populations}}{143}{table.9.2}
-\contentsline {table}{\numberline {9.3}{Goup-means for OC genes DE between eel species}}{144}{table.9.3}
-\contentsline {table}{\numberline {9.4}{Goup-means for OC genes DE between worm populations}}{145}{table.9.4}
+\contentsline {table}{\numberline {9.1}{GO-terms enriched in DE between eel-hosts}}{137}{table.9.1}
+\contentsline {table}{\numberline {9.2}{GO-terms enriched in DE between populations}}{139}{table.9.2}
+\contentsline {table}{\numberline {9.3}{Goup-means for OC genes DE between eel species}}{140}{table.9.3}
+\contentsline {table}{\numberline {9.4}{Goup-means for OC genes DE between worm populations}}{141}{table.9.4}

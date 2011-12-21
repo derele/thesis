@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{vii}{section*.3}
-\contentsline {chapter}{List of Tables}{ix}{section*.5}
+\contentsline {chapter}{List of Tables}{xi}{section*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The study organism: \textit {Anguillicola crassus}}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Ecological significance}{1}{subsection.1.1.1}
@@ -46,48 +46,48 @@
 \contentsline {section}{\numberline {5.7}Evolutionary conservation}{62}{section.5.7}
 \contentsline {section}{\numberline {5.8}Identification of single nucleotide polymorphisms}{66}{section.5.8}
 \contentsline {section}{\numberline {5.9}Polymorphisms associated with biological processes}{70}{section.5.9}
-\contentsline {section}{\numberline {5.10}SNP markers for single worms}{77}{section.5.10}
-\contentsline {section}{\numberline {5.11}Differential expression}{78}{section.5.11}
-\contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{81}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overview}{81}{section.6.1}
-\contentsline {section}{\numberline {6.2}Infection experiments}{81}{section.6.2}
-\contentsline {section}{\numberline {6.3}Sample preparation and sequencing }{84}{section.6.3}
-\contentsline {section}{\numberline {6.4}Examination of data-quality}{84}{section.6.4}
-\contentsline {section}{\numberline {6.5}Orthologous screeing for expression differences}{86}{section.6.5}
-\contentsline {section}{\numberline {6.6}Expression differences in generalized linear models}{86}{section.6.6}
-\contentsline {section}{\numberline {6.7}Confirmation of contig categories through multivariate analysis}{90}{section.6.7}
-\contentsline {section}{\numberline {6.8}Biological processes associated with DE contigs}{92}{section.6.8}
-\contentsline {section}{\numberline {6.9}Clustering analysis}{94}{section.6.9}
-\contentsline {section}{\numberline {6.10}Single gene differences}{98}{section.6.10}
-\contentsline {chapter}{\numberline {7}Discussion}{101}{chapter.7}
-\contentsline {section}{\numberline {7.1}Pilot-sequencing}{101}{section.7.1}
-\contentsline {section}{\numberline {7.2}Pyrosequencing}{102}{section.7.2}
-\contentsline {section}{\numberline {7.3}Transcriptomic divergence in a common garden experiment}{106}{section.7.3}
-\contentsline {section}{\numberline {7.4}Outlook}{114}{section.7.4}
-\contentsline {chapter}{\numberline {8}Materials \& methods}{115}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{115}{section.8.1}
-\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{115}{section.8.2}
-\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{116}{section.8.3}
-\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{117}{section.8.4}
-\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{118}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}cDNA preparation and sequencing}{118}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Trimming, quality control and assembly}{118}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Evalutaion of the assemblies}{119}{subsection.8.5.3}
-\contentsline {subsection}{\numberline {8.5.4}Post-assembly classification and taxonomic assignment of contigs}{120}{subsection.8.5.4}
-\contentsline {subsection}{\numberline {8.5.5}Protein prediction and annotation}{120}{subsection.8.5.5}
-\contentsline {subsection}{\numberline {8.5.6}Single nucleotide polymorphism analysis}{121}{subsection.8.5.6}
-\contentsline {subsection}{\numberline {8.5.7}Gene-expression analysis}{121}{subsection.8.5.7}
-\contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{122}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{122}{subsection.8.6.1}
-\contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{122}{section.8.7}
-\contentsline {section}{\numberline {8.8}Mapping and normalistion of read-counts}{123}{section.8.8}
-\contentsline {section}{\numberline {8.9}Statistical analysis with GLMs}{124}{section.8.9}
-\contentsline {section}{\numberline {8.10}Count-collapsing for orthologous from two model-species}{124}{section.8.10}
-\contentsline {section}{\numberline {8.11}Multivarite confirmation of linear models}{124}{section.8.11}
-\contentsline {section}{\numberline {8.12}GO-term enrichment analysis}{125}{section.8.12}
-\contentsline {section}{\numberline {8.13}Clustering analysis}{125}{section.8.13}
-\contentsline {section}{\numberline {8.14}General coding methods}{125}{section.8.14}
-\contentsline {chapter}{References}{127}{section*.7}
-\contentsline {chapter}{\numberline {9}Additional tables and figures}{141}{chapter.9}
-\contentsline {section}{\numberline {9.1}Additional tables}{141}{section.9.1}
-\contentsline {section}{\numberline {9.2}Additional figures}{147}{section.9.2}
+\contentsline {section}{\numberline {5.10}SNP markers for single worms}{73}{section.5.10}
+\contentsline {section}{\numberline {5.11}Differential expression}{74}{section.5.11}
+\contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overview}{75}{section.6.1}
+\contentsline {section}{\numberline {6.2}Infection experiments}{75}{section.6.2}
+\contentsline {section}{\numberline {6.3}Sample preparation and sequencing }{78}{section.6.3}
+\contentsline {section}{\numberline {6.4}Examination of data-quality}{78}{section.6.4}
+\contentsline {section}{\numberline {6.5}Orthologous screeing for expression differences}{80}{section.6.5}
+\contentsline {section}{\numberline {6.6}Expression differences in generalized linear models}{80}{section.6.6}
+\contentsline {section}{\numberline {6.7}Confirmation of contig categories through multivariate analysis}{84}{section.6.7}
+\contentsline {section}{\numberline {6.8}Biological processes associated with DE contigs}{86}{section.6.8}
+\contentsline {section}{\numberline {6.9}Clustering analysis}{88}{section.6.9}
+\contentsline {section}{\numberline {6.10}Single gene differences}{92}{section.6.10}
+\contentsline {chapter}{\numberline {7}Discussion}{95}{chapter.7}
+\contentsline {section}{\numberline {7.1}Pilot-sequencing}{95}{section.7.1}
+\contentsline {section}{\numberline {7.2}Pyrosequencing}{96}{section.7.2}
+\contentsline {section}{\numberline {7.3}Transcriptomic divergence in a common garden experiment}{100}{section.7.3}
+\contentsline {section}{\numberline {7.4}Outlook}{108}{section.7.4}
+\contentsline {chapter}{\numberline {8}Materials \& methods}{111}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{111}{section.8.1}
+\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{111}{section.8.2}
+\contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{112}{section.8.3}
+\contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{113}{section.8.4}
+\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{114}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}cDNA preparation and sequencing}{114}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Trimming, quality control and assembly}{114}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Evalutaion of the assemblies}{115}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Post-assembly classification and taxonomic assignment of contigs}{116}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Protein prediction and annotation}{116}{subsection.8.5.5}
+\contentsline {subsection}{\numberline {8.5.6}Single nucleotide polymorphism analysis}{117}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Gene-expression analysis}{117}{subsection.8.5.7}
+\contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{118}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{118}{subsection.8.6.1}
+\contentsline {section}{\numberline {8.7}RNA exrtaction and preparation of sequencing libraries}{118}{section.8.7}
+\contentsline {section}{\numberline {8.8}Mapping and normalistion of read-counts}{119}{section.8.8}
+\contentsline {section}{\numberline {8.9}Statistical analysis with GLMs}{120}{section.8.9}
+\contentsline {section}{\numberline {8.10}Count-collapsing for orthologous from two model-species}{120}{section.8.10}
+\contentsline {section}{\numberline {8.11}Multivarite confirmation of linear models}{120}{section.8.11}
+\contentsline {section}{\numberline {8.12}GO-term enrichment analysis}{121}{section.8.12}
+\contentsline {section}{\numberline {8.13}Clustering analysis}{121}{section.8.13}
+\contentsline {section}{\numberline {8.14}General coding methods}{121}{section.8.14}
+\contentsline {chapter}{References}{123}{section*.7}
+\contentsline {chapter}{\numberline {9}Additional tables and figures}{137}{chapter.9}
+\contentsline {section}{\numberline {9.1}Additional tables}{137}{section.9.1}
+\contentsline {section}{\numberline {9.2}Additional figures}{143}{section.9.2}

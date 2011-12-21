@@ -92,28 +92,31 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
   mapping.unique & 12023 & 65398 & 39690 & 36782 & 42529 & 55966 \\ 
   mapping.Ac &  8359 & 61070 & 12917 & 31656 & 37158 & 50018 \\ 
   mapping.MN &  5883 & 48006 &  8475 & 18986 & 28823 & 41545 \\ 
+  over.32 &  3528 & 34051 & 10444 & 21219 & 22435 \\ 
   \hline
 \end{tabular}
-  \caption[Pyro-sequencing library statistics]{\textbf{Statistics for different 
-      libraries} 
-    For two sequencing libraries from European eels (E1 and E2)
-    one form L2-larvae (L2), one from male (M) and two from Eels in Taiwan
-    (T1 and T2) the following statistics are given. life.st = lifecycle
-    stage: f for female m for male. source.p = source population: R for
-    Rhine, P for Poland, C for cultured, W for wild. raw.reads = raw
-    number of sequencing reads obtained. lowqal = number of reads
-    discarded due to low quality or length in \textit{Seqclean}
-    \cite{tgicl_pertea}. AcrRNA = number of reads hitting
-    \textit{A. crassus}-rRNA (screened). eelmRNA = number of reads hitting
-    eel transcriptome-sequences (screened). eelrRNA = number of reads
-    hitting eel-rRNA genes (screened). Cercozoa = number of reads hitting
-    cercozoan rRNA (screened). valid = number of reads valid after
-    screening (assembled). valid.span = number of bases valid (assembled).
-    mapping.unique = number of reads mapping uniquely to the
-    assembly. mapping.Ac = number of reads mapping to the part of the
-    assembly considered \textit{A. crassus} origin (see post-assembly
-    screening). mapping.MN = number of reads mapping to the highCA-derived
-    part of the assembly (and also \textit{A. crassus} origin).}
+\caption[Pyro-sequencing library statistics]{\textbf{Statistics for different 
+    libraries} 
+  For two sequencing libraries from European eels (E1 and E2)
+  one form L2-larvae (L2), one from male (M) and two from Eels in Taiwan
+  (T1 and T2) the following statistics are given. life.st = lifecycle
+  stage: f for female m for male. source.p = source population: R for
+  Rhine, P for Poland, C for cultured, W for wild. raw.reads = raw
+  number of sequencing reads obtained. lowqal = number of reads
+  discarded due to low quality or length in \textit{Seqclean}
+  \cite{tgicl_pertea}. AcrRNA = number of reads hitting
+  \textit{A. crassus}-rRNA (screened). eelmRNA = number of reads hitting
+  eel transcriptome-sequences (screened). eelrRNA = number of reads
+  hitting eel-rRNA genes (screened). Cercozoa = number of reads hitting
+  cercozoan rRNA (screened). valid = number of reads valid after
+  screening (assembled). valid.span = number of bases valid (assembled).
+  mapping.unique = number of reads mapping uniquely to the
+  assembly. mapping.Ac = number of reads mapping to the part of the
+  assembly considered \textit{A. crassus} origin (see post-assembly
+  screening). mapping.MN = number of reads mapping to the highCA-derived
+  part of the assembly (and also \textit{A. crassus} origin). over.32 =
+  number of reads mapping to contigs with overall coverage of more than
+  32 reads (considered in gene-expression analysis)}
   \label{screening-lib}
 \end{table}
 
@@ -442,180 +445,71 @@ was underrepresented.
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
 % Wed Nov 23 10:32:01 2011
-\begin{longtable}{rrrp{7cm}r}
- Pvalue & Count & Size & Term & direction \\ 
+% Sat Dec 17 15:14:58 2011
+\begin{longtable}{lp{5cm}rrrl}
   \hline
-0.00 &  13 &  45 & peptidase activity & Over \\ 
-  0.01 &   7 &  18 & heme-copper terminal oxidase activity & Over \\ 
-  0.01 &   7 &  18 & oxidoreductase activity, acting on a heme group of donors & Over \\ 
-  0.01 &   7 &  18 & oxidoreductase activity, acting on a heme group of donors, oxygen as acceptor & Over \\ 
-  0.01 &   7 &  18 & cytochrome-c oxidase activity & Over \\ 
-  0.01 &  49 & 283 & catalytic activity & Over \\ 
-  0.02 &  13 &  52 & transmembrane transporter activity & Over \\ 
-  0.02 &   9 &  31 & monovalent inorganic cation transmembrane transporter activity & Over \\ 
-  0.02 &   2 &   2 & L-amino acid transmembrane transporter activity & Over \\ 
-  0.03 &   9 &  33 & inorganic cation transmembrane transporter activity & Over \\ 
-  0.03 &  23 & 117 & hydrolase activity & Over \\ 
-  0.03 &   8 &  29 & hydrogen ion transmembrane transporter activity & Over \\ 
-  0.04 &   3 &   6 & ribonucleoprotein binding & Over \\ 
-  0.04 &  13 &  58 & transporter activity & Over \\ 
-  0.05 &  11 &  47 & substrate-specific transmembrane transporter activity & Over \\ 
-  0.05 &  16 &  77 & oxidoreductase activity & Over \\ 
-  0.00 &   1 &  53 & structural constituent of ribosome & Under \\ 
-  0.03 &   7 &  93 & RNA binding & Under \\ 
-  0.04 &   2 &  44 & transition metal ion binding & Under \\ 
-  0.05 &   0 &  20 & protein binding transcription factor activity & Under \\ 
-  0.05 &   0 &  20 & transcription factor binding transcription factor activity & Under \\ 
-  0.05 &   0 &  20 & transcription cofactor activity & Under \\ 
+  GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
+  \endfirsthead
+  \multicolumn{6}{c}%
+  {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+  \hline
+  GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
+  \hline 
+  \endhead
+  \hline
+  \multicolumn{6}{|r|}{{Continued on next page}} \\ 
+  \hline
+  \endfoot
+  \endlastfoot
+  \hline
+  \multicolumn{6}{l}{Molecular function} \\ 
+  GO:0008233 & peptidase activity &  43 &  12 & 5.26 & 0.0028 \\ 
+  GO:0015179 & L-amino acid transmembrane transporter activity &   2 &   2 & 0.24 & 0.0147 \\ 
+  GO:0016787 & hydrolase activity & 110 &  20 & 13.45 & 0.0262 \\ 
+  GO:0043021 & ribonucleoprotein binding &   6 &   3 & 0.73 & 0.0266 \\ 
+  GO:0005102 & receptor binding &  26 &   7 & 3.18 & 0.0288 \\ 
+  GO:0046982 & protein heterodimerization activity &  16 &   5 & 1.96 & 0.0348 \\ 
+  GO:0004129 & cytochrome-c oxidase activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0004540 & ribonuclease activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0005275 & amine transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0005342 & organic acid transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
    \hline
-0.00 &  13 &  37 & brain development & Over \\ 
-  0.00 &  14 &  45 & central nervous system development & Over \\ 
-  0.00 &   6 &  12 & response to electrical stimulus & Over \\ 
-  0.00 &   3 &   3 & branched chain family amino acid metabolic process & Over \\ 
-  0.00 &   3 &   3 & branched chain family amino acid catabolic process & Over \\ 
-  0.00 &  11 &  36 & ATP synthesis coupled electron transport & Over \\ 
-  0.00 &  11 &  36 & mitochondrial ATP synthesis coupled electron transport & Over \\ 
-  0.01 &   7 &  18 & mitochondrial electron transport, cytochrome c to oxygen & Over \\ 
-  0.01 &  22 & 101 & nervous system development & Over \\ 
-  0.01 &  11 &  38 & oxidative phosphorylation & Over \\ 
-  0.01 &   6 &  15 & response to starvation & Over \\ 
-  0.01 &  12 &  45 & cellular amino acid metabolic process & Over \\ 
-  0.01 &   7 &  20 & positive regulation of cell cycle process & Over \\ 
-  0.01 &  14 &  58 & amine metabolic process & Over \\ 
-  0.01 &   4 &   8 & positive regulation of organelle organization & Over \\ 
-  0.01 &   4 &   8 & spermatid development & Over \\ 
-  0.01 &   4 &   8 & spermatid differentiation & Over \\ 
-  0.01 &   5 &  12 & hindbrain development & Over \\ 
-  0.01 &   5 &  12 & cerebellum development & Over \\ 
-  0.01 &   5 &  12 & metencephalon development & Over \\ 
-  0.01 &   5 &  12 & response to methylmercury & Over \\ 
-  0.01 &   5 &  12 & autophagy & Over \\ 
-  0.02 &  36 & 203 & response to stress & Over \\ 
-  0.02 &   2 &   2 & embryonic body morphogenesis & Over \\ 
-  0.02 &   2 &   2 & xylulose metabolic process & Over \\ 
-  0.02 &   2 &   2 & L-amino acid transport & Over \\ 
-  0.02 &   2 &   2 & neuromuscular process controlling balance & Over \\ 
-  0.02 &   2 &   2 & response to sucrose stimulus & Over \\ 
-  0.02 &   2 &   2 & NADP metabolic process & Over \\ 
-  0.02 &   2 &   2 & response to disaccharide stimulus & Over \\ 
-  0.02 &   2 &   2 & pentose metabolic process & Over \\ 
-  0.02 &  15 &  66 & behavior & Over \\ 
-  0.02 &   8 &  27 & interphase & Over \\ 
-  0.02 &   8 &  27 & interphase of mitotic cell cycle & Over \\ 
-  0.02 &  11 &  43 & electron transport chain & Over \\ 
-  0.02 &  11 &  43 & respiratory electron transport chain & Over \\ 
-  0.02 &  29 & 156 & catabolic process & Over \\ 
-  0.02 &   3 &   5 & positive regulation of mitosis & Over \\ 
-  0.02 &   3 &   5 & positive regulation of nuclear division & Over \\ 
-  0.02 &  13 &  56 & cellular amine metabolic process & Over \\ 
-  0.02 &  20 &  99 & aging & Over \\ 
-  0.02 &  10 &  39 & regulation of cell cycle process & Over \\ 
-  0.03 &  17 &  81 & apoptosis & Over \\ 
-  0.03 &  16 &  75 & regulation of molecular function & Over \\ 
-  0.03 &  13 &  57 & regulation of cell cycle & Over \\ 
-  0.03 &   5 &  14 & mitotic cell cycle G1/S transition DNA damage checkpoint & Over \\ 
-  0.03 &   5 &  14 & sleep & Over \\ 
-  0.03 &   4 &  10 & cellular amino acid catabolic process & Over \\ 
-  0.03 &  10 &  41 & reproductive structure development & Over \\ 
-  0.03 &   3 &   6 & microtubule organizing center organization & Over \\ 
-  0.03 &   3 &   6 & RNA catabolic process & Over \\ 
-  0.03 &   3 &   6 & centrosome organization & Over \\ 
-  0.03 &   8 &  30 & muscle organ development & Over \\ 
-  0.04 &  11 &  47 & cellular respiration & Over \\ 
-  0.04 &  13 &  59 & energy derivation by oxidation of organic compounds & Over \\ 
-  0.04 &   7 &  25 & regulation of catabolic process & Over \\ 
-  0.04 &   5 &  15 & signal transduction in response to DNA damage & Over \\ 
-  0.04 &   5 &  15 & G1/S transition of mitotic cell cycle & Over \\ 
-  0.04 &   5 &  15 & regulation of G1/S transition of mitotic cell cycle & Over \\ 
-  0.04 &   5 &  15 & mitotic cell cycle G1/S transition checkpoint & Over \\ 
-  0.04 &   5 &  15 & G1/S transition checkpoint & Over \\ 
-  0.04 &   5 &  15 & DNA damage response, signal transduction by p53 class mediator & Over \\ 
-  0.04 &   5 &  15 & regulation of cellular amine metabolic process & Over \\ 
-  0.04 &   6 &  20 & response to copper ion & Over \\ 
-  0.04 &  24 & 131 & cellular catabolic process & Over \\ 
-  0.05 &   4 &  11 & imaginal disc development & Over \\ 
-  0.05 &   4 &  11 & amine catabolic process & Over \\ 
-  0.05 &   4 &  11 & skeletal muscle organ development & Over \\ 
-  0.05 &  11 &  49 & mRNA metabolic process & Over \\ 
-  0.05 &   2 &   3 & nuclear mRNA cis splicing, via spliceosome & Over \\ 
-  0.05 &   2 &   3 & germ cell migration & Over \\ 
-  0.05 &   2 &   3 & positive regulation of mitotic metaphase/anaphase transition & Over \\ 
-  0.05 &   2 &   3 & mitotic centrosome separation & Over \\ 
-  0.05 &   2 &   3 & oligosaccharide catabolic process & Over \\ 
-  0.05 &   2 &   3 & spliceosomal conformational changes to generate catalytic conformation & Over \\ 
-  0.05 &   2 &   3 & amino acid transport & Over \\ 
-  0.05 &   2 &   3 & negative regulation of reproductive process & Over \\ 
-  0.05 &   2 &   3 & centrosome duplication & Over \\ 
-  0.05 &   2 &   3 & centrosome separation & Over \\ 
-  0.05 &   2 &   3 & protein tetramerization & Over \\ 
-  0.05 &   2 &   3 & protein homotetramerization & Over \\ 
-  0.00 &  15 & 201 & gene expression & Under \\ 
-  0.00 &   1 &  57 & cellular protein complex disassembly & Under \\ 
-  0.00 &   1 &  57 & macromolecular complex disassembly & Under \\ 
-  0.00 &   1 &  57 & protein complex disassembly & Under \\ 
-  0.00 &   1 &  57 & cellular macromolecular complex disassembly & Under \\ 
-  0.00 &   1 &  55 & pancreas development & Under \\ 
-  0.00 &   1 &  55 & endocrine pancreas development & Under \\ 
-  0.00 &   1 &  55 & endocrine system development & Under \\ 
-  0.00 &   1 &  55 & viral genome expression & Under \\ 
-  0.00 &   1 &  55 & viral transcription & Under \\ 
-  0.00 &   8 & 131 & transcription & Under \\ 
-  0.00 &   1 &  54 & translational termination & Under \\ 
-  0.00 &   4 &  89 & translation & Under \\ 
-  0.00 &   2 &  66 & cellular component disassembly & Under \\ 
-  0.00 &   2 &  66 & cellular component disassembly at cellular level & Under \\ 
-  0.01 &  14 & 178 & cellular macromolecule biosynthetic process & Under \\ 
-  0.01 &  22 & 243 & biosynthetic process & Under \\ 
-  0.01 &  22 & 240 & cellular biosynthetic process & Under \\ 
-  0.01 &  15 & 181 & macromolecule biosynthetic process & Under \\ 
-  0.01 &   2 &  57 & viral reproductive process & Under \\ 
-  0.01 &   2 &  57 & viral infectious cycle & Under \\ 
-  0.02 &   0 &  26 & positive regulation of intracellular protein kinase cascade & Under \\ 
-  0.03 &   1 &  38 & positive regulation of response to stimulus & Under \\ 
-  0.03 &   0 &  24 & oocyte differentiation & Under \\ 
-  0.03 &   0 &  23 & oocyte development & Under \\ 
-  0.03 &   0 &  23 & cation transport & Under \\ 
-  0.04 &   0 &  22 & positive regulation of MAPKKK cascade & Under \\ 
-  0.05 &  24 & 234 & growth & Under \\ 
-   \hline
-0.01 &   4 &   7 & small nuclear ribonucleoprotein complex & Over \\ 
-  0.01 &  31 & 164 & mitochondrion & Over \\ 
-  0.02 &   2 &   2 & Cajal body & Over \\ 
-  0.02 &   2 &   2 & U5 snRNP & Over \\ 
-  0.02 &   2 &   2 & U4/U6 x U5 tri-snRNP complex & Over \\ 
-  0.03 &  17 &  80 & mitochondrial part & Over \\ 
-  0.04 &   3 &   6 & nuclear speck & Over \\ 
-  0.04 &   5 &  15 & nuclear body & Over \\ 
-  0.04 &  14 &  65 & mitochondrial membrane & Over \\ 
-  0.05 &  14 &  66 & mitochondrial envelope & Over \\ 
-  0.05 &   2 &   3 & clathrin sculpted vesicle & Over \\ 
-  0.05 &   2 &   3 & plasma membrane respiratory chain complex I & Over \\ 
-  0.05 &   2 &   3 & plasma membrane respiratory chain & Over \\ 
-  0.05 &   2 &   3 & basement membrane & Over \\ 
-  0.05 &   2 &   3 & plant-type cell wall & Over \\ 
-  0.00 &   0 &  37 & large ribosomal subunit & Under \\ 
-  0.01 &   0 &  35 & cytosolic large ribosomal subunit & Under \\ 
-  0.01 &  28 & 280 & nucleus & Under \\ 
-  0.02 &  19 & 201 & non-membrane-bounded organelle & Under \\ 
-  0.02 &  19 & 201 & intracellular non-membrane-bounded organelle & Under \\ 
-  0.02 &   4 &  71 & nucleolus & Under \\ 
-  0.02 &   3 &  60 & cytosolic ribosome & Under \\ 
-  0.02 &   1 &  38 & plastid & Under \\ 
-  0.03 &   4 &  68 & cytosolic part & Under \\ 
-  0.03 &   1 &  36 & chloroplast & Under \\ 
-  0.05 &   5 &  73 & ribosome & Under \\ 
-  \hline\\
-\caption[Over- and under-representation of GO-terms in positively
-selected]{\textbf{Over- and under-representation of GO-terms in
-    positively selected -} GO-terms over- or under-represented
-  (direction) in contigs putatively under positive
-  selection. Horizontal lines separate categories of the
+   \multicolumn{6}{l}{Biological process}  \\ 
+   GO:0009081 & branched chain family amino acid metabolic process &   3 &   3 & 0.36 & 0.0017 \\ 
+  GO:0009083 & branched chain family amino acid catabolic process &   3 &   3 & 0.36 & 0.0017 \\ 
+  GO:0042594 & response to starvation &  15 &   6 & 1.82 & 0.0052 \\ 
+  GO:0006914 & autophagy &  12 &   5 & 1.45 & 0.0090 \\ 
+  GO:0006520 & cellular amino acid metabolic process &  44 &  11 & 5.33 & 0.0102 \\ 
+  GO:0007281 & germ cell development &  17 &   6 & 2.06 & 0.0105 \\ 
+  GO:0090068 & positive regulation of cell cycle process &  17 &   6 & 2.06 & 0.0105 \\ 
+  GO:0009308 & amine metabolic process &  57 &  13 & 6.90 & 0.0118 \\ 
+  GO:0051325 & interphase &  23 &   7 & 2.79 & 0.0139 \\ 
+  GO:0051329 & interphase of mitotic cell cycle &  23 &   7 & 2.79 & 0.0139 \\ 
+  \hline
+  \multicolumn{6}{l}{Cellular compartment}  \\ 
+  GO:0030532 & small nuclear ribonucleoprotein complex &   7 &   4 & 0.84 & 0.005 \\ 
+  GO:0005682 & U5 snRNP &   2 &   2 & 0.24 & 0.014 \\ 
+  GO:0015030 & Cajal body &   2 &   2 & 0.24 & 0.014 \\ 
+  GO:0046540 & U4/U6 x U5 tri-snRNP complex &   2 &   2 & 0.24 & 0.014 \\ 
+  GO:0016607 & nuclear speck &   6 &   3 & 0.72 & 0.025 \\ 
+  GO:0005739 & mitochondrion & 136 &  23 & 16.35 & 0.031 \\ 
+  GO:0005604 & basement membrane &   3 &   2 & 0.36 & 0.039 \\ 
+  GO:0060198 & clathrin sculpted vesicle &   3 &   2 & 0.36 & 0.039 \\ 
+  GO:0016604 & nuclear body &  13 &   4 & 1.56 & 0.059 \\ 
+  GO:0008021 & synaptic vesicle &   9 &   3 & 1.08 & 0.082 \\ 
+\hline\\
+\caption[Over-representation of GO-terms in positively
+selected]{\textbf{Over-representation of GO-terms in positively
+    selected -} GO-terms over-represented in contigs putatively under
+  positive selection. Horizontal lines separate categories of the
   GO-ontology. First category is molecular function, second biological
-  process, last cellular compartment. P values (Pval) for over- or
-  under-representation are given along with the number of positively
-  selected contigs (Count; dn/ds $>$ 0.5) and the number of contigs
-  with this annotation for which a dn/ds was obtained (Size) and the
-  description of the GO-term (Term).} \label{go-pos}\\
+  process, last cellular compartment. P values (pval) for over-
+  representation (Fishters exact test) are given along with the number
+  of positively selected contigs (Count; dn/ds $>$ 0.5) and the number
+  of contigs with this annotation for which a dn/ds was obtained
+  (Size) and the
+  description of the GO-term (Term).}
+\label{go-pos}\\
 \end{longtable}
 
 
@@ -714,60 +608,7 @@ inbreeding in populations of \textit{A. crassus}.
 
 \section{Differential expression}
 
-Using methods developed for sequencing data in the R-package DESeq
-\cite{pmid20979621}, I analysed gene-expression inferred from
-mapping. Of the 353055 reads 252388 (71.49\%) mapped uniquely (with
-their best hit) to the fullest assembly (including the all assembled
-contigs as a ``filter'' later removing screened out sequences for
-analysis).
 
-22 Contigs were clearly over-expressed at adjusted p-values $<$ 0.001
-in the male worm compared to the female worms.  7 of these were
-annotated as ``Major sperm protein'', all with different orthologs in
-\textit{B. malayi} and with 5 different orthologs in
-\textit{C. elegans}. Other annotation were ``putative P40'' for
-``Contig2545'' and ``Contig94'', ``MFP2'' for ``Contig437'', ``KH
-domain containing protein'' for ``Contig96'', ``Protein kinase domain
-containing protein'' for ``Contig96'', ``Protein-tyrosine phosphatase
-containing protein'' for ``Contig382'' and ``PDZ domain containing
-protein'' for ``Contig106''. For all these contigs read-sums for
-orthologous groups in the two model nematodes also showed significant
-over-expression in the same direction.
-
-An exception was ``Contig194'' (``Phosphoenolpyruvate
-carboxykinase''), for which the sums of orthologous-counts for both
-model-nematodes did not show a significant over-expression in the
-male.
-
-Comparing libraries from European worms to Taiwanese worms, two
-contigs were observed at adjusted p-values $<$ 0.001: ``Contig5250''
-was only expressed in library E2 and was annotated as an ortholog of
-alpha tubulin in both \textit{C. elegans} and \textit{Brugia
-  malayi}. This annotation was shared with 18 and 16 contigs
-respectively. Contrary to the identified contig, the sums of the read
-counts for this orthologous groups showed a non-significant trend
-towards higher expression in the the Asian
-libraries. ``Contig13931''was only expressed in sample E1 and showed
-high similarity to \textit{Ascaris lumbricoides} small nuclear RNAs.
-
-Two contigs were identified as differentially expressed at adjusted
-p-values below 0.2 and were expressed highly in library E2:
-``Contig5320'' shared annotation as ortholog of ``Cuticle collagen 7''
-in both model-nematodes with 5 contigs.  Counts for the orthologous
-groups showed a non-significant opposite trend of over-expression in
-the in the Taiwanese libraries.  ``Contig200'' shared similarity only
-with one predicted protein from \textit{C. elegans}.
-
-This was followed by a set of 9 contigs over-expressed at exactly 20\%
-false discovery rate. They were all found only in Taiwanese libraries
-and the ortholog-groups showed a tendency towards expression in the
-same direction. Three of these are worth further notice:
-``Contig5164'' annotated as ``galactoside binding lectin'' was not
-only expressed in one of the Taiwaneselibraries, but in
-both. ``Contig110'' (``cysteine protease'') had adjusted p-values $<$
-1 and ``Contig6355'' (``Trypsin family protein'') nearly significant
-adjusted p-values $<$ 0.4 for orthologous groups in
-\textit{C. elegans} and \textit{B. malayi}.
 
 
 %%% Local Variables: ***

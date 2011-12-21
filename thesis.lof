@@ -8,7 +8,7 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Phylogeny of nematode clade III based on nuclear small ribosomal subunit}}{12}{figure.1.6}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Differences in developmental speed}}{14}{figure.1.7}
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Major macromolecules bearing biological sequence information:}}{16}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces The structure of a protein coding gene and it's mRNA}}{17}{figure.1.9}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces The structure of a protein coding gene and it's mRNA}}{18}{figure.1.9}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Falling sequencing costs}}{23}{figure.1.10}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Schematic representation of pyrosequencing}}{24}{figure.1.11}
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Schematic representation of Illumina- sequencing}}{26}{figure.1.12}
@@ -29,29 +29,30 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Enrichment of Signal-positives for categories of evolutionary conservations}}{67}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Homoploymer screening for SNP-calling}}{68}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces SNP calling and SNP categories}}{69}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Positive selection and evolutionary conservation}}{76}{figure.5.6}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Positive selection and evolutionary conservation}}{72}{figure.5.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Recovery of worms in cross-infection experiment}}{82}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between RNA-seq read-count for different samples}}{85}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{87}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Venn diagramm of contigs significant for different terms in \texttt {edgeR}-GLMs}}{91}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Constrained redundancy analysis for host-DE contigs}}{95}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Constrained redundancy analysis for population-DE contigs}}{96}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces GO biological process graph for enriched terms in DE according to worm-population}}{97}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{99}{figure.6.8}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Recovery of worms in cross-infection experiment}}{76}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distances between RNA-seq read-count for different samples}}{79}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Principle coordinate plot for expression inRNA-seq libraries}}{81}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Venn diagramm of contigs significant for different terms in \texttt {edgeR}-GLMs}}{85}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Constrained redundancy analysis for host-DE contigs}}{89}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Constrained redundancy analysis for population-DE contigs}}{90}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces GO biological process graph for enriched terms in DE according to worm-population}}{91}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Variance/mean stabilized expression values for contigs different between populations}}{93}{figure.6.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces GO molecular function graph for enriched terms in DE according to worm-population}}{111}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Heatmap for OC contigs DE between worm populations}}{113}{figure.7.2}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces GO molecular function graph for enriched terms in DE according to worm-population}}{105}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Heatmap for OC contigs DE between worm populations}}{107}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces foo}}{109}{figure.7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in DE according to sex}}{148}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to sex}}{149}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces GO molecular function graph for enriched terms in DE according to sex}}{150}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces GO biological process graph for enriched terms in DE according to eel-host}}{151}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to eel-host}}{152}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces GO molcular function graph for enriched terms in DE according to eel-host}}{153}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to worm-population}}{154}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Heatmap for contigs DE between male and female worms}}{155}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Heatmap for OC contigs DE between male and female worms}}{156}{figure.9.9}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Heatmap for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{157}{figure.9.10}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Heatmap for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{158}{figure.9.11}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in DE according to sex}}{144}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to sex}}{145}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces GO molecular function graph for enriched terms in DE according to sex}}{146}{figure.9.3}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces GO biological process graph for enriched terms in DE according to eel-host}}{147}{figure.9.4}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to eel-host}}{148}{figure.9.5}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces GO molcular function graph for enriched terms in DE according to eel-host}}{149}{figure.9.6}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to worm-population}}{150}{figure.9.7}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Heatmap for contigs DE between male and female worms}}{151}{figure.9.8}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Heatmap for OC contigs DE between male and female worms}}{152}{figure.9.9}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Heatmap for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{153}{figure.9.10}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Heatmap for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{154}{figure.9.11}

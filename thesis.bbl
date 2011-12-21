@@ -1315,9 +1315,9 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 \newblock {\em Bioinformatics}, {\bf 25}:2283--2285, Sep 2009.
 
 \bibitem{pmid21653522}
-{\sc P.~Danecek, †A. Auton, G.~Abecasis, Albers CA., E.~Banks, MA. DePristo,
-  Handsaker RE., Lunter G., Marth GT., Sherry ST., McVean GT., Durbin T., and
-  {1000 Genomes Project}}.
+{\sc {Danecek, P. and Auton,†A. and Abecasis, G. and Albers CA. and Banks, E.
+  and DePristo, MA. and Handsaker RE. and Lunter G. and Marth GT. and Sherry
+  ST. and McVean GT. and Durbin T. and {the 1000 Genomes Project}}}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21653522}{{\bf {{T}he
   variant call format and {V}{C}{F}tools}}}.
 \newblock {\em Bioinformatics}, {\bf 27}:2156--2158, Aug 2011.
@@ -1811,10 +1811,42 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   generation in parasitic helminths}}}.
 \newblock {\em Parasitol. Today (Regul. Ed.)}, {\bf 10}:346--352, Sep 1994.
 
+\bibitem{heitlinger_vergleichende_2008}
+{\sc Emanuel Heitlinger}.
+\newblock {\bf Vergleichende licht- und elektronenmikroskopische Untersuchungen
+  am Intestinaltrakt des invasiven Schwimmblasennematoden Anguillicola crassus
+  aus verschiedenen Aalarten}, 2008.
+
+\bibitem{pmid18314717}
+{\sc L.~I. Grad, L.~C. Sayles, and B.~D. Lemire}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18314717}{{\bf {{I}solation
+  and functional analysis of mitochondria from the nematode {C}aenorhabditis
+  elegans}}}.
+\newblock {\em Methods Mol. Biol.}, {\bf 372}:51--66, 2007.
+
 \bibitem{mealloprot}
 {\sc R.~P. Mecham and Parks~W. C.}, editors.
 \newblock {\em Matrix Metalloproteinases}.
 \newblock Academic Press, 1989.
+
+\bibitem{pmid10637627}
+{\sc I.~L. Johnstone}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10637627}{{\bf {{C}uticle
+  collagen genes. {E}xpression in {C}aenorhabditis elegans}}}.
+\newblock {\em Trends Genet.}, {\bf 16}:21--27, Jan 2000.
+
+\bibitem{mayr1961cause}
+{\sc E.~Mayr}.
+\newblock {\bf Cause and effect in biology}.
+\newblock {\em Science}, {\bf 134}(3489):1501--1506, 1961.
+
+\bibitem{pmid12447374}
+{\sc S.~S. Lee, R.~Y. Lee, A.~G. Fraser, R.~S. Kamath, J.~Ahringer, and
+  G.~Ruvkun}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12447374}{{\bf {{A}
+  systematic {R}{N}{A}i screen identifies a critical role for mitochondria in
+  {C}. elegans longevity}}}.
+\newblock {\em Nat. Genet.}, {\bf 33}:40--48, Jan 2003.
 
 \bibitem{ewing_base-calling_1998}
 {\sc B.~Ewing, L.~Hillier, M.~C. Wendl, and P.~Green}.
