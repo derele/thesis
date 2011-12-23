@@ -230,10 +230,6 @@ The ace-files for all three (two first-order, one second-order)
 assemblies were interrogated for the fate of single reads. This was
 used to tabulate the full read-first-order-second-order-associations.
 
-Based on reads shared between clusters I collapsed reads linked by
-such read-paths, assigned a cluster-id and recorded the size of the
-cluster.
-
 \texttt{Blast} (\texttt{blastx -e 1e-5}) was used to search the
 complete proteomes of \textit{C. elegans} (as present in wormbase
 v.220) and the complete proteome of \textit{B. malayi} (as present in
@@ -244,6 +240,17 @@ database the size of the masked region was then determined and
 statistics were created summarizing the number of database-sequences
 with any coverage, the number with coverage over 80\% of teir
 sequence-length and the overall proportion of bases covered.
+
+Based on reads shared between clusters I collapsed reads linked by
+such read-paths, assigned a cluster-id and recorded the size of the
+cluster.
+
+To estimate contig-coverage I converted \texttt{sam}-ouput genereated
+with \texttt{ssaha2}\cite{pmid11591649} via a sorted \texttt{bam}-file
+to \texttt{pileup}-format using \texttt{samtools}
+\cite{journals/bioinformatics/LiHWFRHMAD09}. For a second evalutation
+I excluded best-hits mapping to multiple contigs before converting the
+\texttt{sam}-file to obtain unique coverage.
 
 \subsection{Post-assembly classification and taxonomic assignment of
   contigs}
@@ -345,13 +352,32 @@ potentially fragmented reference. For both model-nematodes fold-change
 and p-values were obtained the same way than for the contigs and
 merged with these.
 
+\subsection{Enrichment analysis}
+\label{GO-over-meth}
+
+We used Mann-Whitney u-tests to test the influence of factors on dn/ds
+values, when multiple contrasts between groups (facotrs) were
+investigated we used Nemenyi-Damico-Wolfe-Dunn tests. For
+overrepresentation of one group (factor) in another group (factor) we
+used Fisher's exact test.
+
+Prior to analysis of GO-term over-representation (based on dn/ds or
+expression values) we used the R-package \texttt{annotationDbi}
+\cite{AnnotationDbi} to obtain a full list of associations (also with
+higer-level terms) from \texttt{annot8r}-annotations. We then used the
+R-package \texttt{topGO} \cite{topGO} to traverse the annotation-graph
+and analyse each node in the annotation for over-representation of the
+associated term in the focal gene-set compared to a appropriate
+universal gene-set (all contigs with dn/ds values or all contigs
+analysed for gene-exprssion) with the ``classic'' method and Fisher's
+exact test.
 
 \section{Transcriptomic divergence in a common garden experiment}
 
 \subsection{Experimental infeciton of eels} 
 
 \textit{An. anguilla} were obtained from the Albe-Fishfarm in
-Haren-Rütenbrock, Germany. \textit{An. japonica} were caught at the
+Haren-R\"utenbrock, Germany. \textit{An. japonica} were caught at the
 glass-eel stage in the estuary of Kao-ping River, Taiwan by
 professional fishermen and kept at a water temperature of
 26$^{\circ}$C until they reached a size of $>$ 35 cm.
@@ -389,7 +415,7 @@ The swimbladder was opened and after determination of the sex of adult
 worms under a binocular microscope (Semi 2000, Zeiss, Germany), they
 were immediately immersed in RNAlater (Quiagen, Hilden, Germany).
 
-\section{RNA exrtaction and preparation of sequencing libraries}
+\subsection{RNA exrtaction and preparation of sequencing libraries}
 
 RNA was extracted from 12 individual female worms and for 12 pools of
 male worms using the RNeasy-kit (Quiagen, Hilden, Germany) (see table
@@ -420,7 +446,7 @@ then used to regenerate the complementary strand, the original strand
 was removed and complementary strand acted as a template for the
 second read, sequenced primed by the second sequencing primer Rd2 SP.
 
-\section{Mapping and normalistion of read-counts}
+\subsection{Mapping and normalistion of read-counts}
 
 All sequencing reads were mapped to the fullest 454 assembly (as
 defined in \ref{sec:final-full-assembly}; I were including TUGs
@@ -439,35 +465,44 @@ than 32 mapping reads in total (see however \ref{collapse} for how
 these counts were used in further tests of reference fragmentation).
 
 The remaining counts were normalized using \texttt{DESeq} (version
-1.6.1) and all tables summarizing read-counts are based on these
-normalized counts. Additionally I obtained ``variance stabilized
-data'' in an expression matrix for each gene and library. These data
-were used in all heatmap and multivariate visualisations.
+1.6.1) (i.e.  the normalization factor was estimated by the median of
+scaled counts, similar to teh weighted trimmed mean of the log
+expression ratios used later in \texttt{edgeR}). All tables
+summarizing read-counts are based on these normalized counts. I
+obtained ``variance stabilized data'' in an expression matrix for each
+gene and library using the ``blind'' option in a calculation not
+informed (and biased by the) design. These data were used in all
+gene-centric heatmap and multivariate visualisations. Additonally this
+matix was transposed to get sample-to-sample distances.
 
-\section{Statistical analysis with GLMs}
+\subsection{Statistical analysis with generalized linear models (GLMs)}
 
-Generalized linear models were used as implemented in \texttt{edgeR}
-(version 2.4.1) \cite{pmid19910308}. In the maximal fitted model
-expression was regresses on worm-sex, host-species and parasite
-population, including all their interactions and modeled as negative
-binomial distributed. The full model thus contained terms $ S_i + H_j
-+ P_k + (SH)_{ij} + (SP)_{ik} + (HP)_{jk} + (SHP)_{ijk}$ where $S_i$
-is the effect of the ith sex (male or female), $H_j$ is the effect of
-the ith host specis (\textit{An. anguilla} or \textit{An. japonica}),
-$P_k$ is the effect of the kth population (European or Asian),
-$(SH)_{ij}$ is the sex-by-species interaction and similarly for the
-other interactions.
+The R-package \texttt{edgeR} (version 2.4.1) \cite{pmid19910308} was
+used to build negative binomial generalized linear models, as these
+specialized GLMs outperformed GLMs in \texttt{DESeq} in speed and
+relieability of convergence. Modeled were based on a negative binomial
+distirbution and the dispersion parameter for each transcript was
+approximated with a trend depending on the overall level of
+expression. In the maximal fitted model expression was regressed on
+worm-sex, host-species and parasite population, including all their
+interactions. The full model thus contained terms $ S_i + H_j + P_k +
+(SH)_{ij} + (SP)_{ik} + (HP)_{jk} + (SHP)_{ijk} + \varepsilon$, where
+$\varepsilon$ is the residual variance, $S_i$ is the effect of the ith
+sex (male or female), $H_j$ is the effect of the ith host specis
+(\textit{An. anguilla} or \textit{An. japonica}), $P_k$ is the effect
+of the kth population (European or Asian), $(SH)_{ij}$ is the
+sex-by-species interaction and similarly for the other interactions.
 
 The hierarchical nature of generalized linear models was respected
 considering (removing) all interaction effects of a main-term
 (e.g. $(SP)_{ik}$, $(SH)_{ij}$ and $(SHP)_{ijk}$) when analysing
 models for the significance of that term (e.g. $S_i$). Resulting
 p-values were corrected for multiple testing using the method of
-Benjamini and Hochberg \cite{benjamini1995controlling}. Differential
-expression was inferred at a false discovery rate (FDR) of 5\%
-(adjusted p-value of 0.05).
+Benjamini and Hochberg \cite{benjamini1995controlling} and
+differential expression was inferred at a false discovery rate (FDR)
+of 5\% (adjusted p-value of 0.05).
 
-\section{Count-collapsing for orthologous from two model-species}
+\subsection{Count-collapsing for orthologous from two model-species}
 \label{collapse}
 
 In order to test the influence of deficiencies (i.e. fragmentation) of
@@ -480,10 +515,10 @@ Differential expression for these orthologous-counts was analysed the
 same way as for contigs. Contigs were filtered based on inferrence
 from orthologous counts merging the two orthologous evaluations and
 the contig evaluation. Differential expression was accepted at a FDR
-of 5\% for the contig evaluation and 10\% for the two orthologous
-evaluations.
+of 5\% for the contig evaluation and 10\% for both of the two
+orthologous evaluations.
 
-\section{Multivarite confirmation of linear models}
+\subsection{Multivarite confirmation of linear models}
 \label{sec:mult-conf-line}
 
 I used the R-package \texttt{vegan} (version 2.0-2) to perform
@@ -494,19 +529,18 @@ proportion of the variance explained by the constrained component was
 recorded and the constrained component was tested for significance
 using a permutation test implemented in \texttt{vegan}.
 
-\section{GO-term enrichment analysis}
+\subsection{GO-term enrichment analysis}
 
-The R-package topGO was used to analyse overrepresentation of GO-terms
-with the ``classic algorithm'' and Fisher's exact test after the
-fullest set of GO-term accociations (includign higher level terms) had
-been computed with the R-package AnnotationDbi.
+Enrichment analysis was performed as described above for
+pyrosequencing data (see \ref{GO-over-meth}).
 
-\section{Clustering analysis}
+\subsection{Clustering analysis}
 
-The R-package HeatmapPlus was used to hierachicall cluster sequences
-according to standard euclidian distances and display the results
-along with annotations stored in a Bioconductor eSet-class object.
-
+The R-package \texttt{HeatmapPlus} was used on variance stabilized
+expression values to calculate euclidean distance and to hierachically
+cluster these similar to the method of \cite{pmid9843981}. The results
+were displayed along with annotations stored in a Bioconductor
+eSet-class object.
 
 \section{General coding methods}
 

@@ -16,50 +16,50 @@ The style file: Latex/Classes/PhDbiblio-url2.bst
 A level-1 auxiliary file: 9_backmatter/additional_information.aux
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
-Reallocated field_info (elt_size=4) to 11777 items from 5000.
+Reallocated field_info (elt_size=4) to 12020 items from 5000.
 Database file #1: /home/ele/bibtex/master.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "heitlinger_vergleichende_2008" isn't style-file defined
---line 4503 of file /home/ele/bibtex/master.bib
-You've used 251 entries,
+--line 4579 of file /home/ele/bibtex/master.bib
+You've used 260 entries,
             2776 wiz_defined-function locations,
-            2188 strings with 87619 characters,
-and the built_in function-call counts, 171684 in all, are:
-= -- 16200
-> -- 13131
+            2237 strings with 89381 characters,
+and the built_in function-call counts, 175830 in all, are:
+= -- 16636
+> -- 13317
 < -- 8
-+ -- 5236
-- -- 4968
-* -- 16362
-:= -- 28540
-add.period$ -- 758
-call.type$ -- 251
-change.case$ -- 2984
++ -- 5309
+- -- 5032
+* -- 16686
+:= -- 29187
+add.period$ -- 785
+call.type$ -- 260
+change.case$ -- 3034
 chr.to.int$ -- 0
-cite$ -- 251
-duplicate$ -- 3981
-empty$ -- 10292
-format.name$ -- 4968
-if$ -- 36105
+cite$ -- 260
+duplicate$ -- 4111
+empty$ -- 10636
+format.name$ -- 5032
+if$ -- 37056
 int.to.chr$ -- 0
-int.to.str$ -- 251
-missing$ -- 250
-newline$ -- 1262
-num.names$ -- 505
-pop$ -- 3744
+int.to.str$ -- 260
+missing$ -- 257
+newline$ -- 1307
+num.names$ -- 523
+pop$ -- 3824
 preamble$ -- 1
-purify$ -- 2983
+purify$ -- 3033
 quote$ -- 0
-skip$ -- 5712
+skip$ -- 5910
 stack$ -- 0
-substring$ -- 6736
-swap$ -- 1256
+substring$ -- 6949
+swap$ -- 1296
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 994
+type$ -- 1030
 warning$ -- 0
-while$ -- 937
-width$ -- 254
-write$ -- 2756
+while$ -- 968
+width$ -- 263
+write$ -- 2852
 (There was 1 warning)

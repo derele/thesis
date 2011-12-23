@@ -10,12 +10,12 @@
 \BOOKMARK [1][]{section.1.2}{1.2 DNA sequencing}{chapter.1}
 \BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Two out of three: DNA sequencing and the central dogma of molecular biology}{section.1.2}
 \BOOKMARK [2][]{subsection.1.2.2}{1.2.2 The history and methods of high-throughput DNA-sequencing}{section.1.2}
-\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 DNA-sequencing in Nematodes}{section.1.2}
+\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 DNA-sequencing in nematodes}{section.1.2}
 \BOOKMARK [2][]{subsection.1.2.4}{1.2.4 Advances in sequencing technology}{section.1.2}
 \BOOKMARK [3][]{subsubsection.1.2.4.1}{1.2.4.1 Pyro-sequencing}{subsection.1.2.4}
 \BOOKMARK [3][]{subsubsection.1.2.4.2}{1.2.4.2 Illumina-Solexa sequencing}{subsection.1.2.4}
 \BOOKMARK [2][]{subsection.1.2.5}{1.2.5 Computational methods in DNA-sequence analysis}{section.1.2}
-\BOOKMARK [2][]{subsection.1.2.6}{1.2.6 Applications of NGS in ecology and evolution and gene-expression divergence}{section.1.2}
+\BOOKMARK [2][]{subsection.1.2.6}{1.2.6 Applications in ecology and evolution and gene-expression divergence}{section.1.2}
 \BOOKMARK [0][]{chapter.2}{2 Aims of the project}{}
 \BOOKMARK [1][]{section.2.1}{2.1 Preliminary aims}{chapter.2}
 \BOOKMARK [1][]{section.2.2}{2.2 Final aim}{chapter.2}
@@ -26,8 +26,8 @@
 \BOOKMARK [2][]{subsection.3.0.4}{3.0.4 Screening for host-contamination}{subsection.3.0.1}
 \BOOKMARK [0][]{chapter.4}{4 Evaluation of an assembly strategy for pyrosequencing reads}{}
 \BOOKMARK [1][]{section.4.1}{4.1 Overview}{chapter.4}
-\BOOKMARK [1][]{section.4.2}{4.2 The newbler first-order assembly}{chapter.4}
-\BOOKMARK [1][]{section.4.3}{4.3 The mira-assembly and the second-order assembly}{chapter.4}
+\BOOKMARK [1][]{section.4.2}{4.2 The Newbler first-order assembly}{chapter.4}
+\BOOKMARK [1][]{section.4.3}{4.3 The Mira-assembly and the second-order assembly}{chapter.4}
 \BOOKMARK [1][]{section.4.4}{4.4 Data-categories in the second-order assembly}{chapter.4}
 \BOOKMARK [1][]{section.4.5}{4.5 Contribution of first-order assemblies to second-order contigs}{chapter.4}
 \BOOKMARK [1][]{section.4.6}{4.6 Evaluation of the assemblies}{chapter.4}
@@ -39,7 +39,7 @@
 \BOOKMARK [1][]{section.5.1}{5.1 Overview}{chapter.5}
 \BOOKMARK [1][]{section.5.2}{5.2 Sampling A. crassus}{chapter.5}
 \BOOKMARK [1][]{section.5.3}{5.3 Sequencing, trimming and pre-assembly screening}{chapter.5}
-\BOOKMARK [1][]{section.5.4}{5.4 Assembly}{chapter.5}
+\BOOKMARK [1][]{section.5.4}{5.4 Assembly \(see also chapter 4\)}{chapter.5}
 \BOOKMARK [1][]{section.5.5}{5.5 Protein prediction}{chapter.5}
 \BOOKMARK [1][]{section.5.6}{5.6 Annotation}{chapter.5}
 \BOOKMARK [1][]{section.5.7}{5.7 Evolutionary conservation}{chapter.5}
@@ -52,8 +52,8 @@
 \BOOKMARK [1][]{section.6.2}{6.2 Infection experiments}{chapter.6}
 \BOOKMARK [1][]{section.6.3}{6.3 Sample preparation and sequencing }{chapter.6}
 \BOOKMARK [1][]{section.6.4}{6.4 Examination of data-quality}{chapter.6}
-\BOOKMARK [1][]{section.6.5}{6.5 Orthologous screeing for expression differences}{chapter.6}
-\BOOKMARK [1][]{section.6.6}{6.6 Expression differences in generalized linear models}{chapter.6}
+\BOOKMARK [1][]{section.6.5}{6.5 Orthologous screening for expression differences}{chapter.6}
+\BOOKMARK [1][]{section.6.6}{6.6 Expression differences in generalised linear models}{chapter.6}
 \BOOKMARK [1][]{section.6.7}{6.7 Confirmation of contig categories through multivariate analysis}{chapter.6}
 \BOOKMARK [1][]{section.6.8}{6.8 Biological processes associated with DE contigs}{chapter.6}
 \BOOKMARK [1][]{section.6.9}{6.9 Clustering analysis}{chapter.6}
@@ -76,17 +76,21 @@
 \BOOKMARK [2][]{subsection.8.5.5}{8.5.5 Protein prediction and annotation}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.6}{8.5.6 Single nucleotide polymorphism analysis}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.7}{8.5.7 Gene-expression analysis}{section.8.5}
+\BOOKMARK [2][]{subsection.8.5.8}{8.5.8 Enrichment analysis}{section.8.5}
 \BOOKMARK [1][]{section.8.6}{8.6 Transcriptomic divergence in a common garden experiment}{chapter.8}
 \BOOKMARK [2][]{subsection.8.6.1}{8.6.1 Experimental infeciton of eels}{section.8.6}
-\BOOKMARK [1][]{section.8.7}{8.7 RNA exrtaction and preparation of sequencing libraries}{chapter.8}
-\BOOKMARK [1][]{section.8.8}{8.8 Mapping and normalistion of read-counts}{chapter.8}
-\BOOKMARK [1][]{section.8.9}{8.9 Statistical analysis with GLMs}{chapter.8}
-\BOOKMARK [1][]{section.8.10}{8.10 Count-collapsing for orthologous from two model-species}{chapter.8}
-\BOOKMARK [1][]{section.8.11}{8.11 Multivarite confirmation of linear models}{chapter.8}
-\BOOKMARK [1][]{section.8.12}{8.12 GO-term enrichment analysis}{chapter.8}
-\BOOKMARK [1][]{section.8.13}{8.13 Clustering analysis}{chapter.8}
-\BOOKMARK [1][]{section.8.14}{8.14 General coding methods}{chapter.8}
+\BOOKMARK [2][]{subsection.8.6.2}{8.6.2 RNA exrtaction and preparation of sequencing libraries}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.3}{8.6.3 Mapping and normalistion of read-counts}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.4}{8.6.4 Statistical analysis with generalized linear models \(GLMs\)}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.5}{8.6.5 Count-collapsing for orthologous from two model-species}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.6}{8.6.6 Multivarite confirmation of linear models}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.7}{8.6.7 GO-term enrichment analysis}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.8}{8.6.8 Clustering analysis}{section.8.6}
+\BOOKMARK [1][]{section.8.7}{8.7 General coding methods}{chapter.8}
 \BOOKMARK [0][]{section*.7}{References}{}
 \BOOKMARK [0][]{chapter.9}{9 Additional tables and figures}{}
 \BOOKMARK [1][]{section.9.1}{9.1 Additional tables}{chapter.9}
+\BOOKMARK [2][]{subsection.9.1.1}{9.1.1 Transcriptomic divergence in a common garden experiment}{section.9.1}
 \BOOKMARK [1][]{section.9.2}{9.2 Additional figures}{chapter.9}
+\BOOKMARK [2][]{subsection.9.2.1}{9.2.1 Pyrosequencing of the A. crassus transcriptome}{section.9.2}
+\BOOKMARK [2][]{subsection.9.2.2}{9.2.2 Transcriptomic divergence in a common garden experiment}{section.9.2}

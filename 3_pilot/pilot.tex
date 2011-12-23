@@ -19,12 +19,12 @@
 \subsection{Overview}
 
 This chapter reports a small pilot-project investigating the
-RNA-extraction and cDNA preparation inn preparation of high-throughput
+RNA-extraction and cDNA preparation in preparation for high-throughput
 transcriptome sequencing of the swimbladder nematode
 \textit{A. crassus}. Expressed sequence tags (ESTs) were generated
-using traditional Sanger-technology. This sequencing was used as an
+using traditional Sanger-technology. This sequencing was used as a
 first assesment of the sequence diversity expected in deeper
-sequencing especially the expected coverage unwanted rRNA and
+sequencing, especially the expected coverage of unwanted rRNA and
 host-derived sequences was investigated.
 
 In total 945 reads from adult \textit{A. crassus} (5 libraries from 4
@@ -36,32 +36,31 @@ sequenced.
 \subsection{Initial quality screening}
 \label{qual-pil}
 
-The initial quality screening of \textit{A. crassus}-sequences
-revealed a high number of sequences that had to be discarded due to
-failed sequencing reactions (sequences beeing too short after quality
-trimming by \texttt{trace2seq}) in the library prepared by
-students. For sequences of \textit{Anguilla japonica} and the other
-libraries from \textit{A. crassus} failed sequencing reactions were
-less common.
+The initial quality screening revealed a high number of sequences that
+had to be discarded due to failed sequencing reactions (sequences
+being too short after quality trimming by \texttt{trace2seq}) in the
+library prepared by students. For sequences of \textit{Anguilla
+  japonica} and the other libraries from \textit{A. crassus}, failed
+sequencing reactions were less common.
 
 In the next screening-step for \textit{A. crassus} 125 (13.23\%) and
 for \textit{Anguilla japonica} 64 (22.22\%) of the sequences were
-excluded because of homopolymer-runs considered artificial. This
-resulted in 452 of the nematode and 195 of the host reads regarded of
-sufficient quality for further processing after base-calling and
-quality screening.
+excluded because of homopolymer-runs considered to be artificial. This
+resulted in 452 of the nematode and 195 of the host reads being
+regarded of sufficient quality for further processing after
+base-calling and quality screening.
 
 \subsection{rRNA screening}
 \label{rRNA-pil}
 
 The further screening of sequences revealed a high abundance of rRNA
-(see Figure \ref{rRNA-con}) ranging from 71.67\% to 91.67\% of
+(see Figure \ref{rRNA-con}) ranging from 71.67\% to 91.67\% of the
 obtained sequences.  High abundances of rRNA were also found in the
 libraries from host liver tissue (see table \ref{tab:num}), ranging
 from 71.67\% to 77.42\%. This contamination in libraries from both
-species was mainly responsible for a low ammount of sequences beeing
-of sufficient quality for submission to NCBI-dbEST. At this point for
-the \textit{A. japonica}-dataset 36 sequences were submitted to
+species was mainly responsible for a low number of sequences being of
+sufficient quality for submission to NCBI-dbEST. At this point for the
+\textit{A. japonica}-dataset, 36 sequences were submitted to
 NCBI-dbEST under the Library Name ``\textit{Anguilla japonica} liver''
 and were assigned the accession LIBEST\_027503.
 
@@ -97,7 +96,7 @@ Ac\_197F(n=96) &   4 &  17 &  58 &   1 &  16 \\
   each screening-step for single libraries and totals for
   species. Short, sequence to short in \texttt{trace2seq}; poly,
   sequences with artificial homopolymer-runs from poly-A tails; rRNA,
-  with hits to rRNA databases; fishpep with better hits to
+  with hits to rRNA databases; fishpep, with better hits to
   host-protein-databases than to nematode protein databases; good,
   sequences regarded ``valid'' after all screening steps. Note that
   the 13 sequences in the \textit{A. crassus}-dataset, for which
@@ -112,11 +111,11 @@ Ac\_197F(n=96) &   4 &  17 &  58 &   1 &  16 \\
 \label{host-pil}
 
 For the \textit{A. crassus}-dataset screening for host-sequences at
-this stage was regarded necessary based on the notion that a big
+this stage was regarded necessary based on the notion that a large
 proportion of the tissue prepared in RNA extraction consisted of
 eel-blood inside the gut of the worms (see also Figure
-\ref{worm_diff}). Additionally a bimodal distribution of GC-content in
-the \textit{A. crassus}-dataset was observed with one of the modes
+\ref{worm_diff}). Additionally, a bimodal distribution of GC-content
+in the \textit{A. crassus}-dataset was observed with one of the modes
 consistent with the mean GC-content of the ESTs from the Japanese eel.
 
 Comparison of \texttt{Blast}- results for these sequences versus
@@ -124,11 +123,11 @@ nempep4 and a fishprotein-database (derived from NCBI non-redundant),
 showed that 13 sequences were more likely to originate from host
 contamination than from \textit{A. crassus}. These 13 sequences in the
 \textit{A. crassus} data-set were submitted to NCBI-dbEST with a
-comment, that host origin had been inferred. This reduced the dataset
-esentially to 115 ESTs. However it has to be noted that these 13 ESTs
-are still accessible through the same library name ``Adult
-\textit{Anguillicola crassus}'' and library-identifier LIBEST\_027505
-and are taxonomically attributed to \textit{A. crassus} on NCBI-dbEST.
+comment that host origin had been inferred. This reduced the dataset
+esentially to 115 ESTs. However, these 13 ESTs are still accessible
+through the same library name ``Adult \textit{Anguillicola crassus}''
+and library-identifier LIBEST\_027505 and are taxonomically attributed
+to \textit{A. crassus} on NCBI-dbEST.
 
 \figuremacro{GC-pil}{GC-content of sequences from \textit{A. japonica}
   and \textit{A. crassus}}{The Japanese eel has a slighly higher
@@ -149,30 +148,30 @@ in agreement with the GC-distribution for host sequences.
 \texttt{Blast}-annotations obtained (by similarity searches against
 NCBI-nr, bit-score threshold of 55) for the sequences of putative host
 origin were also largely in agreement with the expectations for
-eel-blood: One sequence could be identified being higly similar to
-``Hemoglobin anodic subunit'' from the European eel. Others were
+eel-blood: one sequence could be identified being higly similar to
+``hemoglobin anodic subunit'' from the European eel. Others were
 annotated with best hits to highly exressed houskeeping genes from
 fish or vertebrates (see table \ref{tab:hostan}). Two sequences in the
 set had lower similarities only to proteins predicted from
-genome-sequences of Chordates, and one sequence of the 13 lacked any
-similarity to NCBI-nr above the treshold of 55 bits.
+genome-sequences of chordates, and one sequence of the 13 lacked any
+similarity to NCBI-nr above the threshold of 55 bits.
 
-115 of the sumbitted sequences for ``Adult \textit{Anguillicola
-  crassus}'' (LIBEST\_027505) were regarded ``valid'' i.e. not clearly
-host origin. 
+115 of the sbmitted sequences for ``Adult \textit{Anguillicola
+  crassus}'' (LIBEST\_027505) were regarded as ``valid'', i.e. not
+clearly of host origin.
 
-However it should be noted, that two ESTs (Ac\_EH1f\_01D10 and
-Ac\_EH1r\_01D10; forward and reverse read of the same clone) were
-annotated with ``ref$|$ZP\_05032178.1$|$; Exopolysaccharide synthesis,
-ExoD superfamily'' from \textit{Brevundimonas} sp. BAL3. The family
+However, two ESTs (Ac\_EH1f\_01D10 and Ac\_EH1r\_01D10; forward and
+reverse read of the same clone) were annotated with
+``ref$|$ZP\_05032178.1$|$; exopolysaccharide synthesis, ExoD
+superfamily'' from \textit{Brevundimonas} sp. BAL3. The family
 Caulobacteraceae, comprises bacteria living in oligothroph freshwater
 and sequences are probably derived from a commensal, symbiont or
-pathogen of eels or swimbladder-nematodes. These off-target data was
+pathogen of eels or swimbladder-nematodes. These off-target data were
 left in the submission file.
 
 For 66 (58.4\%) of the remaining 113 ESTs annotations were obtained
-from orthologous sequences. All these orthologous sequences were from
-other species in the phylum nematoda. 
+from orthologous sequences. All of these orthologous sequences were
+from other species in the phylum nematoda.
 
 % Sun Oct  2 07:46:25 2011
 \begin{sidewaystable}[ht]

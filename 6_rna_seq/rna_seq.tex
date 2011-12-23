@@ -24,10 +24,10 @@
 \section{Infection experiments}
 
 Dissection of eels 55-57 dpi showed higher recovery of European worms
-in \textit{An. anguilla} and higher recovery of Taiwanes worms in
+in \textit{An. anguilla} and higher recovery of Taiwanese worms in
 \textit{An. japonica}, compared to the other parasite populations. In
 other words, in host-parasite combinations of matching origin,
-parastites performed better.
+parasites performed better.
 
 \figuremacro{stages_plot}{Recovery of worms in cross-infection
   experiment}{Mean numbers of worms recovered after 55-57 dpi for
@@ -35,12 +35,12 @@ parastites performed better.
   (s.e.) of the mean. Stages are L3-larvae (l3), L4-larvae (l4), adult
   females (adult.f) and adult males (adult.m).}
 
-In host-species/parastite-population pairs found in nature roughly
-eight or nine adult worms could be recoverd per eel. In the
+In host-species/parasite-population pairs found in nature roughly
+eight or nine adult worms could be recovered per eel. In the
 transplanted host/parasite combinations only two or three adult worms
 were recovered on average (see figure \ref{stages_plot}). In
 \textit{An. anguilla} no differences in the recovery of larval stages
-was recorded. In \textit{An. japonica} however roughly two individals
+was recorded. In \textit{An. japonica} however roughly two individuals
 more were recorded from both larval stages in the host/parasite
 combination found in nature.
 
@@ -49,11 +49,13 @@ These differences are highly significant especially for adult worms
 adaptation, as adult survival and recovery can be regarded a fitness
 component.
 
-Recovery as a proportion of the 50 larvae eels were inocculated with,
+Recovery as a proportion of the 50 larvae eels were inoculated with,
 was thus roughly 30\% for the adapted pairs compared to only roughly
 10\% in non-adapted host-parasite pairs.
 
-\begin{table}[ht]
+\afterpage{\clearpage}
+
+\begin{table}[h]
 \begin{center}
 \begin{tabular}{rrrrr}
   \hline
@@ -70,22 +72,25 @@ was thus roughly 30\% for the adapted pairs compared to only roughly
   worms for the factor values in the rows. The intercept is set to Aa
   R (\textit{An. anguilla} and the European populations) further rows
   give variations for each factor. Std. Error is the standard error of
-  this value. Additonally the probabilty of a t-value as small or
-  smaller then the oberserved t-value are given. The signature of
+  this value. Additionally the probability of a t-value as small or
+  smaller then the observed t-value are given. The signature of
   local adaptation is visible in the highly significant interaction
   term.}
 \label{tab:ad-sig}
 \end{center}
 \end{table}
-\afterpage{\clearpage}
+
+
+
 
 \section{Sample preparation and sequencing }
+
 
 Three biological replicates were obtained from each of the two worm
 populations in each of the two eel-host for each of the two sexes of
 worms. This resulted in a total 24 RNA-extractions prepared for
 sequencing: 3 individual female worms from each experimental group
-were choosen randomly, to give in total twelve females. Additionally
+were chosen randomly, to give in total twelve females. Additionally
 from three individual male worms, and from 9 pools of male worms RNA
 was extracted (see table \ref{tab:lib-prep}). Pools consisted of worms
 from one infected eel individual each. All worms or worm-pools were
@@ -97,7 +102,7 @@ especially of the Japanese eel/European worm combination, leaving no
 other choice. Because of the small size of male worms it was generally
 not possible to randomly choose individuals. Preparation of sufficient
 amounts of RNA was only achieved in pools of the biggest
-individuals. All male worms were thus choosen for preparation based on
+individuals. All male worms were thus chosen for preparation based on
 large size, even when pools of worms were used.
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
@@ -140,13 +145,13 @@ AA/T20F & female & \textit{An. anguilla} & Taiwan & 1 & 1 & 5.60 \\
   label, AA for \textit{An. anguilla} AJ for \textit{An. japonica}),
   worm population (population - R for European, T for Taiwanese) and
   sex of worm(s) in preparation (F for female, M for male; last letter
-  in label). The European samples were from two locations: river Rhein
-  (R,) and Müggelsee near Berlin (B) in the population
+  in label). The European samples were from two locations: river Rhine
+  (R,) and M\"uggelsee near Berlin (B) in the population
   column. Additionally the intensity of infection (number of adult
   worms found in the infected eel; intensity) and the number of worms
   pooled in the preparation (only male worms are pooled for RNA
   extraction, individual female worms were used). Finally
-  RNA-concentration (conc in prep) in the preparation is given in
+  RNA-concentration in the preparation (conc in prep) is given in
   $\mu$g per ml}
 \label{tab:lib-prep}
 \end{center}
@@ -160,32 +165,32 @@ replicates for each condition over the all three pools to further
 guarantee statistical independence from sequencing-lane effects. Each
 pool of eight was sequenced on two lanes, giving in total six lanes of
 data and two technical replicates for each library. Sequencing
-resulted in a total of 263.668.952 raw sequencing read-pairs.
+resulted in a total of 263,668,952 raw sequencing read-pairs.
 
 \section{Examination of data-quality}
 
 Reads were mapped against the fullest pyrosequencing-assembly (see
 \ref{sec:final-full-assembly}) using \texttt{BWA}
-\cite{pmid20080505}. Of the 263.668.952 raw read-pairs 173.602.387
+\cite{pmid20080505}. Of the 263,668,952 raw read-pairs 173,602,387
 mapped uniquely to the assembly and were counted on a per-library
 base. 
 
 The technical replicates demonstrated very low differences as inferred
-from a clustering analysis using variance stabilized data and
-euclidian distances (see figure \ref{heat_all} a).
+from a clustering analysis using variance stabilised data and
+euclidean distances (see figure \ref{heat_all} a).
 
 \figuremacroW{heat_all}{Distances between RNA-seq read-count for
   different samples}{Euclidean distance (square distance between the
-  two count vectors) for variance stabilized read-counts for all
+  two count vectors) for variance stabilised read-counts for all
   libraries including technical replicates; Red indicates low distance
-  (high similarity), blue heigh distance (low similarity). a) Data
+  (high similarity), blue high distance (low similarity). a) Data
   before screening and summation of technical replicates. All
-  technical replicates are clusterd very closely, the distance between
+  technical replicates are clustered very closely, the distance between
   an outlier female sample (AJ\_T26F) is high. b) Same illustration
   after summation of technical replicates and screening. Distance
   between outlier-sample and other female samples is reduced.}{0.5}
 
-158.232.523 read-pairs were left after removal of hits to contigs for
+158,232,523 read-pairs were left after removal of hits to contigs for
 which non-\textit{A. crassus} origin had been inferred in the
 curration of the 454-transcriptome assembly.
 
@@ -223,13 +228,13 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
   AJ\_T8F & 14196382 & 10275074 & 9496489 & 8364594 \\ 
    \hline
 \end{tabular}
-\caption[mapping Summary]{\textbf{Maping summarized for all 24
+\caption[mapping Summary]{\textbf{Mapping summarised for all 24
     libraries -} Rows indicate different libraries (worms or
   worm-pools as indicated in \ref{tab:lib-prep}) raw.reads gives the
-  number of read-paires sequenced, raw.mapped the number of reads
+  number of read-pairs sequenced, raw.mapped the number of reads
   mapping uniquely with their best hit, tax.mapped the number of reads
-  after substraction of reads to putatively eel-host derived contigs
-  and screened after substraction of all reads mapping not to the
+  after subtraction of reads to putative eel-host derived contigs
+  and screened after subtraction of all reads mapping not to the
   higCA-derived assembly or to contigs with overall counts less than
   32.}
 \label{tab:read-clean}
@@ -239,27 +244,27 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
 %% \afterpage{\clearpage}
 
 After another screening for spurious read-counts to low coverage
-transcripts and to transcripts of low relieability (lowCA in the
-454-assembly; see \ref{sec:final-full-assembly}) 137.477.156
+transcripts and to transcripts of low reliability (lowCA in the
+454-assembly; see \ref{sec:final-full-assembly}) 137,477,156
 read-pairs were left for further analysis. Distribution of these
-read-pairs over libraries showd roughly three fold differences, with a
-mean of 5.728.215 reads and a range from 3.422.526 read-pais for
-library AJ\_R3M to 9.453.468 read-pairs for library AA\_R8F (see
+read-pairs over libraries showed roughly three fold differences, with a
+mean of 5,728,215 reads and a range from 3,422,526 read-pairs for
+library AJ\_R3M to 9,453,468 read-pairs for library AA\_R8F (see
 \ref{tab:read-clean}).
 
-\figuremacro{mds}{Principle coordinate plot for expression inRNA-seq
+\figuremacro{mds}{Principle coordinate plot for expression in RNA-seq
   libraries}{Distance between sample-pairs is the root-mean-square
-  deviation (Euclidean distance) for the most differentially expressed
+  deviation (euclidean distance) for the most differentially expressed
   (DE) genes. Distances can be interpreted as the log2-fold-change of
   the genes with the biggest changes, i.e. the log2-fold-change for
   the genes that distinguish the samples.}
 
 \afterpage{\clearpage}
 
-These reads mapped to 7520 contigs from our 454 assembly, making them
-the basis for all further inverstigations. 
+These reads mapped to 7,520 contigs from our 454 assembly, making them
+the basis for all further investigations.
 
-Cluster analysis of variance stablilized expression levels grouped
+Cluster analysis of variance stabilised expression levels grouped
 libraries according to the sex of worms (the greatest effect), but was
 unable to identify libraries with expression correlated in more subtle
 ways (see figure \ref{heat_all} b). Principle coordinate analysis of
@@ -271,22 +276,22 @@ samples showed a smaller variance in congruence with the fact that
 they were made form pooled individuals balancing expression
 differences for individual worms.
 
-\section{Orthologous screeing for expression differences}
+\section{Orthologous screening for expression differences}
 
-For the 7520 contigs with exprssion values 4382
-\textit{C. elegans}-orthologs and 4292 \textit{B. malayi}-orthologs
+For the 7,520 contigs with expression values 4,382
+\textit{C. elegans}-orthologs and 4,292 \textit{B. malayi}-orthologs
 were determined based on the annotation of our pyrosequencing-assembly
-(see \ref{454-annot}). This resulted in 3596 contigs with an
-expression measurement, having a measurement also for corresponding
-orhtologs (or group of orthologs) in both model-species and thus being
-available for analysis.
+(see \ref{454-annot}). This resulted in 3,596 contigs with an
+expression measurement, having a measurement also for both
+corresponding orthologs (or group of orthologs) in both model-species
+and thus being available for analysis.
 
 For all further evaluations the congruence of the basic contig-based
 statistics with orthologous-confirmed (OC) statistics is considered.
 
-\section{Expression differences in generalized linear models}
+\section{Expression differences in generalised linear models}
 
-Generalized linear models (GLMs) were used as implemented in the
+Generalised linear models (GLMs) were used as implemented in the
 R-package \texttt{edgeR}. Using these models we obtained 2588 contigs
 (34\% of total) DE between male and female worms at a false discovery
 rate (FDR) of 5\%. 1101 (31\% of total orthologous available) of these
@@ -305,7 +310,7 @@ upregulated in the Taiwanese population, 29 (4 OC) in the European
 populations.
 
 An important observation in these models is the prevalence of
-co-occuring significance of simple main effects. Expression changes
+co-occurring significance of simple main effects. Expression changes
 overlapping for two main effects mean a significant difference in
 expression according to both factors. These differences are in the
 same direction for a combination of the factors. Most contigs DE
@@ -331,19 +336,19 @@ And indeed also interaction-effects were observed: 7 contigs (0 OC)
 showed differential expression according to the worm-sex*eel-species
 interaction, 12 (3 OC) to worm-sex*parasite-population, 13 (2 OC) to
 host-species*parasite-population, 1 (0 OC) contig showed significance
-for the 3-way interaciton (see figure \ref{venn_mod_man}). It should
+for the 3-way interaction (see figure \ref{venn_mod_man}). It should
 be noted, that conclusions drawn from of simple main effects do not
 necessarily hold for contigs with significant interaction effects
 (e.g. significantly higher expression in European population can then
 mean higher values only in one of the host-species).
 
-\figuremacroW{venn_mod_man}{Venn diagramm of contigs significant for
+\figuremacroW{venn_mod_man}{Venn diagram of contigs significant for
   different terms in \texttt{edgeR}-GLMs}{Overlap between differences
   in simple main effects are given as black numbers in the
-  Venn-Diagramm. Numbers outside the circles in the lower left corner
-  idicated non-significant contigs. The number of significant contigs
+  Venn-Diagram. Numbers outside the circles in the lower left corner
+  indicated non-significant contigs. The number of significant contigs
   for interaction effects are indicated in red for comparison. In (a)
-  values for all contigs are given in (b) for orhtolog-confirmed (OC)
+  values for all contigs are given in (b) for ortholog-confirmed (OC)
   contigs.}{0.6}
 
 \afterpage{\clearpage}
@@ -367,18 +372,19 @@ evaluations more than 50\% of the remaining variance could be
 explained by a single principal component, which was mainly consisting
 of worm-sex (see figure \ref{pca_eel} a and \ref{pca_pop} a). When
 only OC-DE contigs were considered the explained variance for
-difference between eel-host droped to 3.3\% and the explained variance
-for differences between worm-population was raised to 23\%, while the
-sex-effect explained 70\% and 50\% of the variance (see figure
-\ref{pca_eel} b and \ref{pca_pop} b). Significance of the constrained
-component evaluated by a premutation could be established at a p $<$
-0.05 threshold for all but the OC eel-host DE subset.
+difference between eel-host dropped to 3.3\% and the explained
+variance for differences between worm-population was raised to 23\%,
+while the sex-effect explained 70\% and 50\% of the variance (see
+figure \ref{pca_eel} b and \ref{pca_pop} b). Significance of the
+constrained component evaluated by a permutation-test could be
+established at a p $<$ 0.05 threshold for all but the OC eel-host DE
+subset.
 
 \figuremacroW{pca_eel}{Constrained redundancy analysis for host-DE
   contigs}{Eel-host differences are displayed as constrained component
   on the x-axis, the principal component on the y-axis corresponds to
-  the sex of the worm. (a) Host differences patition the variance in
-  samples in like expcted for all contigs, the constrained component
+  the sex of the worm. (a) Host differences partition the variance in
+  samples in like expected for all contigs, the constrained component
   showed significance. (b) For OC contigs the constrained component
   fails to to partition the variance as expected, the component showed
   no significance for this subset of the data.}{0.60}
@@ -386,8 +392,8 @@ component evaluated by a premutation could be established at a p $<$
 \figuremacroW{pca_pop}{Constrained redundancy analysis for
   population-DE contigs}{Population differences are displayed as
   constrained component on the x-axis, the principal component on the
-  y-axis corresponds to the sex of the worm. Host differences patition
-  the variance in samples like expcted for all contigs (a) as well as
+  y-axis corresponds to the sex of the worm. Host differences partition
+  the variance in samples like expected for all contigs (a) as well as
   for OC-contigs (b). The constrained component showed significance in
   both subsets.}{0.60}
 
@@ -395,23 +401,23 @@ component evaluated by a premutation could be established at a p $<$
 
 \section{Biological processes associated with DE contigs}
 
-I employed tests for overrepresentation of categories in
+I employed tests for over-representation of categories in
 gene-ontology (GO). These tests respect the structure of the ontology
-and also consider overrepresentation of higher level (ancestor-)
-terms. Summarizing annotations at higher levels it is therefore
+and also consider over-representation of higher level (ancestor-)
+terms. Summarising annotations at higher levels it is therefore
 possible to conceive higher-order responses to the conditions
 investigated.
 
 For the differences between male and female worms enriched annotations
-can be summarized into three broad categories: Terms overrepresented
-due to spermatogenesis (eg. PP1-phosphatase and ester hydrolase are
-important for speratogenesis in \textit{C. elegans}
+can be summarised into three broad categories: Terms over-represented
+due to spermatogenesis (e.g. PP1-phosphatase and ester hydrolase are
+important for spermatogenesis in \textit{C. elegans}
 \cite{wormbook_sperm, fardilha2011protein}) embryo development (many
-obviouse terms) and terms for other processes putatively more related
-other metabloic differences between males and females (such as
-oxidoreductase activity; see table \ref{func-sex} but also additional
-figures \ref{tGO_sex_BP_classic_10_all},
-\ref{tGO_sex_CC_classic_10_all} and \ref{tGO_sex_MF_classic_10_all}).
+obvious terms) and terms for other processes more related metabolic
+differences between males and females (such as oxidoreductase
+activity; see table \ref{func-sex} but also additional figures
+\ref{tGO_sex_BP_classic_10_all}, \ref{tGO_sex_CC_classic_10_all} and
+\ref{tGO_sex_MF_classic_10_all}).
 
 \begin{longtable}{lp{4cm}rrrl}
 \hline
@@ -472,8 +478,8 @@ female]{\textbf{GO-terms enriched in DE between male and female worms
 \label{func-sex}
 \end{longtable}
 
-For the lower number of contigs DE between host-species obviousely
-inferrence of higher order terms was only limited possible and in part
+For the lower number of contigs DE between host-species obviously
+inference of higher order terms was only limited possible and in part
 also unnecessary, because annotations can be interpreted at
 face. However, annotations for contigs DE between eel-hosts
 highlighted redundant terms associated with ``antigen processing and
@@ -483,17 +489,17 @@ complex. These terms led to Contig566 and Contig26 and their
 \textit{B. malayi}-orthologs ``Aspartic protease BmAsp-1, identical''
 and ``Eukaryotic aspartyl protease family protein''. In blood feeding
 helminths these enzymes are rather involved in early cleavage events
-during the digestion of host hemoglobin \cite{pmid12782060}.
+during the digestion of host haemoglobin \cite{pmid12782060}.
 
 
 \figuremacro{tGO_pop_BP_classic_10_all}{GO biological process graph
   for enriched terms in DE according to worm-population}{Subgraph of
-  the GO-ontology cellular comparment category induced by the top 10
+  the GO-ontology cellular compartment category induced by the top 10
   terms identified as enriched in DE genes between different parasite
-  populations. Boxes indicate the 10 most significant terms. Box color
+  populations. Boxes indicate the 10 most significant terms. Box colour
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  categoy-identifier, a (eventually truncated) description of the term,
+  category-identifier, a (eventually truncated) description of the term,
   the significance for enrichment and the number of DE / total number
   of annotated gene is given. Black arrows indicate a is ``is-a''
   relationship.}
@@ -504,7 +510,7 @@ as an informative significantly enriched higher level term (see figure
 \ref{tGO_pop_MF_classic_10_all}). The biological processes ``response
 to metal ion'' and ``mitochondiral electron transport'' (see
 figure\ref{tGO_pop_BP_classic_10_all}) confirmed an evaluation linking
-these maily to enzymes used in respiratory processes and highlighted
+these mainly to enzymes used in respiratory processes and highlighted
 additionally other enzymes from lipid metabolism (especially
 $\beta$-oxidation of fatty acids).
 
@@ -514,76 +520,89 @@ For the remainder of the text I will concentrate on these differences
 of the European and Taiwanese populations and mention the other
 differences only as far as they are related to this focal factor. In
 \ref{add-figures} however, graphical analyses of the same type are
-portraied briefly.
+presented.
 
 Clustering analysis uses distance measurements between samples as well
-as genes (or transcripts) to highlight paterns of similarity. The
+as genes (or transcripts) to highlight patterns of similarity. The
 classical distance measure used in hierarchical clustering throughout
 this document is Euclidean distance or ``Eisen-Clustering'' from
-\cite{pmid9843981}. The gruouping of genes regulated in parallel in
+\cite{pmid9843981}. The grouping of genes regulated in parallel in
 combination with annotation the status of cellular processes can
 support notions from single genes.
 
-Clustering alalysis of genes DE between populations confirmed the
+Clustering analyses of genes DE between populations confirmed the
 results of multivariate analysis. The main factor grouping libraries
 was the sex of the worm. A sub-grouping of samples fully according to
 European and Taiwanese populations was only observed for male
-worms. In female woms other unmeasured co-factors were preventing a
+worms. In female worms other unmeasured co-factors were preventing a
 clustering fully according to this factor. In male worm however,
 library clustering even followed a pattern of similar expression in
 according to the second factor of eel-host. These statements are true
 for both the full set of contigs (see figure \ref{pop_all_heat}) and
-OC congigs (see \ref{pop_ortho_heat}).
+OC contigs (see \ref{pop_ortho_heat}).
 
-Clustering of genes revealed three coregulated groups in the full set
+Clustering of genes revealed three co-regulated groups in the full set
 of contigs and the OC set. The first of gene-clusters (top in
 \ref{pop_all_heat} and \ref{pop_ortho_heat}) was in sex-subgroups
 mainly following an expression pattern differing between
 populations. The second gene-group was much larger in the full set
 than in the OC set of contigs (middle in \ref{pop_all_heat}). It was
 only very weakly reacting to any other factor but sex and was very
-sparsely anntotated (therfore this goup was much smaller in the OC set
+sparsely annotated (therefore this group was much smaller in the OC set
 \ref{pop_ortho_heat}). The third gene-group found again in both the
 full and OC contigs (bottom in \ref{pop_all_heat} and
 \ref{pop_ortho_heat}) was reacting on both the host and population
 factor in a converse way, contigs in this cluster were mainly found to
 be significant for interaction effects.
 
-\figuremacro{pop_all_heat}{Variance/mean stabilized expression values
-  for contigs different between populations}{green indicates
-  expression below the mean, red above the mean}
+\figuremacro{pop_all_heat}{Clustering of expression values for contigs
+  DE between populations}{A heatmap of variance/mean stabilised
+  expression values. Deprograms are based on euclidean distance and
+  hierarchically clustering. Green indicates expression below the mean,
+  red above the mean. Experimental conditions are indicated by black
+  bars for groups of samples (columns) below the plot. Presence
+  GO-term annotation for contigs (rows) are given as black bars right
+  to the plot: isOxidoreductase = GO:0016491, oxidoreductase activity;
+  isMitochondrial = GO:0005739, mitochondrion; isELDevelopment =
+  GO:0002164, larval development or GO:0009791, post-embryonic
+  development; isResponsetoStim = GO:0050896, response to stimulus;
+  isPhosphatase = GO:0016791, phosphatase; isMembrane = GO:0016020,
+  membrane; isAntigenProc = GO:0002478, antigen processing and
+  presentation of exogenous peptide antigen; isEndosome = GO:0005768,
+  endosome; isProtLipComp = GO:0032994, protein-lipid complex. Grey
+  bars indicate no annotation available.}
 
 Consolidating the clusters with annotation and annotation-enrichment,
 the first cluster of genes was very well annotated and contained
-mostly catalytic enzymes involved in oxidoreductation, the bottom
-culster contained more unannotated genes and struktural genes.
+mostly catalytic enzymes involved in oxidation and reduction, the
+bottom cluster contained more unannotated genes and structural genes.
 
 \section{Single gene differences}
 \label{sec:single-gene-diff}
 
 Tables on single transcript values of OC contigs DE between eel-hosts
-and populations can be found in additonal tables \ref{eel.sing.diff}
-and \ref{pop.sing.diff}. Obviousely for some contigs differences are
-rendered unaccessible by comparing simple mean values because of
-superposed interaction effects or overwhelming effects of worm sex.
+and populations can be found in additional tables \ref{eel.sing.diff}
+and \ref{pop.sing.diff}. Obviously for some contigs differences
+significant in the model are rendered inaccessibly by comparing simple
+mean values because of superposed interaction effects or overwhelming
+general effects of worm sex.
 
-Cytochrome C oxidase subunit 2 (COX II) showed the clearest of all
+Cytochrome C oxidase subunit 2 (COX II) shows the clearest of all
 expression patterns for any of the observed genes. It differed
 significantly only between populations (showed no reaction an any
-other factor) and was over 8-fold stronger expressed in the Taiwanese
-population. Counts summed for orthologs were also significant only for
-this factor and showed over 2.5-fold stronger expression in the same
+other factor) and was on average over 1000-fold stronger expressed in
+the Taiwanese population. At face values differed for every single
+individual (of the 12 investigated in each populations) at least
+20-fold (highest normalised expression was 350 counts in a European
+worm, lowest normalised expression in any Taiwanese worm was 7500
+counts). Counts summed for orthologs were also significant only for
+this factor and showed over 10-fold stronger expression in the same
 direction. This accounts to the fact, that misassembled contigs
 containing fragments of COX II were only adding experimental noise.
 
-Malate/L-lactate dehydrogenase and a 3-hydroxyacyl-CoA dehydrogenase
-were also following more complicated expression patterns
-
-Two cholesterol acyltransferase transcipts
-
-Malate/L-lactate dehydrogenase    aspatyl protease
-
-
+% Malate/L-lactate dehydrogenase and a 3-hydroxyacyl-CoA dehydrogenase
+% were also following more complicated expression patterns two
+% cholesterol acyltransferase transcipts
 
 
 %%% Local Variables: ***

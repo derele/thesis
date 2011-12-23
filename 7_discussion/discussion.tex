@@ -19,35 +19,34 @@
 \section{Pilot-sequencing}
 \label{sec:sanger-pil}
 
-In was not achieved to reproducibly alleviate the rRNA-levels in
-libraries prepared for sequencing. This has probably been due to the
-fact that extraction of total-RNA from worms filled with host blood
-resulted in low amounts of starting material, and reaction conditions
-did not allow specific amplification of mRNA from a rRNA
-background. As the same problems existed in preparation of liver
-tissue of the host species it seems likely that the blood of eels
-contains substances limiting the success of specific amplification
-protocols. In fact it is known that compounds like hemoglobin can
-inhibit PCR reactions \cite{pmid9327537} and reverse transcription
-\cite{pmid16109794}.
+In was not achieved to alleviate the rRNA-levels in libraries prepared
+for sequencing. This has probably been due to the fact that extraction
+of total-RNA from worms filled with host blood resulted in low amounts
+of starting material, and reaction conditions did not allow specific
+amplification of mRNA from a rRNA background. As the same problems
+existed in preparation of liver tissue of the host species it seems
+likely that the blood of eels contains substances limiting the success
+of specific amplification protocols. In fact it is known that
+compounds like haemoglobin can inhibit PCR reactions \cite{pmid9327537}
+and reverse transcription \cite{pmid16109794}.
 
 Nevertheless the stringent quality trimming and processing of raw
-reads, as summarized in \ref{pilot-seq}, made the remaining ESTs a
+reads, as summarised in \ref{pilot-seq}, made the remaining ESTs a
 valuable resource for comparison with future 454-sequencing-data.
 
-In fact all sequenced ESTs, for which host-orgin was inferrred were
-later found also in pyrosequencing: The observation hemoglobin and
+In fact all sequenced ESTs, for which host-origin was inferred were
+later found also in pyrosequencing: The observation haemoglobin and
 ferritin subunits form \textit{An. anguilla} are expected, as fish
 erythrocytes contain a nucleus and still transcribe genes actively
 \cite{pmid20614118}. These are typical proteins for the functioning of
-red blood cells. The overservation of fish cyclin G1 (in Sanger- and
+red blood cells. The observation of fish cyclin G1 (in Sanger- and
 pyrosequencing) and cohesin (in Sanger-sequencing) is remarkable as
 fish erythrocytes are thought to exhibit low rates of mitosis
-\cite{pmid7506383}. Other obersvation of host-sequences like
+\cite{pmid7506383}. Other observations of host-sequences like
 e.g. Leukocyte cell-derived chemotaxin 2 or natural killer
 cell-enhancing factor (NKEF)-B protein in pyrosequencing make an
 analysis of this fish-derived off-target data (form all sequencing
-technologies) very promising, it is howerver beyond the scope of the
+technologies) very promising, it is however beyond the scope of the
 present thesis.
 
 \section{Pyrosequencing}
@@ -216,204 +215,247 @@ for the 5 adult worms examined in our study are in agreement with
 microsattelite data \cite{wielgoss_population_2008} showing reduced
 heterozygosity in European populations of \textit{A. crassus}.
 
-I were able to use the DESeq \cite{pmid20979621} to report
-transcripts significantly differing in expression between male and
-female worms. This was possible for male worms, despite the fact that
-no replicated samples were obtained. However only over-expression in
-the non-repeated samples could be detected, as obviously lack of
-expression in one sample can't statistically validate
-under-expression. Genes over-expressed in male \textit{A. crassus}
-comprise major sperm proteins well known for their high expression in
-nematode sperm \cite{pmid15275275}.
+I employed methods to developed for the comparison of cDNA-libraries
+to make inference about possible differential gene-expression
+according to experimental groups (origin of sequencing-libraries)
+\cite{pmid9331369}. Such approaches are widely used with
+pyrosequencing-data (e.g. \cite{pmid20470405}). For the statistically
+valid comparison of conditions however, the unit of replication would
+be the individual library and approaches respecting this fact would be
+desirable. However I was not able to use the R-packages \texttt{DESeq}
+\cite{pmid20979621} or \texttt{edgeR} \cite{pmid19910308} developed for count
+data from deep sequencing (but more targeted towards RNA-seq on the
+solexa-platform) as both repetition and throughput of our present
+experiment were too low. As a result the differentially expressed
+genes are by no means significant for the investigated conditions, but
+just for the specific cDNA-libraries. With these reservations we
+identified genes differentially expressed between libraries prepared
+form worms of different sex and worms from different origin.
 
-I developed a method to assess the possible influence of
-fragmentation of our reference-transcriptome on mapping. Using the
-annotation with orthologous sequences of \textit{C. elegans} and
-\textit{B. malayi} it is possible to highlight problems: For example a
-contig annotated as ``Phosphoenolpyruvate carboxykinase'' showed
-significant over-expression in the male. The 8 other contigs with this
-annotation however, were nearly identical for the middle region of
-their predicted proteins, had a high amount of homopolymeric regions in
-their nucleotide sequence and attracted the missing reads mapping from
-the other libraries. Our orthologous-collapsing method for read-counts
-following manual inspection, could thus exclude this contig as a
-false-positive.
+Genes over-expressed in male \textit{A. crassus} comprise major sperm
+proteins well known for their high expression in nematode sperm
+\cite{pmid15275275}. A surprise was the overexpression of ribosomal
+proteins in the male library.
 
-In the comparison of European with Asian libraries most
-differentially expressed contigs could be debunked as false positives
-with this method. From the 6 remaining contigs one was annotated with
-only one ortholog (`Contig200''), 3 were lacking any annotation
-(``Contig4'', ``Contig5311'' and ``Contig40''). The only contig with
-differential expression fully validated by our method (``Contig6355'')
-was annotated as (``Trypsin family protein''). The identification of
-another proteinase (it is not among those under positive selection) is
-highlighting the interesting nature of these molecules in
-\textit{A. crassus}.
+That collagen processing enzymes are overexpressed in female worms,
+filled with developing embryos and larvae, is in line with a
+complicated regulation and modulation of collagen in nematode larval
+development \cite{pmid10637627}.
 
-Analysis of the expression data made clear what data is required to
-analyse the differences in European vs. Asian nematodes: As variance
-is high in outbred individuals from natural populations both
-replication and depth of analysis have to be high. Furthermore it is
-important to disentangle the influence of the host and the nematode
-population e.g. in a co-inoculation experiment. The last approach
-would also allow the analysis of transcriptomes roughly synchronised
-for the time of development.
+The overexpression acetyl-CoA acetyltransferase in European worms are
+interesting especially because of the role of these enzymes in
+fatty-acid $\beta$-oxidation in peroxisomes and mitochondria
+\cite{pmid4721607}. Together with a change in steroid metabolism and
+the enrichment of mitochondrially localised enzymes these are
+suggestive of changes in energy metabolism of \textit{A. crassus} form
+different origins. Possible explanations would include a change to
+more or less aerobic processes in worms in Europe due to their bigger
+size and/or increased availability of nutrients.
+
+Contigs overexpressed in the female libraries showed elevated levels
+of dn/ds but genes overexpressed in males decreased levels of
+dn/ds. The first finding is unexpected, as overexpressed in female
+libraries will also contain contigs related to larval development
+(such as the collagen modifying enzymes discussed above), these larval
+transcripts in turn are expected to be under purifying selection
+because of pleiotropic effects of genes in early development
+\cite{pmid15371532}. Also the second finding is in slight contrast to
+published results for male specific traits and transcripts are often
+showing hallmarks of positive selection
+\cite{pmid15795858,pmid11404480}. In \textit{Ancylostoma caninum}
+however, female-specific transcripts showed an enrichment of
+``parasitism genes'' \cite{pmid20470405} and a possible expansion
+would be a similar enrichment of positively selected parasitism
+related in our dataset. For males the decreased dn/ds can be explained
+by the by the high number of ribosomal proteins, which are all show
+very low levels of dn/ds (that these proteins are found differentially
+expressed remains puzzling though), while single transcripts
+e.g. major sperm protein (expressed in the male library only) showed
+elevated dn/ds but did not level the overall effect. But this also has
+a positive aspect: it is unlikely that correlation of differential
+expression with positive selection results from mapping artefacts, as
+all the ribosomal proteins identified overexpressed in males have very
+low dn/ds.
+
+Genes differential expressed according to worm-origin (in either
+direction) showed significantly elevated levels of dn/ds. This is
+interpretable as a correlation between sequence evolution and
+phenotypic modification in different host-environments or even
+correlation between sequence evolution and evolution of
+gene-expression. Thus, whether expression of these genes is modified
+in different hosts or evolved rapidly in a contemporary divergence
+between European and Asian populations of \textit{A. crassus}, is in
+the centre of a future research program building on the reference
+transcriptome presented here. For such an analysis it is important to
+disentangle the influence of the host and the nematode population in a
+co-inoculation experiment. Such a project will also use the individual
+worm as the level of replication for ``conditions'' (that is,
+worm-population and host-species) to allow rigid hypothesis
+testing. Based on the pilot evaluation presented here differences in
+these factors are expected overlap with differences in male vs. female
+worms and the careful cross-examination of the above factors with
+worm-sex is advised.
 
 The \textit{A. crassus} transcriptome provides a basis of molecular
-research on this important species. It further provides insight in
-the evolution of parasitism complementing the catalogue of available
+research on this important species. It further provides insight in the
+evolution of parasitism complementing the catalogue of available
 transcriptomic data with a member of the Spirurina phylogenetically
-distant to so far sequenced parasites in this clade.
+distant to so far sequenced parasites in this clade. Differences in
+energy metabolism between European and Asian \textit{A. crassus}
+constitute a candidate phenotype relevant for phenotypic modification
+or contemporary divergent evolution as well as for the long term
+evolution of parasitism.
+
 
 \section{Transcriptomic divergence in a common garden experiment}
 \label{sec:exp-inf}
 
-Whith some reservations discussed below our observation of higher
+With some reservations discussed below our observation of higher
 recovery of adult worms from locally matching
-\textit{A. crassus}-\textit{Anguilla} spp. host-parastite combinations
+\textit{A. crassus}-\textit{Anguilla} spp. host-parasite combinations
 imply local adaptation of different worm populations to host-species.
 
 Our results regarding recovery are not in complete agreement with
-previouse findings by Weclawski et al. (unpublished; see
+previous findings by Weclawski et al. (unpublished; see
 \ref{div-ac}). They recorded recovery at only slightly different
-timepoints after infection (25, 50 and 100 dpi) and our decission to
+timepoints after infection (25, 50 and 100 dpi) and my decision to
 record recovery at 55-57 dpi was based on their evaluation.  Similar
-to our sutdy they found a higher recovery of the European population
+to our study they found a higher recovery of the European population
 of worms in the European eel but did not find the complementary result
 of lower recovery of this diverged population in the Japanese eel. A
 possible explanation for these different results are interactions of
-host-parsite genotypes conditional on the environment (GxGxE
-interactions, sse also \ref{div-ac}). It is imaginable that this
-environment provided in our common-garden setting slighly differed
+host-parasite genotypes conditional on the environment (GxGxE
+interactions, see also \ref{div-ac}). It is imaginable that this
+environment provided in our common-garden setting slightly differed
 between the two experiments.
 
-It has to be emphasized that the observations made in common-garden
+It has to be emphasised that the observations made in common-garden
 experiments first and foremost have to be interpreted as
 phenotypes. An ideally suited phenotype to infer local adaptation
-would be one with obviouse direct fitness-consequences, a so called
+would be one with obvious direct fitness-consequences, a so called
 fitness-component. Such a fitness-component would ideally be a
 measurement on a single individual and individual life-time
-reporductive success would be such an ideal measurement. However the
-techniques to measure individual life-time reporductive success have
+reproductive success would be such an ideal measurement. However the
+techniques to measure individual life-time reproductive success have
 not been established in \textit{A. crassus} and it would be very
 difficult to do so.
 
 The recovery of certain developmental stages of worms is another proxy
 interpretable as a fitness-component. It is a composite measurement
-the speed of development from previouse lifecycle stages (or speed of
-migration towards the swimbladder) and of survival. While suvival is
+the speed of development from previous lifecycle stages (or speed of
+migration towards the swimbladder) and of survival. While survival is
 surely an important component of fitness, it is not completely clear
 whether fast development and/or migration to the swimbladder are. It
-is immaginable that under certain conditions slower development could
+is imaginable that under certain conditions slower development could
 lead to higher fitness, if it would e.g. allow to develop without
 attracting the attention of the immune system.
 
 Another slight problem with recovery in these experiments is that it
 is a mean measurement over many individuals. If one would want to find
-genotype associations with the most suboptiomal phenotype it would not
+genotype associations with the most suboptimal phenotype it would not
 be possible to isolate individuals bearing this trait, because these
 would be dead or still on their way migrating to the swimbladder.
 
-I decided on a study design usign pools of individuals for one sex
-(males) and single individuals for the other. A studies on
+I decided on a study design using pools of individuals for one sex
+(males) and single individuals for the other. A study on
 \textit{Fundulus heteroclitus} revealed that approximately 18\% of the
-genome is differentially expressed in individual fish from the same
-population, grown under controlled environmental conditions
-\cite{pmid12219088}. And it thus not surprising, that idividual
-variation in female samples was leading to higher variance of these
-female samples compared to male samples in our study.
+transcripts are differentially expressed between individual fish from
+the same population, grown under controlled environmental conditions
+\cite{pmid12219088}. And it thus not surprising, that between
+individual variation in female samples was leading to higher variance
+of these female samples compared to pooled male samples in our study.
 
-Interindividual variation in the abundance of a mRNA molecules (or
-gene-exprssion in it's synonymous meaning) under a particular
-environmental condition is generally agreed to be closely linked to a
-genetics basis \cite{pmid15498452}. For exapmle in a cross between two
-parental strains of yeast the genetic component of variation was
-estimated from haploid segregants to be 84\% \cite{pmid11923494}. The
-genetic component was found to be the main factor determing expression
-level variability between two strains, sexes and ages of
-\textit{Drosophila melanogaster} for 267 (7\%) from 3931 genes and at
-least 25\% of the transcriptome were estimateded to be affected mainly
-by genotypic factors in any of the groups
+This interindividual variation in gene-expression under a fixed
+particular environmental condition is generally agreed to be closely
+linked to a genetics basis \cite{pmid15498452}. For example in a cross
+between two parental strains of yeast the genetic component of
+variation was estimated from haploid segregants to be 84\%
+\cite{pmid11923494}. The genetic component was found to be the main
+factor determining expression level variability between two strains,
+sexes and ages of \textit{Drosophila melanogaster} for 267 (7\%) from
+3931 genes and at least 25\% of the transcriptome were estimated to
+be affected mainly by genotypic factors in any of the groups
 \cite{pmid11726925}. Variation in the regulation of gene-expression is
 thought to constitute as a major source of evolutionary novelty
 \cite{pmid11341673}.
 
 A second study from the line of research on \textit{Fundulus
   heteroclitus} \cite{pmid16567645} used genetic relatedness as
-inferred form phylogenetics to seperate variation of gene-expression
+inferred form phylogenetics to separate variation of gene-expression
 in a common experimental environment into a neutral component and a
-selected component i.e. they removed variation most likely accounted
-for by the shared neutral evolutionary history. Our case of
+selected component, thus removing variation most likely accounted for
+by the shared neutral evolutionary history. Our case of
 \textit{A. crassus} is simpler: The investigated European population
 is a direct descendant and thus a subset of the Taiwanese source
 population. In fact I studied two European populations, as a few
 hundred kilometers between the geographical origins of the two
 different locations in Germany probably constitute a barrier to
-gene-flow in a parastite with an aquatic intermediate host. I however
+gene-flow in a parasitic with an aquatic intermediate host. I however
 treated the two European populations as replicates (and use the
 terminology of one European and one Asian population throughout the
-text) with the reationale of incrasing variance for random genetic
-differences and raising the bar for poptentially adaptive differences
+text) with the rationale of increasing variance for random genetic
+differences and raising the bar for potentially adaptive differences
 to be detected.
 
-When I later venture into adaptive interpreatations of the observed
+When I later venture into adaptive interpretations of the observed
 gene-expression differences it has to be remembered however, that
 these constitute nothing more but a molecular phenotype. This
 phenotype is not necessarily a fitness-component. It is one of the
-dangers of genomic data to forget the fundamental lession from the
-dabate initiated by Gould and Lewontin in 1979
+dangers of genomic data to forget the fundamental lesson from the
+debate initiated by Gould and Lewontin in 1979
 \cite{gould_spandrels_1979}. Briefly, while functional changes are
 often caused by selection, differences in function do not necessarily
 demonstrate the past or present action of selection. There is no way
-to infere the action of selection based on functional considerations,
+to infer the action of selection based on functional considerations,
 and even if selection can be inferred otherwise, it is not necessarily
 a certain observed differing trait that selection acted on
 \cite{pmid19744124}.
 
 No surprise was the abundance of differential expression between male
-and female worms of roughly one third of genes. A lage number of genes
+and female worms in roughly one third of genes. A large number of genes
 are known to be sex-specific, regulating ovulation and spermatogenesis
 throughout the metazoa and especially in nematodes
 \cite{pmid15371532}. On top of these sex-specific genes there is large
 number of genes differently expressed due to differences in
-metablolism between males and females. Estimates for
+metabolism between males and females. Estimates for
 \textit{Drosophila} range between one- and two-thirds of the
 transcriptome showing sex-biased expression \cite{pmid11726925}. In
 the liver transcriptome of \textit{Mus musculus} even 70\% of
-transcripts have shown to differ between sexes \cite{pmid16825664}
-(note however, that this study used 169 female and 165 male mice to
-guarantee the finding of even the most subtle differences). Given the
-scale of these differences in other species our estimate of roughly a
-third of the transcripts in \textit{A. crassus} showing differential
-expression according to the sex of the worms implies conservative
-thresholds used in the statistical analysis.
+transcripts have been shown to differ between sexes
+\cite{pmid16825664} (note however, that this study used 169 female and
+165 male mice to guarantee the finding of even the most subtle
+differences). Given the scale of these differences in other species
+our estimate of roughly a third of the transcripts in
+\textit{A. crassus} showing differential expression according to the
+sex of the worms implies conservative thresholds used in the
+statistical analysis.
 
 Nearly the same proportion (roughly 30\%) of contigs was confirmed
 through summation and analysis of contigs for orthologs in
 \textit{B. malayi} and \textit{C. elegans}. Development of this
-orthologous confirmation method was neccesitated by the possibly
+orthologous confirmation method was necessitated by the possibly
 fragmented and chimeric transcriptome assembly. It introduces
 stringent conditions for the detection of significance, as p-value
 correction for multiple testing is employed during each analysis (once
-for raw counts and twice for orhtologous counts). Although the
-underlying tests are surley not independent, the false discovery rate
-of 5\% for raw contigs can be expected to be immensly lowered by
+for raw counts and twice for orthologous counts). Although the
+underlying tests are surly not independent, the false discovery rate
+of 5\% for raw contigs can be expected to be immensely lowered by
 applying an FDR of 10\% twice.
 
 Also biological implication could produce false negatives in such an
 evaluation: All genes duplicated in \textit{A. crassus} (a) and
-follwing antithetic expression patterns will be evalutated negatively
+following antithetic expression patterns will be evaluated negatively
 as well as duplicated genes in any of the model-species (b) following
 such a pattern. However there is no other choice then applying these
 stringent conditions to screen for artefacts producing the same
 patterns based on mapping to fragmented (a) or chimeric (b) reference
 contigs. I think that an evaluation based on this scrutinised
-conficence in an assembly previously computed from 454-data is even
+confidence in an assembly previously computed from 454-data is even
 more appropriate then an analysis solely based on counts collapsed for
-orhtologs excluding only possible fragmentation artifacts (as used
-eg. in \cite{pmid22084086}).
+orthologs excluding only possible fragmentation artefacts (as used
+e.g. in \cite{pmid22084086}).
 
-In general, our statistical analysis aimed to minimize false positives
+In general, our statistical analysis aimed to minimise false positives
 (type I error) at expenses of possible false negatives (type II error)
 and is thus not fully suited to address the proportions of
 differentially regulated genes.
@@ -422,7 +464,7 @@ Nevertheless it is surprising, that less than 1\% of transcripts were
 detected differentially expressed between worms in different
 host-species and less then 0.3\% were confirmed with the orthologous
 method. This was an unexpected finding, as the different immune
-resopnses of the host species have a big influence on other phenotypes
+response of the host species have a big influence on other phenotypes
 of worms \cite{knopf_swimbladder_2006}. In addition to the low number
 of genes, multifactorial analysis revealed below 10\% of the variance
 to be explained by host-species effect, even in significantly
@@ -431,28 +473,29 @@ differential regulated genes for this factor.
 Although these differences between worms in different host species
 were the most marginal of any of the factors, it is possible to
 connect some (at least two) of the genes to a prominent physiological
-difference: The digestion of hemoglobin. Two different aspartic
-proteases (both confirmed thourough orthologs, one of them differing
+difference: The digestion of haemoglobin. Two different aspartic
+proteases (both confirmed through orthologs, one of them differing
 for all three main effects, the other for an interaction of worm-sex
 and host species) known to be involved in the first steps of digestion
-of hemoglobin from other nematodes \cite{pmid12782060} were
+of haemoglobin from other nematodes \cite{pmid12782060} were
 overexpressed in worms in \textit{An. anguilla}. This expression
-phenotype could potentially be linked to the often observed phenotye
+phenotype could potentially be linked to the often observed phenotype
 of bigger size of \textit{A. crassus} in this host
 \cite{knopf_swimbladder_2006}, as the main contribution to this
 increase in size is the larger volume of host-blood taken up by the
-parasite. Accordingly the parasite does probably digest hemoglobin at
+parasite. Accordingly the parasite does probably digest haemoglobin at
 a higher rate.
 
-Close to 1\% of contigs were significantly differeing in expression
+Close to 1\% of contigs were significantly differing in expression
 between European and Asian \textit{A. crassus}, making this difference
 significant for a higher number of contigs than the
-host-differences. For this contrast also the proportion of orhtolgous
+host-differences. For this contrast also the proportion of orthologous
 confirmation was lower than for sex differences but higher than for
-host differences. Additionally multivariate analysis of all
+host-species differences. Additionally multivariate analysis of all
 differently expressed transcripts for worm-population revealed that
 the variance contributed by the population-factor was higher than 10\%
-or even 20\% for orthologous confirmed contigs.
+for all significant contigs or even 20\% for orthologous confirmed
+contigs.
 
 Another important finding was the large overlap in contigs expressed
 differentially depending on worm-sex and worm-population. Such an
@@ -466,146 +509,157 @@ under positive selection \cite{pmid11404480}. And also gene expression
 should evolve at a higher rate in sex-specific genes, indeed the
 transcriptomes of \textit{Drosophila} species show that interspecific
 expression divergence is sex dependent and the action of sex-dependent
-natural selection during species divergence has been inferrred from
+natural selection during species divergence has been inferred from
 this \cite{pmid15034135,pmid19720861}.
 
 Taken together our findings strongly support a larger influence of the
 genetic differences between European and Asian populations of
 \textit{A. crassus} than of the modification in the different
 host-species on gene-expression. When additive and interaction effects
-are considered, the influence of host-species even vanishes completely
-in favour of a combination of effects combining parasite population
-and sex of the worms.
+are considered, the influence of host-species even vanishes almost
+completely in favour of a combination of effects combining parasite
+population and sex of the worms.
 
 From a functional perspective genes identified to differ between
-popualatins can be rather categorized as important in general
-metabolic processes instead of specific host-parasite intereaction.
-This constitutes a negative evalutation of one of our \textit{a
+populations can be rather categorised as important in general
+metabolic processes instead of specific host-parasite interaction.
+This constitutes a negative evaluation of one of our \textit{a
   priori} hypotheses to find parasite-specific genes, identified as
 vaccine candidates in a number of nematodes, within the genes modified
-or diverged in our study (\ref{sec:dna-sequ-nemat}).
+or diverged in our study (\ref{sec:dna-sequ-nemat}). However, more
+direct host-parasite interactions are expected in tissue-dwelling
+larval stages (L3 and L4) and in fact most immunomodulators are
+expressed predominantly in these stages \cite{maizels_helminth_2004}. 
+
 
 \figuremacro{tGO_pop_MF_classic_10_all}{GO molecular function graph
   for enriched terms in DE according to worm-population}{Subgraph of
   the GO-ontology molecular function category induced by the top 10
   terms identified as enriched in DE genes between different parasite
-  populations. Boxes indicate the 10 most significant terms. Box color
+  populations. Boxes indicate the 10 most significant terms. Box colour
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  categoy-identifier, a (eventualy truncated) description of the term,
+  category-identifier, a (eventually truncated) description of the term,
   the significance for enrichment and the number of DE / total number
   of annotated gene is given. Black arrows indicate a is ``is-a''
   relationship.}
 
-Instead especially enzymes ane enzyme subunits important for aerobic
+Instead especially enzymes and enzyme subunits important for aerobic
 respiration are expressed at lower levels in European
-\textit{A. crassus}. In fact most transcritpst significantly differing
+\textit{A. crassus}. In fact most transcripts significantly differing
 between populations were annotated as ``oxidoreductase'' in
 gene-ontology. While at face values of single genes have to be
 interpreted with care such trends in the data are very likely to point
-to improtant differences.
+to important differences.
 
-Downregulatin of Cytochrome C oxidase subunit 2 (COXII) in the
+Downregulation of Cytochrome C oxidase subunit 2 (COXII) in the
 European population of \textit{A. crassus} was the most persistent
-finding. Cyotchorme C oxidase subunit 1-3 are are essential components
+finding. Cytochrome C oxidase subunit 1-3 are are essential components
 of complex IV, the cytochrome c oxidase. They are encoded in the
-mitochondrial genenome and coordinate catalytic heme and copper
+mitochondrial genome and coordinate catalytic heme and copper
 cofactors.
 
-In fact not only enrichment anylysis highlighted oxidoreductases, but
+In fact not only enrichment analysis highlighted oxidoreductases, but
 expression values of COX II clustered with other enzymes from energy
-metabolism : two lecitin:cholesterol acyltransferase transcipts are
-putative recently duplicated genes. They were showing slighly
+metabolism : two lecitin:cholesterol acyltransferase transcripts are
+putative recently duplicated genes. They were showing slightly
 divergent protein sequences but hit the same orthologs in
 \textit{C. elegans} and \textit{B. malayi}. They were also sharing
-very similar expression profiles. Expression of different colesterol
+very similar expression profiles. Expression of different cholesterol
 acyltransferases has been shown to vary in response of to the presence
 of heme and anaerobiosis in yeast
 \cite{pmid11786267}. 3-hydroxyacyl-CoA dehydrogenase (involved
 fatty-acid $\beta$-oxidation \cite{pmid8454629}), Malate/L-lactate
 dehydrogenase (from the anaerobic glycolytic pathway
 \cite{sturm1969vergleichende}) and aspartyl proteases (involved in the
-digestion of host hemoglobin in helminths \cite{pmid12782060})
+digestion of host haemoglobin in helminths \cite{pmid12782060})
 completed this particular cluster.
 
 These patterns can be interpreted as a biological confirmation of the
-at face values for single genes, expecially for COX II. In addition
+at face values for single genes, especially for COX II. In addition
 the differential reaction of metabolic genes to different factors
-(genetic vs. modification) invites speculation on a causal structur
-behind these correlations. For the metablolic enzymes they are be
+(genetic vs. modification) invites speculation on a causal structure
+behind these correlations. For the metabolic enzymes they are be
 interpretable as a change to use more anaerobic metabolism in the
 European population of \textit{A. crassus}. In one possible scenario
-in Europan worms one of the subunits of core enzymes of the
+in European worms one of the subunits of core enzymes of the
 respiratory chain (probably COX II) would have evolved a genetically
 fixed lower level of expression. This model follows the logic, that
-the most differentiall expressed gene could be the driver of observed
-change. Other enzymes related to energy metabolism (e.g. lipid
+the most differential expressed gene could be the driver of observed
+change. Other enzymes related to aerobic energy metabolism (e.g. lipid
 metabolism) indirectly and only partially controled by feedback
 mechanisms from the respiratory chain and the citric acid cycle would
 show similar patterns of altered expression in European
 worms. However, the expression of some these indirectly and also by
-more additional environmenal factors controlled genes would be
+more additional environmental factors controlled genes would be
 perturbed when worms are applied back to their Asian hosts. Also in
 the two sexes differences in size and metabolism would be perturbing
 the pleiotropic effects of the persistent core-change.
 
-\figuremacro{pop_ortho_heat}{Heatmap for OC contigs DE between worm
-  populations}{Orthologous confirmed contigs, differentially expressed
-  between the European and Asian populations of
-  \textit{A. crassus}. Expression levels for libraries are clustering
-  mainly according to the sex of worms. However, in both male and
-  female worms subordinate clusters are following a worm-population
-  and to a lesser extend (and mainly in males) a host-species pattern.
-  Genes are clustering according to annotation-profiles: the top
-  cluster represents genes important in energy metabolism. They
-  cluster with COX II, which shows clear overexpression in - without
-  any exception - all libraries from Taiwanese worms.}
+\figuremacro{pop_ortho_heat}{Clustering of expression values for OC
+  contigs DE between populations}{A heatmap of variance/mean
+  stabilised expression values. Deprograms are based on euclidean
+  distance and hierarchically clustering. Green indicates expression
+  below the mean, red above the mean. Experimental conditions are
+  indicated by black bars for groups of samples (columns) below the
+  plot. Expression levels for libraries are clustering mainly
+  according to the sex of worms. However, in both male and female
+  worms subordinate clusters are following a worm-population and to a
+  lesser extend (and mainly in males) a host-species pattern. Below
+  contig-names uniprot names are given for ortholog genes in
+  \textit{B. malayi}. Genes are clustering according to
+  annotation-profiles: the top cluster represents genes important in
+  energy metabolism. They cluster with COX II, which shows clear
+  overexpression in - without any exception - all libraries from
+  Taiwanese worms.}
 
 Such a scenario also provokes some speculation about the adaptive
 value of such a change in a core metabolic process:\\
 Aerobic respiration is potential source for oxidative stress providing
-a steady source of reactive oxigen species (ROS) as electrons are
+a steady source of reactive oxygen species (ROS) as electrons are
 leaking from the respiratory chain as superoxide anions. It is well
 established that such ROS production is especially harmful to
 blood-feeding parasites, as free inorganic iron as well as heme have
 the potential to generate additional ROS
 \cite{pmid21087517}. Anaerobic metabolism is thus thought to occur in
-many haematophagous parastites as a counter-measure against oxidative
-stress from hemoglobin catabolism \cite{pmid12163151}. It could thus
-be hypothesized that the bigger size and the larger amount of
-eel-blood ingested leading to a higher rate of hemoglobin digestion
+many haematophagous parasites as a counter-measure against oxidative
+stress from haemoglobin catabolism \cite{pmid12163151}. It could thus
+be hypothesised that the bigger size and the larger amount of
+eel-blood ingested leading to a higher rate of haemoglobin digestion
 provided the selective pressure to reduce aerobic
 respiration. Additionally helminths can simply get too large to
-maintain oxygen diffusion to mitochondriae in the abscence of a
+maintain oxygen diffusion to mitochondriae in the absence of a
 cardiovascular system. As yet proton-pumping electron transport
-constitutes the most profitable metabolic process, the mitochondria of
-facultatively anaerobic helminths produce and electorn gradient for
+constitutes the most profitable metabolic process, the mitochondriae of
+qualitatively anaerobic helminths produce and electron gradient for
 the use of ATPase with the help of acceptors other than O$_2$
 \cite{pmid12417132}. Such an alternate electron sink is fumarate used
 in many helminths in a process called malat dismutation
 \cite{pmid15275412}.
 
-An interesting implication is also, that such metabollic differences
+An interesting implication is also, that such metabolic differences
 could potentially be visible ultrastructurally. Indeed in my own
 diploma thesis \cite{heitlinger_vergleichende_2008} I identified two
-different kinds of mitochondriaa, one with standard christae-like
+different kinds of mitochondriae, one with standard christae-like
 morphology, the other with unusual sacculus-like morphology in
-\textit{A. crassus}. Additionally I observed less electorn-dense
+\textit{A. crassus}. Additionally I observed less electron-dense
 inclusions (probably lipid reserves) in bigger worms and more glycogen
-granulae. Reanalysing this data and probably obtaining new data with
-additional histochemical staining methods could be a way to put
-gene-expression into a physiological perspective. Furthermore a
-biochemical examination of isolated mitochondria could highlight
-changes in the mitochondrial respriatoy chain under \textit{in vitro}
+granulae. The fact that such lipids are less usable under anaerobic
+conditions led me to the hypothesis, that bigger worms are using less
+aerobic processes. Reanalysing this data and probably obtaining new
+data with additional histochemical staining methods could be a way to
+put gene-expression into a physiological perspective. Furthermore a
+biochemical examination of isolated mitochondriae could highlight
+changes in the mitochondrial respiratory chain under \textit{in vitro}
 conditions \cite{pmid18314717}.
 
 A second group of genes differentially expressed in populations of
 \textit{A. crassus} emerged from both cluster and enrichment
 analyses. Two transcripts in this cluster were significant for
-interaction effects between host-speacies and parasite-population,
+interaction effects between host-species and parasite-population,
 they annotated as collagens. For both genes this meant an
-``adujusted'' (to avoid the suggestive ``adapted'') expression
-difference leading to a lower experession in
+``adjusted'' (to avoid the suggestive ``adapted'') expression
+difference leading to a lower expression in
 host-species/parasite-population pairs found in nature. Cuticle
 collagens are a large multigene family of proteins (Interpro lists 164
 entries for ``Nematode cuticle collagen, N-terminal''
@@ -615,25 +669,25 @@ entries for ``Nematode cuticle collagen, N-terminal''
 additionally they contain extensive repeat regions. In the genome of
 \textit{B. malayi} 82 genes that encode for a collagen repeat have
 been found \cite{ghedin_draft_2007}. It was thus very important to
-have orhtologous confirmation for these two contigs, as misassembly
-could have easiesly lead false positives here.
+have orthologous confirmation for these two contigs, as misassembly
+could have easily lead false positives here.
 
 The two collagens were clustered with a third contig sharing a
 collagen-annotation and (failing to be significant for the interaction
 term probably because of low overall expression), a contig annotated
-as Matrixin (an enzyme assumed to be involved in remodelig the
+as ``Matrixin'' (an enzyme assumed to be involved in remodelling the
 extracellular matrix \cite{mealloprot}) and a ABC-transporter family
-protein. This can be reagarded a confirmation via clutering with
-funcionally related proteins.
+protein. This can be regarded a confirmation via clustering with
+functionally related proteins.
 
 Functional speculations are more difficult for collagen, than for the
 respiratory chain enzymes. The cuticle constitutes an exoskeleton and
 a barrier between the worm and its host-environment. Synthesis of most
 collagens is believed to occur at negligible levels in adult male
 worms and is rather connected to discrete temporal periods in larval
-devolopment \cite{pmid10637627}. The differential expresson could thus
+development \cite{pmid10637627}. The differential expression could thus
 be due to changes in larval development or due to alternations in the
-steady renewal of the adult cuticule and remodeling of the
+low-level, steady renewal of the adult cuticle and remodelling of the
 extracellular matrix. Some considerations would favour of the second
 explanation \textit{C. elegans} genes expressed after reproductive
 maturity evolve faster than genes expressed earlier in development
@@ -643,35 +697,39 @@ more conserved expression patterns in larval stages.
 
 As for the metabolic differences, differential expression patterns
 could be reflected in morphology. It could be interesting to measure
-thickness (and other pysiological parameters like density) of the
-culicule of worms from cross-inoculation experiments.
+thickness and other physiological parameters like density of the
+cuticle of worms from cross-inoculation experiments.
 
 \section{Outlook}
 
-Multiple staring points exist for further functional examination of
+Multiple starting points exist for further functional examination of
 metabolic change, as mentioned throughout the text. However the search
 for ultimate causes \textit{sensu} \cite{mayr1961cause} for a leap in
-the evolution of a core metabollic process will be more prestigious. A
+the evolution of a core metabolic process will be more prestigious. A
 research program with this prospect will employ the population scale
 genotyping and reconstruction of likely genealogies for the genome of
 \textit{A. crassus}: A population-genomics screen for selection.
 
-One methods enabeling such population wide genotyping emerging form
-NGS techonogy is the wequencing of restriction-site associated DNA
+One methods enabling such population wide genotyping emerging form
+NGS technology is the sequencing of restriction-site associated DNA
 (RAD) markers. Preparation of RAD libraries involves digestion of
 genomic DNA are with a restriction enzyme. Individually tagged
 adaptors can then ligated to the fragments and individuals samples for
-can be pooled. The choice of restriction enzyme .... \cite{pmid18852878}.
+can be pooled. The choice of restriction enzyme ...  \cite{pmid18852878}.
 
-Population Genomics of Parallel Adaptation in Threespine Stickleback
-using Sequenced RAD Tags ....  \cite{pmid20195501}.
+
+Hi Mark, igonre this for now...  I will be working on this over
+chirstmas to make it the basis for my DFG-application with Richard
+Lucius and Christoph Dietereich...
+
+Population genomics of parallel adaptation in Stickleback using
+sequenced RAD tags {pmid20195501}.
 
 \figuremacro{genome_cov_gc}{foo}{foo}
 
 Other possiblities Genome-wide association studies (GWAS)
 
-Mapping of gene-expression quantitative trait loci (eQTL) 
-
+Finally mapping of gene-expression quantitative trait loci (eQTL) 
 
 RNAi screens in \textit{C. elegans} identified genes leading to lower
 oxygen consumption, altered mitochondrial morphology and function,

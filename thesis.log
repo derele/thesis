@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.9.20)  21 DEC 2011 09:12
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.11.30)  23 DEC 2011 17:52
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{/home/ele/thesis/thesis/thesis.tex}
@@ -472,7 +472,7 @@ LaTeX Info: Redefining \pageref on input line 95.
 
 Package backref Info: ** backref set up for natbib ** on input line 95.
 
-<0_frontmatter/figures/kit_logo_de.jpg, id=375, 199.7061pt x 91.3011pt>
+<0_frontmatter/figures/kit_logo_de.jpg, id=391, 199.7061pt x 91.3011pt>
 File: 0_frontmatter/figures/kit_logo_de.jpg Graphic file (type jpg)
 
 <use 0_frontmatter/figures/kit_logo_de.jpg> [1
@@ -537,7 +537,7 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 ...sequencing (Sanger method)}{35}{chapter.3}
+l.23 ...sequencing (Sanger method)}{37}{chapter.3}
                                                    [3
 \FN@pp@footnotehinttrue 
 
@@ -550,13 +550,13 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 ...a common garden experiment}{75}{chapter.6}
+l.51 ...a common garden experiment}{91}{chapter.6}
                                                    [4]pdfTeX warning (ext4): de
 stination with the same identifier (name{page.v}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.84 ...ical analysis with GLMs}{120}{section.8.9}
+l.84 ...ion of read-counts}{138}{subsection.8.6.3}
                                                    [5])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
@@ -569,116 +569,122 @@ l.148 \listoffigures
                     	% print list of figures [6]
 (/home/ele/thesis/thesis/thesis.lof [7
 
-])
+] [8])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [8] [9] [10
+ [9] [10
 
 ]
-(/home/ele/thesis/thesis/thesis.lot)
+(/home/ele/thesis/thesis/thesis.lot [11])
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [11] [12
-
-]
+ [12]
 \openout2 = `1_introduction/introduction.aux'.
 
 
 (/home/ele/thesis/thesis/1_introduction/introduction.tex
  1.
-<1_introduction/figures/world-ac.jpg, id=699, 682.2288pt x 377.2494pt>
+<1_introduction/figures/world-ac.jpg, id=742, 682.2288pt x 377.2494pt>
 File: 1_introduction/figures/world-ac.jpg Graphic file (type jpg)
 
 <use 1_introduction/figures/world-ac.jpg> [1
 
 
+
 ] [2 </home/ele/thesis/thesis/1_introduction/figures/world-ac.jpg>]
-<1_introduction/figures/l_cycle.png, id=754, 733.97617pt x 527.67351pt>
+<1_introduction/figures/l_cycle.png, id=797, 733.97617pt x 527.67351pt>
 File: 1_introduction/figures/l_cycle.png Graphic file (type png)
 
 <use 1_introduction/figures/l_cycle.png> [3] [4 </home/ele/thesis/thesis/1_intr
 oduction/figures/l_cycle.png>] [5]
-<1_introduction/figures/worm_diff.png, id=829, 158.55357pt x 56.25449pt>
+<1_introduction/figures/worm_diff.png, id=871, 158.55357pt x 56.25449pt>
 File: 1_introduction/figures/worm_diff.png Graphic file (type png)
 
-<use 1_introduction/figures/worm_diff.png> [6 </home/ele/thesis/thesis/1_introd
-uction/figures/worm_diff.png>] [7]
-<1_introduction/figures/nLSU-phylo.pdf, id=885, 569.32701pt x 468.14899pt>
+<use 1_introduction/figures/worm_diff.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 </home/ele/thesis/thesis/1_introduction/figures/worm_diff.png>] [7]
+<1_introduction/figures/nLSU-phylo.pdf, id=923, 569.32701pt x 468.14899pt>
 File: 1_introduction/figures/nLSU-phylo.pdf Graphic file (type pdf)
 
-<use 1_introduction/figures/nLSU-phylo.pdf>
-<1_introduction/figures/mCOXI-phylo.pdf, id=893, 597.23125pt x 845.1575pt>
-File: 1_introduction/figures/mCOXI-phylo.pdf Graphic file (type pdf)
-
-<use 1_introduction/figures/mCOXI-phylo.pdf>
-
-LaTeX Warning: Float too large for page by 35.5307pt on input line 366.
-
-[8] [9 </home/ele/thesis/thesis/1_introduction/figures/nLSU-phylo.pdf
+<use 1_introduction/figures/nLSU-phylo.pdf> [8] [9 </home/ele/thesis/thesis/1_i
+ntroduction/figures/nLSU-phylo.pdf
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/1_introduction/figures/n
 LSU-phylo.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. I
 gnoring it.
->] [10 </home/ele/thesis/thesis/1_introduction/figures/mCOXI-phylo.pdf>]
-<1_introduction/figures/clade-phylo.pdf, id=976, 597.23125pt x 845.1575pt>
+>] <1_introduction/figures/mCOXI-phylo.pdf, id=981, 597.23125pt x 845.1575pt>
+File: 1_introduction/figures/mCOXI-phylo.pdf Graphic file (type pdf)
+
+<use 1_introduction/figures/mCOXI-phylo.pdf>
+
+LaTeX Warning: Float too large for page by 35.5307pt on input line 368.
+
+<1_introduction/figures/clade-phylo.pdf, id=990, 597.23125pt x 845.1575pt>
 File: 1_introduction/figures/clade-phylo.pdf Graphic file (type pdf)
 
 <use 1_introduction/figures/clade-phylo.pdf>
 
-LaTeX Warning: Float too large for page by 35.5307pt on input line 392.
+LaTeX Warning: Float too large for page by 35.5307pt on input line 394.
 
-[11] [12 </home/ele/thesis/thesis/1_introduction/figures/clade-phylo.pdf>]
-<1_introduction/figures/ula_stages.png, id=1048, 794.97pt x 505.6491pt>
+
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+ [10]
+[11 </home/ele/thesis/thesis/1_introduction/figures/mCOXI-phylo.pdf>] [12 </hom
+e/ele/thesis/thesis/1_introduction/figures/clade-phylo.pdf>] [13]
+<1_introduction/figures/ula_stages.png, id=1096, 794.97pt x 505.6491pt>
 File: 1_introduction/figures/ula_stages.png Graphic file (type png)
 
-<use 1_introduction/figures/ula_stages.png> [13] [14 </home/ele/thesis/thesis/1
-_introduction/figures/ula_stages.png (PNG copy)>] [15]
-<1_introduction/figures/C_D.jpg, id=1073, 319.1925pt x 390.45876pt>
+<use 1_introduction/figures/ula_stages.png> [14 </home/ele/thesis/thesis/1_intr
+oduction/figures/ula_stages.png (PNG copy)>] [15] [16]
+<1_introduction/figures/C_D.jpg, id=1119, 319.1925pt x 390.45876pt>
 File: 1_introduction/figures/C_D.jpg Graphic file (type jpg)
 
-<use 1_introduction/figures/C_D.jpg> [16 </home/ele/thesis/thesis/1_introductio
+<use 1_introduction/figures/C_D.jpg> [17 </home/ele/thesis/thesis/1_introductio
 n/figures/C_D.jpg>]
-<1_introduction/figures/RNA_pro.png, id=1094, 1804.7425pt x 594.22pt>
+<1_introduction/figures/RNA_pro.png, id=1145, 1804.7425pt x 594.22pt>
 File: 1_introduction/figures/RNA_pro.png Graphic file (type png)
 
-<use 1_introduction/figures/RNA_pro.png> [17] [18 </home/ele/thesis/thesis/1_in
-troduction/figures/RNA_pro.png>] [19] [20] [21]
-<1_introduction/figures/sequencing_costs.png, id=1211, 505.4082pt x 505.6491pt>
+<use 1_introduction/figures/RNA_pro.png> [18 </home/ele/thesis/thesis/1_introdu
+ction/figures/RNA_pro.png>] [19] [20] [21]
+<1_introduction/figures/sequencing_costs.png, id=1241, 505.4082pt x 505.6491pt>
 File: 1_introduction/figures/sequencing_costs.png Graphic file (type png)
-<use 1_introduction/figures/sequencing_costs.png>
-<1_introduction/figures/454.png, id=1215, 557.08125pt x 530.98375pt>
+<use 1_introduction/figures/sequencing_costs.png> [22] [23 </home/ele/thesis/th
+esis/1_introduction/figures/sequencing_costs.png (PNG copy)>]
+<1_introduction/figures/454.png, id=1269, 557.08125pt x 530.98375pt>
 File: 1_introduction/figures/454.png Graphic file (type png)
 
 <use 1_introduction/figures/454.png>
 
-LaTeX Warning: Float too large for page by 3.73012pt on input line 874.
+LaTeX Warning: Float too large for page by 3.73012pt on input line 877.
 
-[22] [23 </home/ele/thesis/thesis/1_introduction/figures/sequencing_costs.png (
-PNG copy)>] [24 </home/ele/thesis/thesis/1_introduction/figures/454.png>]
-<1_introduction/figures/ilmn_all.pdf, id=1248, 495.451pt x 547.64598pt>
+[24] [25 </home/ele/thesis/thesis/1_introduction/figures/454.png>]
+<1_introduction/figures/ilmn_all.pdf, id=1298, 495.451pt x 547.64598pt>
 File: 1_introduction/figures/ilmn_all.pdf Graphic file (type pdf)
 
-<use 1_introduction/figures/ilmn_all.pdf> [25] [26 </home/ele/thesis/thesis/1_i
+<use 1_introduction/figures/ilmn_all.pdf> [26] [27 </home/ele/thesis/thesis/1_i
 ntroduction/figures/ilmn_all.pdf
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/1_introduction/figures/i
 lmn_all.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ign
 oring it.
->] [27] [28] [29] [30]) [31]
+>] [28] [29] [30] [31] [32]) [33]
 \openout2 = `2_aims/aims.aux'.
 
- (/home/ele/thesis/thesis/2_aims/aims.tex [32
+ (/home/ele/thesis/thesis/2_aims/aims.tex
+[34
 
 
 
 ]
  2.
-) [33]
+) [35]
 \openout2 = `3_pilot/pilot.aux'.
 
- (/home/ele/thesis/thesis/3_pilot/pilot.tex [34
+ (/home/ele/thesis/thesis/3_pilot/pilot.tex [36
 
 
 
@@ -688,173 +694,190 @@ oring it.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 19.
 
-[35] <3_pilot/figures/rRNA-con.pdf, id=1422, 722.7pt x 433.62pt>
+[37] <3_pilot/figures/rRNA-con.pdf, id=1484, 722.7pt x 433.62pt>
 File: 3_pilot/figures/rRNA-con.pdf Graphic file (type pdf)
 
-<use 3_pilot/figures/rRNA-con.pdf> [36 </home/ele/thesis/thesis/3_pilot/figures
-/rRNA-con.pdf>] <3_pilot/figures/GC-pil.pdf, id=1435, 722.7pt x 433.62pt>
+<use 3_pilot/figures/rRNA-con.pdf> [38 </home/ele/thesis/thesis/3_pilot/figures
+/rRNA-con.pdf>] <3_pilot/figures/GC-pil.pdf, id=1497, 722.7pt x 433.62pt>
 File: 3_pilot/figures/GC-pil.pdf Graphic file (type pdf)
 
 <use 3_pilot/figures/GC-pil.pdf>
 Underfull \vbox (badness 1609) has occurred while \output is active []
 
- [37]
-[38 </home/ele/thesis/thesis/3_pilot/figures/GC-pil.pdf>]
-Adding sideways figure on  left hand page) [39] [40]
+ [39]
+[40 </home/ele/thesis/thesis/3_pilot/figures/GC-pil.pdf>]
+Adding sideways figure on  left hand page) [41] [42]
 \openout2 = `4_eval_ass/eval_ass.aux'.
 
 
 (/home/ele/thesis/thesis/4_eval_ass/eval_ass.tex
  4.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 47.
-[41
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 48.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43
 
 
 
-] <4_eval_ass/figures/split_454.pdf, id=1478, 433.62pt x 433.62pt>
+]
+<4_eval_ass/figures/split_454.pdf, id=1539, 433.62pt x 433.62pt>
 File: 4_eval_ass/figures/split_454.pdf Graphic file (type pdf)
 
-<use 4_eval_ass/figures/split_454.pdf>
-Underfull \vbox (badness 1642) has occurred while \output is active []
-
- [42]
+<use 4_eval_ass/figures/split_454.pdf> [44]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 152.
-
-[43 </home/ele/thesis/thesis/4_eval_ass/figures/split_454.pdf>]
-<4_eval_ass/figures/read_origin.pdf, id=1500, 433.62pt x 433.62pt>
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 132.
+ [45 </home/ele/thesis/thesis/4_eval_ass/figures/split_454.pdf>]
+<4_eval_ass/figures/read_origin.pdf, id=1563, 433.62pt x 433.62pt>
 File: 4_eval_ass/figures/read_origin.pdf Graphic file (type pdf)
 
-<use 4_eval_ass/figures/read_origin.pdf>
-Underfull \vbox (badness 5711) has occurred while \output is active []
-
- [44]
-[45 </home/ele/thesis/thesis/4_eval_ass/figures/read_origin.pdf>]
-<4_eval_ass/figures/ass_contributions.pdf, id=1517, 433.62pt x 433.62pt>
+<use 4_eval_ass/figures/read_origin.pdf> [46] [47 </home/ele/thesis/thesis/4_ev
+al_ass/figures/read_origin.pdf>]
+<4_eval_ass/figures/ass_contributions.pdf, id=1580, 433.62pt x 433.62pt>
 File: 4_eval_ass/figures/ass_contributions.pdf Graphic file (type pdf)
 
-<use 4_eval_ass/figures/ass_contributions.pdf> [46] [47 </home/ele/thesis/thesi
+<use 4_eval_ass/figures/ass_contributions.pdf> [48] [49 </home/ele/thesis/thesi
 s/4_eval_ass/figures/ass_contributions.pdf>]
-<4_eval_ass/figures/base_ref_b.pdf, id=1538, 433.62pt x 433.62pt>
+<4_eval_ass/figures/base_ref_b.pdf, id=1602, 433.62pt x 433.62pt>
 File: 4_eval_ass/figures/base_ref_b.pdf Graphic file (type pdf)
 
 <use 4_eval_ass/figures/base_ref_b.pdf>
-<4_eval_ass/figures/base_ref_p.pdf, id=1539, 433.62pt x 433.62pt>
+<4_eval_ass/figures/base_ref_p.pdf, id=1603, 433.62pt x 433.62pt>
 File: 4_eval_ass/figures/base_ref_p.pdf Graphic file (type pdf)
 
 <use 4_eval_ass/figures/base_ref_p.pdf>
-<4_eval_ass/figures/base_ref_8.pdf, id=1542, 433.62pt x 433.62pt>
+<4_eval_ass/figures/base_ref_8.pdf, id=1606, 433.62pt x 433.62pt>
 File: 4_eval_ass/figures/base_ref_8.pdf Graphic file (type pdf)
 
-<use 4_eval_ass/figures/base_ref_8.pdf> [48] [49 </home/ele/thesis/thesis/4_eva
-l_ass/figures/base_ref_b.pdf>] [50 </home/ele/thesis/thesis/4_eval_ass/figures/
-base_ref_p.pdf>] [51 </home/ele/thesis/thesis/4_eval_ass/figures/base_ref_8.pdf
+<use 4_eval_ass/figures/base_ref_8.pdf> [50] [51 </home/ele/thesis/thesis/4_eva
+l_ass/figures/base_ref_b.pdf>] [52 </home/ele/thesis/thesis/4_eval_ass/figures/
+base_ref_p.pdf>] [53 </home/ele/thesis/thesis/4_eval_ass/figures/base_ref_8.pdf
 >]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 331.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 332.
 
  (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 331.
- [52] [53] [54]) [55]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 332.
+ [54] [55]) [56] [57]
 \openout2 = `5_pyro/pyro.aux'.
 
 
-(/home/ele/thesis/thesis/5_pyro/pyro.tex [56
+(/home/ele/thesis/thesis/5_pyro/pyro.tex [58
 
 
 
 ]
  5.
-[57]
-Overfull \hbox (15.29709pt too wide) in paragraph at lines 78--119
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Overfull \hbox (15.29709pt too wide) in paragraph at lines 83--124
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[60] [61]
+
+LaTeX Warning: Float too large for page by 6.28291pt on input line 204.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58] [59] [60] [61
+[62
 
-
-]
+] [63]
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/5_pyro/figures/ann_venn_
 man.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<5_pyro/figures/ann_venn_man.pdf, id=1651, 722.7pt x 1445.4pt>
+<5_pyro/figures/ann_venn_man.pdf, id=1713, 722.7pt x 1445.4pt>
 File: 5_pyro/figures/ann_venn_man.pdf Graphic file (type pdf)
 
 <use 5_pyro/figures/ann_venn_man.pdf>
 
-LaTeX Warning: Float too large for page by 31.618pt on input line 266.
+LaTeX Warning: Float too large for page by 31.618pt on input line 273.
 
-<5_pyro/figures/slim_com.png, id=1657, 1156.32pt x 1156.32pt>
+<5_pyro/figures/slim_com.png, id=1719, 1156.32pt x 1156.32pt>
 File: 5_pyro/figures/slim_com.png Graphic file (type png)
 
 <use 5_pyro/figures/slim_com.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62] [63 </home/ele/thesis/thesis/5_pyro/figures/ann_venn_man.pdf
+[64
+
+] [65 </home/ele/thesis/thesis/5_pyro/figures/ann_venn_man.pdf
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/5_pyro/figures/ann_venn_
 man.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignorin
 g it.
->] [64 </home/ele/thesis/thesis/5_pyro/figures/slim_com.png (PNG copy)>]
-[65] <5_pyro/figures/nov_sig.png, id=1695, 1003.75pt x 1003.75pt>
+>] [66 </home/ele/thesis/thesis/5_pyro/figures/slim_com.png (PNG copy)>]
+[67] <5_pyro/figures/nov_sig.png, id=1759, 1003.75pt x 1003.75pt>
 File: 5_pyro/figures/nov_sig.png Graphic file (type png)
 
 <use 5_pyro/figures/nov_sig.png>
-<5_pyro/figures/snp_hom.png, id=1699, 1003.75pt x 501.875pt>
-File: 5_pyro/figures/snp_hom.png Graphic file (type png)
+<5_pyro/figures/snp_hom.pdf, id=1763, 722.7pt x 361.35pt>
+File: 5_pyro/figures/snp_hom.pdf Graphic file (type pdf)
 
-<use 5_pyro/figures/snp_hom.png>
-<5_pyro/figures/snp_final.png, id=1701, 1254.6875pt x 752.8125pt>
+<use 5_pyro/figures/snp_hom.pdf> [68
+
+] [69 </home/ele/thesis/thesis/5_pyro/figures/nov_sig.png (PNG copy)>] [70 </ho
+me/ele/thesis/thesis/5_pyro/figures/snp_hom.pdf>] <5_pyro/figures/snp_final.png
+, id=1784, 1254.6875pt x 752.8125pt>
 File: 5_pyro/figures/snp_final.png Graphic file (type png)
 
-<use 5_pyro/figures/snp_final.png> [66
-
-] [67 </home/ele/thesis/thesis/5_pyro/figures/nov_sig.png (PNG copy)>] [68 </ho
-me/ele/thesis/thesis/5_pyro/figures/snp_hom.png (PNG copy)>] [69 </home/ele/the
-sis/thesis/5_pyro/figures/snp_final.png (PNG copy)>]
-Underfull \vbox (badness 10000) detected at line 486
+<use 5_pyro/figures/snp_final.png> [71 </home/ele/thesis/thesis/5_pyro/figures/
+snp_final.png (PNG copy)>]
+Underfull \vbox (badness 10000) detected at line 488
  []
 
-[70] [71] <5_pyro/figures/dn_ds_con.png, id=1730, 1003.75pt x 501.875pt>
+[72] [73] [74] [75] [76]
+<5_pyro/figures/dn_ds_con.png, id=1822, 1003.75pt x 501.875pt>
 File: 5_pyro/figures/dn_ds_con.png Graphic file (type png)
 
 <use 5_pyro/figures/dn_ds_con.png>
-Underfull \vbox (badness 2990) has occurred while \output is active []
-
- [72 </home/ele/thesis/thesis/5_pyro/figures/dn_ds_con.png (PNG copy)>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-[74]
+ [77 </home/ele/thesis/thesis/5_pyro/figures/dn_ds_con.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) detected at line 760
+ []
+
+[79] [80] [81] [82] [83] [84]
+Underfull \vbox (badness 10000) detected at line 892
+ []
+
+[85] [86] [87] [88] [89]) [90]
 \openout2 = `6_rna_seq/rna_seq.aux'.
 
  (/home/ele/thesis/thesis/6_rna_seq/rna_seq.tex
  6.
-<6_rna_seq/figures/stages_plot.png, id=1765, 867.24pt x 578.16pt>
+<6_rna_seq/figures/stages_plot.png, id=1926, 867.24pt x 578.16pt>
 File: 6_rna_seq/figures/stages_plot.png Graphic file (type png)
 
 <use 6_rna_seq/figures/stages_plot.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75
+ [91
 
 
 
 ]
-[76 </home/ele/thesis/thesis/6_rna_seq/figures/stages_plot.png (PNG copy)>]
-[77]
-Overfull \hbox (36.6793pt too wide) in paragraph at lines 107--150
+[92 </home/ele/thesis/thesis/6_rna_seq/figures/stages_plot.png (PNG copy)>]
+[93]
+Overfull \hbox (36.6793pt too wide) in paragraph at lines 112--155
  [] 
  []
 
@@ -866,153 +889,149 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/6_rna_seq/figures/heat_a
 ll.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<6_rna_seq/figures/heat_all.pdf, id=1784, 881.4992pt x 1918.98438pt>
+<6_rna_seq/figures/heat_all.pdf, id=1946, 881.4992pt x 1918.98438pt>
 File: 6_rna_seq/figures/heat_all.pdf Graphic file (type pdf)
 
 <use 6_rna_seq/figures/heat_all.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<6_rna_seq/figures/mds.pdf, id=1789, 505.89pt x 505.89pt>
+<6_rna_seq/figures/mds.pdf, id=1951, 505.89pt x 505.89pt>
 File: 6_rna_seq/figures/mds.pdf Graphic file (type pdf)
 
-<use 6_rna_seq/figures/mds.pdf> [78
+<use 6_rna_seq/figures/mds.pdf> [94
 
-] [79 </home/ele/thesis/thesis/6_rna_seq/figures/heat_all.pdf
+] [95 </home/ele/thesis/thesis/6_rna_seq/figures/heat_all.pdf
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/6_rna_seq/figures/heat_a
 ll.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring
  it.
->] [80] [81 </home/ele/thesis/thesis/6_rna_seq/figures/mds.pdf>] [82] [83]
+>] [96] [97 </home/ele/thesis/thesis/6_rna_seq/figures/mds.pdf>] [98] [99]
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/6_rna_seq/figures/venn_m
 od_man.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> 
 allowed
-<6_rna_seq/figures/venn_mod_man.pdf, id=1876, 722.7pt x 1445.4pt>
+<6_rna_seq/figures/venn_mod_man.pdf, id=2038, 722.7pt x 1445.4pt>
 File: 6_rna_seq/figures/venn_mod_man.pdf Graphic file (type pdf)
 
 <use 6_rna_seq/figures/venn_mod_man.pdf>
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 347.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 352.
 
 
-LaTeX Warning: Float too large for page by 4.75305pt on input line 347.
+LaTeX Warning: Float too large for page by 4.75305pt on input line 352.
 
-[84
+[100
 
-] [85 </home/ele/thesis/thesis/6_rna_seq/figures/venn_mod_man.pdf
+] [101 </home/ele/thesis/thesis/6_rna_seq/figures/venn_mod_man.pdf
 
 pdfTeX warning: pdflatex (file /home/ele/thesis/thesis/6_rna_seq/figures/venn_m
 od_man.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Igno
 ring it.
->] <6_rna_seq/figures/pca_eel.pdf, id=1904, 361.35pt x 722.7pt>
+>] <6_rna_seq/figures/pca_eel.pdf, id=2065, 361.35pt x 722.7pt>
 File: 6_rna_seq/figures/pca_eel.pdf Graphic file (type pdf)
 
 <use 6_rna_seq/figures/pca_eel.pdf>
 
-LaTeX Warning: Float too large for page by 4.76407pt on input line 384.
+LaTeX Warning: Float too large for page by 4.76407pt on input line 390.
 
-<6_rna_seq/figures/pca_pop.pdf, id=1905, 361.35pt x 722.7pt>
+<6_rna_seq/figures/pca_pop.pdf, id=2066, 361.35pt x 722.7pt>
 File: 6_rna_seq/figures/pca_pop.pdf Graphic file (type pdf)
 
 <use 6_rna_seq/figures/pca_pop.pdf>
-Underfull \vbox (badness 10000) detected at line 453
+Underfull \vbox (badness 10000) detected at line 459
  []
 
-[86
+[102
 
-] [87]
-<6_rna_seq/figures/tGO_pop_BP_classic_10_all.pdf, id=1923, 722.7pt x 722.7pt>
+] [103]
+<6_rna_seq/figures/tGO_pop_BP_classic_10_all.pdf, id=2085, 722.7pt x 722.7pt>
 File: 6_rna_seq/figures/tGO_pop_BP_classic_10_all.pdf Graphic file (type pdf)
 
-<use 6_rna_seq/figures/tGO_pop_BP_classic_10_all.pdf> [88] [89 </home/ele/thesi
-s/thesis/6_rna_seq/figures/pca_eel.pdf>] [90 </home/ele/thesis/thesis/6_rna_seq
-/figures/pca_pop.pdf>] [91 </home/ele/thesis/thesis/6_rna_seq/figures/tGO_pop_B
-P_classic_10_all.pdf>]
-<6_rna_seq/figures/pop_all_heat.pdf, id=1969, 1011.78pt x 1011.78pt>
+<use 6_rna_seq/figures/tGO_pop_BP_classic_10_all.pdf> [104] [105 </home/ele/the
+sis/thesis/6_rna_seq/figures/pca_eel.pdf>] [106 </home/ele/thesis/thesis/6_rna_
+seq/figures/pca_pop.pdf>] [107 </home/ele/thesis/thesis/6_rna_seq/figures/tGO_p
+op_BP_classic_10_all.pdf>]
+<6_rna_seq/figures/pop_all_heat.pdf, id=2130, 1011.78pt x 1011.78pt>
 File: 6_rna_seq/figures/pop_all_heat.pdf Graphic file (type pdf)
 
-<use 6_rna_seq/figures/pop_all_heat.pdf> [92
+<use 6_rna_seq/figures/pop_all_heat.pdf>
 
-] [93 </home/ele/thesis/thesis/6_rna_seq/figures/pop_all_heat.pdf>]) [94]
+LaTeX Warning: Float too large for page by 23.04724pt on input line 573.
+
+[108
+
+] [109 </home/ele/thesis/thesis/6_rna_seq/figures/pop_all_heat.pdf>])
+[110]
 \openout2 = `7_discussion/discussion.aux'.
 
-
-(/home/ele/thesis/thesis/7_discussion/discussion.tex
+ (/home/ele/thesis/thesis/7_discussion/discussion.tex
  7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95
+ [111
 
 
 
 ]
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
- [96]
+ [112]
 Underfull \vbox (badness 4595) has occurred while \output is active []
 
- [97]
-[98]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [99]
-[100]
+ [113]
+[114] [115] [116] [117]
 Underfull \vbox (badness 4595) has occurred while \output is active []
 
- [101]
-[102]
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
- [103]
-<7_discussion/figures/tGO_pop_MF_classic_10_all.pdf, id=2122, 722.7pt x 722.7pt
+ [118]
+[119]
+<7_discussion/figures/tGO_pop_MF_classic_10_all.pdf, id=2293, 722.7pt x 722.7pt
 >
 File: 7_discussion/figures/tGO_pop_MF_classic_10_all.pdf Graphic file (type pdf
 )
- <use 7_discussion/figures/tGO_pop_MF_classic_10_all.pdf> [104] [105 </home/ele
-/thesis/thesis/7_discussion/figures/tGO_pop_MF_classic_10_all.pdf>]
-<7_discussion/figures/pop_ortho_heat.pdf, id=2143, 1011.78pt x 1011.78pt>
+ <use 7_discussion/figures/tGO_pop_MF_classic_10_all.pdf>
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [120]
+<7_discussion/figures/pop_ortho_heat.pdf, id=2304, 1011.78pt x 1011.78pt>
 File: 7_discussion/figures/pop_ortho_heat.pdf Graphic file (type pdf)
 
 <use 7_discussion/figures/pop_ortho_heat.pdf>
-Underfull \vbox (badness 4595) has occurred while \output is active []
+Underfull \vbox (badness 1939) has occurred while \output is active []
 
- [106]
-[107 </home/ele/thesis/thesis/7_discussion/figures/pop_ortho_heat.pdf>]
-<7_discussion/figures/genome_cov_gc.png, id=2178, 423.5825pt x 417.56pt>
+ [121]
+[122 </home/ele/thesis/thesis/7_discussion/figures/tGO_pop_MF_classic_10_all.pd
+f>] [123 </home/ele/thesis/thesis/7_discussion/figures/pop_ortho_heat.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+[125] <7_discussion/figures/genome_cov_gc.png, id=2364, 423.5825pt x 417.56pt>
 File: 7_discussion/figures/genome_cov_gc.png Graphic file (type png)
 
-<use 7_discussion/figures/genome_cov_gc.png>) [108] [109 </home/ele/thesis/thes
-is/7_discussion/figures/genome_cov_gc.png>] [110]
+<use 7_discussion/figures/genome_cov_gc.png> [126 </home/ele/thesis/thesis/7_di
+scussion/figures/genome_cov_gc.png>]) [127]
 \openout2 = `8_material_methods/materials_methods.aux'.
 
 
-(/home/ele/thesis/thesis/8_material_methods/materials_methods.tex
- 8.
-[111
+(/home/ele/thesis/thesis/8_material_methods/materials_methods.tex [128
 
 
 
 ]
+ 8.
+[129]
 Overfull \hbox (54.83516pt too wide) in paragraph at lines 63--74
 \T1/cmr/m/n/10.95 agarose con-tain-ing Kanamycin (5mg/ml), xGal (5-bromo-4-chlo
 ro-3-indolyl-$\OML/cmm/m/it/10.95 ^^L$\T1/cmr/m/n/10.95 -D-galactopyranoside)
  []
 
-[112] [113] [114] [115] [116]
-Underfull \vbox (badness 1648) has occurred while \output is active []
-
- [117]
-[118] [119] [120]) [121] (/home/ele/thesis/thesis/thesis.bbl
-(/home/ele/thesis/thesis/thesis.brf)
+[130] [131] [132] [133] [134] [135] [136] [137] [138] [139]) [140]
+(/home/ele/thesis/thesis/thesis.bbl (/home/ele/thesis/thesis/thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [122
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\T1/cmr/m/sc/6 Lamia Gar-gouri Ben Ab-dal-lah and Fad-hila
  []
@@ -1028,7 +1047,10 @@ Underfull \hbox (badness 5431) in paragraph at lines 97--97
 llicola-
  []
 
-[123]
+[141
+
+
+]
 Underfull \hbox (badness 6961) in paragraph at lines 239--239
 \T1/cmr/m/sc/6 litsch, W. Reck-endor-fer, F. Schiemer, and
  []
@@ -1043,7 +1065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/cmr/m/sc/6 D. Righton, P. Gar-gan, M. Cas-tonguay,
  []
 
-[124] [125] [126] [127] [128]
+[142] [143] [144] [145] [146]
 Underfull \hbox (badness 6157) in paragraph at lines 945--945
 []\T1/cmr/m/sc/6 T. Kikuchi, J. A. Cot-ton, J. J. Dalzell,
  []
@@ -1059,90 +1081,160 @@ Underfull \hbox (badness 5893) in paragraph at lines 960--960
 tiGene--
  []
 
-[129] [130] [131] [132] [133] [134]) [135]
+[147] [148] [149] [150] [151] [152]) [153]
 \openout2 = `9_backmatter/additional_information.aux'.
 
 
-(/home/ele/thesis/thesis/9_backmatter/additional_information.tex [136
+(/home/ele/thesis/thesis/9_backmatter/additional_information.tex [154
 
 
 ]
  9.
 
-Underfull \vbox (badness 10000) detected at line 62
+Underfull \vbox (badness 10000) detected at line 64
  []
 
-[137] [138]
-Underfull \vbox (badness 10000) detected at line 121
+[155] [156]
+Underfull \vbox (badness 10000) detected at line 123
  []
 
-[139] [140] [141] [142]
-<9_backmatter/figures/tGO_sex_BP_classic_10_all.pdf, id=3333, 722.7pt x 722.7pt
+[157] [158] [159] [160] [161]
+<9_backmatter/figures/tGO_DN_DS_BP_classic_10_all.pdf, id=3565, 722.7pt x 722.7
+pt>
+File: 9_backmatter/figures/tGO_DN_DS_BP_classic_10_all.pdf Graphic file (type p
+df)
+ <use 9_backmatter/figures/tGO_DN_DS_BP_classic_10_all.pdf>
+<9_backmatter/figures/tGO_DN_DS_CC_classic_10_all.pdf, id=3566, 722.7pt x 722.7
+pt>
+File: 9_backmatter/figures/tGO_DN_DS_CC_classic_10_all.pdf Graphic file (type p
+df)
+ <use 9_backmatter/figures/tGO_DN_DS_CC_classic_10_all.pdf>
+<9_backmatter/figures/tGO_DN_DS_MF_classic_10_all.pdf, id=3567, 722.7pt x 722.7
+pt>
+File: 9_backmatter/figures/tGO_DN_DS_MF_classic_10_all.pdf Graphic file (type p
+df)
+ <use 9_backmatter/figures/tGO_DN_DS_MF_classic_10_all.pdf>
+<9_backmatter/figures/tGO_EEL_EXP_BP_classic_10_all.pdf, id=3568, 722.7pt x 722
+.7pt>
+File: 9_backmatter/figures/tGO_EEL_EXP_BP_classic_10_all.pdf Graphic file (type
+ pdf)
+ <use 9_backmatter/figures/tGO_EEL_EXP_BP_classic_10_all.pdf>
+<9_backmatter/figures/tGO_EEL_EXP_CC_classic_10_all.pdf, id=3569, 722.7pt x 722
+.7pt>
+File: 9_backmatter/figures/tGO_EEL_EXP_CC_classic_10_all.pdf Graphic file (type
+ pdf)
+ <use 9_backmatter/figures/tGO_EEL_EXP_CC_classic_10_all.pdf>
+<9_backmatter/figures/tGO_EEL_EXP_MF_classic_10_all.pdf, id=3570, 722.7pt x 722
+.7pt>
+File: 9_backmatter/figures/tGO_EEL_EXP_MF_classic_10_all.pdf Graphic file (type
+ pdf)
+ <use 9_backmatter/figures/tGO_EEL_EXP_MF_classic_10_all.pdf>
+<9_backmatter/figures/tGO_SEX_EXP_BP_classic_10_all.pdf, id=3571, 722.7pt x 722
+.7pt>
+File: 9_backmatter/figures/tGO_SEX_EXP_BP_classic_10_all.pdf Graphic file (type
+ pdf)
+ <use 9_backmatter/figures/tGO_SEX_EXP_BP_classic_10_all.pdf>
+<9_backmatter/figures/tGO_SEX_EXP_CC_classic_10_all.pdf, id=3572, 722.7pt x 722
+.7pt>
+File: 9_backmatter/figures/tGO_SEX_EXP_CC_classic_10_all.pdf Graphic file (type
+ pdf)
+ <use 9_backmatter/figures/tGO_SEX_EXP_CC_classic_10_all.pdf>
+<9_backmatter/figures/tGO_SEX_EXP_MF_classic_10_all.pdf, id=3573, 722.7pt x 722
+.7pt>
+File: 9_backmatter/figures/tGO_SEX_EXP_MF_classic_10_all.pdf Graphic file (type
+ pdf)
+ <use 9_backmatter/figures/tGO_SEX_EXP_MF_classic_10_all.pdf> [162
+
+]
+[163 </home/ele/thesis/thesis/9_backmatter/figures/tGO_DN_DS_BP_classic_10_all.
+pdf>] [164 </home/ele/thesis/thesis/9_backmatter/figures/tGO_DN_DS_CC_classic_1
+0_all.pdf>] [165 </home/ele/thesis/thesis/9_backmatter/figures/tGO_DN_DS_MF_cla
+ssic_10_all.pdf>] [166 </home/ele/thesis/thesis/9_backmatter/figures/tGO_EEL_EX
+P_BP_classic_10_all.pdf>] [167 </home/ele/thesis/thesis/9_backmatter/figures/tG
+O_EEL_EXP_CC_classic_10_all.pdf>] [168 </home/ele/thesis/thesis/9_backmatter/fi
+gures/tGO_EEL_EXP_MF_classic_10_all.pdf>] [169 </home/ele/thesis/thesis/9_backm
+atter/figures/tGO_SEX_EXP_BP_classic_10_all.pdf>] [170 </home/ele/thesis/thesis
+/9_backmatter/figures/tGO_SEX_EXP_CC_classic_10_all.pdf>] [171 </home/ele/thesi
+s/thesis/9_backmatter/figures/tGO_SEX_EXP_MF_classic_10_all.pdf>]
+<9_backmatter/figures/tGO_sex_BP_classic_10_all.pdf, id=3662, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_sex_BP_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_sex_BP_classic_10_all.pdf>
-<9_backmatter/figures/tGO_sex_CC_classic_10_all.pdf, id=3334, 722.7pt x 722.7pt
+<9_backmatter/figures/tGO_sex_CC_classic_10_all.pdf, id=3663, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_sex_CC_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_sex_CC_classic_10_all.pdf>
-<9_backmatter/figures/tGO_sex_MF_classic_10_all.pdf, id=3335, 722.7pt x 722.7pt
+<9_backmatter/figures/tGO_sex_MF_classic_10_all.pdf, id=3664, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_sex_MF_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_sex_MF_classic_10_all.pdf>
-<9_backmatter/figures/tGO_eel_BP_classic_10_all.pdf, id=3336, 722.7pt x 722.7pt
+<9_backmatter/figures/tGO_eel_BP_classic_10_all.pdf, id=3665, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_eel_BP_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_eel_BP_classic_10_all.pdf>
-<9_backmatter/figures/tGO_eel_CC_classic_10_all.pdf, id=3337, 722.7pt x 722.7pt
+<9_backmatter/figures/tGO_eel_CC_classic_10_all.pdf, id=3666, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_eel_CC_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_eel_CC_classic_10_all.pdf>
-<9_backmatter/figures/tGO_eel_MF_classic_10_all.pdf, id=3338, 722.7pt x 722.7pt
+<9_backmatter/figures/tGO_eel_MF_classic_10_all.pdf, id=3667, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_eel_MF_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_eel_MF_classic_10_all.pdf>
-<9_backmatter/figures/tGO_pop_CC_classic_10_all.pdf, id=3339, 722.7pt x 722.7pt
+<9_backmatter/figures/tGO_pop_CC_classic_10_all.pdf, id=3668, 722.7pt x 722.7pt
 >
 File: 9_backmatter/figures/tGO_pop_CC_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_pop_CC_classic_10_all.pdf>
-<9_backmatter/figures/sex_all_heat.pdf, id=3340, 1011.78pt x 1011.78pt>
+<9_backmatter/figures/sex_all_heat.pdf, id=3669, 1011.78pt x 1011.78pt>
 File: 9_backmatter/figures/sex_all_heat.pdf Graphic file (type pdf)
 
 <use 9_backmatter/figures/sex_all_heat.pdf>
-<9_backmatter/figures/sex_ortho_heat.pdf, id=3341, 1011.78pt x 1011.78pt>
+
+LaTeX Warning: Float too large for page by 23.04724pt on input line 510.
+
+<9_backmatter/figures/sex_ortho_heat.pdf, id=3670, 1011.78pt x 1011.78pt>
 File: 9_backmatter/figures/sex_ortho_heat.pdf Graphic file (type pdf)
 
 <use 9_backmatter/figures/sex_ortho_heat.pdf>
-<9_backmatter/figures/eel_all_heat.pdf, id=3342, 1011.78pt x 1011.78pt>
+
+LaTeX Warning: Float too large for page by 23.04724pt on input line 528.
+
+<9_backmatter/figures/eel_all_heat.pdf, id=3671, 1011.78pt x 1011.78pt>
 File: 9_backmatter/figures/eel_all_heat.pdf Graphic file (type pdf)
 
 <use 9_backmatter/figures/eel_all_heat.pdf>
-<9_backmatter/figures/eel_ortho_heat.pdf, id=3343, 1011.78pt x 1011.78pt>
+
+LaTeX Warning: Float too large for page by 23.04724pt on input line 546.
+
+<9_backmatter/figures/eel_ortho_heat.pdf, id=3672, 1011.78pt x 1011.78pt>
 File: 9_backmatter/figures/eel_ortho_heat.pdf Graphic file (type pdf)
 
-<use 9_backmatter/figures/eel_ortho_heat.pdf>) [143] [144 </home/ele/thesis/the
-sis/9_backmatter/figures/tGO_sex_BP_classic_10_all.pdf>] [145 </home/ele/thesis
-/thesis/9_backmatter/figures/tGO_sex_CC_classic_10_all.pdf>] [146 </home/ele/th
-esis/thesis/9_backmatter/figures/tGO_sex_MF_classic_10_all.pdf>] [147 </home/el
-e/thesis/thesis/9_backmatter/figures/tGO_eel_BP_classic_10_all.pdf>] [148 </hom
-e/ele/thesis/thesis/9_backmatter/figures/tGO_eel_CC_classic_10_all.pdf>]
-[149 </home/ele/thesis/thesis/9_backmatter/figures/tGO_eel_MF_classic_10_all.pd
-f>] [150 </home/ele/thesis/thesis/9_backmatter/figures/tGO_pop_CC_classic_10_al
-l.pdf>] [151 </home/ele/thesis/thesis/9_backmatter/figures/sex_all_heat.pdf>]
-[152 </home/ele/thesis/thesis/9_backmatter/figures/sex_ortho_heat.pdf>]
-[153 </home/ele/thesis/thesis/9_backmatter/figures/eel_all_heat.pdf>] [154 </ho
-me/ele/thesis/thesis/9_backmatter/figures/eel_ortho_heat.pdf>]
+<use 9_backmatter/figures/eel_ortho_heat.pdf>
+
+LaTeX Warning: Float too large for page by 23.04724pt on input line 564.
+
+) [172
+
+] [173 </home/ele/thesis/thesis/9_backmatter/figures/tGO_sex_BP_classic_10_all.
+pdf>] [174 </home/ele/thesis/thesis/9_backmatter/figures/tGO_sex_CC_classic_10_
+all.pdf>] [175 </home/ele/thesis/thesis/9_backmatter/figures/tGO_sex_MF_classic
+_10_all.pdf>] [176 </home/ele/thesis/thesis/9_backmatter/figures/tGO_eel_BP_cla
+ssic_10_all.pdf>] [177 </home/ele/thesis/thesis/9_backmatter/figures/tGO_eel_CC
+_classic_10_all.pdf>] [178 </home/ele/thesis/thesis/9_backmatter/figures/tGO_ee
+l_MF_classic_10_all.pdf>] [179 </home/ele/thesis/thesis/9_backmatter/figures/tG
+O_pop_CC_classic_10_all.pdf>] [180 </home/ele/thesis/thesis/9_backmatter/figure
+s/sex_all_heat.pdf>] [181 </home/ele/thesis/thesis/9_backmatter/figures/sex_ort
+ho_heat.pdf>] [182 </home/ele/thesis/thesis/9_backmatter/figures/eel_all_heat.p
+df>] [183 </home/ele/thesis/thesis/9_backmatter/figures/eel_ortho_heat.pdf>]
 \openout2 = `9_backmatter/declaration.aux'.
 
-
-(/home/ele/thesis/thesis/9_backmatter/declaration.tex [155
+ (/home/ele/thesis/thesis/9_backmatter/declaration.tex [184
 
 
 ])
@@ -1158,14 +1250,14 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 Package hyperref Warning: Option `pdfpagemode' has already been used,
 (hyperref)                setting the option has no effect on input line 17.
 
-[156
+[185
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [157])
-[158] (/home/ele/thesis/thesis/thesis.aux
+ [186])
+[187] (/home/ele/thesis/thesis/thesis.aux
 (/home/ele/thesis/thesis/0_frontmatter/abstract.aux)
 (/home/ele/thesis/thesis/0_frontmatter/zusammenfassung.aux)
 (/home/ele/thesis/thesis/0_frontmatter/dedication.aux)
@@ -1182,48 +1274,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (/home/ele/thesis/thesis/9_backmatter/declaration.aux)
 (/home/ele/thesis/thesis/9_backmatter/curriculum_vitae.aux)) ) 
 Here is how much of TeX's memory you used:
- 8320 strings out of 256216
- 132127 string characters out of 1917072
- 211224 words of memory out of 1500000
- 10657 multiletter control sequences out of 10000+200000
- 30988 words of font info for 70 fonts, out of 1200000 for 2000
+ 8493 strings out of 256216
+ 136376 string characters out of 1917071
+ 227433 words of memory out of 1500000
+ 10767 multiletter control sequences out of 10000+200000
+ 31687 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 43i,12n,50p,342b,1390s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 43i,12n,50p,342b,1450s stack positions out of 5000i,500n,6000p,200000b,15000s
  </home/ele/.texl
 ive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/ele/.texli
 ve2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/ele/.texliv
-e2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0600.600pk> </home/ele/.texlive
-2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0600.600pk> </home/ele/.texlive2
-007/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc0600.600pk> </home/ele/.texlive20
-07/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/ele/.texlive200
-7/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/ele/.texlive2007
-/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi2488.600pk> </home/ele/.texlive2007/
-texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/ele/.texlive2007/t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/ele/.texlive2007/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/ele/.texlive2007/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/ele/.texlive2007/texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/ele/.texlive2007/texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/ele/.texlive2007/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/ele/.texlive2007/texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </home/ele/.texlive2007/texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/ele/.texlive2007/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbi1095.600pk> </home/ele/.texlive2007/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/ele/.texlive2007/texmf-var/f
-onts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/ele/.texlive2007/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/ele/.texlive2007/texmf-var/fon
-ts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/ele/.texlive2007/texmf-var/font
-s/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ele/.texlive2007/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/ele/.texlive2007/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/ele/.texlive2007/texmf-var/fonts/p
-k/ljfour/jknappen/ec/ecbi1728.600pk> </home/ele/.texlive2007/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texmf/fonts/type1/bluesky/cm/cmm
-i10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fo
-nts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pf
-b></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb>
-Output written on thesis.pdf (176 pages, 10656966 bytes).
+e2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/ele/.texlive
+2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0600.600pk> </home/ele/.texlive2
+007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0600.600pk> </home/ele/.texlive20
+07/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc0600.600pk> </home/ele/.texlive200
+7/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/ele/.texlive2007
+/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/ele/.texlive2007/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi2488.600pk> </home/ele/.texlive2007/t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/ele/.texlive2007/te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/ele/.texlive2007/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/ele/.texlive2007/texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/ele/.texlive2007/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/ele/.texlive2007/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/ele/.texlive2007/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/ele/.texlive2007/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </home/ele/.texlive2007/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/ele/.texlive2007/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecbi1095.600pk> </home/ele/.texlive2007/texmf-var/f
+onts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/ele/.texlive2007/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/ele/.texlive2007/texmf-var/fon
+ts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/ele/.texlive2007/texmf-var/font
+s/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/ele/.texlive2007/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ele/.texlive2007/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/ele/.texlive2007/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecrm1095.600pk> </home/ele/.texlive2007/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecbi1728.600pk> </home/ele/.texlive2007/texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texmf/fonts/type1/bluesky/cm/cmmi
+10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fon
+ts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb
+></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb>
+Output written on thesis.pdf (205 pages, 10982839 bytes).
 PDF statistics:
- 4784 PDF objects out of 5155 (max. 8388607)
- 593 named destinations out of 1000 (max. 131072)
- 998 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5137 PDF objects out of 5155 (max. 8388607)
+ 646 named destinations out of 1000 (max. 131072)
+ 1075 words of extra memory for PDF output out of 10000 (max. 10000000)
 

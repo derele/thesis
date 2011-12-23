@@ -26,20 +26,27 @@ analysed in its biological context. It constitues a basis for
 molecular research on this important species and furthermore provides
 unique insights into the evolution of parasitism in the Spirurina.
 
-After extensive screening of 756.363 raw pyrosequencing reads, I
-assembled 353.055 into 11.371 contigs spanning 7.971.550 bases and
-additionally obtained 21.147 singleton and lower quality contigs
-spanning 8.095.986 bases. I obtained annotations for ca. 60\% of the
+After extensive screening of 756,363 raw pyrosequencing reads, I
+assembled 353,055 into 11,371 contigs spanning 7,971,550 bases and
+additionally obtained 21,147 singleton and lower quality contigs
+spanning 8,095,986 bases. I obtained annotations for ca. 60\% of the
 contigs and 40\% of the tentatively unique genes (TUGs) confirming the
 high quality of especially the contigs. I found an overabundance of
 predicted signal peptide cleavage sites in sequence conserved in
-Nematoda and novel in \textit{A. crassus}. I identified 5112 high
+Nematoda and novel in \textit{A. crassus}. I identified 5,112 high
 quality Single nucleotide polymorphisms (SNPs) and suggest 199 of them
-as most suitable markers for population-genetic studies. The GO-term
-proteinase was identified as overrepresented in contigs under positive
-selection. Comparing male and female as well as Asian and European
-\textit{A. crassus} I developed a method for future work with this
-transcriptome as a reference in mapping experiments.
+as most suitable markers for population-genetic studies. Correlation
+between different analyses provided further insights and confirmed
+biologicaly relevant expectations: I found an overabundance of
+predicted signal peptide cleavage sites in sequence conserved in
+Nematoda and novel in \textit{A. crassus}, correlations between coding
+polymorphism and differential expression, between coding polymorphism
+and peptide cleavage sites and between conservation and presence of
+ortholgs with lethal rnai-phenotypes in \textit{C. elegans}. GO-term
+analysis identified an enrichment of peptidases and subunits of the
+respiratory chain for transcritps under positive selection. Enzymes
+for energy metabolism were also found enriched in genes differentially
+expressed between European and Asian \textit{A. crassus}.
 
 \section{Sampling \textit{A. crassus}}
 
@@ -63,17 +70,15 @@ high-quality reads (spanning 169863104 bases). In the eel dataset from
 159370 raw reads 135072 were assembled after basic quality screening.
 
 I then screened the \textit{A. crassus} reads for contamination by
-host (30071 matched previously sequenced eel genes or our own
+host (30,071 matched previously sequenced eel genes or my own
 \textit{An. japonica} 454 transcriptome, which had been assembled into
-10639 mRNA contigs. (181783 reads matched large or small subunit
+10,639 mRNA contigs. (181,783 reads matched large or small subunit
 nuclear or mitochondrial ribosomal RNA sequences of
 \textit{A. crassus}) . In addition to fish mRNAs, I identified (and
-removed) 5286 reads in the library derived from the L2 nematodes that
+removed) 5,286 reads in the library derived from the L2 nematodes that
 had significant similarity to cercozoan (likely parasite) ribosomal
-RNA genes (see table \ref{screening-lib}). 
+RNA genes (see table \ref{screening-lib}).
 
-% latex table generated in R 2.13.0 by xtable 1.5-6 package
-% Wed Nov 23 10:32:00 2011
 \begin{table}[!h]
 \begin{tabular}{rllllll}
    \hline
@@ -122,17 +127,17 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
 
 \afterpage{\clearpage}
 
-\section{Assembly}
+\section{Assembly (see also chapter \ref{chap:eval-ass})}
 
 
 I assembled the remaining 353055 reads (spanning 100491819 bases)
 using the combined assembler strategy \cite{pmid20950480} and Roche
 454 GSassembler (version 2.6) and MIRA (version 3.21)
-\cite{miraEST}. From this I derived 13851 contigs that were supported
-by both assembly algorithms, 3745 contigs only supported by one of the
-assembly algorithms and 22591 singletons that were not assembled by
-either approach (see table \ref{ass-stat}). When scored by matches to
-known genes, the contigs supported by both assemblers are of the
+\cite{miraEST}. From this I derived 13,851 contigs that were supported
+by both assembly algorithms, 3,745 contigs only supported by one of
+the assembly algorithms and 22,591 singletons that were not assembled
+by either approach (see table \ref{ass-stat}). When scored by matches
+to known genes, the contigs supported by both assemblers are of the
 highest credibility, and this set is thus termed the high credibility
 assembly (highCA). Those with evidence from only one assembler and the
 singletons are of lower credibility (lowCA). These datasets are the
@@ -140,12 +145,13 @@ most parsimonious (having the smallest size) for their quality
 (covering the largest amount of sequence in reference
 transcriptomes). In the highCA parsimony and low redundancy is
 prioritized, while in the complete assembly (highCA plus lowCA)
-completeness is prioritized. The 40187 sequences (contig consensuses
+completeness is prioritized. The 40,187 sequences (contig consensuses
 and singletons) in the complete assembly are referred to below as
 tentatively unique genes (TUGs).
 
 \begin{table}[!h]
-\begin{tabular}{rrrr}
+  \begin{center}
+  \begin{tabular}{rrrr}
   \hline
  & lowCA & highCA & combined \\ 
   \hline
@@ -194,20 +200,21 @@ statistics]{\textbf{Assembly classification and contig statistics -}
   nr, any.blast = number of contigs with \texttt{BLAST}-hit to
   non-nematode (eukaryote non chordate) sequence in NCBI-nr.}
 \label{ass-stat}
+  \end{center}
 \end{table}
 
 \afterpage{\clearpage}
 
 I screened the complete assembly for residual host contamination, and
-identified 3441 TUGs that had higher, significant similarity to
-eel (and chordate) sequences (our 454 ESTs and EMBLBank Chordata
-proteins) than to nematode sequences \cite{pmid21550347}.
+identified 3,441 TUGs that had higher, significant similarity to eel
+(and chordate) sequences (my 454 ESTs and EMBLBank Chordata proteins)
+than to nematode sequences \cite{pmid21550347}.
 
-Given our prior identification of cercozoan ribosomal RNAs, I also
+Given my prior identification of cercozoan ribosomal RNAs, I also
 screened the complete assembly for contamination with other
 transcriptomes.
 
-1153 TUGs were found mapping to Eukaryota outside of the kingdoms
+1,153 TUGs were found mapping to Eukaryota outside of the kingdoms
 Metazoa, Fungi and Viridiplantae. These hits included a wide range of
 Protists ranging from Apicomplexa (mainly Sarcocystidae, 28 hits and
 Cryptosporidiidae 10 hits) over Bacillariophyta (diatoms, mainly
@@ -225,17 +232,17 @@ hits were found to Wolbachia or related Bacteria known as symbionts of
 nematodes and arthropods. 9 TUGs were hitting sequence from Viruses
 and 8 from Archaea.
 
-I excluded all TUGs with best hits outside Metazoa and our assembly
-thus has 32518 TUGs, spanning 154052 bases (of which 11371 are
-highCA-derived, and span 154052 bases) that are likely to derive from
+I excluded all TUGs with best hits outside Metazoa and my assembly
+thus has 32,518 TUGs, spanning 154052 bases (of which 11371 are
+highCA-derived, and span 154,052 bases) that are likely to derive from
 of \textit{A. crassus}.
 
 \section{Protein prediction}
 
-For 32411 TUGs a protein was predicted using prot4EST
+For 32,411 TUGs a protein was predicted using \texttt{prot4EST}
 \cite{wasmuth_prot4est:_2004} (see table \ref{ass-stat}). The full
-open reading frame was obtained in 353 TUGs, while while for 2683 the
-5' end and for 8283 the 3' end was complete. In 13379 TUGs the
+open reading frame was obtained in 353 TUGs, while while for 2,683 the
+5' end and for 8,283 the 3' end was complete. In 13,379 TUGs the
 corrected sequence with the imputed ORF was slightly changed compared
 to the raw sequence.
 
@@ -243,18 +250,18 @@ to the raw sequence.
 \label{454-annot}
 
 I obtained basic annotations with orthologous sequences from
-\textit{C. elegans} for 9554 TUGs, from \textit{B. malayi} for 9662
+\textit{C. elegans} for 9,554 TUGs, from \textit{B. malayi} for 9,662
 TUGs, from nempep \cite{parkinson_nembase:resource_2004, pmid21550347}
-for 11617 TUGs and with uniprot proteins for 11113 TUGs.
+for 11,617 TUGs and with uniprot proteins for 11,113 TUGs.
 
-I used annot8r \cite{schmid_annot8r:_2008} to assign gene ontology
-(GO) terms for 6509 TUGs, Enzyme Commission (EC) numbers for 2458 TUGs
-and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway annotations
-for 3844 TUGs (see table \ref{ass-stat}). Additionally 5125 highCA
-derived contigs were annotated with GO terms through
-\texttt{InterProScan} \cite{pmid11590104}. Nearly one third (6987) of
+I used \texttt{annot8r} \cite{schmid_annot8r:_2008} to assign gene
+ontology (GO) terms for 6,509 TUGs, Enzyme Commission (EC) numbers for
+2,458 TUGs and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway
+annotations for 3,844 TUGs (see table \ref{ass-stat}). Additionally
+5,125 highCA derived contigs were annotated with GO terms through
+\texttt{InterProScan} \cite{pmid11590104}. Nearly one third (6,987) of
 the \textit{A. crassus} TUGs were annotated with at least one
-identifier, and 1829 had GO, EC and KEGG annotations (see figure
+identifier, and 1,829 had GO, EC and KEGG annotations (see figure
 \ref{ann_venn_man}).
 
 \figuremacroW{ann_venn_man}{Annotation using different identifiers} {Number
@@ -265,7 +272,7 @@ identifier, and 1829 had GO, EC and KEGG annotations (see figure
   additional domain-based annotations obtained with
   \texttt{InterProScan} \cite{pmid11590104}.}{0.65}
 
-I compared our \textit{A. crassus} GO annotations for high-level
+I compared my \textit{A. crassus} GO annotations for high-level
 GO-slim terms to the annotations (obtained the same way) for the
 complete proteome of the filarial nematode \textit{B. malayi} and the
 complete proteome of \textit{C. elegans} (see figure \ref{slim_com}).
@@ -360,7 +367,8 @@ and novel in clade III (Fisher's exact test p$<$0.001 ;
   \texttt{SignalP}-predictions for each category of evolutionary
   conservation. Generally - across bit-score thresholds - TUGS novel
   in nematodes and in \textit{A. crassus} have the highest proportion
-  of signal-positives.}
+  of signal-positives. sigP = signalIP-prediction; Yes-noTM, cleavage
+  site predicted; Yes-TM, transmembrane-anchor predicted}
 
 The proportion of lethal rnai phenotypes was significantly higher for
 orthologs of conserved TUGs (97.23\%) than for orthologs of TUGs not
@@ -368,47 +376,48 @@ conserved (94.65\%) across kingdoms (p$<$0.001, Fisher's exact test).
 
 \section{Identification of single nucleotide polymorphisms}
 
-I called single nucleotide polymorphisms (SNPs) on the 1099419 bases
+I called single nucleotide polymorphisms (SNPs) on the 1,099,419 bases
 of the TUGs that had coverage of more then 8-fold available using
 \texttt{VARScan} \cite{pmid19542151}. I excluded SNPs predicted to
 have more than 2 alleles or that mapped to an undetermined (N) base in
-the reference, and retained 10458 SNPs. The ratio of transitions (ti;
-6890) to transversion (tv; 3568) in this set was 1.93 . Using the
-prot4EST predictions and the corrected sequences, 7153 of the SNPs
-were predicted to be inside an ORF, with 2310 at codon first
-positions, 1819 at second positions and 3024 at third positions. As
+the reference, and retained 10,458 SNPs. The ratio of transitions (ti;
+6,890) to transversion (tv; 3568) in this set was 1.93 . Using the
+prot4EST predictions and the corrected sequences, 7,153 of the SNPs
+were predicted to be inside an ORF, with 2,310 at codon first
+positions, 1,819 at second positions and 3,024 at third positions. As
 expected ti/tv inside ORFs (2.41) was higher than outside ORFs
 (1.25). The ratio of synonymous polymorphisms per synonymous site to
 non-synonymous polymorphisms per non-synonymous site (dn/ds) was
 0.42. I filtered these SNPs to exclude those that might be associated
 with analytical bias. As Roche 454 sequences have well-known
 systematic errors associated with homopolymeric nucleotide sequences
-\cite{pmid21685085}, I analysed the effect of exclusion of SNPs in,
-or close to, homopolymer regions. I observed changes in ti/tv and in
+\cite{pmid21685085}, I analysed the effect of exclusion of SNPs in, or
+close to, homopolymer regions. I observed changes in ti/tv and in
 dn/ds when SNPs were discarded using different size thresholds for
 homopolymer runs and proximity thresholds (see figure \ref{snp_hom}).
 
 \figuremacro{snp_hom}{Homoploymer screening for SNP-calling}{When SNPs
   in or adjacent to homopolymeric regions are removed changes in ti/tv
-  and dn/ds are observed: As the overall number of SNPs is reduced
-  both ratios change to more plausible values. Note the reversed axis
-  for dn/ds to plot these lower values to the right. For homopolymer
-  length $>$ 3 a linear trend for the total number of SNPs and the two
-  measurements is observed. A width of 11 for the screening window
-  provides most plausible values (suggesting specificity) while still
-  incorporating a high number of SNPs (sensitivity).}
+  (a) and dn/ds (b) are observed: As the overall number of SNPs is
+  reduced both ratios change to more plausible values. Note the
+  reversed axis for dn/ds to plot these lower values to the right. For
+  homopolymer length $>$ 3 a linear trend for the total number of SNPs
+  and the two measurements is observed. A width of 11 for the
+  screening window provides most plausible values (suggesting
+  specificity) while still incorporating a high number of SNPs
+  (sensitivity).}
 
-Based on this I decided to exclude SNPs with a homopolymer-run as
-long as or longer than 4 bases inside a window of 11 bases (5 to bases
-to the right, 5 to the left) around the SNP. I also observed a
+Based on this I decided to exclude SNPs with a homopolymer-run as long
+as or longer than 4 bases inside a window of 11 bases (5 to bases to
+the right, 5 to the left) around the SNP. I also observed a
 relationship between TUG dn/ds and TUG coverage, associated with the
 presence of sites with low abundance minority alleles (less than 7\%
 of the allele calls), suggesting that some of these may be errors.
 Removing low abundance minority allele SNPs from the set removed this
-effect (see figure \ref{snp_final}).  Our filtered SNP dataset
-includes 5112 SNPs. I retained 4.65 SNPs per kb of contig sequence,
-with 8.37 synonymous SNPs per 1000 synonymous bases and 2.4
-non-synonymous SNPs per 1000 non-synonymous bases. A mean dn/ds of
+effect (see figure \ref{snp_final}). My filtered SNP dataset
+includes 5,112 SNPs. I retained 4.65 SNPs per kb of contig sequence,
+with 8.37 synonymous SNPs per 1,000 synonymous bases and 2.4
+non-synonymous SNPs per 1,000 non-synonymous bases. A mean dn/ds of
 0.231 was calculated for the 859 TUGs (762 highCA-derived contigs)
 containing at least one synonymous SNP.
 
@@ -416,12 +425,12 @@ containing at least one synonymous SNP.
   of SNPs at (a) codon-position two and of (c) non-synonymous SNPs for
   low percentages of the minority allele. (b) Significant positive
   correlation of coverage and dn/ds before removing these SNPs at a
-  threshold of 7\% ($p<$ 0.001, $R^2=$ 0.015) and (d) afterwards
-  ($R^2<$0.001, $p=$0.211).}
+  threshold of 7\% ($p<$ 0.001, $R^2=$ 0.015) and (d) no significant
+  correlation afterwards ($R^2<$0.001, $p=$0.211).}
 
 \section{Polymorphisms associated with biological processes}
 
-I consolidated our annotation and polymorphism analyses by examining
+I consolidated my annotation and polymorphism analyses by examining
 correlations between nonsynonymous variability and particular
 classifications.
 
@@ -433,20 +442,14 @@ values than TUGs without signal peptide cleavage sites (p = 0.074; two
 sided Mann-Whitney-test).
 
 Positive selection can be inferred from dn/ds analyses, and I defined
-TUGs with a dn/ds higher than 0.5 as positively selected. I
-identified over- and under-represented GO ontology terms associated
-with these putatively positively selected genes (see table
-\ref{go-pos}). Within the molecular function category, ``peptidase
-activity'' was the most significantly overrepresented term and had 13
-TUGs supporting the overrepresentation. The highlighted 13 peptidases
-annotated with eleven unique orthologs in \textit{C. elegans} and
-\textit{B. malayi}.  The term ``structural constituent of ribosome''
-was underrepresented.
+TUGs with a dn/ds higher than 0.5 as positively selected. I identified
+over-represented GO ontology terms associated with these putatively
+positively selected genes (see table \ref{go-pos} and additional
+figures \ref{tGO_DN_DS_BP_classic_10_all},
+\ref{tGO_DN_DS_CC_classic_10_all} and
+\ref{tGO_DN_DS_MF_classic_10_all}).
 
-% latex table generated in R 2.13.0 by xtable 1.5-6 package
-% Wed Nov 23 10:32:01 2011
-% Sat Dec 17 15:14:58 2011
-\begin{longtable}{lp{5cm}rrrl}
+\begin{longtable}{lp{4.5cm}rrrl}
   \hline
   GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
   \endfirsthead
@@ -473,7 +476,16 @@ was underrepresented.
   GO:0004540 & ribonuclease activity &   3 &   2 & 0.37 & 0.0407 \\ 
   GO:0005275 & amine transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
   GO:0005342 & organic acid transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
-   \hline
+  GO:0005275 & amine transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0005342 & organic acid transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0015002 & heme-copper terminal oxidase activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0015171 & amino acid transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0016675 & oxidoreductase activity, acting on a heme group of donors &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0016676 & oxidoreductase activity, acting on a heme group of donors, oxygen as acceptor &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0046943 & carboxylic acid transmembrane transporter activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0047035 & testosterone dehydrogenase (NAD+) activity &   3 &   2 & 0.37 & 0.0407 \\ 
+  GO:0015077 & monovalent inorganic cation transmembrane transporter activity &  12 &   4 & 1.47 & 0.0471 \\ 
+  \hline
    \multicolumn{6}{l}{Biological process}  \\ 
    GO:0009081 & branched chain family amino acid metabolic process &   3 &   3 & 0.36 & 0.0017 \\ 
   GO:0009083 & branched chain family amino acid catabolic process &   3 &   3 & 0.36 & 0.0017 \\ 
@@ -485,6 +497,57 @@ was underrepresented.
   GO:0009308 & amine metabolic process &  57 &  13 & 6.90 & 0.0118 \\ 
   GO:0051325 & interphase &  23 &   7 & 2.79 & 0.0139 \\ 
   GO:0051329 & interphase of mitotic cell cycle &  23 &   7 & 2.79 & 0.0139 \\ 
+    GO:0010564 & regulation of cell cycle process &  34 &   9 & 4.12 & 0.0140 \\ 
+  GO:0051726 & regulation of cell cycle &  52 &  12 & 6.30 & 0.0143 \\ 
+  GO:0005997 & xylulose metabolic process &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0006739 & NADP metabolic process &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0009744 & response to sucrose stimulus &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0010172 & embryonic body morphogenesis &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0015807 & L-amino acid transport &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0019321 & pentose metabolic process &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0034285 & response to disaccharide stimulus &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0050885 & neuromuscular process controlling balance &   2 &   2 & 0.24 & 0.0145 \\ 
+  GO:0006915 & apoptosis &  78 &  16 & 9.45 & 0.0147 \\ 
+  GO:0009056 & catabolic process & 149 &  26 & 18.04 & 0.0148 \\ 
+  GO:0031571 & mitotic cell cycle G1/S transition DNA damage checkpoint &  14 &   5 & 1.70 & 0.0187 \\ 
+  GO:0044106 & cellular amine metabolic process &  55 &  12 & 6.66 & 0.0224 \\ 
+  GO:0009063 & cellular amino acid catabolic process &  10 &   4 & 1.21 & 0.0234 \\ 
+  GO:0000082 & G1/S transition of mitotic cell cycle &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0030330 & DNA damage response, signal transduction by p53 class mediator &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0031575 & mitotic cell cycle G1/S transition checkpoint &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0033238 & regulation of cellular amine metabolic process &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0042770 & signal transduction in response to DNA damage &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0071779 & G1/S transition checkpoint &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0072331 & signal transduction by p53 class mediator &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:2000045 & regulation of G1/S transition of mitotic cell cycle &  15 &   5 & 1.82 & 0.0255 \\ 
+  GO:0006401 & RNA catabolic process &   6 &   3 & 0.73 & 0.0259 \\ 
+  GO:0010638 & positive regulation of organelle organization &   6 &   3 & 0.73 & 0.0259 \\ 
+  GO:0042981 & regulation of apoptosis &  64 &  13 & 7.75 & 0.0312 \\ 
+  GO:0043067 & regulation of programmed cell death &  64 &  13 & 7.75 & 0.0312 \\ 
+  GO:0009310 & amine catabolic process &  11 &   4 & 1.33 & 0.0335 \\ 
+  GO:0051084 & 'de novo' posttranslational protein folding &  11 &   4 & 1.33 & 0.0335 \\ 
+  GO:0008219 & cell death &  93 &  17 & 11.26 & 0.0370 \\ 
+  GO:0016265 & death &  93 &  17 & 11.26 & 0.0370 \\ 
+  GO:0012501 & programmed cell death &  86 &  16 & 10.41 & 0.0371 \\ 
+  GO:0010941 & regulation of cell death &  66 &  13 & 7.99 & 0.0396 \\ 
+  GO:0000393 & spliceosomal conformational changes to generate catalytic conformation &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0006123 & mitochondrial electron transport, cytochrome c to oxygen &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0006865 & amino acid transport &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0009313 & oligosaccharide catabolic process &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0031023 & microtubule organizing center organization &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0045292 & nuclear mRNA cis splicing, via spliceosome &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0045840 & positive regulation of mitosis &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0051262 & protein tetramerization &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0051289 & protein homotetramerization &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0051297 & centrosome organization &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0051785 & positive regulation of nuclear division &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:2000242 & negative regulation of reproductive process &   3 &   2 & 0.36 & 0.0400 \\ 
+  GO:0007286 & spermatid development &   7 &   3 & 0.85 & 0.0415 \\ 
+  GO:0009267 & cellular response to starvation &   7 &   3 & 0.85 & 0.0415 \\ 
+  GO:0048515 & spermatid differentiation &   7 &   3 & 0.85 & 0.0415 \\ 
+  GO:0016071 & mRNA metabolic process &  47 &  10 & 5.69 & 0.0437 \\ 
+  GO:0006458 & 'de novo' protein folding &  12 &   4 & 1.45 & 0.0457 \\ 
+  GO:0022607 & cellular component assembly & 103 &  18 & 12.47 & 0.0484 \\ 
   \hline
   \multicolumn{6}{l}{Cellular compartment}  \\ 
   GO:0030532 & small nuclear ribonucleoprotein complex &   7 &   4 & 0.84 & 0.005 \\ 
@@ -495,8 +558,6 @@ was underrepresented.
   GO:0005739 & mitochondrion & 136 &  23 & 16.35 & 0.031 \\ 
   GO:0005604 & basement membrane &   3 &   2 & 0.36 & 0.039 \\ 
   GO:0060198 & clathrin sculpted vesicle &   3 &   2 & 0.36 & 0.039 \\ 
-  GO:0016604 & nuclear body &  13 &   4 & 1.56 & 0.059 \\ 
-  GO:0008021 & synaptic vesicle &   9 &   3 & 1.08 & 0.082 \\ 
 \hline\\
 \caption[Over-representation of GO-terms in positively
 selected]{\textbf{Over-representation of GO-terms in positively
@@ -507,22 +568,22 @@ selected]{\textbf{Over-representation of GO-terms in positively
   representation (Fishters exact test) are given along with the number
   of positively selected contigs (Count; dn/ds $>$ 0.5) and the number
   of contigs with this annotation for which a dn/ds was obtained
-  (Size) and the
-  description of the GO-term (Term).}
-\label{go-pos}\\
+  (Size) and the description of the GO-term (Term) see also additional
+  figures \ref{tGO_DN_DS_BP_classic_10_all},
+  \ref{tGO_DN_DS_CC_classic_10_all} and
+  \ref{tGO_DN_DS_MF_classic_10_all}.}\\
+\label{go-pos}
 \end{longtable}
 
-
-While the biological process and cellular compartment categories
-provide less information for a nematode (highlighting e.g. brain or
-pancreas development), underrepresented terms in both were connected
-to ribosomal proteins, validating the analysis for the molecular
-function category.
-
+Within the molecular function category, ``peptidase activity'' was the
+most significantly overrepresented term and had 13 TUGs supporting the
+overrepresentation. The highlighted twelve peptidases annotated with
+eleven unique orthologs in \textit{C. elegans} and \textit{B. malayi}.
 Other overrepresented terms abundant over categories pointed to
 subunits of the respiratory chain e.g. ``heme-copper terminal oxidase
 activity'' and ``cytochrome-c oxidase activity'' in molecular function
-and ``mitochondrion'' in cellular compartment.
+and ``mitochondrion'' in cellular compartment and to amino and fatty
+acid catabolic processes.
 
 At both bitscore thresholds contigs novel in clade III and novel in
 \textit{A. crassus} had a significantly higher dn/ds than other
@@ -554,8 +615,6 @@ worms (adult sequencing libraries). This resulted in 199 informative
 sites in 152 contigs, where two alleles were found in at least one
 assured genotype at least in one of the worms.
 
-% latex table generated in R 2.13.0 by xtable 1.5-6 package
-% Wed Nov 23 10:32:01 2011
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrrrr}
@@ -608,12 +667,334 @@ inbreeding in populations of \textit{A. crassus}.
 
 \section{Differential expression}
 
+I also analysed gene-expression inferred from mapping. Of the 353,055
+reads 252,388 (71.49\%) mapped uniquely (with their best hit) to the
+fullest assembly (including the all assembled contigs as a ``filter''
+later removing screened out sequences for analysis). The number of
+reads mapping is given for each library in table \ref{screening-lib},
+to get unbiased estimates of expression I removed also all contigs
+with a coverage lower than 32 reads overall and thus analysed 658
+contigs.
+
+Using the statistics of of Audic and Claverie \cite{pmid9331369} and
+filtering for relevant contrasts, 54 contigs showed an expression
+predominantly in the male library, 56 contigs in the female
+library. 56 contigs were primarily expressed in the libraries from
+Taiwan, 22 contigs in the European library.
+
+Overrepresentation of of GO-terms differentially expressed between the
+male and female libraries highlighted especially ribosomal proteins
+oxidoreductases and collagen processing enzymes as enriched
+(table \ref{over-de-mf-454} and additional figures
+\ref{tGO_SEX_EXP_BP_classic_10_all},
+\ref{tGO_SEX_EXP_CC_classic_10_all} and
+\ref{tGO_SEX_EXP_MF_classic_10_all}). These ribosomal proteins were
+all overexpressed in the male library, oxidoreductases and collagen
+processing enzymes were all overexpressed female libraries.
+
+Overrepresentation of of GO-terms differentially expressed between
+libraries from woms of European and Asian origin highlighted catalytic
+activity especially related to energy metabolism
+(table \ref{over-de-ae-454} and additional figures
+\ref{tGO_EEL_EXP_BP_classic_10_all},
+\ref{tGO_EEL_EXP_CC_classic_10_all} and
+\ref{tGO_EEL_EXP_MF_classic_10_all}).  Acyltransferase contigs were
+all upregulated in the European libraries. However, the expression
+patterns for other contigs connected to metabolsim did not show
+concerted up or down-regulation (e.g. for ``steroid biosynthetic
+process'' 2 contigs were downregulated in the European library, 3
+contigs upregulated).
+
+Enrichment of signal-positives was not found in any category of
+overexpressed genes. Differntially expressed genes also showed no
+pattern of enrichement in conservation categories and no enrichment of
+\textit{C. elegans} orthologs with lethal/non-lethal rnai-phenotypes.
+
+Significantly elevated dn/ds was found for contigs differentially
+expressed according to worm-origin (Fisher's exact test p=0.005; also
+both up- or downregulated were significant). Contigs overexpressed in
+the female libraries showed elevated levels of dn/ds (Fisher's exact
+test p=0.035). In contrast male overexpressed genes showed decreased
+levels of dn/ds (Fisher's exact test p=0.015). Within these groups
+there was no correlation between dn/ds and log-fold-change values for
+gene-expression.
 
 
+\begin{longtable}{lp{4.5cm}rrrl}
+  \hline
+  GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
+  \endfirsthead
+  \multicolumn{6}{c}%
+  {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+  \hline
+  GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
+  \hline 
+  \endhead
+  \hline
+  \multicolumn{6}{|r|}{{Continued on next page}} \\ 
+  \hline
+  \endfoot
+  \endlastfoot
+  \hline
+  \multicolumn{6}{l}{Molecular function} \\ 
+  GO:0005198 & structural molecule activity &  51 &  18 & 8.28 & 0.00019 \\ 
+  GO:0016706 & oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge... &   3 &   3 & 0.49 & 0.00407 \\ 
+  GO:0016705 & oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge... &   4 &   3 & 0.65 & 0.01441 \\ 
+  GO:0004656 & procollagen-proline 4-dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
+  GO:0019798 & procollagen-proline dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
+  GO:0031543 & peptidyl-proline dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
+  GO:0031545 & peptidyl-proline 4-dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
+  GO:0034641 & cellular nitrogen compound metabolic process & 159 &  37 & 25.03 & 0.00020 \\ 
+   \hline
+   \multicolumn{6}{l}{Biological process}  \\ 
+GO:0048731 & system development & 146 &  35 & 22.98 & 0.00020 \\ 
+  GO:0034621 & cellular macromolecular complex subunit organization &  73 &  22 & 11.49 & 0.00026 \\ 
+  GO:0006807 & nitrogen compound metabolic process & 162 &  37 & 25.50 & 0.00034 \\ 
+  GO:0032774 & RNA biosynthetic process &  70 &  21 & 11.02 & 0.00043 \\ 
+  GO:0071822 & protein complex subunit organization &  71 &  21 & 11.18 & 0.00055 \\ 
+  GO:0043933 & macromolecular complex subunit organization &  82 &  23 & 12.91 & 0.00063 \\ 
+  GO:0000022 & mitotic spindle elongation &  19 &   9 & 2.99 & 0.00080 \\ 
+  GO:0051231 & spindle elongation &  19 &   9 & 2.99 & 0.00080 \\ 
+  GO:0044281 & small molecule metabolic process & 188 &  40 & 29.59 & 0.00082 \\ 
+  GO:0006139 & nucleobase-containing compound metabolic process & 139 &  32 & 21.88 & 0.00157 \\ 
+  GO:0048856 & anatomical structure development & 188 &  39 & 29.59 & 0.00241 \\ 
+  GO:0071841 & cellular component organization or biogenesis at cellular level & 139 &  31 & 21.88 & 0.00408 \\ 
+  GO:0090304 & nucleic acid metabolic process & 105 &  25 & 16.53 & 0.00546 \\ 
+  GO:0071842 & cellular component organization at cellular level & 135 &  30 & 21.25 & 0.00559 \\ 
+  GO:0016070 & RNA metabolic process &  96 &  23 & 15.11 & 0.00797 \\ 
+  GO:0040007 & growth & 138 &  30 & 21.72 & 0.00847 \\ 
+  GO:0050789 & regulation of biological process & 198 &  39 & 31.17 & 0.00952 \\ 
+  GO:0042274 & ribosomal small subunit biogenesis &  10 &   5 & 1.57 & 0.01084 \\ 
+  GO:0009791 & post-embryonic development & 116 &  26 & 18.26 & 0.01151 \\ 
+  GO:0007275 & multicellular organismal development & 221 &  42 & 34.79 & 0.01156 \\ 
+  GO:0022414 & reproductive process & 105 &  24 & 16.53 & 0.01280 \\ 
+  GO:0042157 & lipoprotein metabolic process &   7 &   4 & 1.10 & 0.01335 \\ 
+  GO:0007051 & spindle organization &  27 &   9 & 4.25 & 0.01435 \\ 
+  GO:0007052 & mitotic spindle organization &  27 &   9 & 4.25 & 0.01435 \\ 
+  GO:0040009 & regulation of growth rate &  62 &  16 & 9.76 & 0.01599 \\ 
+  GO:0040010 & positive regulation of growth rate &  62 &  16 & 9.76 & 0.01599 \\ 
+  GO:0018988 & molting cycle, protein-based cuticle &  23 &   8 & 3.62 & 0.01616 \\ 
+  GO:0018996 & molting cycle, collagen and cuticulin-based cuticle &  23 &   8 & 3.62 & 0.01616 \\ 
+  GO:0010467 & gene expression & 114 &  25 & 17.94 & 0.01935 \\ 
+  GO:0042303 & molting cycle &  24 &   8 & 3.78 & 0.02127 \\ 
+  GO:0071840 & cellular component organization or biogenesis & 171 &  34 & 26.92 & 0.02143 \\ 
+  GO:0032501 & multicellular organismal process & 241 &  44 & 37.94 & 0.02183 \\ 
+  GO:0009416 & response to light stimulus &   8 &   4 & 1.26 & 0.02360 \\ 
+  GO:0032502 & developmental process & 227 &  42 & 35.73 & 0.02409 \\ 
+  GO:0008543 & fibroblast growth factor receptor signaling pathway &   2 &   2 & 0.31 & 0.02437 \\ 
+  GO:0018401 & peptidyl-proline hydroxylation to 4-hydroxy-L-proline &   2 &   2 & 0.31 & 0.02437 \\ 
+  GO:0019471 & 4-hydroxyproline metabolic process &   2 &   2 & 0.31 & 0.02437 \\ 
+  GO:0019511 & peptidyl-proline hydroxylation &   2 &   2 & 0.31 & 0.02437 \\ 
+  GO:0046887 & positive regulation of hormone secretion &   2 &   2 & 0.31 & 0.02437 \\ 
+  GO:0071570 & cement gland development &   2 &   2 & 0.31 & 0.02437 \\ 
+  GO:0000279 & M phase &  44 &  12 & 6.93 & 0.02555 \\ 
+  GO:0009792 & embryo development ending in birth or egg hatching & 123 &  26 & 19.36 & 0.02787 \\ 
+  GO:0016043 & cellular component organization & 167 &  33 & 26.29 & 0.02838 \\ 
+  GO:0009152 & purine ribonucleotide biosynthetic process &   5 &   3 & 0.79 & 0.02925 \\ 
+  GO:0009260 & ribonucleotide biosynthetic process &   5 &   3 & 0.79 & 0.02925 \\ 
+  GO:0002164 & larval development & 106 &  23 & 16.69 & 0.03108 \\ 
+  GO:0042254 & ribosome biogenesis &  21 &   7 & 3.31 & 0.03144 \\ 
+  GO:0000003 & reproduction & 137 &  28 & 21.56 & 0.03399 \\ 
+  GO:0022613 & ribonucleoprotein complex biogenesis &  26 &   8 & 4.09 & 0.03482 \\ 
+  GO:0065007 & biological regulation & 217 &  40 & 34.16 & 0.03874 \\ 
+  GO:0007010 & cytoskeleton organization &  57 &  14 & 8.97 & 0.03908 \\ 
+  GO:0045927 & positive regulation of growth &  68 &  16 & 10.70 & 0.03978 \\ 
+  GO:0071843 & cellular component biogenesis at cellular level &  27 &   8 & 4.25 & 0.04344 \\ 
+  GO:0048518 & positive regulation of biological process & 127 &  26 & 19.99 & 0.04357 \\ 
+  GO:0034645 & cellular macromolecule biosynthetic process & 103 &  22 & 16.21 & 0.04358 \\ 
+  GO:0000226 & microtubule cytoskeleton organization &  32 &   9 & 5.04 & 0.04471 \\ 
+  GO:0007017 & microtubule-based process &  32 &   9 & 5.04 & 0.04471 \\ 
+  GO:0006364 & rRNA processing &  18 &   6 & 2.83 & 0.04643 \\ 
+  GO:0044267 & cellular protein metabolic process & 134 &  27 & 21.09 & 0.04769 \\ 
+  GO:0002119 & nematode larval development & 104 &  22 & 16.37 & 0.04876 \\ 
+  GO:0009059 & macromolecule biosynthetic process & 104 &  22 & 16.37 & 0.04876 \\ 
+  GO:0030529 & ribonucleoprotein complex &  62 &  20 & 9.84 & 0.00022 \\ 
+  GO:0043228 & non-membrane-bounded organelle & 115 &  28 & 18.25 & 0.00178 \\ 
+  GO:0043232 & intracellular non-membrane-bounded organelle & 115 &  28 & 18.25 & 0.00178 \\ 
+  GO:0044444 & cytoplasmic part & 258 &  48 & 40.95 & 0.00181 \\ 
+  GO:0043227 & membrane-bounded organelle & 251 &  47 & 39.84 & 0.00274 \\ 
+  GO:0043231 & intracellular membrane-bounded organelle & 251 &  47 & 39.84 & 0.00274 \\ 
+  GO:0005829 & cytosol & 149 &  33 & 23.65 & 0.00306 \\ 
+  GO:0031981 & nuclear lumen &  66 &  18 & 10.48 & 0.00538 \\ 
+  GO:0005618 & cell wall &  17 &   7 & 2.70 & 0.00922 \\ 
+  GO:0070013 & intracellular organelle lumen &  92 &  22 & 14.60 & 0.01115 \\ 
+  GO:0043226 & organelle & 270 &  48 & 42.86 & 0.01309 \\ 
+  GO:0043229 & intracellular organelle & 270 &  48 & 42.86 & 0.01309 \\ 
+  GO:0030312 & external encapsulating structure &  18 &   7 & 2.86 & 0.01324 \\ 
+  GO:0044446 & intracellular organelle part & 193 &  38 & 30.63 & 0.01332 \\ 
+  GO:0009536 & plastid &  27 &   9 & 4.29 & 0.01507 \\ 
+  GO:0044422 & organelle part & 195 &  38 & 30.95 & 0.01703 \\ 
+  GO:0043233 & organelle lumen &  95 &  22 & 15.08 & 0.01721 \\ 
+  GO:0022627 & cytosolic small ribosomal subunit &  15 &   6 & 2.38 & 0.01909 \\ 
+  GO:0031974 & membrane-enclosed lumen &  97 &  22 & 15.40 & 0.02257 \\ 
+   \hline
+   \multicolumn{6}{l}{Cellular compartment}  \\ 
+GO:0045169 & fusome &   2 &   2 & 0.32 & 0.02477 \\ 
+  GO:0070732 & spindle envelope &   2 &   2 & 0.32 & 0.02477 \\ 
+  GO:0015935 & small ribosomal subunit &  16 &   6 & 2.54 & 0.02684 \\ 
+  GO:0005737 & cytoplasm & 275 &  48 & 43.65 & 0.02798 \\ 
+  GO:0009507 & chloroplast &  25 &   8 & 3.97 & 0.02868 \\ 
+  GO:0005791 & rough endoplasmic reticulum &   5 &   3 & 0.79 & 0.02991 \\ 
+  GO:0005811 & lipid particle &  30 &   9 & 4.76 & 0.03102 \\ 
+  GO:0005773 & vacuole &  46 &  12 & 7.30 & 0.03833 \\ 
+\hline\\
+\caption[Over-representation of GO-terms in positively
+selected]{\textbf{Over-representation of GO-terms in differentially
+    expressed between male and female worms -} P-values (p.value) for
+  over-representation are given along with the number of
+  differentially expressed contigs (Significant) and the number of
+  contigs with this annotation analysed (Annotated) and the
+  description of the GO-term (Term). For a graph of incuced GO-terms
+  see also additional figures \ref{tGO_SEX_EXP_BP_classic_10_all},
+  \ref{tGO_SEX_EXP_CC_classic_10_all} and
+  \ref{tGO_SEX_EXP_MF_classic_10_all}}\\
+\label{over-de-mf-454}
+\end{longtable}
+
+
+\begin{longtable}{lp{4.5cm}rrrl}
+  \hline
+  GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
+  \endfirsthead
+  \multicolumn{6}{c}%
+  {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+  \hline
+  GO.ID & Term & Annotated & Significant & Expected & p-value \\ 
+  \hline 
+  \endhead
+  \hline
+  \multicolumn{6}{|r|}{{Continued on next page}} \\ 
+  \hline
+  \endfoot
+  \endlastfoot
+  \hline
+  \multicolumn{6}{l}{Molecular function} \\ 
+GO:0016408 & C-acyltransferase activity &   3 &   3 & 0.37 & 0.0018 \\ 
+  GO:0016453 & C-acetyltransferase activity &   3 &   3 & 0.37 & 0.0018 \\ 
+  GO:0016407 & acetyltransferase activity &   4 &   3 & 0.50 & 0.0065 \\ 
+  GO:0016747 & transferase activity, transferring acyl groups other than amino-acyl groups &   4 &   3 & 0.50 & 0.0065 \\ 
+  GO:0003824 & catalytic activity & 158 &  27 & 19.62 & 0.0088 \\ 
+  GO:0016746 & transferase activity, transferring acyl groups &   8 &   4 & 0.99 & 0.0099 \\ 
+  GO:0001871 & pattern binding &   2 &   2 & 0.25 & 0.0151 \\ 
+  GO:0003682 & chromatin binding &   2 &   2 & 0.25 & 0.0151 \\ 
+  GO:0003985 & acetyl-CoA C-acetyltransferase activity &   2 &   2 & 0.25 & 0.0151 \\ 
+  GO:0003988 & acetyl-CoA C-acyltransferase activity &   2 &   2 & 0.25 & 0.0151 \\ 
+  GO:0008061 & chitin binding &   2 &   2 & 0.25 & 0.0151 \\ 
+  GO:0030247 & polysaccharide binding &   2 &   2 & 0.25 & 0.0151 \\ 
+  GO:0003713 & transcription coactivator activity &   6 &   3 & 0.75 & 0.0273 \\ 
+  GO:0005543 & phospholipid binding &   6 &   3 & 0.75 & 0.0273 \\ 
+  GO:0004090 & carbonyl reductase (NADPH) activity &   3 &   2 & 0.37 & 0.0417 \\ 
+  GO:0008289 & lipid binding &  12 &   4 & 1.49 & 0.0483 \\ 
+  GO:0016853 & isomerase activity &  12 &   4 & 1.49 & 0.0483 \\ 
+   \hline
+   \multicolumn{6}{l}{Biological process}  \\ 
+GO:0016126 & sterol biosynthetic process &   5 &   4 & 0.60 & 0.00083 \\ 
+  GO:0048732 & gland development &   9 &   5 & 1.08 & 0.00173 \\ 
+  GO:0016125 & sterol metabolic process &   6 &   4 & 0.72 & 0.00228 \\ 
+  GO:0006694 & steroid biosynthetic process &  10 &   5 & 1.20 & 0.00316 \\ 
+  GO:0006338 & chromatin remodeling &   4 &   3 & 0.48 & 0.00596 \\ 
+  GO:0006695 & cholesterol biosynthetic process &   4 &   3 & 0.48 & 0.00596 \\ 
+  GO:0008203 & cholesterol metabolic process &   4 &   3 & 0.48 & 0.00596 \\ 
+  GO:0044281 & small molecule metabolic process & 188 &  30 & 22.63 & 0.00748 \\ 
+  GO:0008202 & steroid metabolic process &  12 &   5 & 1.44 & 0.00825 \\ 
+  GO:0042180 & cellular ketone metabolic process &  57 &  13 & 6.86 & 0.00845 \\ 
+  GO:0023051 & regulation of signaling &  28 &   8 & 3.37 & 0.01087 \\ 
+  GO:0019219 & regulation of nucleobase-containing compound metabolic process &  41 &  10 & 4.94 & 0.01412 \\ 
+  GO:0001655 & urogenital system development &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0001822 & kidney development &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0006611 & protein export from nucleus &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0007528 & neuromuscular junction development &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0009953 & dorsal/ventral pattern formation &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0048581 & negative regulation of post-embryonic development &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0048741 & skeletal muscle fiber development &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0051124 & synaptic growth at neuromuscular junction &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0070050 & neuron homeostasis &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0072001 & renal system development &   2 &   2 & 0.24 & 0.01416 \\ 
+  GO:0006082 & organic acid metabolic process &  54 &  12 & 6.50 & 0.01489 \\ 
+  GO:0019752 & carboxylic acid metabolic process &  54 &  12 & 6.50 & 0.01489 \\ 
+  GO:0043436 & oxoacid metabolic process &  54 &  12 & 6.50 & 0.01489 \\ 
+  GO:0008152 & metabolic process & 266 &  37 & 32.02 & 0.01526 \\ 
+  GO:0006355 & regulation of transcription, DNA-dependent &  30 &   8 & 3.61 & 0.01697 \\ 
+  GO:0019953 & sexual reproduction &  44 &  10 & 5.30 & 0.02361 \\ 
+  GO:0048747 & muscle fiber development &   6 &   3 & 0.72 & 0.02503 \\ 
+  GO:0051171 & regulation of nitrogen compound metabolic process &  51 &  11 & 6.14 & 0.02556 \\ 
+  GO:0009966 & regulation of signal transduction &  21 &   6 & 2.53 & 0.02842 \\ 
+  GO:0032787 & monocarboxylic acid metabolic process &  21 &   6 & 2.53 & 0.02842 \\ 
+  GO:0051252 & regulation of RNA metabolic process &  33 &   8 & 3.97 & 0.03036 \\ 
+  GO:0048545 & response to steroid hormone stimulus &  16 &   5 & 1.93 & 0.03141 \\ 
+  GO:0065008 & regulation of biological quality &  81 &  15 & 9.75 & 0.03399 \\ 
+  GO:0050794 & regulation of cellular process & 151 &  24 & 18.18 & 0.03420 \\ 
+  GO:0010033 & response to organic substance &  60 &  12 & 7.22 & 0.03487 \\ 
+  GO:0048609 & multicellular organismal reproductive process &  60 &  12 & 7.22 & 0.03487 \\ 
+  GO:0002026 & regulation of the force of heart contraction &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0007416 & synapse assembly &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0007431 & salivary gland development &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0007435 & salivary gland morphogenesis &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0007559 & histolysis &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0007595 & lactation &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0016271 & tissue death &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0022612 & gland morphogenesis &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0030518 & steroid hormone receptor signaling pathway &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0030522 & intracellular receptor mediated signaling pathway &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0030879 & mammary gland development &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0034612 & response to tumor necrosis factor &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0035070 & salivary gland histolysis &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0035071 & salivary gland cell autophagic cell death &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0035220 & wing disc development &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0035272 & exocrine system development &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0043628 & ncRNA 3'-end processing &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0045540 & regulation of cholesterol biosynthetic process &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0050808 & synapse organization &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0051091 & positive regulation of sequence-specific DNA binding transcription factor activity &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0051262 & protein tetramerization &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0051289 & protein homotetramerization &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0090181 & regulation of cholesterol metabolic process &   3 &   2 & 0.36 & 0.03923 \\ 
+  GO:0032504 & multicellular organism reproduction &  61 &  12 & 7.34 & 0.03954 \\ 
+  GO:0002165 & instar larval or pupal development &   7 &   3 & 0.84 & 0.04016 \\ 
+  GO:0003015 & heart process &   7 &   3 & 0.84 & 0.04016 \\ 
+  GO:0007589 & body fluid secretion &   7 &   3 & 0.84 & 0.04016 \\ 
+  GO:0048872 & homeostasis of number of cells &   7 &   3 & 0.84 & 0.04016 \\ 
+  GO:0060047 & heart contraction &   7 &   3 & 0.84 & 0.04016 \\ 
+  GO:0006351 & transcription, DNA-dependent &  41 &   9 & 4.94 & 0.04017 \\ 
+  GO:0009308 & amine metabolic process &  41 &   9 & 4.94 & 0.04017 \\ 
+  GO:0006066 & alcohol metabolic process &  35 &   8 & 4.21 & 0.04262 \\ 
+  GO:0006357 & regulation of transcription from RNA polymerase II promoter &  12 &   4 & 1.44 & 0.04362 \\ 
+  GO:0009968 & negative regulation of signal transduction &  12 &   4 & 1.44 & 0.04362 \\ 
+  GO:0010648 & negative regulation of cell communication &  12 &   4 & 1.44 & 0.04362 \\ 
+  GO:0023057 & negative regulation of signaling &  12 &   4 & 1.44 & 0.04362 \\ 
+  GO:0007165 & signal transduction &  69 &  13 & 8.31 & 0.04443 \\ 
+  GO:0007276 & gamete generation &  42 &   9 & 5.06 & 0.04652 \\ 
+  GO:0009888 & tissue development &  42 &   9 & 5.06 & 0.04652 \\ 
+  GO:0044237 & cellular metabolic process & 255 &  35 & 30.69 & 0.04950 \\ 
+   \hline
+   \multicolumn{6}{l}{Cellular compartment}  \\ 
+GO:0031967 & organelle envelope &  47 &  12 & 5.52 & 0.0033 \\ 
+  GO:0031975 & envelope &  48 &  12 & 5.64 & 0.0040 \\ 
+  GO:0005740 & mitochondrial envelope &  29 &   8 & 3.41 & 0.0116 \\ 
+  GO:0005643 & nuclear pore &   2 &   2 & 0.23 & 0.0135 \\ 
+  GO:0046930 & pore complex &   2 &   2 & 0.23 & 0.0135 \\ 
+  GO:0005739 & mitochondrion &  93 &  17 & 10.92 & 0.0184 \\ 
+  GO:0031966 & mitochondrial membrane &  28 &   7 & 3.29 & 0.0322 \\ 
+  GO:0005902 & microvillus &   3 &   2 & 0.35 & 0.0374 \\ 
+  GO:0044429 & mitochondrial part &  36 &   8 & 4.23 & 0.0432 \\ 
+   \hline\\
+   \caption[Over-representation of GO-terms in differentially
+   expressed between worms from Asia and Europe
+   ]{\textbf{Over-representation of GO-terms in differentially
+       expressed between worms from Asia and Europe -} P-values
+     (p.value) for over-representation are given along with the number
+     of differentially expressed contigs (Significant) and the number
+     of contigs with this annotation analysed (Annotated) and the
+     description of the GO-term (Term). For a graph of incuced
+     GO-terms see also additional figures
+     \ref{tGO_EEL_EXP_BP_classic_10_all},
+     \ref{tGO_EEL_EXP_CC_classic_10_all} and
+     \ref{tGO_EEL_EXP_MF_classic_10_all}.}\\
+   \label{over-de-ae-454}
+\end{longtable}
 
 %%% Local Variables: ***
 %%% mode:latex ***
 %%% TeX-master: "../thesis.tex"  ***
 %%% tex-main-file: "../thesis.tex" ***
 %%% End: ***
-

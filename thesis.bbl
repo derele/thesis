@@ -676,6 +676,14 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   structure of the replicase gene}}}.
 \newblock {\em Nature}, {\bf 260}:500--507, Apr 1976.
 
+\bibitem{pmid8849441}
+{\sc A.~Goffeau, B.~G. Barrell, H.~Bussey, R.~W. Davis, B.~Dujon, H.~Feldmann,
+  F.~Galibert, J.~D. Hoheisel, C.~Jacq, M.~Johnston, E.~J. Louis, H.~W. Mewes,
+  Y.~Murakami, P.~Philippsen, H.~Tettelin, and S.~G. Oliver}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8849441}{{\bf {{L}ife with
+  6000 genes}}}.
+\newblock {\em Science}, {\bf 274}:563--567, Oct 1996.
+
 \bibitem{pmid9278503}
 {\sc F.~R. Blattner, G.~Plunkett, C.~A. Bloch, N.~T. Perna, V.~Burland,
   M.~Riley, J.~Collado-Vides, J.~D. Glasner, C.~K. Rode, G.~F. Mayhew,
@@ -684,14 +692,6 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9278503}{{\bf {{T}he
   complete genome sequence of {E}scherichia coli {K}-12}}}.
 \newblock {\em Science}, {\bf 277}:1453--1462, Sep 1997.
-
-\bibitem{pmid8849441}
-{\sc A.~Goffeau, B.~G. Barrell, H.~Bussey, R.~W. Davis, B.~Dujon, H.~Feldmann,
-  F.~Galibert, J.~D. Hoheisel, C.~Jacq, M.~Johnston, E.~J. Louis, H.~W. Mewes,
-  Y.~Murakami, P.~Philippsen, H.~Tettelin, and S.~G. Oliver}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8849441}{{\bf {{L}ife with
-  6000 genes}}}.
-\newblock {\em Science}, {\bf 274}:563--567, Oct 1996.
 
 \bibitem{pmid9851916}
 {\sc {The C. elegans Sequencing Consortium}}.
@@ -1398,6 +1398,19 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {U}ni{P}rot-{G}{O} {A}nnotation database in 2011}}}.
 \newblock {\em Nucleic Acids Res}, Nov 2011.
 
+\bibitem{pmid21139633}
+{\sc R.~Ekblom and J.~Galindo}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21139633}{{\bf
+  {{A}pplications of next generation sequencing in molecular ecology of
+  non-model organisms}}}.
+\newblock {\em Heredity (Edinb)}, {\bf 107}:1--15, Jul 2011.
+
+\bibitem{dassanayake2009shedding}
+{\sc M.~Dassanayake, J.~S. Haas, H.~J. Bohnert, and J.~M. Cheeseman}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19549131}{{\bf Shedding
+  light on an extremophile lifestyle through transcriptomics}}.
+\newblock {\em New Phytologist}, {\bf 183}(3):764--775, 2009.
+
 \bibitem{pmid20331779}
 {\sc F.~Goetz, D.~Rosauer, S.~Sitar, G.~Goetz, C.~Simchick, S.~Roberts,
   R.~Johnson, C.~Murphy, C.~R. Bronte, and S.~Mackenzie}.
@@ -1406,11 +1419,26 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   ({S}alvelinus namaycush)}}}.
 \newblock {\em Mol. Ecol.}, {\bf 19 Suppl 1}:176--196, Mar 2010.
 
-\bibitem{dassanayake2009shedding}
-{\sc M.~Dassanayake, J.~S. Haas, H.~J. Bohnert, and J.~M. Cheeseman}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19549131}{{\bf Shedding
-  light on an extremophile lifestyle through transcriptomics}}.
-\newblock {\em New Phytologist}, {\bf 183}(3):764--775, 2009.
+\bibitem{pmid20354124}
+{\sc C.~J. McManus, J.~D. Coolon, M.~O. Duff, J.~Eipper-Mains, B.~R. Graveley,
+  and P.~J. Wittkopp}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20354124}{{\bf {{R}egulatory
+  divergence in {D}rosophila revealed by m{R}{N}{A}-seq}}}.
+\newblock {\em Genome Res.}, {\bf 20}:816--825, Jun 2010.
+
+\bibitem{pmid20133352}
+{\sc H.~S. Rane, J.~M. Smith, U.~Bergthorsson, and V.~Katju}.
+\newblock {\bf {{G}ene conversion and {D}{N}{A} sequence polymorphism in the
+  sex-determination gene fog-2 and its paralog ftr-1 in {C}aenorhabditis
+  elegans}}.
+\newblock {\em Mol. Biol. Evol.}, {\bf 27}:1561--1569, Jul 2010.
+
+\bibitem{pmid16757655}
+{\sc W.~Haerty and R.~S. Singh}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16757655}{{\bf {{G}ene
+  regulation divergence is a major contributor to the evolution of
+  {D}obzhansky-{M}uller incompatibilities between species of {D}rosophila}}}.
+\newblock {\em Mol. Biol. Evol.}, {\bf 23}:1707--1714, Sep 2006.
 
 \bibitem{miraEST}
 {\sc B.~Chevreux, T.~Pfisterer, B.~Drescher, A.~J. Driesel, W.~E. Muller,
@@ -1425,13 +1453,6 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC310812}{{\bf
   {{C}{A}{P}3: {A} {D}{N}{A} sequence assembly program}}}.
 \newblock {\em Genome Res.}, {\bf 9}:868--877, Sep 1999.
-
-\bibitem{journals/bioinformatics/LiHWFRHMAD09}
-{\sc H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
-  G.~R. Abecasis, and R.~Durbin}.
-\newblock \href{http://dx.doi.org/10.1093/bioinformatics/btp352}{{\bf The
-  Sequence Alignment/Map format and SAMtools.}}
-\newblock {\em Bioinformatics}, {\bf 25}(16):2078--2079, 2009.
 
 \bibitem{tgicl_pertea}
 {\sc G.~Pertea, X.~Huang, F.~Liang, V.~Antonescu, R.~Sultana, S.~Karamycheva,
@@ -1467,6 +1488,13 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   4.0: discriminating signal peptides from transmembrane regions}}}.
 \newblock {\em Nat. Methods}, {\bf 8}:785--786, 2011.
 
+\bibitem{journals/bioinformatics/LiHWFRHMAD09}
+{\sc H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
+  G.~R. Abecasis, and R.~Durbin}.
+\newblock \href{http://dx.doi.org/10.1093/bioinformatics/btp352}{{\bf The
+  Sequence Alignment/Map format and SAMtools.}}
+\newblock {\em Bioinformatics}, {\bf 25}(16):2078--2079, 2009.
+
 \bibitem{pmid11571049}
 {\sc W.~Amos, J.~W. Wilmer, K.~Fullard, T.~M. Burg, J.~P. Croxall, D.~Bloch,
   and T.~Coulson}.
@@ -1492,6 +1520,12 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {R} extension for estimating multilocus heterozygosity and
   heterozygosity-heterozygosity correlation}}}.
 \newblock {\em Mol Ecol Resour}, {\bf 10}:720--722, Jul 2010.
+
+\bibitem{pmid9331369}
+{\sc S.~Audic and J.~M. Claverie}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9331369}{{\bf {{T}he
+  significance of digital gene expression profiles}}}.
+\newblock {\em Genome Res.}, {\bf 7}:986--995, Oct 1997.
 
 \bibitem{wormbook_sperm}
 {\sc H.~Smith}.
@@ -1673,6 +1707,31 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   sperm}}}.
 \newblock {\em Parasitol. Today (Regul. Ed.)}, {\bf 12}:425--430, Nov 1996.
 
+\bibitem{pmid10637627}
+{\sc I.~L. Johnstone}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10637627}{{\bf {{C}uticle
+  collagen genes. {E}xpression in {C}aenorhabditis elegans}}}.
+\newblock {\em Trends Genet.}, {\bf 16}:21--27, Jan 2000.
+
+\bibitem{pmid4721607}
+{\sc B.~Middleton}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/4721607}{{\bf {{T}he
+  oxoacyl-coenzyme {A} thiolases of animal tissues}}}.
+\newblock {\em Biochem. J.}, {\bf 132}:717--730, Apr 1973.
+
+\bibitem{pmid15371532}
+{\sc A.~D. Cutter and S.~Ward}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15371532}{{\bf {{S}exual and
+  temporal dynamics of molecular evolution in {C}. elegans development}}}.
+\newblock {\em Mol. Biol. Evol.}, {\bf 22}:178--188, Jan 2005.
+
+\bibitem{pmid15795858}
+{\sc W.~G. Eberhard}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15795858}{{\bf
+  {{E}volutionary conflicts of interest: are female sexual decisions
+  different?}}}
+\newblock {\em Am. Nat.}, {\bf 165 Suppl 5}:19--25, May 2005.
+
 \bibitem{pmid12219088}
 {\sc M.~F. Oleksiak, G.~A. Churchill, and D.~L. Crawford}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12219088}{{\bf {{V}ariation
@@ -1726,12 +1785,6 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {{A}daptionism-30 years after {G}ould and {L}ewontin}}}.
 \newblock {\em Evolution}, {\bf 63}:2487--2490, Oct 2009.
 
-\bibitem{pmid15371532}
-{\sc A.~D. Cutter and S.~Ward}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15371532}{{\bf {{S}exual and
-  temporal dynamics of molecular evolution in {C}. elegans development}}}.
-\newblock {\em Mol. Biol. Evol.}, {\bf 22}:178--188, Jan 2005.
-
 \bibitem{pmid16825664}
 {\sc X.~Yang, E.~E. Schadt, S.~Wang, H.~Wang, A.~P. Arnold, L.~Ingram-Drake,
   T.~A. Drake, and A.~J. Lusis}.
@@ -1739,13 +1792,6 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {{T}issue-specific expression and regulation of sexually dimorphic genes in
   mice}}}.
 \newblock {\em Genome Res.}, {\bf 16}:995--1004, Aug 2006.
-
-\bibitem{pmid15795858}
-{\sc W.~G. Eberhard}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15795858}{{\bf
-  {{E}volutionary conflicts of interest: are female sexual decisions
-  different?}}}
-\newblock {\em Am. Nat.}, {\bf 165 Suppl 5}:19--25, May 2005.
 
 \bibitem{pmid19720861}
 {\sc Z.~F. Jiang and C.~A. Machado}.
@@ -1829,16 +1875,17 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 \newblock {\em Matrix Metalloproteinases}.
 \newblock Academic Press, 1989.
 
-\bibitem{pmid10637627}
-{\sc I.~L. Johnstone}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/10637627}{{\bf {{C}uticle
-  collagen genes. {E}xpression in {C}aenorhabditis elegans}}}.
-\newblock {\em Trends Genet.}, {\bf 16}:21--27, Jan 2000.
-
 \bibitem{mayr1961cause}
 {\sc E.~Mayr}.
 \newblock {\bf Cause and effect in biology}.
 \newblock {\em Science}, {\bf 134}(3489):1501--1506, 1961.
+
+\bibitem{pmid18852878}
+{\sc N.~A. Baird, P.~D. Etter, T.~S. Atwood, M.~C. Currey, A.~L. Shiver, Z.~A.
+  Lewis, E.~U. Selker, W.~A. Cresko, and E.~A. Johnson}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18852878}{{\bf {{R}apid
+  {S}{N}{P} discovery and genetic mapping using sequenced {R}{A}{D} markers}}}.
+\newblock {\em PLoS ONE}, {\bf 3}:e3376, 2008.
 
 \bibitem{pmid12447374}
 {\sc S.~S. Lee, R.~Y. Lee, A.~G. Fraser, R.~S. Kamath, J.~Ahringer, and
@@ -1930,6 +1977,16 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {R}samtools: Import aligned BAM file format sequences into R /
   Bioconductor}}.
 \newblock R package version 1.4.3.
+
+\bibitem{AnnotationDbi}
+{\sc Herve Pages, Marc Carlson, Seth Falcon, and Nianhua Li}.
+\newblock {\em AnnotationDbi: Annotation Database Interface}.
+\newblock R package version 1.16.10.
+
+\bibitem{topGO}
+{\sc Adrian Alexa and Jorg Rahnenfuhrer}.
+\newblock {\em topGO: topGO: Enrichment analysis for Gene Ontology}, 2010.
+\newblock R package version 2.6.0.
 
 \bibitem{boon1990effect}
 {\sc J.~H. Boon, V.~M.~H. Cannaerts, H.~Augustijn, M.~A.~M. Machiels, D.~{De
