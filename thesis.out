@@ -54,7 +54,7 @@
 \BOOKMARK [1][]{section.6.4}{6.4 Examination of data-quality}{chapter.6}
 \BOOKMARK [1][]{section.6.5}{6.5 Orthologous screening for expression differences}{chapter.6}
 \BOOKMARK [1][]{section.6.6}{6.6 Expression differences in generalised linear models}{chapter.6}
-\BOOKMARK [1][]{section.6.7}{6.7 Confirmation of contig categories through multivariate analysis}{chapter.6}
+\BOOKMARK [1][]{section.6.7}{6.7 Confirmation of contig categories through principal component analysis}{chapter.6}
 \BOOKMARK [1][]{section.6.8}{6.8 Biological processes associated with DE contigs}{chapter.6}
 \BOOKMARK [1][]{section.6.9}{6.9 Clustering analysis}{chapter.6}
 \BOOKMARK [1][]{section.6.10}{6.10 Single gene differences}{chapter.6}
@@ -79,7 +79,7 @@
 \BOOKMARK [2][]{subsection.8.5.8}{8.5.8 Enrichment analysis}{section.8.5}
 \BOOKMARK [1][]{section.8.6}{8.6 Transcriptomic divergence in a common garden experiment}{chapter.8}
 \BOOKMARK [2][]{subsection.8.6.1}{8.6.1 Experimental infeciton of eels}{section.8.6}
-\BOOKMARK [2][]{subsection.8.6.2}{8.6.2 RNA exrtaction and preparation of sequencing libraries}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.2}{8.6.2 RNA extraction and preparation of sequencing libraries}{section.8.6}
 \BOOKMARK [2][]{subsection.8.6.3}{8.6.3 Mapping and normalistion of read-counts}{section.8.6}
 \BOOKMARK [2][]{subsection.8.6.4}{8.6.4 Statistical analysis with generalized linear models \(GLMs\)}{section.8.6}
 \BOOKMARK [2][]{subsection.8.6.5}{8.6.5 Count-collapsing for orthologous from two model-species}{section.8.6}

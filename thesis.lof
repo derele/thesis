@@ -14,8 +14,8 @@
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Schematic representation of Illumina- sequencing}}{27}{figure.1.12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Proportion of rRNA in different libraries for \textit {A. crassus} and \textit {A. japonica}}}{38}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces GC-content of sequences from \textit {A. japonica} and \textit {A. crassus}}}{40}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Proportion of rRNA in different libraries for \textit {A. crassus} and \textit {An. japonica}}}{38}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces GC-content of sequences from \textit {An. japonica} and \textit {A. crassus}}}{40}{figure.3.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Number of contigs/isotigs split}}{45}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Origing of reads}}{47}{figure.4.2}
@@ -41,27 +41,27 @@
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Clustering of expression values for contigs DE between populations}}{109}{figure.6.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces GO molecular function graph for enriched terms in DE according to worm-population}}{122}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Clustering of expression values for OC contigs DE between populations}}{123}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces foo}}{126}{figure.7.3}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Clustering of expression values for OC contigs DE between populations}}{124}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces GC-content and coverage for a prliminary genome assembly}}{130}{figure.7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in contigs under positive selection}}{163}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces GO cellular compartment graph for enriched terms in contigs under positive selection}}{164}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces GO molecular function graph for enriched terms in contigs under positive selection}}{165}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces GO biological process graph for enriched terms in pyrosequencing-DE genes between worm-origin}}{166}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces GO cellular compartment graph for enriched terms in pyrosequencing-DE genes between worm-origin}}{167}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces GO molecular function graph for enriched terms in pyrosequencing-DE genes between worm-origin}}{168}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces GO biological process graph for enriched terms in pyrosequencing-DE genes between worm-sex}}{169}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces GO cellular compartment graph for enriched terms in pyrosequencing-DE genes between worm-sex}}{170}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces GO molecular function graph for enriched terms in pyrosequencing-DE genes between worm-sex}}{171}{figure.9.9}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces GO biological process graph for enriched terms in DE according to sex}}{173}{figure.9.10}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to sex}}{174}{figure.9.11}
-\contentsline {figure}{\numberline {9.12}{\ignorespaces GO molecular function graph for enriched terms in DE according to sex}}{175}{figure.9.12}
-\contentsline {figure}{\numberline {9.13}{\ignorespaces GO biological process graph for enriched terms in DE according to eel-host}}{176}{figure.9.13}
-\contentsline {figure}{\numberline {9.14}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to eel-host}}{177}{figure.9.14}
-\contentsline {figure}{\numberline {9.15}{\ignorespaces GO molcular function graph for enriched terms in DE according to eel-host}}{178}{figure.9.15}
-\contentsline {figure}{\numberline {9.16}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to worm-population}}{179}{figure.9.16}
-\contentsline {figure}{\numberline {9.17}{\ignorespaces Clustering of expression values for contigs DE between female and male worms}}{180}{figure.9.17}
-\contentsline {figure}{\numberline {9.18}{\ignorespaces Clustering of expression values for OC contigs DE between female and male worms}}{181}{figure.9.18}
-\contentsline {figure}{\numberline {9.19}{\ignorespaces Clustering of expression values for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{182}{figure.9.19}
-\contentsline {figure}{\numberline {9.20}{\ignorespaces Clustering of expression values for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{183}{figure.9.20}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in contigs under positive selection}}{167}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces GO cellular compartment graph for enriched terms in contigs under positive selection}}{168}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces GO molecular function graph for enriched terms in contigs under positive selection}}{169}{figure.9.3}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces GO biological process graph for enriched terms in pyrosequencing-DE genes between worm-origin}}{170}{figure.9.4}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces GO cellular compartment graph for enriched terms in pyrosequencing-DE genes between worm-origin}}{171}{figure.9.5}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces GO molecular function graph for enriched terms in pyrosequencing-DE genes between worm-origin}}{172}{figure.9.6}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces GO biological process graph for enriched terms in pyrosequencing-DE genes between worm-sex}}{173}{figure.9.7}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces GO cellular compartment graph for enriched terms in pyrosequencing-DE genes between worm-sex}}{174}{figure.9.8}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces GO molecular function graph for enriched terms in pyrosequencing-DE genes between worm-sex}}{175}{figure.9.9}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces GO biological process graph for enriched terms in DE according to sex}}{177}{figure.9.10}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to sex}}{178}{figure.9.11}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces GO molecular function graph for enriched terms in DE according to sex}}{179}{figure.9.12}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces GO biological process graph for enriched terms in DE according to eel-host}}{180}{figure.9.13}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to eel-host}}{181}{figure.9.14}
+\contentsline {figure}{\numberline {9.15}{\ignorespaces GO molecular function graph for enriched terms in DE according to eel-host}}{182}{figure.9.15}
+\contentsline {figure}{\numberline {9.16}{\ignorespaces GO cellular compartment graph for enriched terms in DE according to worm-population}}{183}{figure.9.16}
+\contentsline {figure}{\numberline {9.17}{\ignorespaces Clustering of expression values for contigs DE between female and male worms}}{184}{figure.9.17}
+\contentsline {figure}{\numberline {9.18}{\ignorespaces Clustering of expression values for OC contigs DE between female and male worms}}{185}{figure.9.18}
+\contentsline {figure}{\numberline {9.19}{\ignorespaces Clustering of expression values for contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{186}{figure.9.19}
+\contentsline {figure}{\numberline {9.20}{\ignorespaces Clustering of expression values for OC contigs DE between worms in \textit {An. japonica} and \textit {An. anguilla}}}{187}{figure.9.20}

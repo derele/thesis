@@ -42,7 +42,7 @@ predicted signal peptide cleavage sites in sequence conserved in
 Nematoda and novel in \textit{A. crassus}, correlations between coding
 polymorphism and differential expression, between coding polymorphism
 and peptide cleavage sites and between conservation and presence of
-ortholgs with lethal rnai-phenotypes in \textit{C. elegans}. GO-term
+orthologs with lethal RNAi-phenotypes in \textit{C. elegans}. GO-term
 analysis identified an enrichment of peptidases and subunits of the
 respiratory chain for transcritps under positive selection. Enzymes
 for energy metabolism were also found enriched in genes differentially
@@ -108,7 +108,7 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
   stage: f for female m for male. source.p = source population: R for
   Rhine, P for Poland, C for cultured, W for wild. raw.reads = raw
   number of sequencing reads obtained. lowqal = number of reads
-  discarded due to low quality or length in \textit{Seqclean}
+  discarded due to low quality or length in \texttt{Seqclean}
   \cite{tgicl_pertea}. AcrRNA = number of reads hitting
   \textit{A. crassus}-rRNA (screened). eelmRNA = number of reads hitting
   eel transcriptome-sequences (screened). eelrRNA = number of reads
@@ -132,19 +132,19 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
 
 I assembled the remaining 353055 reads (spanning 100491819 bases)
 using the combined assembler strategy \cite{pmid20950480} and Roche
-454 GSassembler (version 2.6) and MIRA (version 3.21)
-\cite{miraEST}. From this I derived 13,851 contigs that were supported
-by both assembly algorithms, 3,745 contigs only supported by one of
-the assembly algorithms and 22,591 singletons that were not assembled
-by either approach (see table \ref{ass-stat}). When scored by matches
-to known genes, the contigs supported by both assemblers are of the
-highest credibility, and this set is thus termed the high credibility
-assembly (highCA). Those with evidence from only one assembler and the
-singletons are of lower credibility (lowCA). These datasets are the
-most parsimonious (having the smallest size) for their quality
-(covering the largest amount of sequence in reference
-transcriptomes). In the highCA parsimony and low redundancy is
-prioritized, while in the complete assembly (highCA plus lowCA)
+454 GSassembler (\texttt{Newbler} version 2.6) and \texttt{Mira}
+(version 3.21) \cite{miraEST}. From this I derived 13,851 contigs that
+were supported by both assembly algorithms, 3,745 contigs only
+supported by one of the assembly algorithms and 22,591 singletons that
+were not assembled by either approach (see table \ref{ass-stat}). When
+scored by matches to known genes, the contigs supported by both
+assemblers are of the highest credibility, and this set is thus termed
+the high credibility assembly (highCA). Those with evidence from only
+one assembler and the singletons are of lower credibility
+(lowCA). These datasets are the most parsimonious (having the smallest
+size) for their quality (covering the largest amount of sequence in
+reference transcriptomes). In the highCA parsimony and low redundancy
+is prioritized, while in the complete assembly (highCA plus lowCA)
 completeness is prioritized. The 40,187 sequences (contig consensuses
 and singletons) in the complete assembly are referred to below as
 tentatively unique genes (TUGs).
@@ -268,7 +268,7 @@ identifier, and 1,829 had GO, EC and KEGG annotations (see figure
   of annotations obtained for Gene Ontology (GO), Enzyme Commission
   (EC) and Kyoto Encyclopedia of Genes and Genomes (KEGG) terms
   through \texttt{Annot8r} \cite{schmid_annot8r:_2008} for all TUGs
-  (a) and for higCA derived contigs (b). The latter includes
+  (a) and for highCA derived contigs (b). The latter includes
   additional domain-based annotations obtained with
   \texttt{InterProScan} \cite{pmid11590104}.}{0.65}
 
@@ -300,7 +300,7 @@ transmembrane anchor) than for the proteome of \textit{C. elegans}
 (4273 signal peptide cleavage sites and 154 with transmembrane
 anchor).
 
-I inferred the presence of a lethal rnai phenotype in the orthologous
+I inferred the presence of a lethal RNAi phenotype in the orthologous
 annotation of \textit{C. elegans}. For 257 TUGs a non-lethal phenotype
 was inferred for 6029 TUGs a lethal phenotype.
 
@@ -338,12 +338,12 @@ bit.50.all & 5604 & 1713 & 2173 & 1485 & 21543 \\
 
 \afterpage{\clearpage}
 
-Roughly a third and a quarter of the higCA derived contigs were
+Roughly a third and a quarter of the highCA derived contigs were
 categorized as conserved across kingdoms at a bitscore threshold of 50
 and 80, respectively. Roughly half or 3/5 of the these contigs were
 identified as novel in \textit{A. crassus}.
 
-The remaining higCA contigs spread across intermediate
+The remaining highCA contigs spread across intermediate
 relatedness-levels. More sequences were categorised as novel at the
 phylum level (Nematoda) compared to kingdom and clade III level and
 the number of contigs at intermediate relatedness-levels was roughly
@@ -370,7 +370,7 @@ and novel in clade III (Fisher's exact test p$<$0.001 ;
   of signal-positives. sigP = signalIP-prediction; Yes-noTM, cleavage
   site predicted; Yes-TM, transmembrane-anchor predicted}
 
-The proportion of lethal rnai phenotypes was significantly higher for
+The proportion of lethal RNAi phenotypes was significantly higher for
 orthologs of conserved TUGs (97.23\%) than for orthologs of TUGs not
 conserved (94.65\%) across kingdoms (p$<$0.001, Fisher's exact test).
 
@@ -381,7 +381,7 @@ of the TUGs that had coverage of more then 8-fold available using
 \texttt{VARScan} \cite{pmid19542151}. I excluded SNPs predicted to
 have more than 2 alleles or that mapped to an undetermined (N) base in
 the reference, and retained 10,458 SNPs. The ratio of transitions (ti;
-6,890) to transversion (tv; 3568) in this set was 1.93 . Using the
+6,890) to transversion (tv; 3568) in this set was 1.93. Using the
 prot4EST predictions and the corrected sequences, 7,153 of the SNPs
 were predicted to be inside an ORF, with 2,310 at codon first
 positions, 1,819 at second positions and 3,024 at third positions. As
@@ -576,7 +576,7 @@ selected]{\textbf{Over-representation of GO-terms in positively
 \end{longtable}
 
 Within the molecular function category, ``peptidase activity'' was the
-most significantly overrepresented term and had 13 TUGs supporting the
+most significantly overrepresented term and had twelve TUGs supporting the
 overrepresentation. The highlighted twelve peptidases annotated with
 eleven unique orthologs in \textit{C. elegans} and \textit{B. malayi}.
 Other overrepresented terms abundant over categories pointed to
@@ -601,13 +601,14 @@ given only for significant comparisons; figure \ref{dn_ds_con}).
   (0.207 and 0.045; p-value for bitscore of 50 and 80,
   Nemenyi-Damico-Wolfe-Dunn test).}
 
-Orthologs of \textit{C. elegans} transcripts with lethal rnai
+Orthologs of \textit{C. elegans} transcripts with lethal RNAi
 phenotype are expected to evolve under stronger selective
 constraints. Indeed the values of dn/ds showed a non-significant trend
 towards lower values in TUGs with orthologs with a lethal phenotype
 compared to a non-lethal phenotypes (p=0.138, two-sided U-test).
 
 \section{SNP markers for single worms}
+\label{sing-w}
 
 I used \texttt{Samtools}\cite{journals/bioinformatics/LiHWFRHMAD09}
 and \texttt{Vcftools}\cite{pmid21653522} to call genotypes in single
@@ -683,41 +684,14 @@ library. 56 contigs were primarily expressed in the libraries from
 Taiwan, 22 contigs in the European library.
 
 Overrepresentation of of GO-terms differentially expressed between the
-male and female libraries highlighted especially ribosomal proteins
-oxidoreductases and collagen processing enzymes as enriched
-(table \ref{over-de-mf-454} and additional figures
+male and female libraries highlighted especially ribosomal proteins,
+oxidoreductases and collagen processing enzymes as enriched (table
+\ref{over-de-mf-454} and additional figures
 \ref{tGO_SEX_EXP_BP_classic_10_all},
 \ref{tGO_SEX_EXP_CC_classic_10_all} and
 \ref{tGO_SEX_EXP_MF_classic_10_all}). These ribosomal proteins were
 all overexpressed in the male library, oxidoreductases and collagen
 processing enzymes were all overexpressed female libraries.
-
-Overrepresentation of of GO-terms differentially expressed between
-libraries from woms of European and Asian origin highlighted catalytic
-activity especially related to energy metabolism
-(table \ref{over-de-ae-454} and additional figures
-\ref{tGO_EEL_EXP_BP_classic_10_all},
-\ref{tGO_EEL_EXP_CC_classic_10_all} and
-\ref{tGO_EEL_EXP_MF_classic_10_all}).  Acyltransferase contigs were
-all upregulated in the European libraries. However, the expression
-patterns for other contigs connected to metabolsim did not show
-concerted up or down-regulation (e.g. for ``steroid biosynthetic
-process'' 2 contigs were downregulated in the European library, 3
-contigs upregulated).
-
-Enrichment of signal-positives was not found in any category of
-overexpressed genes. Differntially expressed genes also showed no
-pattern of enrichement in conservation categories and no enrichment of
-\textit{C. elegans} orthologs with lethal/non-lethal rnai-phenotypes.
-
-Significantly elevated dn/ds was found for contigs differentially
-expressed according to worm-origin (Fisher's exact test p=0.005; also
-both up- or downregulated were significant). Contigs overexpressed in
-the female libraries showed elevated levels of dn/ds (Fisher's exact
-test p=0.035). In contrast male overexpressed genes showed decreased
-levels of dn/ds (Fisher's exact test p=0.015). Within these groups
-there was no correlation between dn/ds and log-fold-change values for
-gene-expression.
 
 
 \begin{longtable}{lp{4.5cm}rrrl}
@@ -850,6 +824,20 @@ selected]{\textbf{Over-representation of GO-terms in differentially
   \ref{tGO_SEX_EXP_MF_classic_10_all}}\\
 \label{over-de-mf-454}
 \end{longtable}
+
+
+Overrepresentation of of GO-terms differentially expressed between
+libraries from woms of European and Asian origin highlighted catalytic
+activity especially related to energy metabolism
+(table \ref{over-de-ae-454} and additional figures
+\ref{tGO_EEL_EXP_BP_classic_10_all},
+\ref{tGO_EEL_EXP_CC_classic_10_all} and
+\ref{tGO_EEL_EXP_MF_classic_10_all}).  Acyltransferase contigs were
+all upregulated in the European libraries. However, the expression
+patterns for other contigs connected to metabolsim did not show
+concerted up or down-regulation (e.g. for ``steroid biosynthetic
+process'' 2 contigs were downregulated in the European library, 3
+contigs upregulated).
 
 
 \begin{longtable}{lp{4.5cm}rrrl}
@@ -992,6 +980,22 @@ GO:0031967 & organelle envelope &  47 &  12 & 5.52 & 0.0033 \\
      \ref{tGO_EEL_EXP_MF_classic_10_all}.}\\
    \label{over-de-ae-454}
 \end{longtable}
+
+Enrichment of signal-positives was not found in any category of
+overexpressed genes. Differntially expressed genes also showed no
+pattern of enrichement in conservation categories and no enrichment of
+\textit{C. elegans} orthologs with lethal/non-lethal RNAi-phenotypes.
+
+Significantly elevated dn/ds was found for contigs differentially
+expressed according to worm-origin (Fisher's exact test p=0.005; also
+both up- or downregulated were significant). Contigs overexpressed in
+the female libraries showed elevated levels of dn/ds (Fisher's exact
+test p=0.035). In contrast male overexpressed genes showed decreased
+levels of dn/ds (Fisher's exact test p=0.015). Within these groups
+there was no correlation between dn/ds and log-fold-change values for
+gene-expression.
+
+
 
 %%% Local Variables: ***
 %%% mode:latex ***

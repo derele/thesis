@@ -75,24 +75,24 @@ as all reads not present in a given assembly.
 
 As mentioned above, the splitting of reads in the \texttt{Newbler}
 assembly can give useful information on possible isoforms, however,
-the the number of contigs \texttt{Newbler} split one read into (in
-some cases more than 100 contigs) seems artificially inflated (see
-figure \ref{split_454}). If information would correspond to real
-isoforms it should be about an order of magnitude lower. This fact
-emphasises the need for further processing of the contigs. The maximum
-number of read-splits in a given contig and its usefulness will be
-discussed later in greater detail.
+the number of contigs \texttt{Newbler} split one read into (in some
+cases more than 100 contigs) seems artificially inflated (see figure
+\ref{split_454}). If information would correspond to real isoforms it
+should be about an order of magnitude lower. This fact emphasises the
+need for further processing of the contigs. The maximum number of
+read-splits in a given contig and its usefulness will be discussed
+later in greater detail.
 
 \section{The \texttt{Mira}-assembly and the second-order assembly}
 \label{sec:assembly-sec}
 
-The \texttt{Mira} assembly provided a second estimate of the
+The \texttt{Mira}-assembly provided a second estimate of the
 transcriptome. In this assembly individual reads are not split. The
 number of reads not used in the \texttt{Mira}-assembly was 65368.
 
 To combine the two assemblies \texttt{cap3} was used with default
 parameters and including the quality information from first-order
-assemblies. The reminder of this text deals with the exploratory
+assemblies. The reminder of this chapter deals with the exploratory
 analysis of how information from both estimates of the transcriptome
 are integrated into the final second-order assembly.
 
@@ -210,7 +210,8 @@ and finally also in one second-order contig by \texttt{Cap3}.
 \figuremacro{ass_contributions}{Contribution to second-order assembly}
 {Number of first-order contigs from both first-order assemblies for
   each second order contig (a) number of reads through
-  \texttt{Newbler} and \texttt{Mira} for each second-order contig (b)}
+  \texttt{Newbler} and \texttt{Mira} for each second-order contig
+  (b).}
 
 A different picture emerges from the contribution of reads through
 each of the first-order assemblies (figure
@@ -317,7 +318,7 @@ highest number of putative full-length genes.
 Given this evaluation I defined a ``minimal adequate'' assembly as the
 subset of contigs of the second-order assembly supported by both
 assemblers (labeled MN above). Given the performance of the singletons
-\texttt{Newbler} reported I defined a ``fullest-assembly'' as all
+\texttt{Newbler} reported. I defined a ``fullest-assembly'' as all
 second-order contigs (including those supported by only one assembler)
 plus the intersection of reported \texttt{Newbler}-singletons and
 \texttt{Mira} singletons.
@@ -362,8 +363,8 @@ the reads used for assembly against the fullest assembly using ssaha2
 \end{itemize}
 
 The ratio of mean per base coverage and unique per base coverage (the
-standard for assesing coverage) can used as to asses the redundancy of
-a contig.
+standard for assesing coverage) can be used as to asses the redundancy
+of a contig.
 
 \subsection{Example use of the contig-measurements}
 
@@ -414,7 +415,7 @@ to a differnt \texttt{Newbler}-contig (num.new.split). That each of
 the 8 reads was only appearing in one other \texttt{Newbler}-contig is
 visible from the fact, that the number of split events is 16
 (sum.new.split) and the maximal number of splits for one read is 2
-(max.new.split). 13 (num.SndO.pair) same-read-pairs from the tow
+(max.new.split). 13 (num.SndO.pair) same-read-pairs from the two
 different first-order assemblies were merged in this second-order
 contig, leaving 3 (16-13) reads in \texttt{Newbler}-contigs and 13
 (26-13) reads in \texttt{Mira} contigs, which all could potentially
@@ -424,7 +425,7 @@ addmitted that the whole graph-structure linking this 24 contigs can't
 be reconstructed from this contig summary data. On the other hand the
 summary data makes clear, from what source the links for
 cluster-affiliation have resulted: In this case from 3 and 13 unlinked
-read-paires from both first-order assemblies and 8 split-reads from
+read-pairs from both first-order assemblies and 8 split-reads from
 \texttt{Newbler}-fist order contigs.
 
 A comprehensive interpretation of the other example-contigs depicted
@@ -438,13 +439,13 @@ the cluster-membership and cluster-size. Such clusters can represent
 close paralogs, duplicated genes, isoforms from alternative splicing
 or allelic variants. Cluster size correlates as expected with the
 ratio of unique/non-unique coverage, as contigs in clusters contain
-redundant sequence also found in other contigs.
+redundant sequences also found in other contigs.
 
 These measurements were used in all later analyses to evaluate
 likelihood of misassembly artefacts as an influence on a given set of
-biologicall relevant contigs. All gene-sets mentioned later were thus,
-as a matter of routine, controlled for unusual patterns in the contig
-meta-data.
+biological relevant contigs. All gene-sets mentioned later (in chapter
+\ref{cha:pyro}) were thus, as a matter of routine, controlled for
+unusual patterns in the contig meta-data.
 
 \section{Finalising the fullest assembly set}
 \label{sec:final-full-assembly}
@@ -473,8 +474,8 @@ trusted MN-category contigs having no coverage at all and the contigs
 \caption[finalizing the assembly]{\textbf{Final filtering of the
     assembly -} Number of contigs with a coverage and unique-coverage
   of zero, inferred from mapping of raw reads, listed by
-  contig-category. Only the contigs in bold were not screened from the
-  assembly ().}
+  contig-category. Only the contigs in bold listed here were not
+  screened from the assembly (7 MN-contigs).}
 \label{tab:cov.ex}
 \end{center}
 \end{table}

@@ -648,6 +648,14 @@ id=1279744}{{\bf Molecular Phylogeny of Clade {III} Nematodes Reveals Multiple
   parts}}}.
 \newblock {\em Expert Rev Proteomics}, {\bf 7}:65--77, Feb 2010.
 
+\bibitem{pmid20237107}
+{\sc N.~Borchert, C.~Dieterich, K.~Krug, W.~Schutz, S.~Jung, A.~Nordheim, R.~J.
+  Sommer, and B.~Macek}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20237107}{{\bf
+  {{P}roteogenomics of {P}ristionchus pacificus reveals distinct proteome
+  structure of nematode models}}}.
+\newblock {\em Genome Res.}, {\bf 20}:837--846, Jun 2010.
+
 \bibitem{pmid21593866}
 {\sc B.~Schwanhausser, D.~Busse, N.~Li, G.~Dittmar, J.~Schuchhardt, J.~Wolf,
   W.~Chen, and M.~Selbach}.
@@ -1033,14 +1041,6 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {{C}haracterizing {A}ncylostoma caninum transcriptome and exploring nematode
   parasitic adaptation}}}.
 \newblock {\em BMC Genomics}, {\bf 11}:307, 2010.
-
-\bibitem{pmid20237107}
-{\sc N.~Borchert, C.~Dieterich, K.~Krug, W.~Schutz, S.~Jung, A.~Nordheim, R.~J.
-  Sommer, and B.~Macek}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20237107}{{\bf
-  {{P}roteogenomics of {P}ristionchus pacificus reveals distinct proteome
-  structure of nematode models}}}.
-\newblock {\em Genome Res.}, {\bf 20}:837--846, Jun 2010.
 
 \bibitem{pmid20950480}
 {\sc S.~Kumar and M.~L. Blaxter}.
@@ -1428,9 +1428,9 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid20133352}
 {\sc H.~S. Rane, J.~M. Smith, U.~Bergthorsson, and V.~Katju}.
-\newblock {\bf {{G}ene conversion and {D}{N}{A} sequence polymorphism in the
-  sex-determination gene fog-2 and its paralog ftr-1 in {C}aenorhabditis
-  elegans}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20133352}{{\bf {{G}ene
+  conversion and {D}{N}{A} sequence polymorphism in the sex-determination gene
+  fog-2 and its paralog ftr-1 in {C}aenorhabditis elegans}}}.
 \newblock {\em Mol. Biol. Evol.}, {\bf 27}:1561--1569, Jul 2010.
 
 \bibitem{pmid16757655}
@@ -1551,10 +1551,9 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 
 \bibitem{pmid9843981}
 {\sc M.~B. Eisen, P.~T. Spellman, P.~O. Brown, and D.~Botstein}.
-\newblock {\bf {{C}luster analysis and display of genome-wide expression
-  patterns}}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9843981}{{\bf {{C}luster
+  analysis and display of genome-wide expression patterns}}}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 95}:14863--14868, Dec 1998.
-\newblock http://www.ncbi.nlm.nih.gov/pubmed/9843981.
 
 \bibitem{pmid9327537}
 {\sc I.~G. Wilson}.
@@ -1732,6 +1731,12 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   different?}}}
 \newblock {\em Am. Nat.}, {\bf 165 Suppl 5}:19--25, May 2005.
 
+\bibitem{pmid18454194}
+{\sc W.~G. Hill, M.~E. Goddard, and P.~M. Visscher}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18454194}{{\bf {{D}ata and
+  theory point to mainly additive genetic variance for complex traits}}}.
+\newblock {\em PLoS Genet.}, {\bf 4}:e1000008, Feb 2008.
+
 \bibitem{pmid12219088}
 {\sc M.~F. Oleksiak, G.~A. Churchill, and D.~L. Crawford}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12219088}{{\bf {{V}ariation
@@ -1793,6 +1798,13 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   mice}}}.
 \newblock {\em Genome Res.}, {\bf 16}:995--1004, Aug 2006.
 
+\bibitem{pmid15034135}
+{\sc S.~V. Nuzhdin, M.~L. Wayne, K.~L. Harmon, and L.~M. McIntyre}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15034135}{{\bf {{C}ommon
+  pattern of evolution of gene expression level and protein sequence in
+  {D}rosophila}}}.
+\newblock {\em Mol. Biol. Evol.}, {\bf 21}:1308--1317, Jul 2004.
+
 \bibitem{pmid19720861}
 {\sc Z.~F. Jiang and C.~A. Machado}.
 \newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19720861}{{\bf {{E}volution
@@ -1800,12 +1812,11 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {D}rosophila}}}.
 \newblock {\em Genetics}, {\bf 183}:1175--1185, Nov 2009.
 
-\bibitem{pmid15034135}
-{\sc S.~V. Nuzhdin, M.~L. Wayne, K.~L. Harmon, and L.~M. McIntyre}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15034135}{{\bf {{C}ommon
-  pattern of evolution of gene expression level and protein sequence in
-  {D}rosophila}}}.
-\newblock {\em Mol. Biol. Evol.}, {\bf 21}:1308--1317, Jul 2004.
+\bibitem{pmid18023115}
+{\sc B.~Lemire}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/18023115}{{\bf
+  {{M}itochondrial genetics}}}.
+\newblock {\em WormBook}, pages 1--10, 2005.
 
 \bibitem{pmid11786267}
 {\sc M.~Valachovic, V.~Klobucnikova, P.~Griac, and I.~Hapala}.
@@ -1870,6 +1881,77 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   elegans}}}.
 \newblock {\em Methods Mol. Biol.}, {\bf 372}:51--66, 2007.
 
+\bibitem{pmid8592440}
+{\sc R.~A. Capaldi, M.~F. Marusich, and J.~W. Taanman}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8592440}{{\bf {{M}ammalian
+  cytochrome-c oxidase: characterization of enzyme and immunological detection
+  of subunits in tissue extracts and whole cells}}}.
+\newblock {\em Meth. Enzymol.}, {\bf 260}:117--132, 1995.
+
+\bibitem{pmid9695101}
+{\sc C.~Pereira, P.~G. Fallon, J.~Cornette, A.~Capron, M.~J. Doenhoff, and
+  R.~J. Pierce}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/9695101}{{\bf {{A}lterations
+  in cytochrome-c oxidase expression between praziquantel-resistant and
+  susceptible strains of {S}chistosoma mansoni}}}.
+\newblock {\em Parasitology}, {\bf 117 ( Pt 1)}:63--73, Jul 1998.
+
+\bibitem{pmid20362581}
+{\sc U.~Strubing, R.~Lucius, A.~Hoerauf, and K.~M. Pfarr}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20362581}{{\bf
+  {{M}itochondrial genes for heme-dependent respiratory chain complexes are
+  up-regulated after depletion of {W}olbachia from filarial nematodes}}}.
+\newblock {\em Int. J. Parasitol.}, {\bf 40}:1193--1202, Aug 2010.
+
+\bibitem{pmid19806204}
+{\sc E.~Ghedin, T.~Hailemariam, J.~V. DePasse, X.~Zhang, Y.~Oksov, T.~R.
+  Unnasch, and S.~Lustigman}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19806204}{{\bf {{B}rugia
+  malayi gene expression in response to the targeting of the {W}olbachia
+  endosymbiont by tetracycline treatment}}}.
+\newblock {\em PLoS Negl Trop Dis}, {\bf 3}:e525, 2009.
+
+\bibitem{pmid15767563}
+{\sc A.~U. Rao, L.~K. Carta, E.~Lesuisse, and I.~Hamza}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/15767563}{{\bf {{L}ack of
+  heme synthesis in a free-living eukaryote}}}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, {\bf 102}:4270--4275, Mar 2005.
+
+\bibitem{pmid8289797}
+{\sc T.~L. Ulery, S.~H. Jang, and J.~A. Jaehning}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/8289797}{{\bf {{G}lucose
+  repression of yeast mitochondrial transcription: kinetics of derepression and
+  role of nuclear genes}}}.
+\newblock {\em Mol. Cell. Biol.}, {\bf 14}:1160--1170, Feb 1994.
+
+\bibitem{pmid19843606}
+{\sc T.~T. Torres, M.~Dolezal, C.~Schlotterer, and B.~Ottenwalder}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19843606}{{\bf {{E}xpression
+  profiling of {D}rosophila mitochondrial genes via deep m{R}{N}{A}
+  sequencing}}}.
+\newblock {\em Nucleic Acids Res.}, {\bf 37}:7509--7518, Dec 2009.
+
+\bibitem{pmid19821901}
+{\sc N.~Galtier, B.~Nabholz, S.~Glemin, and G.~D. Hurst}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/19821901}{{\bf
+  {{M}itochondrial {D}{N}{A} as a marker of molecular diversity: a
+  reappraisal}}}.
+\newblock {\em Mol. Ecol.}, {\bf 18}:4541--4550, Nov 2009.
+
+\bibitem{kennedy2001parasitic}
+{\sc M.W. Kennedy and W.~Harnett}.
+\newblock {\em Parasitic nematodes: molecular biology, biochemistry, and
+  immunology}.
+\newblock CABI, 2001.
+
+\bibitem{pmid12447374}
+{\sc S.~S. Lee, R.~Y. Lee, A.~G. Fraser, R.~S. Kamath, J.~Ahringer, and
+  G.~Ruvkun}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12447374}{{\bf {{A}
+  systematic {R}{N}{A}i screen identifies a critical role for mitochondria in
+  {C}. elegans longevity}}}.
+\newblock {\em Nat. Genet.}, {\bf 33}:40--48, Jan 2003.
+
 \bibitem{mealloprot}
 {\sc R.~P. Mecham and Parks~W. C.}, editors.
 \newblock {\em Matrix Metalloproteinases}.
@@ -1880,6 +1962,32 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
 \newblock {\bf Cause and effect in biology}.
 \newblock {\em Science}, {\bf 134}(3489):1501--1506, 1961.
 
+\bibitem{pmid21838806}
+{\sc W.~Sun}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21838806}{{\bf {{A}
+  {S}tatistical {F}ramework for e{Q}{T}{L} {M}apping {U}sing {R}{N}{A}-seq
+  {D}ata}}}.
+\newblock {\em Biometrics}, Aug 2011.
+
+\bibitem{pmid16251466}
+{\sc R.~Nielsen, S.~Williamson, Y.~Kim, M.~J. Hubisz, A.~G. Clark, and
+  C.~Bustamante}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/16251466}{{\bf {{G}enomic
+  scans for selective sweeps using {S}{N}{P} data}}}.
+\newblock {\em Genome Res.}, {\bf 15}:1566--1575, Nov 2005.
+
+\bibitem{wright1949genetical}
+{\sc S.~Wright}.
+\newblock {\bf The genetical structure of populations}.
+\newblock {\em Annals of Human Genetics}, {\bf 15}(1):323--354, 1949.
+
+\bibitem{pmid2513255}
+{\sc F.~Tajima}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/2513255}{{\bf {{S}tatistical
+  method for testing the neutral mutation hypothesis by {D}{N}{A}
+  polymorphism}}}.
+\newblock {\em Genetics}, {\bf 123}:585--595, Nov 1989.
+
 \bibitem{pmid18852878}
 {\sc N.~A. Baird, P.~D. Etter, T.~S. Atwood, M.~C. Currey, A.~L. Shiver, Z.~A.
   Lewis, E.~U. Selker, W.~A. Cresko, and E.~A. Johnson}.
@@ -1887,13 +1995,30 @@ bf {N}{E}{M}{B}{A}{S}{E}: a resource for parasitic nematode {ESTs}}}.
   {S}{N}{P} discovery and genetic mapping using sequenced {R}{A}{D} markers}}}.
 \newblock {\em PLoS ONE}, {\bf 3}:e3376, 2008.
 
-\bibitem{pmid12447374}
-{\sc S.~S. Lee, R.~Y. Lee, A.~G. Fraser, R.~S. Kamath, J.~Ahringer, and
-  G.~Ruvkun}.
-\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/12447374}{{\bf {{A}
-  systematic {R}{N}{A}i screen identifies a critical role for mitochondria in
-  {C}. elegans longevity}}}.
-\newblock {\em Nat. Genet.}, {\bf 33}:40--48, Jan 2003.
+\bibitem{pmid21681211}
+{\sc J.~W. Davey, P.~A. Hohenlohe, P.~D. Etter, J.~Q. Boone, J.~M. Catchen, and
+  M.~L. Blaxter}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/21681211}{{\bf
+  {{G}enome-wide genetic marker discovery and genotyping using next-generation
+  sequencing}}}.
+\newblock {\em Nat. Rev. Genet.}, {\bf 12}:499--510, Jul 2011.
+
+\bibitem{pmid20195501}
+{\sc P.~A. Hohenlohe, S.~Bassham, P.~D. Etter, N.~Stiffler, E.~A. Johnson, and
+  W.~A. Cresko}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20195501}{{\bf {{P}opulation
+  genomics of parallel adaptation in threespine stickleback using sequenced
+  {R}{A}{D} tags}}}.
+\newblock {\em PLoS Genet.}, {\bf 6}:e1000862, Feb 2010.
+
+\bibitem{pmid20007865}
+{\sc Y.~F. Chan, M.~E. Marks, F.~C. Jones, G.~Villarreal, M.~D. Shapiro, S.~D.
+  Brady, A.~M. Southwick, D.~M. Absher, J.~Grimwood, J.~Schmutz, R.~M. Myers,
+  D.~Petrov, B.~Jonsson, D.~Schluter, M.~A. Bell, and D.~M. Kingsley}.
+\newblock \href{http://www.ncbi.nlm.nih.gov/pubmed/20007865}{{\bf {{A}daptive
+  evolution of pelvic reduction in sticklebacks by recurrent deletion of a
+  {P}itx1 enhancer}}}.
+\newblock {\em Science}, {\bf 327}:302--305, Jan 2010.
 
 \bibitem{ewing_base-calling_1998}
 {\sc B.~Ewing, L.~Hillier, M.~C. Wendl, and P.~Green}.

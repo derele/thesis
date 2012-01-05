@@ -157,14 +157,14 @@ devided by 70 and rounded to the next integer. So only one
 homo-polymer-run of more then 5 bases was allowed per 75 bases.
 
 Sequences were screened for host contamination by a comparison of
-\texttt{BLAST} searches against the version of nempep4 and a fish
+\texttt{Blast} searches against the version of nempep4 and a fish
 protein database. Sequences producing better bit scores againt fish
 proteins than nematode proteins were labeled as host-contamination.
 
 Only the trace-files corresponding to the sequences still regarded as
 good after this step were processed with trace2dbEST. Additionally to
 the processing of traces already included in trace2seq sequences were
-preliminary annotated using \texttt{BLAST} versus the NCBI-NR
+preliminary annotated using \texttt{Blast} versus the NCBI-NR
 non-redundant protein database and EST-submission-files were produced.
 
 \section{454-pyro-sequencing}
@@ -197,7 +197,7 @@ screened for adapter sequences of the MINT-amplification-kit using
   20 -minmatch 10}). \texttt{Seqclean} \cite{tgicl_pertea} was used to
 identify and remove poly-A-tails, low quality, repetitive and short
 (<100 base) sequences. All reads were compared to a set of screening
-databases using \texttt{BLAST} (expect value cutoff E<1e-5, low
+databases using \texttt{Blast} (expect value cutoff E<1e-5, low
 complexity filtering turned off: -F F). The databases used were (a) a
 host sequence database comprising an assembly of the
 \textit{An. japonica} Roche 454 data, a unpublished assembly of
@@ -205,9 +205,9 @@ host sequence database comprising an assembly of the
 (made available to us by Gordon Cramb, University of St Andrews) and
 transcripts from EeelBase \cite{pmid21080939} a publicly available
 transcriptome database for the European eel; (b) a database of
-ribosomal RNA (rRNA) sequences from eel species derived from our Roche
+ribosomal RNA (rRNA) sequences from eel species derived from my Roche
 454 data and EMBL-Bank; and (c) a database of rRNA sequences
-identified in our \textit{A. crassus} data by comparing the reads to
+identified in my \textit{A. crassus} data by comparing the reads to
 known nematode rRNAs from EMBL-Bank. This last database notably also
 contained xenobiont rRNA sequences. Reads with matches to one of these
 databases over more than 80\% of their length and with greater than
@@ -273,11 +273,11 @@ analysis.
 Protein translations were predicted from the contigs using
 \texttt{prot4EST} (version 3.0b)
 \cite{wasmuth_prot4est:_2004}. Proteins were predicted either by
-joining single high scoring segment pairs (HSPs) from a \texttt{BLAST}
+joining single high scoring segment pairs (HSPs) from a \texttt{Blast}
 search of uniref100 \cite{pmid18836194}, or by \texttt{ESTscan}
 \cite{estscan}, using as training data the \textit{Brugia malayi}
 complete proteome back-translated using a codon usage table derived
-from the \texttt{BLAST} HSPs, or, if the first two methods failed,
+from the \texttt{Blast} HSPs, or, if the first two methods failed,
 simply the longest ORF in the contig. For contigs where the protein
 prediction required insertion or deletion of bases in the original
 sequence, I also imputed an edited sequence for each affected
@@ -286,7 +286,7 @@ and Kyoto Encyclopedia of Genes and Genomes (KEGG) terms were inferred
 for these proteins using \texttt{Annot8r} (version 1.1.1)
 \cite{schmid_annot8r:_2008}, using the annotated sequences available
 in uniref100 \cite{pmid18836194}. Up to 10 annotations based on a
-\texttt{BLAST} similarity bitscore cut-off of 55 were obtained for
+\texttt{Blast} similarity bitscore cut-off of 55 were obtained for
 each annotation set. The complete \textit{B. malayi} proteome (as
 present in uniref100) and the complete \textit{C. elegans} proteome
 (as present in wormbase v.220) were also annotated in the same
@@ -347,7 +347,7 @@ of libraries.
 
 Additionally I collapsed TUGs by their orthologous assignment in
 \textit{C. elegans} and \textit{B. malayi}. I used the sums of counts
-for these orthologous-groups to asses the influence of mapping to our
+for these orthologous-groups to asses the influence of mapping to my
 potentially fragmented reference. For both model-nematodes fold-change
 and p-values were obtained the same way than for the contigs and
 merged with these.
@@ -386,58 +386,62 @@ The absence of infecions with \textit{A. crassus} in both eel-species
 was confirmed by dissection of 10 individuals of each species.
 
 After an acclimatisation periode of 4 weeks (\textit{An. anguilla}) or
-when they reached a size of $>$ 35cm (\textit{An. japonica} eels were
+when they reached a size of $>$ 35cm (\textit{An. japonica}) eels were
 infected using a stomach tube as described in
 \cite{boon1990effect}. During the infection periode water temperature
 was held constant at 20$^{\circ}$C. Eels were kept in 160-liter tanks
 in groups of 5-10 individuals and continuously provided with fresh,
-oxygenated water and commercial fish pellets (Dan-Ex 2848, Dana Feed
-A/S Ltd, Horsens, Denmark).
+oxygenated water and once every two days with commercial fish pellets
+(Dan-Ex 2848, Dana Feed A/S Ltd, Horsens, Denmark) \textit{at
+  libitum}.
 
 L2 larvae used for the infection were collected from the swimbladders
 of wild yellow and silver eels from the River Rhine near Karlsruhe and
 from Lake M\"uggelsee near Berlin in Germany. Taiwanese larvae were
-obtained from aquacultre adjacent to Kao Ping River in south
-Taiwan. They were stored at 4$^{\circ}$C for no longer than 2 weeks
-before copepods were infected. Mixed species samples of uninfected
-copepods were collected from a small pond near Karlsruhe, known to be
-free of eels (and \textit{Anguillicola}). They were infected
-individually in wells of micro-titer plates at an intensity of roughly
-10 L2-larvae per copepod. One week after infection they were placed in
-bigger tanks. Twice a week yeast was provided as food and at 21 dpi
-the L3 were harvested with a tissue potter using a modified procedure
-developed by \cite{haenen_improved_1994}. 50 L3 were suspended in 100
-$\mu$l RPMI-1640 medium (Quiagen, Hilden, Germany) and eels were
-infected.
+obtained from eels from an aquacultre adjacent to Kao Ping River in
+south Taiwan and from a second aquaculture in Yunlin county,
+approximately 150 km further north on the west coast of Taiwan. They
+were stored at 4$^{\circ}$C for no longer than 2 weeks before copepods
+were infected. Mixed species samples of uninfected copepods were
+collected from a small pond near Karlsruhe, known to be free of eels
+(and \textit{Anguillicola}). They were infected individually in wells
+of micro-titer plates at an intensity of roughly 10 L2-larvae per
+copepod. One week after infection they were placed in bigger
+tanks. Twice a week yeast was provided as food and at 21 dpi infective
+L3 were harvested with using a tissue potter as described by
+\cite{haenen_improved_1994}. 50 L3 for infection of individaul eel
+were suspended in 100 $\mu$l RPMI-1640 medium (Quiagen, Hilden,
+Germany) and eels were infected as described above.
 
 55-57 days post infection (dpi) eels were euthanized and dissected.
 The swimbladder was opened and after determination of the sex of adult
-worms under a binocular microscope (Semi 2000, Zeiss, Germany), they
-were immediately immersed in RNAlater (Quiagen, Hilden, Germany).
+worms under a binocular microscope (Semi 2000, Zeiss, Germany), adult
+\textit{A. crassus} were immediately immersed in RNAlater (Quiagen,
+Hilden, Germany).
 
-\subsection{RNA exrtaction and preparation of sequencing libraries}
+\subsection{RNA extraction and preparation of sequencing libraries}
 
 RNA was extracted from 12 individual female worms and for 12 pools of
 male worms using the RNeasy-kit (Quiagen, Hilden, Germany) (see table
 \ref{tab:lib-prep}).
 
-The Paired-End TruSeqTM RNA sample preparation kit (illumina) was
-followed to build cDNA libraries with insert sizes of roughly 270 bp
-for paired-end sequencing: Briefly, poly-T oligo-attached magnetic
-beads were used for purification of mRNA and to simultaniously
-fragment the RNA. The RNA was then primed with random hexamer primers
-for cDNA synthesis and reverse transcribed into first strand cDNA
-using reverse transcriptase. The cDNA was cleaned from the 2nd strand
-reaction, overhangs were repaired to form blunt ends, a single
-``A''-nucleotide was added at the 3' end and paired end sequencing
-adapters ware ligated with a complementary ``T''-overhang. In this
-step multiple differently indexed paired-end adapters were used to
-enable multiplexing of the 24 different sequening libraries in 3 pools
-of 8 samples each. These three pools all contained one random
-replicate each for each treatent combination ensuring complete
-statistical independence of replicates. Molecules having adapter
-sequences were enriched in the mix using PCR and the libraries were
-controled for quality and quantity on the BioAnalyzer
+The paired-end TruSeqTM RNA sample preparation kit (Illumina) was
+followed to build sequencing libraries with insert sizes of roughly
+270 bp for paired-end sequencing from cDNA libraries: Briefly, poly-T
+oligo-attached magnetic beads were used for purification of mRNA and
+to simultaniously fragment the RNA. The RNA was then primed with
+random hexamer primers for cDNA synthesis and reverse transcribed into
+first strand cDNA using reverse transcriptase. The cDNA was cleaned
+from the 2nd strand reaction, overhangs were repaired to form blunt
+ends, a single ``A''-nucleotide was added at the 3' end and paired end
+sequencing adapters ware ligated with a complementary
+``T''-overhang. In this step multiple differently indexed paired-end
+adapters were used to enable multiplexing of the 24 different
+sequening libraries in 3 pools of 8 samples each. These three pools
+all contained one random replicate each for each treatent combination
+ensuring complete statistical independence of replicates. Molecules
+having adapter sequences were enriched in the mix using PCR and the
+libraries were controled for quality and quantity on the BioAnalyzer
 (Agilent). Clusters were generated by bridge amplification. The
 resulting clusters were sequenced on the Genome Analyzer IIX in
 combination with the paired-end module. The first read was sequenced
@@ -454,7 +458,7 @@ inferred as host or xenobiont origin as filter) using \texttt{BWA}
 \cite{pmid20080505} (version 0.5.9-r16; \texttt{BWA aln} and
 \texttt{BWA sampe} with default options) and processed with
 \texttt{samtools} \cite{journals/bioinformatics/LiHWFRHMAD09} (version
-0.1.18; \texttt{samtools view -uS -q 1}) to only allwo uniquely
+0.1.18; \texttt{samtools view -uS -q 1}) to only allow uniquely
 mapping reads. All reads mapping to host- and xenobiont off-target
 data were removed during downstream evaluation.
 
@@ -466,12 +470,12 @@ these counts were used in further tests of reference fragmentation).
 
 The remaining counts were normalized using \texttt{DESeq} (version
 1.6.1) (i.e.  the normalization factor was estimated by the median of
-scaled counts, similar to teh weighted trimmed mean of the log
+scaled counts, similar to the weighted trimmed mean of the log
 expression ratios used later in \texttt{edgeR}). All tables
 summarizing read-counts are based on these normalized counts. I
 obtained ``variance stabilized data'' in an expression matrix for each
 gene and library using the ``blind'' option in a calculation not
-informed (and biased by the) design. These data were used in all
+informed (and biased by) the model-design. These data were used in all
 gene-centric heatmap and multivariate visualisations. Additonally this
 matix was transposed to get sample-to-sample distances.
 
@@ -510,7 +514,7 @@ the assembly on mapping and read-counts I summed read counts over
 orthologous sequence in \textit{C. elegans} and
 \textit{B. malayi}. For this purpose I used all reference contigs
 (also lowCA-derived contigs to allow inference of fragmental mapping
-to those, but not contigs of non \textit{A. crassus} origin)
+to those, but not contigs of non-\textit{A. crassus} origin).
 Differential expression for these orthologous-counts was analysed the
 same way as for contigs. Contigs were filtered based on inferrence
 from orthologous counts merging the two orthologous evaluations and
@@ -524,10 +528,10 @@ orthologous evaluations.
 I used the R-package \texttt{vegan} (version 2.0-2) to perform
 constrained redundancy analysis on contigs identified as significant
 in GLMs before. For each set of contigs (different for sex, eel-host
-of worm-population) the appropriate constrained was used. The
-proportion of the variance explained by the constrained component was
-recorded and the constrained component was tested for significance
-using a permutation test implemented in \texttt{vegan}.
+or worm-population) the appropriate constrained component was
+used. The proportion of the variance explained by the constrained
+component was recorded and the constrained component was tested for
+significance using a permutation test implemented in \texttt{vegan}.
 
 \subsection{GO-term enrichment analysis}
 

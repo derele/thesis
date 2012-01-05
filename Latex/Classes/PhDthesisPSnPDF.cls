@@ -293,7 +293,7 @@
     \end{center}
     \vspace*{1ex}
     \vspace{10mm}
-    {{Dekan:  } \par}
+    {{Dekan: Prof. Dr. Martin Bastmeyer} \par}
     \vspace{2mm}
     {{Referent: Prof. Dr. Horst Taraschewski} \par}
     \vspace{2mm}
