@@ -21,8 +21,8 @@
 \section{Overview}
 \label{sec:454-overv}
 
-In this chater the transcriptome assembly of \textit{A. crassus} is
-analysed in its biological context. It constitues a basis for
+In this chapter the transcriptome assembly of \textit{A. crassus} is
+analysed in its biological context. It constitutes a basis for
 molecular research on this important species and furthermore provides
 unique insights into the evolution of parasitism in the Spirurina.
 
@@ -37,14 +37,14 @@ Nematoda and novel in \textit{A. crassus}. I identified 5,112 high
 quality Single nucleotide polymorphisms (SNPs) and suggest 199 of them
 as most suitable markers for population-genetic studies. Correlation
 between different analyses provided further insights and confirmed
-biologicaly relevant expectations: I found an overabundance of
+biologically relevant expectations: I found an overabundance of
 predicted signal peptide cleavage sites in sequence conserved in
 Nematoda and novel in \textit{A. crassus}, correlations between coding
 polymorphism and differential expression, between coding polymorphism
 and peptide cleavage sites and between conservation and presence of
 orthologs with lethal RNAi-phenotypes in \textit{C. elegans}. GO-term
 analysis identified an enrichment of peptidases and subunits of the
-respiratory chain for transcritps under positive selection. Enzymes
+respiratory chain for transcripts under positive selection. Enzymes
 for energy metabolism were also found enriched in genes differentially
 expressed between European and Asian \textit{A. crassus}.
 
@@ -63,11 +63,11 @@ uninfected \textit{An. japonica} for screening.
 
 \section{Sequencing, trimming and pre-assembly screening}
 
-A total of 756363 raw sequencing reads were generated for
+A total of 756,363 raw sequencing reads were generated for
 \textit{A. crassus} (see table \ref{screening-lib}). These were
-trimmed for base call quality, and filtered by length to give 585949
-high-quality reads (spanning 169863104 bases). In the eel dataset from
-159370 raw reads 135072 were assembled after basic quality screening.
+trimmed for base call quality, and filtered by length to give 585,949
+high-quality reads (spanning 169,863,104 bases). In the eel dataset from
+159,370 raw reads 135,072 were assembled after basic quality screening.
 
 I then screened the \textit{A. crassus} reads for contamination by
 host (30,071 matched previously sequenced eel genes or my own
@@ -84,7 +84,7 @@ RNA genes (see table \ref{screening-lib}).
    \hline
 library & E1 & E2 & L2 & M & T1 & T2 \\ 
    \hline
-life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\ 
+life.st & adult f & adult f & L2 larvae & adult m & adult f & adult f \\ 
   source.p & Europe R & Europe P & Europe R & Asia C & Asia C & Asia W \\ 
   raw.reads & 209325 & 111746 & 112718 & 106726 & 99482 & 116366 \\ 
   lowqal & 92744 & 10903 & 15653 & 15484 & 7947 & 27683 \\ 
@@ -100,8 +100,8 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
   over.32 &  3528 & 34051 & 10444 & 21219 & 22435 \\ 
   \hline
 \end{tabular}
-\caption[Pyro-sequencing library statistics]{\textbf{Statistics for different 
-    libraries} 
+\caption[Pyrosequencing library statistics]{
+  \textbf{Pyrosequencing library statistics} - 
   For two sequencing libraries from European eels (E1 and E2)
   one form L2-larvae (L2), one from male (M) and two from Eels in Taiwan
   (T1 and T2) the following statistics are given. life.st = lifecycle
@@ -121,7 +121,7 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
   screening). mapping.MN = number of reads mapping to the highCA-derived
   part of the assembly (and also \textit{A. crassus} origin). over.32 =
   number of reads mapping to contigs with overall coverage of more than
-  32 reads (considered in gene-expression analysis)}
+  32 reads (considered in gene-expression analysis).}
   \label{screening-lib}
 \end{table}
 
@@ -129,8 +129,7 @@ life.st & adult f & adult f & L2 lavae & adult m & adult f & adult f \\
 
 \section{Assembly (see also chapter \ref{chap:eval-ass})}
 
-
-I assembled the remaining 353055 reads (spanning 100491819 bases)
+I assembled the remaining 353,055 reads (spanning 100,491,819 bases)
 using the combined assembler strategy \cite{pmid20950480} and Roche
 454 GSassembler (\texttt{Newbler} version 2.6) and \texttt{Mira}
 (version 3.21) \cite{miraEST}. From this I derived 13,851 contigs that
@@ -144,8 +143,8 @@ one assembler and the singletons are of lower credibility
 (lowCA). These datasets are the most parsimonious (having the smallest
 size) for their quality (covering the largest amount of sequence in
 reference transcriptomes). In the highCA parsimony and low redundancy
-is prioritized, while in the complete assembly (highCA plus lowCA)
-completeness is prioritized. The 40,187 sequences (contig consensuses
+is prioritised, while in the complete assembly (highCA plus lowCA)
+completeness is prioritised. The 40,187 sequences (contig consensuses
 and singletons) in the complete assembly are referred to below as
 tentatively unique genes (TUGs).
 
@@ -179,7 +178,7 @@ total.contigs & 26336 & 13851 & 40187 \\
    \hline
 \end{tabular}
 \caption[Assembly classification and contig
-statistics]{\textbf{Assembly classification and contig statistics -}
+statistics]{\textbf{Assembly classification and contig statistics} -
   Summary statistics for contigs from different assembly-categories
   given in columns as highCA = high credibility assembly; lowCA = low
   credibility assembly, combined = complete assembly. Rows indicate
@@ -284,7 +283,7 @@ coefficient) than to the proteome of \textit{C. elegans} (0.9). Also
 the tow model-nematode compared to each other (0.91) are less similar
 in the occurrence of terms than the two parasites.
 
-\figuremacro{slim_com}{Cross taxa comparison of annotation}{For Gene
+\figuremacro{slim_com}{Cross-taxa comparison of annotation}{For Gene
   Ontology (GO) categories molecular function, cellular compartment
   and biological process the number of terms in high level GO-slim
   categories is given as obtained through \texttt{Annot8r}
@@ -324,12 +323,12 @@ bit.50.all & 5604 & 1713 & 2173 & 1485 & 21543 \\
    \hline
 \end{tabular}
 \caption[Evolutionary conservation and novelty]{\textbf{Evolutionary
-    conservation and novelty -} The kingdom Metazoa (novel.in.m),
+    conservation and novelty} - The kingdom Metazoa (novel.in.m),
   the phylum Nematoda (novel.in.n) and clade III (Spirurina;
   novel.in.cl3) were assessed for occurrences of
   \texttt{BLAST}-hits at two different bitscore thresholds (50 =
   bit.50 and 80 = bit.80). TUGs without any hit at a given threshold 
-  were categorized as novel in \textit{A. crssus} (novel.in.Ac).
+  were categorised as novel in \textit{A. crassus} (novel.in.Ac).
   Both novelty and conservation can be
   derived from this (numbers for conservation would be the cumulative
   sum of lower-level novelty).}
@@ -339,7 +338,7 @@ bit.50.all & 5604 & 1713 & 2173 & 1485 & 21543 \\
 \afterpage{\clearpage}
 
 Roughly a third and a quarter of the highCA derived contigs were
-categorized as conserved across kingdoms at a bitscore threshold of 50
+categorised as conserved across kingdoms at a bitscore threshold of 50
 and 80, respectively. Roughly half or 3/5 of the these contigs were
 identified as novel in \textit{A. crassus}.
 
@@ -362,8 +361,8 @@ annotation compared to conserved proteins, proteins novel in Metazoa
 and novel in clade III (Fisher's exact test p$<$0.001 ;
 \ref{nov_sig}).
 
-\figuremacro{nov_sig}{Enrichment of Signal-positives for categories of
-  evolutionary conservations}{Proportions of
+\figuremacro{nov_sig}{Enrichment of signal-positives for categories of
+  evolutionary conservation}{Proportions of
   \texttt{SignalP}-predictions for each category of evolutionary
   conservation. Generally - across bit-score thresholds - TUGS novel
   in nematodes and in \textit{A. crassus} have the highest proportion
@@ -389,14 +388,14 @@ expected ti/tv inside ORFs (2.41) was higher than outside ORFs
 (1.25). The ratio of synonymous polymorphisms per synonymous site to
 non-synonymous polymorphisms per non-synonymous site (dn/ds) was
 0.42. I filtered these SNPs to exclude those that might be associated
-with analytical bias. As Roche 454 sequences have well-known
+with analytic bias. As Roche 454 sequences have well-known
 systematic errors associated with homopolymeric nucleotide sequences
 \cite{pmid21685085}, I analysed the effect of exclusion of SNPs in, or
 close to, homopolymer regions. I observed changes in ti/tv and in
 dn/ds when SNPs were discarded using different size thresholds for
 homopolymer runs and proximity thresholds (see figure \ref{snp_hom}).
 
-\figuremacro{snp_hom}{Homoploymer screening for SNP-calling}{When SNPs
+\figuremacro{snp_hom}{Homopolymer screening for SNP-calling}{When SNPs
   in or adjacent to homopolymeric regions are removed changes in ti/tv
   (a) and dn/ds (b) are observed: As the overall number of SNPs is
   reduced both ratios change to more plausible values. Note the
@@ -421,7 +420,7 @@ non-synonymous SNPs per 1,000 non-synonymous bases. A mean dn/ds of
 0.231 was calculated for the 859 TUGs (762 highCA-derived contigs)
 containing at least one synonymous SNP.
 
-\figuremacro{snp_final}{SNP calling and SNP categories}{Overabundance
+\figuremacro{snp_final}{SNP-calling and SNP categories}{Overabundance
   of SNPs at (a) codon-position two and of (c) non-synonymous SNPs for
   low percentages of the minority allele. (b) Significant positive
   correlation of coverage and dn/ds before removing these SNPs at a
@@ -561,7 +560,7 @@ figures \ref{tGO_DN_DS_BP_classic_10_all},
 \hline\\
 \caption[Over-representation of GO-terms in positively
 selected]{\textbf{Over-representation of GO-terms in positively
-    selected -} GO-terms over-represented in contigs putatively under
+    selected} - GO-terms over-represented in contigs putatively under
   positive selection. Horizontal lines separate categories of the
   GO-ontology. First category is molecular function, second biological
   process, last cellular compartment. P values (pval) for over-
@@ -631,12 +630,12 @@ T2 & 0.45 & -0.73 & 0.59 & 1.00 \\
 \end{tabular}
 \caption[Measurements of multi-locus heterozygosity for single
 worms]{\textbf{Measurements of multi-locus heterozygosity for single
-    worms -} Genotyping for a set of 199 SNPs, different measurements
+    worms} - Genotyping for a set of 199 SNPs, different measurements
   were obtained to asses genome-wide heterozygosity.  Measurements for
   relative heterozygosity (rel.het; number of homozygous sites/ number
   of heterozygous sites), internal relatedness (int.rel;
   \cite{pmid11571049}), homozygosity by loci (ho.loci;
-  \cite{pmid17107491}) and standardized heterozygosity (std.het;
+  \cite{pmid17107491}) and standardised heterozygosity (std.het;
   \cite{coltman81j}) are given.  All these measurements are pointing
   to sample T1 (Taiwanese worm from a wild population) as the most
   heterozygous and sample E2 (the European worm from Poland) as the
@@ -814,27 +813,27 @@ GO:0045169 & fusome &   2 &   2 & 0.32 & 0.02477 \\
 \hline\\
 \caption[Over-representation of GO-terms in positively
 selected]{\textbf{Over-representation of GO-terms in differentially
-    expressed between male and female worms -} P-values (p.value) for
-  over-representation are given along with the number of
+    expressed between male and female worms} - Significance level
+  (p.value) for over-representation are given along with the number of
   differentially expressed contigs (Significant) and the number of
   contigs with this annotation analysed (Annotated) and the
-  description of the GO-term (Term). For a graph of incuced GO-terms
+  description of the GO-term (Term). For a graph of induced GO-terms
   see also additional figures \ref{tGO_SEX_EXP_BP_classic_10_all},
   \ref{tGO_SEX_EXP_CC_classic_10_all} and
-  \ref{tGO_SEX_EXP_MF_classic_10_all}}\\
+  \ref{tGO_SEX_EXP_MF_classic_10_all}.}\\
 \label{over-de-mf-454}
 \end{longtable}
 
 
 Overrepresentation of of GO-terms differentially expressed between
-libraries from woms of European and Asian origin highlighted catalytic
+libraries from worms of European and Asian origin highlighted catalytic
 activity especially related to energy metabolism
 (table \ref{over-de-ae-454} and additional figures
 \ref{tGO_EEL_EXP_BP_classic_10_all},
 \ref{tGO_EEL_EXP_CC_classic_10_all} and
 \ref{tGO_EEL_EXP_MF_classic_10_all}).  Acyltransferase contigs were
 all upregulated in the European libraries. However, the expression
-patterns for other contigs connected to metabolsim did not show
+patterns for other contigs connected to metabolism did not show
 concerted up or down-regulation (e.g. for ``steroid biosynthetic
 process'' 2 contigs were downregulated in the European library, 3
 contigs upregulated).
@@ -969,11 +968,11 @@ GO:0031967 & organelle envelope &  47 &  12 & 5.52 & 0.0033 \\
    \caption[Over-representation of GO-terms in differentially
    expressed between worms from Asia and Europe
    ]{\textbf{Over-representation of GO-terms in differentially
-       expressed between worms from Asia and Europe -} P-values
-     (p.value) for over-representation are given along with the number
-     of differentially expressed contigs (Significant) and the number
-     of contigs with this annotation analysed (Annotated) and the
-     description of the GO-term (Term). For a graph of incuced
+       expressed between worms from Asia and Europe} - Significance
+     level (p.value) for over-representation are given along with the
+     number of differentially expressed contigs (Significant) and the
+     number of contigs with this annotation analysed (Annotated) and
+     the description of the GO-term (Term). For a graph of incuced
      GO-terms see also additional figures
      \ref{tGO_EEL_EXP_BP_classic_10_all},
      \ref{tGO_EEL_EXP_CC_classic_10_all} and

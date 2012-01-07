@@ -31,23 +31,23 @@ compounds like haemoglobin can inhibit PCR reactions
 \cite{pmid9327537} and reverse transcription \cite{pmid16109794}.
 
 Nevertheless the stringent quality trimming and processing of raw
-reads, as summarised in \ref{pilot-seq}, made the remaining ESTs a
-valuable resource for comparison with future 454-sequencing-data.
+reads, as summarised in chapter \ref{pilot-seq}, made the remaining
+ESTs a valuable resource for comparison with future
+pyrosequencing-data.
 
 In fact all sequenced ESTs, for which host-origin was inferred were
-later found also in pyrosequencing: The observation haemoglobin and
+later found also in pyrosequencing: The observation of haemoglobin and
 ferritin subunits from \textit{An. anguilla} are expected, as fish
 erythrocytes contain a nucleus and still transcribe genes actively
 \cite{pmid20614118}. These are typical proteins for the functioning of
-red blood cells. The observation of fish cyclin G1 (in Sanger- and
-pyrosequencing) and cohesin (in Sanger-sequencing) is remarkable as
-fish erythrocytes are thought to exhibit low rates of mitosis
-\cite{pmid7506383}. Other observations of host-sequences like
-e.g. Leukocyte cell-derived chemotaxin 2 or natural killer
-cell-enhancing factor (NKEF)-B protein in pyrosequencing make an
-analysis of this fish-derived off-target data (from all sequencing
-technologies) very promising, it is however beyond the scope of the
-present thesis.
+red blood cells. The observation of fish cyclin G1 and cohesin, genes
+expressed in mitosis, is remarkable, as fish erythrocytes are thought
+to exhibit low rates of mitosis \cite{pmid7506383}. Other observations
+of host-sequences like e.g. Leukocyte cell-derived chemotaxin 2 or
+natural killer cell-enhancing factor (NKEF)-B protein in
+pyrosequencing make an analysis of this fish-derived off-target data
+(from all sequencing technologies) very promising, it is however
+beyond the scope of the present thesis.
 
 \section{Pyrosequencing}
 \label{sec:454-pyr}
@@ -72,11 +72,11 @@ A second examination of sequence origin was performed after assembly,
 employing higher stringency cutoffs. Similar taxonomic screening was
 used in a garter snake transcriptome project \cite{pmid21138572}, and
 an analysis of lake sturgeon tested and rejected hypotheses of
-horizontal gene-transfer when xenobiont sequences were identified
+horizontal gene-transfer when xenobiont sequences was identified
 \cite{pmid20386959}. A custom pipeline for transcriptome assembly from
 pyrosequencing reads \cite{pmid20034392} proposed the use of EST3
 \cite{pmid17218127} to infer sequence origin based simply on
-nucleotide frequency. I were not able to use this approach
+nucleotide frequency. I was not able to use this approach
 successfully, probably due to the fact that xenobiont sequences in our
 data set derive from multiple sources with different GC content and
 codon usage.
@@ -93,9 +93,9 @@ completeness and a relative lack of true initiation codons in our
 protein prediction. This bias is near-ubiquitous in deep transcriptome
 sequencing projects (e.g. \cite{pmid20331785}).
 
-I were able to obtain high-quality annotations for a large set of
+I was able to obtain high-quality annotations for a large set of
 TUGs: For 40\% of the complete assembly and 60\% of our highCA
-assembly \texttt{BLAST}-based annotations could be obtained. 45\% of
+assembly \texttt{Blast}-based annotations could be obtained. 45\% of
 the contigs in the highCA assembly were additionally decorated with
 domain-based annotations through \texttt{InterProScan}
 \cite{pmid11590104}.
@@ -110,7 +110,7 @@ parasite with our dataset. This implies that our transcriptome is
 truly a representative partial genome
 \cite{parkinson_partigene--constructing_2004} of a parasitic nematode.
 
-Analysis of conservation identified more sequence novel in Nematode
+Analysis of conservation identified more sequence novel in nematode
 than in the eukaryote kingdom or in clade III this is in agreement
 with prevalence of genic novelty in the Nematoda
 \cite{wasmuth_extent_2008}. Furthermore the basal position of
@@ -181,7 +181,7 @@ study in the parasitic nematode \textit{Ancylostoma canium}
 
 When the whole of coding sequences are studied, of which only a small
 subset of sites can be under diversifying selection, dn/ds of ~0.5 has
-been suggested as threshold for assuming diversifying selection
+been suggested as threshold for assuming positive selection
 \cite{pmid15579698} instead of the classical threshold of 1
 \cite{pmid6449605}. The use of this threshold for positive selection
 led to the identification of over-represented of GO-term highlighting
@@ -226,9 +226,9 @@ desirable. However, I was not able to use the R-packages
 \texttt{DESeq} \cite{pmid20979621} or \texttt{edgeR}
 \cite{pmid19910308} developed for count data from deep sequencing (but
 more targeted towards RNA-seq on the solexa-platform) as both
-repetition and throughput of our present experiment were too low. As a
-result the differentially expressed genes are by no means significant
-for the investigated conditions, but just for the specific
+repetition and throughput of my pyrosequencing experiment were too
+low. As a result the differentially expressed genes are by no means
+significant for the investigated conditions, but just for the specific
 cDNA-libraries. With these reservations we identified genes
 differentially expressed between libraries prepared from worms of
 different sex and worms from different origin.
@@ -261,22 +261,22 @@ libraries will also contain contigs related to larval development
 transcripts in turn are expected to be under purifying selection
 because of pleiotropic effects of genes in early development
 \cite{pmid15371532}. Also the second finding is in slight contrast to
-published results for male specific traits and transcripts are often
+published results for male specific traits and transcripts, often
 showing hallmarks of positive selection
 \cite{pmid15795858,pmid11404480}. In \textit{Ancylostoma caninum}
 however, female-specific transcripts showed an enrichment of
 ``parasitism genes'' \cite{pmid20470405} and a possible expansion
 would be a similar enrichment of positively selected parasitism
-related in our dataset. For males the decreased dn/ds can be explained
-by the by the high number of ribosomal proteins, which are all show
-very low levels of dn/ds (that these proteins are found differentially
-expressed remains puzzling though), while single transcripts
-e.g. major sperm protein (expressed in the male library only) showed
-elevated dn/ds but did not level the overall effect. But this also has
-a positive aspect: it is unlikely that correlation of differential
-expression with positive selection results from mapping artefacts, as
-all the ribosomal proteins identified overexpressed in males have very
-low dn/ds.
+related genes in our dataset. For males the decreased dn/ds can be
+explained by the high number of ribosomal proteins, which are all
+showing very low levels of dn/ds (that these proteins are found
+differentially expressed remains puzzling though), while single
+transcripts e.g. major sperm protein (expressed in the male library
+only) showed elevated dn/ds but did not level the overall effect. But
+this also has a positive aspect: it is unlikely that correlation of
+differential expression with positive selection results from mapping
+artefacts, as all the ribosomal proteins identified overexpressed in
+males have very low dn/ds.
 
 Genes differential expressed according to worm-origin (in either
 direction) showed significantly elevated levels of dn/ds. This is
@@ -307,6 +307,7 @@ constitute a candidate phenotype relevant for phenotypic modification
 or contemporary divergent evolution as well as for the long term
 evolution of parasitism.
 
+\newpage
 
 \section{Transcriptomic divergence in a common garden experiment}
 \label{sec:exp-inf}
@@ -316,35 +317,37 @@ recovery of adult worms from sympatric
 \textit{A. crassus}-\textit{Anguilla} spp. host-parasite combinations
 imply local adaptation of different worm populations to host-species.
 
-The precentage of recovered European worms is in agreement with data
-from \cite{knopf_differences_2004} (33.2\% for the host-parasite
-combination sympatric in Erope and 13.8\% for European worms applied
-back to \textit{An. japonica}). This pattern of recovery was precisely
-mirrored for the Taiwanese population of \textit{A. crassus}, for
-which thus recovery was rouhgly 30\% in the sympatric
-\textit{An. japonica} and only 10\% in \textit{An. anguilla}. These
-Data are not in complete agreement with findings by Weclawski et
-al. (unpublished; see \ref{div-ac}), who recorded recovery at only
-slightly different timepoints after infection (25, 50, 100 and 150
-dpi). Similar to my study they found a higher recovery of the European
-population of worms in the European eel but did not find the
-complementary result of lower recovery of this diverged population in
-the Japanese eel. A possible explanation for these different results
-are interactions of host-parasite genotypes conditional on the
-environment (GxGxE interactions, see also \ref{div-ac}). It is
-imaginable that the environment provided in the common-garden setting
-slightly differed between the two experiments (despite the fact, that
-these experiments were performed in the same experimental setup).
+The percentage of recovered European worms is in agreement with data
+from Knopf \& Mahnke \cite{knopf_differences_2004}: roughly one-third
+for the host-parasite combination sympatric in Europe and only little
+over 10\% for European worms applied back to
+\textit{An. japonica}. This pattern of recovery was precisely inverted
+for the Taiwanese population of \textit{A. crassus}, for which
+recovery was thus roughly 30\% in the sympatric \textit{An. japonica}
+and only 10\% in \textit{An. anguilla}. These data are not in complete
+agreement with findings by Weclawski \textit{et al.} (unpublished; see
+\ref{div-ac}), who recorded recovery at only slightly different
+timepoints after infection (25, 50, 100 and 150 dpi). Similar to my
+study they found a higher recovery of the European population of worms
+in the European eel but did not find the complementary result of lower
+recovery of this diverged population in the Japanese eel. A possible
+explanation for these different results are interactions of
+host-parasite genotypes conditional on the environment (GxGxE
+interactions, see also \ref{div-ac}). It is imaginable that the
+environment provided in the common-garden setting slightly differed
+between the two experiments (despite the fact, that these experiments
+were performed in the same experimental setup).
 
 It has to be emphasised that the observations made in common-garden
 experiments first and foremost have to be interpreted as
 phenotypes. An ideally suited phenotype to infer local adaptation
 would be one with obvious direct fitness-consequences, a so called
-fitness-component. Such a fitness-component would ideally be a
-measurement on a single individual, and individual life-time
-reproductive success would be such an ideal measurement. However, the
-techniques used to measure individual life-time reproductive success
-have not been established in \textit{A. crassus} and it would be very
+fitness-component. Fitness is defined as the differential contribution
+to the next generation, therefore such a fitness-component would
+ideally be a measurement on a single individual, and individual
+life-time reproductive success would be an ideal measurement. However,
+techniques to measure individual life-time reproductive success have
+not been established in \textit{A. crassus} and it would be very
 difficult to do so.
 
 The recovery of certain developmental stages of worms is only a proxy
@@ -363,7 +366,7 @@ genotype associations with the most suboptimal phenotype it would not
 be possible to isolate individuals bearing this trait, because these
 would be dead or still on their way migrating to the
 swimbladder. Apart from the problem of clear definition and
-measurement, lifecyle traits are also notoriously complex in the
+measurement, lifecycle traits are also notoriously complex in the
 underlying genetic architecture \cite{pmid18454194}.
 
 I decided on a study design using pools of individuals for one sex
@@ -396,8 +399,8 @@ in a common experimental environment into a neutral component and a
 selected component, this way removing variation most likely accounted
 for by the shared neutral evolutionary history. My case of
 \textit{A. crassus} is potentially simpler: the investigated European
-populations are a direct descendants and thus a subset of a Taiwanese
-source populations. In fact I studied two European and two Taiwanese
+populations are direct descendants and thus a subset of a Taiwanese
+source population. In fact I studied two European and two Taiwanese
 populations as a few hundred kilometers between the geographical
 origins of the two different locations in Germany and Taiwan probably
 constitute a barrier to gene-flow in a parasite with an aquatic
@@ -408,18 +411,18 @@ rationale of increasing variance for random genetic differences and
 raising the bar for potentially adaptive differences to be detected.
 
 Given the sampling of only twelve Taiwanese worms the question could
-be raised, whether these consititute a representative sample of the
+be raised, whether these constitute a representative sample of the
 true source population, of which a sub-population was funding European
-populations. A microsattelite study indicated gene-flow even between
-populations of \textit{A. crassus} seperated by thousands of
+populations. A microsatellite study indicated gene-flow even between
+populations of \textit{A. crassus} separated by thousands of
 kilometers in Asia (Japan and Taiwan)
 \cite{wielgoss_population_2008}. Given the high interconnectivity of
 Taiwanese water systems used for aquaculture both by man-build
-structural links and anthropogneic exchange of fish, a sampling from
+structural links and anthropogenic exchange of fish, a sampling from
 two Taiwanese populations similarly neutrally diverged from the true
 European funding population seems very unlikely. The worms sampled
 from Taiwan can thus be regarded a sample of the (meta-)population
-appropriate for finding differences in ralation to the source of the
+appropriate for finding differences in relation to the source of the
 introduction.
 
 When I later venture into adaptive interpretations of the observed
@@ -433,7 +436,7 @@ often caused by selection, differences in function do not necessarily
 demonstrate the past or present action of selection. There is no way
 to infer the action of selection based on functional considerations,
 and even if selection can be inferred otherwise, it is not necessarily
-a pariticulare observed variable trait that selection acted on
+a particular observed variable trait that selection acted on
 \cite{pmid19744124}.
 
 Of no surprise was the abundance of differential expression between
@@ -454,7 +457,7 @@ differences in other species my estimate of roughly a third of the
 transcripts in \textit{A. crassus} showing differential expression
 according to the sex of the worms implies conservative thresholds used
 in the statistical analysis and moderate power for detection of
-differeces.
+differences.
 
 Nearly the same proportion (roughly 30\%) of contigs was confirmed
 through summation and analysis of contigs for orthologs in
@@ -465,7 +468,7 @@ stringent conditions for the detection of significance, as p-value
 correction for multiple testing is employed during each analysis (once
 for raw counts and twice for orthologous counts). Although the
 underlying tests are not independent, the false discovery rate of 5\%
-for raw contigs can be expected to be immensely lowered by applying an
+for raw contigs can be expected to be immensely lowered by applying a
 FDR of 10\% twice.
 
 In addition biological implications could produce false negatives in
@@ -489,7 +492,7 @@ differentially regulated genes.
 Nevertheless it is surprising that less than 1\% of transcripts were
 detected differentially expressed between worms in different
 host-species and less then 0.3\% were confirmed with the orthologous
-method. This was an unexpected finding, as the differeces in the
+method. This was an unexpected finding, as the differences in the
 immune response of the host species have a big influence on other
 phenotypes of worms \cite{knopf_swimbladder_2006}. In addition to the
 low number of genes, multifactorial analysis revealed that below 10\%
@@ -528,8 +531,8 @@ differentially depending on worm-sex and worm-population. Such an
 overlap is expected if genes expressed differentially according to sex
 are evolving faster towards a differential expression according to
 other factors. Faster evolution of reproductive (and especially male
-specific traits) have been shown in many species at a phenotypic and
-at a sequence level \cite{pmid15795858}. In \textit{Drosophila}, male
+specific) traits has been shown in many species at a phenotypic and at
+a sequence level \cite{pmid15795858}. In \textit{Drosophila}, male
 reproductive proteins have been shown to evolve at elevated levels and
 under positive selection \cite{pmid11404480}. Moreover, gene
 expression should evolve at a higher rate in sex-specific genes,
@@ -538,8 +541,8 @@ interspecific expression divergence is sex dependent and the action of
 sex-dependent natural selection during species divergence has been
 inferred from this \cite{pmid15034135,pmid19720861}.
 
-Taken together, my findings strongly support a larger influence of the
-genetic differences between European and Asian populations
+Taken together, my findings strongly support a stronger influence of
+genetic differences between European and Asian populations of
 \textit{A. crassus} than of the modification in the different
 host-species on gene-expression. When additive and interaction effects
 are considered, the influence of host-species even vanishes almost
@@ -576,19 +579,19 @@ Instead enzymes and enzyme subunits important for aerobic respiration
 are especially expressed at lower levels in European
 \textit{A. crassus}. In fact, most transcripts significantly differing
 between populations were annotated as ``oxidoreductase'' in
-gene-ontology. 
+gene-ontology (GO). 
 % While at face values of single genes have to be interpreted with
 % care such trends in the data are very likely to point to important
 % differences.
 Downregulation of cytochrome C oxidase subunit 2 (COXII) in the
 European population of \textit{A. crassus} was the most persistent
-finding. This downregulation was confirmed by the high expression of
-the same contig in all tree libraries from Taiwanese worms and very
-low expression in the Euopean librarises evaluated by pyrosequencing.
-Cytochrome C oxidase subunits 1-3 are are essential components of
-complex IV, the cytochrome c oxidase. They are encoded in the
-mitochondrial genome and especially subunit 1 and 2 coordinate
-catalytic haeme and copper cofactors \cite{pmid18023115}.
+finding. This downregulation was confirmed by the low expression of
+the same contig in the European libraries compared to higher
+expression in all three libraries from Taiwanese worms in
+pyrosequencing. Cytochrome C oxidase subunits 1-3 are are essential
+components of respiratory chain complex IV, the cytochrome c
+oxidase. They are encoded in the mitochondrial genome and coordinate
+catalytic heme and copper cofactors \cite{pmid18023115}.
 
 In fact, not only enrichment analysis highlighted oxidoreductases, but
 expression values of COXII clustered with other enzymes from energy
@@ -597,11 +600,11 @@ putative recently duplicated genes. They showed slightly divergent
 protein sequences but hit the same orthologs in \textit{C. elegans}
 and \textit{B. malayi}. They also shared very similar expression
 profiles. Expression of different cholesterol acyltransferases has
-been shown to vary in response to the presence of haeme and
+been shown to vary in response to the presence of heme and
 anaerobiosis in yeast \cite{pmid11786267}. 3-hydroxyacyl-CoA
 dehydrogenase (involved fatty-acid $\beta$-oxidation
 \cite{pmid8454629}), malate/L-lactate dehydrogenase (from the
-anaerobic glycolytic pathway or the krebs-cycle
+anaerobic glycolytic pathway or the Krebs-cycle
 \cite{sturm1969vergleichende}) and aspartyl proteases (involved in the
 digestion of host haemoglobin in helminths \cite{pmid12782060})
 completed this particular cluster.
@@ -645,13 +648,13 @@ pleiotropic effects of the persistent core-change.
   Taiwanese worms.}
 
 Such a scenario also provokes some speculation about the adaptive
-value of such a change in a core metabolic process:\\
-Aerobic respiration is potential source for oxidative stress providing
-a steady source of reactive oxygen species (ROS) as electrons are
+value of such a change in a core metabolic process: aerobic
+respiration is a potential source for oxidative stress providing a
+steady source of reactive oxygen species (ROS) as electrons are
 leaking from the respiratory chain as superoxide anions. It is well
 established that such ROS production is especially harmful to
-blood-feeding parasites, as free inorganic iron, as well as haeme,
-have the potential to generate additional ROS
+blood-feeding parasites, as free inorganic iron, as well as heme, have
+the potential to generate additional ROS
 \cite{pmid21087517}. Anaerobic metabolism is thus thought to occur in
 many haematophagous parasites as a counter-measure against oxidative
 stress from haemoglobin catabolism \cite{pmid12163151}. It could thus
@@ -662,11 +665,11 @@ respiration. Additionally helminths can simply get too large to
 maintain oxygen diffusion to mitochondriae in the absence of a
 cardiovascular system. As yet proton-pumping electron transport
 constitutes the most profitable energy-providing process, the
-mitochondriae of facultatively anaerobic helminths produce an electron
-gradient for the use of ATPase with the help of acceptors other than
-O$_2$ \cite{pmid12417132}. Such an alternate electron sink is fumarate
-used in many helminths in a process called malat dismutation
-\cite{pmid15275412}.
+mitochondriae of facultatively anaerobic helminths produce a proton
+gradient for the use of ATPase with the help of terminal electron
+acceptors other than O$_2$ \cite{pmid12417132}. Such an alternate
+electron sink is fumarate used in many helminths in a process called
+malat dismutation \cite{pmid15275412}.
 
 An interesting implication is that such metabolic differences could
 potentially be visible ultrastructurally. Indeed in my own diploma
@@ -683,53 +686,53 @@ put gene-expression into a physiological perspective. Furthermore, a
 biochemical examination of isolated mitochondriae could highlight
 changes in the mitochondrial respiratory chain under \textit{in vitro}
 conditions \cite{pmid18314717}. Such direct measurements of COX enzyme
-acitivity (using well established assays \cite{pmid8592440}) would be
+activity (using well established assays \cite{pmid8592440}) would be
 desirable to establish even the validity of the first logical step in
 these adaptive speculations that underexpression of COXII is leading
-to decreased enzyme acivity. It would be counterintuitive to expect
+to decreased enzyme activity. It would be counterintuitive to expect
 higher enzyme activity when COXII mRNA levels are low, but, for
 example, in \textit{Schistosoma mansoni} COXI over-expression in
 praziquantel-resistant strains is leading rather to decreased enzyme
 activity \cite{pmid9695101}.
 
-The sensitivity to preturbation of mitochondrial genes for respiratory
+The sensitivity to perturbation of mitochondrial genes for respiratory
 chain complexes in nematode parasites is underlined by their
 up-regulation after depletion of Wolbachia from filarial nematodes
 \cite{pmid20362581, pmid19806204}. Wolbachia are obligate endosymbiont
-bacteria of some clade III nematodes they are supplying haeme to
-non-heamotophagous parasites in the abscence of intrinsic pathway for
-haeme synthesis \cite{ghedin_draft_2007} (which is absent also in free
-living \textit{C. elegans} \cite{pmid15767563}). While our sequence
-analysis suggests the abscenece of Wolbachial symbionts in
-\textit{A. crassus}, such studies support a cetral role of host or
-endosymbiont derived haeme for respritory processes and suggest a
-propensity for evolutionary change in related processes (in filaria
+bacteria of some clade III nematodes, they are supplying heme to
+non-haematophagous parasites in the absence of an intrinsic pathway
+for heme synthesis \cite{ghedin_draft_2007} (which is absent also in
+free living \textit{C. elegans} \cite{pmid15767563}). While our
+sequence analysis suggests the absence of wolbachial symbionts in
+\textit{A. crassus}, such studies support a central role of host or
+endosymbiont derived heme for respiratory processes and suggest a
+propensity for evolutionary change in related processes (in Filaria
 even acquisition of an endosymbiont).
 
-Assuming a genetically fixed lower expression of COXII in Euopean
-\textit{A. crassus} as a driver for other metabollic differences does
+Assuming a genetically fixed lower expression of COXII in European
+\textit{A. crassus} as a driver for other metabolic differences does
 not imply a simple regulation of the expression itself, or a
-genetically simple change undlying the changed expression
+genetically simple change underlying the changed expression
 phenotype. Regulation of the mitochondrially encoded genes has been
-extensively integrated into the regulatory netowork of eukaryotic
-cells and is contolled by and interacting with nuclear transcription
+extensively integrated into the regulatory network of eukaryotic
+cells and is controlled by and interacting with nuclear transcription
 factors \cite{pmid8289797}.
 
 Intriguingly overexpression of respiratory chain enzymes was limited
 to cytochrome c oxidase transcripts (COXII and to lesser extent also
 COXI and COXIII). Mitochondrial transcription produces multiple
 polycistronic unmatured transcripts, which are cleaved and modified in
-their expression post-transcriptionally. Cleavage occures at t-RNA
-sequences intersparesed between protein coding genes and can be
-imprefect to laeve some transcripts poly-cistronic in a matured
+their expression post-transcriptionally. Cleavage occurs at t-RNA
+sequences interspersed between protein coding genes and can be
+imperfect to leave some transcripts poly-cistronic in a matured
 state. Nevertheless, individual transcripts can be expressed
 uncoordinated, even when expressed on the same unmatured
 poly-cistronic transcript \cite{pmid19843606}, for example, the
-addition of poly-A tails is vital for stability of matrue transcritps
+addition of poly-A tails is vital for stability of mature transcripts
 in metazoans. The mitochondrial genome contains only very little
-untranscribed sequence and is haploid and transmitted completely
-linked, without recombination \cite{pmid18023115}. Cis-regulatory
-change in a control region would thus be very likely detectable in our
+untranscribed sequence, is haploid and transmitted completely linked,
+without recombination \cite{pmid18023115}. Cis-regulatory change in a
+control region would thus be very likely detectable in our
 transcriptome data. Even if the sequence variation leading to the
 observed expression phenotypes would locate to the untranscribed
 hypervariable mitochondrial control region (in D-Loop associated
@@ -740,31 +743,32 @@ complete mitochondrial genome due to the prefect linkage
 \cite{pmid19821901}. Such a pattern has not been found in populations
 of \textit{A. crassus} in Europe when COXI was used as a marker
 \cite{dl_py} (see also figure \ref{mCOXI-phylo}) and is also not
-visible from preliminary analysis of polymorphism in mitochondiral
-genes in my RNAseq data.
+visible from preliminary analysis of polymorphism in mitochondrial
+genes in my RNA-seq data.
 
 Constraints are also expected regarding the mechanism by which the
-expression of COXII could evolve. Most infective L3 larvae of prasitic
+expression of COXII could evolve. Most infective L3 larvae of parasitic
 nematodes rely on aerobic respiration. Dixenous parasites like
-\textit{A. crassus} migrate through tissue of definiteve hosts, where
+\textit{A. crassus} migrate through tissue of definitive hosts, where
 oxygen is readily available, after leaving the haeomocoel of the
-intermediate host \cite{kennedy2001parasitic}. Enzyme subuntis
-building a functioning aerobic resriatory chain are thus likely to be
-expressed at earlier lifecycle stges of \textit{A. crassus} and
+intermediate host \cite{kennedy2001parasitic}. Enzyme subunits
+building a functioning aerobic respiratory chain are thus likely to be
+expressed at earlier lifecycle stages of \textit{A. crassus} and
 anaerobiosis is expected to be restricted to the adult stages.
 
-These considerations make sole or predominat cis-reglatory change in
+These considerations make sole or predominant cis-regulatory change in
 mitochondrial DNA very unlikely to explain the divergent expression
 phenotypes. Still identification of the genetic architecture, for
 example sequence variation in a transcription factor, a co-factor or a
 protein modifying mitochondrial transcripts, may be possible (to a
-limited extent even in the present RNAseq data). 
+limited extent even in the present RNA-seq data).
 
 RNAi screens in \textit{C. elegans} for increased lifespan focus on
 genes leading to lower oxygen consumption and altered mitochondrial
 morphology and function \cite{pmid12447374}. Such candidate genes will
-provide an additional link back from screening of genomic regions with
-signature of selection to functional considerations.
+provide an additional link back to functional considerations once
+screening for genomic regions with signature of selection will
+highlight candidate loci.
 
 % Numts should normally be avoided by reverse transcription, but
 % occasionally Numts are transcribed
@@ -786,12 +790,12 @@ were annotated as collagens. For both genes this meant an ``adjusted''
 (to avoid the suggestive ``adapted'') expression difference leading to
 a lower expression in sympatric host-species/parasite-population
 pairs. Cuticle collagens are a large multigene family (Interpro lists
-164 entries for ``Nematode cuticle collagen, N-terminal''
-(\href{http://www.ebi.ac.uk/interpro/ISpy?ipr=IPR002486&tax=6239}{\textit{C. elegans}
-}) and 51 for
+164 entries for ``Nematode cuticle collagen, N-terminal'' for
+\href{http://www.ebi.ac.uk/interpro/ISpy?ipr=IPR002486&tax=6239}{\textit{C. elegans}
+} and 51 for
 \href{http://www.ebi.ac.uk/interpro/ISpy?ipr=IPR002486&tax=6279}{\textit{B. malayi}}),
-containing extensive repeat regions (roughly 50\% Gly-X-Y residues,
-often Gly-Pro-Hpy). In the genome of \textit{B. malayi} 82 genes
+containing extensive repeat regions: roughly 50\% Gly-X-Y residues,
+often Gly-Pro-Hpy. In the genome of \textit{B. malayi} 82 genes
 encoding collagen repeats have been found \cite{ghedin_draft_2007}. It
 was thus very important to have orthologous confirmation for these two
 contigs, as misassembly could have easily lead false positives here.
@@ -799,8 +803,8 @@ contigs, as misassembly could have easily lead false positives here.
 The two collagens were clustered with a third contig sharing a
 collagen-annotation (failing to be significant for the interaction
 term probably because of low overall expression) and a contig
-annotated as ``Matrixin'' (metallo-proteinase assumed to be involved
-in remodelling the extracellular matrix \cite{mealloprot}) and a
+annotated as ``Matrixin'' (a metallo-proteinase assumed to be involved
+in remodelling of the extracellular matrix \cite{mealloprot}) and a
 ABC-transporter family protein. This can be interpreted as a
 confirmation of differential expression via clustering with
 functionally related proteins.
@@ -813,79 +817,79 @@ worms and is rather constrained to discrete temporal periods in larval
 development, the moults \cite{pmid10637627}. The differential
 expression could thus be due to changes in larval development or due
 to alternations in the low-level, steady renewal of the adult cuticle
-and remodelling of the extracellular matrix. Some considerations would
-favour of the second explanation: in \textit{C. elegans} genes
-expressed after reproductive maturity evolve faster than genes
-expressed earlier in development \cite{pmid15371532}. This suggests a
-model of elevated pleiotropic effects in genes expressed at earlier
-stages of development and hence more conserved expression patterns in
-larval stages. Independent of these considerations, both the primary
-assembly and the constant remodeling of the cuticule involve complex
-post-translational processes hardly accessible at the transcriptomic
-level: a zipper-like nucleation/growth mechanism leads to the folding
-of a triple helix of and heterotrimers and homotrimers
-\cite{kennedy2001parasitic}. If and how differential exression of two
-particular collagens interferes with this process requests further
-research. As for the metabolic differences, differential expression
-patterns could be reflected in morphology. One approach would be to
-measure thickness and density of the cuticle of worms from
-cross-inoculation experiments.
+and remodelling of the extracellular matrix of hypodermis cells. Some
+considerations would favour of the second explanation: in
+\textit{C. elegans} genes expressed after reproductive maturity evolve
+faster than genes expressed earlier in development
+\cite{pmid15371532}. This suggests a model of elevated pleiotropic
+effects in genes expressed at earlier stages of development and hence
+more conserved expression patterns in larval stages. Independent of
+these considerations, both the primary assembly and the constant
+remodelling of the cuticle involve complex post-translational
+processes hardly accessible at the transcriptomic level: a zipper-like
+nucleation/growth mechanism leads to the folding of a triple helix of
+and heterotrimers and homotrimers \cite{kennedy2001parasitic}. If and
+how differential expression of two particular collagens interferes
+with this process requests further research. As for the metabolic
+differences, differential expression patterns could be reflected in
+morphology. One approach would be to measure thickness and density of
+the cuticle of worms from coinoculation experiments.
 
 \section{Outlook}
 
-The presented project on divergence of gene expession obviousely
+The presented project on divergence of gene expression obviously
 constitutes work in progress. The observed differences in subunits of
-respiratory chain enzymes, expecially in COXII, necessitate and permit
+respiratory chain enzymes, especially in COXII, necessitate and permit
 confirmation by reverse transcription quantitative PCR (RTqPCR) for
-these tanscripts. Such evaluations of a single gene (or few genes)
+these transcripts. Such evaluations of a single gene (or few genes)
 will be possible on many individual specimen of \textit{A. crassus}
-from both Europe and Taiwan to fruther test the signifcance of the
-observed differences. Therefore, in additon to the validation of
+from both Europe and Taiwan to further test the significance of the
+observed differences. Therefore, in addition to the validation of
 expression values for sequenced samples, many of the worms from the
 presented coinoculation experiment yielding lower amounts of RNA
 inadequate for sequencing will be used to further establish the
 divergence in gene-expression. Additionally sampling of worms from
-their present day sympatirc hosts is possible for genes differing only
+their present day sympatric hosts is possible for genes differing only
 for populations unconditional on eel-host species. Moreover, if
 selection in Europe would have acted on standing variation, one would
 expect to find worms expressing for example COXII at low levels also
 in the Taiwanese source populations, at least in low frequency. Thus
 hundreds of individual worms from Taiwanese populations will be tested
-as new funding becomes available. Appropriate \textit{A. crssus}
+as new funding becomes available. Appropriate \textit{A. crassus}
 samples stored in RNA-later are readily available from broad sampling
 for the present transcriptome projects from populations of worms in
-both wild and cultered \textit{An. japonica}.
+both wild and cultured \textit{An. japonica}.
 
 An assembly of the mitochondrial genome of \textit{A. crassus} from
 preliminary genome-sequencing data (discussed below) and the
-idntification of the poly-cistronic unmatured and, if present, matured
+identification of the poly-cistronic unmatured and, if present, matured
 transcripts (similar to \cite{pmid19843606}), will further inform and
-validate the analyisis on the expression of mitochondrial genes.
+validate the analysis on the expression of mitochondrial genes.
 
 Multiple starting points also exist for further functional examination
 of metabolic change, as mentioned throughout the text. However, the
 search for ultimate causes for evolutionary change \textit{sensu}
-\cite{mayr1961cause} will potentiall be even more rewarding.
+\cite{mayr1961cause} will potentially be even more rewarding.
 
-In parallel to the RTqPCR evaluations I will conduct a study on the
+In parallel to the RTqPCR evaluations, I will conduct a study on the
 association between gene expression and sequence variants. This kind
-of quantitive expression trait locus (eQTL) mapping is possible as
-both sequence and expression infromation are available from the
-present mRNA-seq data. Both simple cis-acting variation in promoter or
+of quantitative expression trait locus (eQTL) mapping is possible as
+both sequence and expression information are available from the
+present RNA-seq data. Both simple cis-acting variation in promoter or
 enhancer regions, as well as trans-acting variation can theoretically
 detected \cite{pmid21838806}. To detect trans-acting variants,
 however, might be impossible with the (for population studies)
 relative low number of sequenced individuals, as it relies on
 statistical associations requiring broad sampling. Yet, cis-acting
-variation, more readly detectable as allele-specific variation, is
+variation, more readily detectable as allele-specific variation, is
 unlikely to explain variations in mitochondrial gene expressions for
 the reasons discussed above.
 
-Therefore large scale meta-population wide sampling must not be
-limited to a evalutation of the divergent gene-exression phentypes,
+Therefore, large scale meta-population wide sampling must not be
+limited to a evaluation of the divergent gene-expression phenotypes,
 but has to further elucidate the population genetic relationships
 between Taiwanese and European worms. A future research program will
-thus need to employ population-scale sampling of genotype data, densly
+thus need to employ population-scale sampling of genotype data, densely
 spread across the genome. Genotyping of many European
 \textit{A. crassus} from different populations and comparison with
 many individual genomes from different Asian populations will enable
@@ -894,85 +898,91 @@ nucleotide diversity is reduced by hitchhiking of neutral variation in
 so called selective sweeps \cite{pmid16251466}, a punctual increase of
 population differentiation measured by the fixation index F$_{st}$
 \cite{wright1949genetical} in regions linked to selected variants can
-be measured. Other well establshed population genetic measurements
+be measured. Other well established population genetic measurements
 include Tajima's D, a measure based on the allele frequency spectrum
 \cite{pmid2513255}. When these methods are applied on a genome wide
-scale the neutral null-expectation to seperate a loss in variability
+scale the neutral null-expectation to separate a loss in variability
 based on selection from neutral loss due to demography is given by the
 diversity across all regions of the genome. A microsatellite study
 \cite{wielgoss_population_2008} as well as my own evaluations (based
-on pyrosequencing see \ref{sing-w}) and RNAseq (data not shown)
+on pyrosequencing see \ref{sing-w}) and RNA-seq (data not shown)
 indicate only a moderate genetic bottleneck caused by the introduction
 of \textit{A. crassus} to Europe and thus the necessary neutral
 diversity as a background for these tests will be present.
 
 Furthermore statistical models need to be parameterised by divergence
-time to disentange the influence of demography and selection (i.e. to
-estimate the effective population size). Relieable estimates for
+time to disentangle the influence of demography and selection (i.e. to
+estimate the effective population size). Reliable estimates for
 divergence time are readily available for the introduction of
 \textit{A. crassus} to Europe: 60 to 90 generations. As for such a
-short periode linkage to putatively selected variants will not be
-borken down in large blocks, marker density is of minor concern, but
-empathis should be on the breadth (many individuals from many
+short period linkage to putatively selected variants will not be
+broken down in large blocks, marker density is of minor concern, but
+priority should be given to the breadth (many individuals from many
 populations) of sampling.
 
 One methods enabling such population wide genotyping emerging from NGS
 technology is the sequencing of restriction-site associated DNA (RAD)
 markers. Preparation of RAD libraries involves digestion of genomic
 DNA with a restriction enzyme. Individually tagged adaptors can then
-ligated to the fragments and individual samples for can be pooled. The
+be ligated to the fragments and individual samples can be pooled. The
 choice of restriction enzyme is important to optimise the number of
-restricion sites (depth of sampling the genome) relative to the number
-of individual samples being investigated \cite{pmid18852878}. In the
-case of \textit{A. crassus} this optimisation also concerncs the
-minimisation of restiction sites in host-genome, as present in
-unavoidable contamination. The \textit{de novo} assembly of a
-reference genome for \textit{A. carssus} will enable the search for
-such an optimal restriction enzyme. Preliminary data has been
-generated on one lane of the Illumina HiSeq machine giving 110 million
-100 bases long paired-end reads, in total over 10 gigabases of
-sequence data.
+restriction sites (depth of sampling the genome) relative to the
+number of individual samples being investigated
+\cite{pmid18852878}. In the case of \textit{A. crassus} this
+optimisation also concerns the minimisation of restriction sites in
+host-genome, as present in unavoidable contamination. 
+
+The \textit{de novo} assembly of a reference genome for
+\textit{A. crassus} will enable the search for such an optimal
+restriction enzyme. Preliminary data has been generated for a female
+individual of the Polish population on one lane of the Illumina HiSeq
+machine giving 110 million 100 bases long paired-end reads, in total
+over 10 gigabases of sequence data.
 
 A preliminary assembly yielded a mean coverage of below 15-fold, for
 the \textit{A. crassus} derived contigs. This coverage is surprisingly
 low given the large amount of input-data and I will need to construct
 improved assemblies informed by the analysis of this preliminary
 assembly. A seemingly trivial but nevertheless important prerequisite
-for any high-througput genomic sequencing project on a prarasite was
+for any high-throughput genomic sequencing project on a parasite was
 the confirmation that genomic DNA could be obtained sufficiently clean
 from other xenobiont DNA.
 
-\figuremacroW{genome_cov_gc}{GC-content and coverage for a prliminary
-  genome assembly}{A preliminary assembly of routhly 10 Gb sequence
+\figuremacroW{genome_cov_gc}{GC-content and coverage for a preliminary
+  genome assembly}{A preliminary assembly of roughly 10 Gb sequence
   data in over 110 million reads. The analysis of GC-content and
-  coverge identifies host-cotamination at higher GC, but lower
-  coverage. For this sequencing library only 10-20\% of read-data is
-  lost to this kind of off-target data. The preliminary assembly was
-  provided by Sujai Kumar from Mark Blaxter's lab.}{0.5}
+  coverage identifies host-contamination at higher GC, but lower
+  coverage. Coverage and GC-content separate two distinct
+  data-sources: a lower GC/higher coverage nematode subset and a
+  higher GC/lower coverage eel subset (confirmed by
+  \texttt{Blast}). For this sequencing library only 10-20\% of the
+  reads are lost to eel-host derived off-target data. The preliminary
+  assembly was provided by Sujai Kumar from Mark Blaxter's lab.}{0.5}
 
 It has been possible to isolate roughly 1$\mu$g of genomic DNA from
 big specimen of the worm. Only ca. 20\% of the DNA were derived from
 the genome of the eel-host (see figure \ref{genome_cov_gc}). As only
 300 ng of DNA material (with low amounts of contamination with
-host-blood) are needed for RAD-sequencing, this can be achived in most
+host-blood) are needed for RAD-sequencing, this can be achieved in most
 big specimen of \textit{A. crassus}.
 
 For both reference genome assembly and annotation and for the future
 genome-scans I will continue to collaborate with Mark Blaxter's lab at
 the University of Edinburgh. The group there is actively developing
-methods expecially for RAD-sequencing and applying them to questions
+methods especially for RAD-sequencing and applying them to questions
 in evolutionary model-species \cite{pmid21681211}.
 
-Another useful strategy enabled by RAD-sequencing construction of a
-physical genetic map in families of \textit{A. crassus} (backcross is
-impossible). In addition to the population scale approaches outlined
-above mapping of gene-expression quantitative trait loci (eQTL) in
-mapping crosses between the two divergent expression-phenotypes
-constitues a promising route for the investigation of genomic variants
-underlying the divergent phenotypes. Once transcripts can be anchored
-on genomic contigs and linkage groups can be constucted to build a
-physical map of the genome, a readout for hybrid F2 individuals could
-even be transcriptomic data (RNAseq) providing both genotype and
+Another useful strategy enabled by RAD-sequencing is the construction
+of a physical genetic map in families of \textit{A. crassus}
+(backcross is impossible). In addition to the population scale
+approaches outlined above mapping of gene-expression quantitative
+trait loci (eQTL) in mapping crosses between the two divergent
+expression-phenotypes constitutes a promising route for the
+investigation of genomic variants underlying the divergent
+phenotypes. Once transcripts can be anchored on genomic contigs and
+linkage groups can be constructed to build a physical map of the
+genome, a readout for hybrid F2 individuals could even be
+transcriptomic data (RNA-seq) providing both genotype and
 expression-phenotype.
 
 A prime example for a research program on the evolution of
@@ -981,28 +991,28 @@ ecologically important traits is provided by the Stickleback
 fine-map the loss of lateral plates in freshwater populations
 \cite{pmid18852878} and parallel adaptation has been investigated
 using population genomics \cite{pmid20195501}. Both approaches used
-RAD-sequencing. The sophistication and depht of insight available in
+RAD-sequencing. The sophistication and depth of insight available in
 such a evolutionary model species is underlined by research on
 adaptive reduction of pelvic structures, an evolutionary trajectory
-shown to be feavored by the localisation of the underlying change in a
-instable reagion of the genome \cite{pmid20007865}.
+shown to be favoured by the localisation of the underlying change in a
+instable region of the genome \cite{pmid20007865}.
 
 The hope to develop a similar research program based on the present
 humble thesis seems presumptuous. Nevertheless, making full use of the
 advances in sequencing technology it might be possible to rapidly gain
 insight into the genomic organisation underlying contemporary
-evolutionary change. The prestent RNAseq data will be crucial in
-achiving this goal, as is will be used to link expression phenotypes
-with genomic sequence. An evoltuionary leap in a core metabolic
+evolutionary change. The present RNA-seq data will be crucial in
+achieving this goal, as is will be used to link expression phenotypes
+with genomic sequence. An evolutionary leap in a core metabolic
 process seems possible.
 
 The ability to evolve via such a leap could even be a evolutionary old
 trait retained in \textit{A. crassus} allowing it to colonise new
-hosts. Therefore, comperative genomics relating population genetic
+hosts. Therefore, comparative genomics relating population genetic
 processes in \textit{A. crassus} to putatively adaptive change during
-the accquision of new host by other Anguillicoloid species in
-evoltuionary time constitues another route of research. If such a link
-beetween microevolutionary processes in \textit{A. crassus} and the
+the acquisition of new host by other \textit{Anguillicola} species in
+evolutionary time constitutes another route of research. If such a link
+between microevolutionary processes in \textit{A. crassus} and the
 evolution of \textit{Anguillicola}-species would exist, it would
 provide general insight in the evolution of parasitic phenotypes.
 

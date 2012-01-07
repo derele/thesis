@@ -12,7 +12,7 @@
 \BOOKMARK [2][]{subsection.1.2.2}{1.2.2 The history and methods of high-throughput DNA-sequencing}{section.1.2}
 \BOOKMARK [2][]{subsection.1.2.3}{1.2.3 DNA-sequencing in nematodes}{section.1.2}
 \BOOKMARK [2][]{subsection.1.2.4}{1.2.4 Advances in sequencing technology}{section.1.2}
-\BOOKMARK [3][]{subsubsection.1.2.4.1}{1.2.4.1 Pyro-sequencing}{subsection.1.2.4}
+\BOOKMARK [3][]{subsubsection.1.2.4.1}{1.2.4.1 Pyrosequencing}{subsection.1.2.4}
 \BOOKMARK [3][]{subsubsection.1.2.4.2}{1.2.4.2 Illumina-Solexa sequencing}{subsection.1.2.4}
 \BOOKMARK [2][]{subsection.1.2.5}{1.2.5 Computational methods in DNA-sequence analysis}{section.1.2}
 \BOOKMARK [2][]{subsection.1.2.6}{1.2.6 Applications in ecology and evolution and gene-expression divergence}{section.1.2}
@@ -31,7 +31,7 @@
 \BOOKMARK [1][]{section.4.4}{4.4 Data-categories in the second-order assembly}{chapter.4}
 \BOOKMARK [1][]{section.4.5}{4.5 Contribution of first-order assemblies to second-order contigs}{chapter.4}
 \BOOKMARK [1][]{section.4.6}{4.6 Evaluation of the assemblies}{chapter.4}
-\BOOKMARK [1][]{section.4.7}{4.7 Measurments on second-order assembly}{chapter.4}
+\BOOKMARK [1][]{section.4.7}{4.7 Measurements on second-order assembly}{chapter.4}
 \BOOKMARK [2][]{subsection.4.7.1}{4.7.1 Contig coverage}{section.4.7}
 \BOOKMARK [2][]{subsection.4.7.2}{4.7.2 Example use of the contig-measurements}{section.4.7}
 \BOOKMARK [1][]{section.4.8}{4.8 Finalising the fullest assembly set}{chapter.4}
@@ -64,26 +64,26 @@
 \BOOKMARK [1][]{section.7.3}{7.3 Transcriptomic divergence in a common garden experiment}{chapter.7}
 \BOOKMARK [1][]{section.7.4}{7.4 Outlook}{chapter.7}
 \BOOKMARK [0][]{chapter.8}{8 Materials \046 methods}{}
-\BOOKMARK [1][]{section.8.1}{8.1 Sampling of worms from wild eels \(Sanger- and pyro-sequencing\) }{chapter.8}
-\BOOKMARK [1][]{section.8.2}{8.2 RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{chapter.8}
+\BOOKMARK [1][]{section.8.1}{8.1 Sampling of worms from wild eels for Sanger- and pyrosequencing}{chapter.8}
+\BOOKMARK [1][]{section.8.2}{8.2 RNA-extraction and cDNA synthesis for Sanger- and pyrosequencing}{chapter.8}
 \BOOKMARK [1][]{section.8.3}{8.3 Cloning for Sanger-sequencing}{chapter.8}
 \BOOKMARK [1][]{section.8.4}{8.4 Pilot Sanger-sequencing}{chapter.8}
-\BOOKMARK [1][]{section.8.5}{8.5 454-pyro-sequencing}{chapter.8}
+\BOOKMARK [1][]{section.8.5}{8.5 Pyrosequencing}{chapter.8}
 \BOOKMARK [2][]{subsection.8.5.1}{8.5.1 cDNA preparation and sequencing}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.2}{8.5.2 Trimming, quality control and assembly}{section.8.5}
-\BOOKMARK [2][]{subsection.8.5.3}{8.5.3 Evalutaion of the assemblies}{section.8.5}
+\BOOKMARK [2][]{subsection.8.5.3}{8.5.3 Evaluation of the assemblies}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.4}{8.5.4 Post-assembly classification and taxonomic assignment of contigs}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.5}{8.5.5 Protein prediction and annotation}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.6}{8.5.6 Single nucleotide polymorphism analysis}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.7}{8.5.7 Gene-expression analysis}{section.8.5}
 \BOOKMARK [2][]{subsection.8.5.8}{8.5.8 Enrichment analysis}{section.8.5}
 \BOOKMARK [1][]{section.8.6}{8.6 Transcriptomic divergence in a common garden experiment}{chapter.8}
-\BOOKMARK [2][]{subsection.8.6.1}{8.6.1 Experimental infeciton of eels}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.1}{8.6.1 Experimental infection of eels}{section.8.6}
 \BOOKMARK [2][]{subsection.8.6.2}{8.6.2 RNA extraction and preparation of sequencing libraries}{section.8.6}
-\BOOKMARK [2][]{subsection.8.6.3}{8.6.3 Mapping and normalistion of read-counts}{section.8.6}
-\BOOKMARK [2][]{subsection.8.6.4}{8.6.4 Statistical analysis with generalized linear models \(GLMs\)}{section.8.6}
-\BOOKMARK [2][]{subsection.8.6.5}{8.6.5 Count-collapsing for orthologous from two model-species}{section.8.6}
-\BOOKMARK [2][]{subsection.8.6.6}{8.6.6 Multivarite confirmation of linear models}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.3}{8.6.3 Mapping and normalisation of read-counts}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.4}{8.6.4 Statistical analysis with generalised linear models \(GLMs\)}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.5}{8.6.5 Count-collapsing for orthologs from two model-species}{section.8.6}
+\BOOKMARK [2][]{subsection.8.6.6}{8.6.6 Multivariate confirmation of linear models}{section.8.6}
 \BOOKMARK [2][]{subsection.8.6.7}{8.6.7 GO-term enrichment analysis}{section.8.6}
 \BOOKMARK [2][]{subsection.8.6.8}{8.6.8 Clustering analysis}{section.8.6}
 \BOOKMARK [1][]{section.8.7}{8.7 General coding methods}{chapter.8}

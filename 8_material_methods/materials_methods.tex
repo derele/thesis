@@ -17,11 +17,11 @@
 % ----------------------- contents from here ------------------------
 
 
-\section{Sampling of worms from wild eels (Sanger- and
-  pyro-sequencing) }
+\section{Sampling of worms from wild eels for Sanger- and
+  pyrosequencing}
 
 Cultured eels were acquired from an aquaculture directly adjacent to
-Kaoping river (22.6418N; 120.4440E) 15km stream upwards from it's
+Kaoping river (22.6418N; 120.4440E) 15km stream upwards from its
 estuary. Wild eel were bought from a fisherman, fishing in the estuary
 of Kao-Ping river (22.5074N; 120.4220E). All eels were transported to
 the Institute of Fisheries Science at the National Taiwan University
@@ -41,7 +41,7 @@ Linkenheimer Altrhein, Germany (49.0262N; 8.310556E), following a
 procedure similar to the one described above for worms from Taiwan.
 
 \section{RNA-extraction and cDNA synthesis for Sanger- and
-  454-sequencing}
+  pyrosequencing}
 
 Total RNA was extracted from single, whole worms using the RNeasy kit
 (Quiagen, Hilden, Germany), following the manufacturers
@@ -81,13 +81,13 @@ in a concentration of 10$\mu$M. The protocol for PCR cycling is shown
 \begin{table}[h]
   \centering
   \begin{tabular}{lllll} 
-    \textbf{Inital denaturation} &  $ 94\, ^{\circ}\mathrm{C} $ & 5min &  &\\ 
+    \textbf{Initial denaturation} &  $ 94\, ^{\circ}\mathrm{C} $ & 5min &  &\\ 
     \hline
     \textbf{Denaturation} &  $ 94\, ^{\circ}\mathrm{C} $ &30s& & \\ 
     \textbf{Annealing} &   $ 54\, ^{\circ}\mathrm{C} $ & 45s & 35 cycles &\\ 
     \textbf{Elongation} &   $ 72\, ^{\circ}\mathrm{C} $ & 2min &  &\\ 
     \hline
-    \textbf{Filnal Elongation} &   $ 72\, ^{\circ}\mathrm{C} $ & 10min &\\ 
+    \textbf{Final Elongation} &   $ 72\, ^{\circ}\mathrm{C} $ & 10min &\\ 
   \end{tabular}   
   \caption{PCR protocol for insert amplification}
   \label{tab:PCR}
@@ -121,12 +121,12 @@ For \textit{Anguilla japonica} the following three libraries:
 
 The original sequencing-chromatographs ("trace-files") were renamed
 according to the NERC environmental genomics scheme. "Ac" was used as
-project-identifier for \textit{Anguillicoloides crassus}, "Aj" for
-\textit{Anguilla japonica}. In \textit{Anguillicoloides} sequences
-information on the sequencing primer (forward or reverse PCR primer
-\textit{Anguilla japonica} sequences were all sequenced using the
-forward PCR primer) was stored in the middle
-"library"-field, resulting in names of the following form:
+project-identifier for \textit{Anguillicola crassus}, "Aj" for
+\textit{An. japonica}. In \textit{Anguillicola} sequences information
+on the sequencing primer (forward or reverse PCR primer;
+\textit{An. japonica} sequences were all sequenced using the forward
+PCR primer) was stored in the middle "library"-field, resulting in
+names of the following form:
 
 \begin{itemize}
 \item \texttt{Ac\_[\textbackslash{}d|\textbackslash{}w]\{2,4\}(f|r)\_\textbackslash{}d\textbackslash{}d\textbackslash{}w\textbackslash{}d\textbackslash{}d}
@@ -135,58 +135,60 @@ forward PCR primer) was stored in the middle
 
 The last field indicates the plate number (two digits), the row (one
 letter) and the column (two digits) of the corresponding clone. For
-first quality trimming trace2seq, a tool derived from trace2dbEST
-(both part of PartiGene \cite{parkinson_partigene--constructing_2004})
-was used, briefly it performs quality trimming using
-phred\cite{ewing_base-calling_1998} and trimming of vector sequences
-using cross-match\cite{PHRAP}. The adapters used by the MINT kit were
-trimmed by supplying them in the vector-file used for trimming along
-with the TOPO2PCR-vector. After processing with trace2seq additional
-quality trimming was performed on the produced sequence-files using a
-custom script. This trimming was intended to remove artificial
-sequences produced when the sequencing reaction starts at the 3' end
-of the transcript at the poly-A tail. These sequences typically
-consist of numerous homo-polymer-runs throughout their length caused
-by "slippage" of the reaction.
-The basic perl regular expression used for this was:\\
+first quality trimming \texttt{trace2seq}, a tool derived from
+\texttt{trace2dbEST} (both part of \texttt{PartiGene}
+\cite{parkinson_partigene--constructing_2004}) was used, briefly it
+performs quality trimming using \texttt{phred}
+\cite{ewing_base-calling_1998} and trimming of vector sequences using
+\texttt{cross-match} \cite{PHRAP}. The adapters used by the MINT kit
+were trimmed by supplying them in the vector-file used for trimming
+along with the TOPO2PCR-vector. After processing with
+\texttt{trace2seq} additional quality trimming was performed on the
+produced sequence-files using a custom script. This trimming was
+intended to remove artificial sequences produced when the sequencing
+reaction starts at the 3' end of the transcript at the poly-A
+tail. These sequences typically consist of numerous homo-polymer-runs
+throughout their length caused by "slippage" of the reaction.
+The basic Perl regular expression used for this was:\\
 
 \texttt{/(.*A\{5,\}|T\{5,\}|G\{5,\}|C\{5,\}.*)\{\$lengthfac,\}/g}\\
 
 Where \texttt{\$lengthfac} was set to the length of the sequence
-devided by 70 and rounded to the next integer. So only one
+divided by 70 and rounded to the next integer. So only one
 homo-polymer-run of more then 5 bases was allowed per 75 bases.
 
 Sequences were screened for host contamination by a comparison of
-\texttt{Blast} searches against the version of nempep4 and a fish
-protein database. Sequences producing better bit scores againt fish
-proteins than nematode proteins were labeled as host-contamination.
+\texttt{Blast} searches against nempep \cite{pmid21550347} (version 4)
+and a fish protein database. Sequences producing better bit scores
+against fish proteins than nematode proteins were labeled as
+host-contamination.
 
 Only the trace-files corresponding to the sequences still regarded as
-good after this step were processed with trace2dbEST. Additionally to
-the processing of traces already included in trace2seq sequences were
-preliminary annotated using \texttt{Blast} versus the NCBI-NR
-non-redundant protein database and EST-submission-files were produced.
+good after this step were processed with
+\texttt{trace2dbEST}. Additionally to the processing of traces already
+included in \texttt{trace2seq} sequences were preliminary annotated
+using \texttt{Blast} versus the NCBI-NR non-redundant protein database
+and EST-submission-files were produced.
 
-\section{454-pyro-sequencing}
+\section{Pyrosequencing}
 
 \subsection{cDNA preparation and sequencing}
 
 RNA was extracted from individual adult male and female nematodes and
-from a population of L2 larvae (Table 1). RNA was reverse transcribed
-and amplified into cDNA using the MINT-cDNA synthesis kit (Evrogen,
+from a population of L2 larvae. RNA was reverse transcribed and
+amplified into cDNA using the MINT-cDNA synthesis kit (Evrogen,
 Moscow, Russia).  For host contamination screening a liver-sample from
 an uninfected \textit{An. japonica} was also processed. Emulsion PCR
-was performed for each cDNA library according to the manufacturer’s
+was performed for each cDNA library according to the manufacturer's
 protocols (Roche/454 Life Sciences), and sequenced on a Roche 454
 Genome Sequencer FLX. All samples were sequenced using the FLX
-Titanium chemistry, except for the taiwanese female sample T2, which
+Titanium chemistry, except for the Taiwanese female sample T2, which
 was sequenced using FLX standard chemistry, to generate between 99,000
 and 209,000 raw reads. For the L2 larval library, which had a larger
-number of non-\textit{A. crassus}, non-\textit{Anguilla} reads, I
-confirmed that these data were not laboratory contaminants by
+number of non-\textit{A. crassus}, non-\textit{Anguilla} reads,
 screening Roche 454 data produced on the same run in independent
-sequencing lanes.
-
+sequencing lanes confirmed that these data were not laboratory
+contaminants.
 
 \subsection{Trimming, quality control and assembly}
 
@@ -224,7 +226,7 @@ default settings and contigs were labeled by whether they derived from
 both assemblies or one assembly only (for a detailed analysis of the
 assembly categories see the supporting Methods file).
 
-\subsection{Evalutaion of the assemblies}
+\subsection{Evaluation of the assemblies}
 
 The ace-files for all three (two first-order, one second-order)
 assemblies were interrogated for the fate of single reads. This was
@@ -233,22 +235,22 @@ used to tabulate the full read-first-order-second-order-associations.
 \texttt{Blast} (\texttt{blastx -e 1e-5}) was used to search the
 complete proteomes of \textit{C. elegans} (as present in wormbase
 v.220) and the complete proteome of \textit{B. malayi} (as present in
-uniref 100) for the contigs and singtletons of all investigated
-assemblies. A custom perl-script (provided by S. Kumar) was then used
+uniref 100) for the contigs and singletons of all investigated
+assemblies. A custom Perl-script (provided by S. Kumar) was then used
 to mask all bases in the database covered. For each sequence in the
 database the size of the masked region was then determined and
-statistics were created summarizing the number of database-sequences
-with any coverage, the number with coverage over 80\% of teir
+statistics were created summarising the number of database-sequences
+with any coverage, the number with coverage over 80\% of their
 sequence-length and the overall proportion of bases covered.
 
 Based on reads shared between clusters I collapsed reads linked by
 such read-paths, assigned a cluster-id and recorded the size of the
 cluster.
 
-To estimate contig-coverage I converted \texttt{sam}-ouput genereated
+To estimate contig-coverage I converted \texttt{sam}-output generated
 with \texttt{ssaha2}\cite{pmid11591649} via a sorted \texttt{bam}-file
 to \texttt{pileup}-format using \texttt{samtools}
-\cite{journals/bioinformatics/LiHWFRHMAD09}. For a second evalutation
+\cite{journals/bioinformatics/LiHWFRHMAD09}. For a second evaluation
 I excluded best-hits mapping to multiple contigs before converting the
 \texttt{sam}-file to obtain unique coverage.
 
@@ -299,7 +301,7 @@ proteomes of the tow model-worms.  Additionally \texttt{InterProScan}
   -goterms}) was used to obtain domain based annotations for the high
 credibility assembly (highCA) derived contigs.
 
-I recorded the presence of a lethal rnai-phenotype in the
+I recorded the presence of a lethal RNAi-phenotype in the
 \textit{C. elegans} ortholog of each TUG using the biomart-interface
 \cite{pmid22083790} to wormbase v. 220 through the R-package
 \texttt{biomaRt} \cite{pmid19617889}.
@@ -327,10 +329,10 @@ relative heterozygosity (number of homozygous sites/number of
 heterozygous sites) I used the R package \texttt{Rhh}
 \cite{pmid21565077} to calculate internal relatedness
 \cite{pmid11571049}, homozygosity by loci \cite{pmid17107491} and
-standardized heterozygosity \cite{coltman81j} from these data.
+standardised heterozygosity \cite{coltman81j} from these data.
 
 Using 1000 bootstrap replicates I confirmed the significance of
-heterozygote-heterozygote correlation by analyzing the mean and 95\%
+heterozygote-heterozygote correlation by analysing the mean and 95\%
 confidence intervals from 1000 bootstrap replicates estimated for all
 measurements.
 
@@ -356,7 +358,7 @@ merged with these.
 \label{GO-over-meth}
 
 We used Mann-Whitney u-tests to test the influence of factors on dn/ds
-values, when multiple contrasts between groups (facotrs) were
+values, when multiple contrasts between groups (factors) were
 investigated we used Nemenyi-Damico-Wolfe-Dunn tests. For
 overrepresentation of one group (factor) in another group (factor) we
 used Fisher's exact test.
@@ -364,17 +366,17 @@ used Fisher's exact test.
 Prior to analysis of GO-term over-representation (based on dn/ds or
 expression values) we used the R-package \texttt{annotationDbi}
 \cite{AnnotationDbi} to obtain a full list of associations (also with
-higer-level terms) from \texttt{annot8r}-annotations. We then used the
+higher-level terms) from \texttt{annot8r}-annotations. We then used the
 R-package \texttt{topGO} \cite{topGO} to traverse the annotation-graph
 and analyse each node in the annotation for over-representation of the
 associated term in the focal gene-set compared to a appropriate
 universal gene-set (all contigs with dn/ds values or all contigs
-analysed for gene-exprssion) with the ``classic'' method and Fisher's
+analysed for gene-expression) with the ``classic'' method and Fisher's
 exact test.
 
 \section{Transcriptomic divergence in a common garden experiment}
 
-\subsection{Experimental infeciton of eels} 
+\subsection{Experimental infection of eels}
 
 \textit{An. anguilla} were obtained from the Albe-Fishfarm in
 Haren-R\"utenbrock, Germany. \textit{An. japonica} were caught at the
@@ -382,14 +384,14 @@ glass-eel stage in the estuary of Kao-ping River, Taiwan by
 professional fishermen and kept at a water temperature of
 26$^{\circ}$C until they reached a size of $>$ 35 cm.
 
-The absence of infecions with \textit{A. crassus} in both eel-species
+The absence of infections with \textit{A. crassus} in both eel-species
 was confirmed by dissection of 10 individuals of each species.
 
-After an acclimatisation periode of 4 weeks (\textit{An. anguilla}) or
+After an acclimatisation period of 4 weeks (\textit{An. anguilla}) or
 when they reached a size of $>$ 35cm (\textit{An. japonica}) eels were
 infected using a stomach tube as described in
-\cite{boon1990effect}. During the infection periode water temperature
-was held constant at 20$^{\circ}$C. Eels were kept in 160-liter tanks
+\cite{boon1990effect}. During the infection period water temperature
+was held constant at 20$^{\circ}$C. Eels were kept in 160-litre tanks
 in groups of 5-10 individuals and continuously provided with fresh,
 oxygenated water and once every two days with commercial fish pellets
 (Dan-Ex 2848, Dana Feed A/S Ltd, Horsens, Denmark) \textit{at
@@ -398,7 +400,7 @@ oxygenated water and once every two days with commercial fish pellets
 L2 larvae used for the infection were collected from the swimbladders
 of wild yellow and silver eels from the River Rhine near Karlsruhe and
 from Lake M\"uggelsee near Berlin in Germany. Taiwanese larvae were
-obtained from eels from an aquacultre adjacent to Kao Ping River in
+obtained from eels from an aquaculture adjacent to Kao Ping River in
 south Taiwan and from a second aquaculture in Yunlin county,
 approximately 150 km further north on the west coast of Taiwan. They
 were stored at 4$^{\circ}$C for no longer than 2 weeks before copepods
@@ -409,7 +411,7 @@ of micro-titer plates at an intensity of roughly 10 L2-larvae per
 copepod. One week after infection they were placed in bigger
 tanks. Twice a week yeast was provided as food and at 21 dpi infective
 L3 were harvested with using a tissue potter as described by
-\cite{haenen_improved_1994}. 50 L3 for infection of individaul eel
+\cite{haenen_improved_1994}. 50 L3 for infection of individual eel
 were suspended in 100 $\mu$l RPMI-1640 medium (Quiagen, Hilden,
 Germany) and eels were infected as described above.
 
@@ -429,16 +431,16 @@ The paired-end TruSeqTM RNA sample preparation kit (Illumina) was
 followed to build sequencing libraries with insert sizes of roughly
 270 bp for paired-end sequencing from cDNA libraries: Briefly, poly-T
 oligo-attached magnetic beads were used for purification of mRNA and
-to simultaniously fragment the RNA. The RNA was then primed with
+to simultaneously fragment the RNA. The RNA was then primed with
 random hexamer primers for cDNA synthesis and reverse transcribed into
 first strand cDNA using reverse transcriptase. The cDNA was cleaned
-from the 2nd strand reaction, overhangs were repaired to form blunt
+from the second strand reaction, overhangs were repaired to form blunt
 ends, a single ``A''-nucleotide was added at the 3' end and paired end
 sequencing adapters ware ligated with a complementary
 ``T''-overhang. In this step multiple differently indexed paired-end
 adapters were used to enable multiplexing of the 24 different
-sequening libraries in 3 pools of 8 samples each. These three pools
-all contained one random replicate each for each treatent combination
+sequencing libraries in 3 pools of 8 samples each. These three pools
+all contained one random replicate each for each treatment combination
 ensuring complete statistical independence of replicates. Molecules
 having adapter sequences were enriched in the mix using PCR and the
 libraries were controled for quality and quantity on the BioAnalyzer
@@ -450,7 +452,7 @@ then used to regenerate the complementary strand, the original strand
 was removed and complementary strand acted as a template for the
 second read, sequenced primed by the second sequencing primer Rd2 SP.
 
-\subsection{Mapping and normalistion of read-counts}
+\subsection{Mapping and normalisation of read-counts}
 
 All sequencing reads were mapped to the fullest 454 assembly (as
 defined in \ref{sec:final-full-assembly}; I were including TUGs
@@ -464,40 +466,40 @@ data were removed during downstream evaluation.
 
 Counts were summed for technical replicates and counts to
 lowCA-derived contigs were disregarded for statistics on a
-contigs-base as well as spuriouse read counts to contigs with less
+contigs-base as well as spurious read counts to contigs with less
 than 32 mapping reads in total (see however \ref{collapse} for how
 these counts were used in further tests of reference fragmentation).
 
-The remaining counts were normalized using \texttt{DESeq} (version
-1.6.1) (i.e.  the normalization factor was estimated by the median of
+The remaining counts were normalised using \texttt{DESeq} (version
+1.6.1) (i.e.  the normalisation factor was estimated by the median of
 scaled counts, similar to the weighted trimmed mean of the log
 expression ratios used later in \texttt{edgeR}). All tables
-summarizing read-counts are based on these normalized counts. I
-obtained ``variance stabilized data'' in an expression matrix for each
+summarising read-counts are based on these normalised counts. I
+obtained ``variance stabilised data'' in an expression matrix for each
 gene and library using the ``blind'' option in a calculation not
 informed (and biased by) the model-design. These data were used in all
-gene-centric heatmap and multivariate visualisations. Additonally this
-matix was transposed to get sample-to-sample distances.
+gene-centring heatmap and multivariate visualisations. Additionally this
+matrix was transposed to get sample-to-sample distances.
 
-\subsection{Statistical analysis with generalized linear models (GLMs)}
+\subsection{Statistical analysis with generalised linear models (GLMs)}
 
 The R-package \texttt{edgeR} (version 2.4.1) \cite{pmid19910308} was
-used to build negative binomial generalized linear models, as these
-specialized GLMs outperformed GLMs in \texttt{DESeq} in speed and
-relieability of convergence. Modeled were based on a negative binomial
-distirbution and the dispersion parameter for each transcript was
+used to build negative binomial generalised linear models, as these
+specialised GLMs outperformed GLMs in \texttt{DESeq} in speed and
+reliability of convergence. Modeled were based on a negative binomial
+distribution and the dispersion parameter for each transcript was
 approximated with a trend depending on the overall level of
 expression. In the maximal fitted model expression was regressed on
 worm-sex, host-species and parasite population, including all their
 interactions. The full model thus contained terms $ S_i + H_j + P_k +
 (SH)_{ij} + (SP)_{ik} + (HP)_{jk} + (SHP)_{ijk} + \varepsilon$, where
 $\varepsilon$ is the residual variance, $S_i$ is the effect of the ith
-sex (male or female), $H_j$ is the effect of the ith host specis
+sex (male or female), $H_j$ is the effect of the ith host species
 (\textit{An. anguilla} or \textit{An. japonica}), $P_k$ is the effect
 of the kth population (European or Asian), $(SH)_{ij}$ is the
 sex-by-species interaction and similarly for the other interactions.
 
-The hierarchical nature of generalized linear models was respected
+The hierarchical nature of generalised linear models was respected
 considering (removing) all interaction effects of a main-term
 (e.g. $(SP)_{ik}$, $(SH)_{ij}$ and $(SHP)_{ijk}$) when analysing
 models for the significance of that term (e.g. $S_i$). Resulting
@@ -506,23 +508,23 @@ Benjamini and Hochberg \cite{benjamini1995controlling} and
 differential expression was inferred at a false discovery rate (FDR)
 of 5\% (adjusted p-value of 0.05).
 
-\subsection{Count-collapsing for orthologous from two model-species}
+\subsection{Count-collapsing for orthologs from two model-species}
 \label{collapse}
 
 In order to test the influence of deficiencies (i.e. fragmentation) of
 the assembly on mapping and read-counts I summed read counts over
 orthologous sequence in \textit{C. elegans} and
 \textit{B. malayi}. For this purpose I used all reference contigs
-(also lowCA-derived contigs to allow inference of fragmental mapping
+(also lowCA-derived contigs to allow inference of fragmentary mapping
 to those, but not contigs of non-\textit{A. crassus} origin).
 Differential expression for these orthologous-counts was analysed the
-same way as for contigs. Contigs were filtered based on inferrence
+same way as for contigs. Contigs were filtered based on inference
 from orthologous counts merging the two orthologous evaluations and
 the contig evaluation. Differential expression was accepted at a FDR
 of 5\% for the contig evaluation and 10\% for both of the two
 orthologous evaluations.
 
-\subsection{Multivarite confirmation of linear models}
+\subsection{Multivariate confirmation of linear models}
 \label{sec:mult-conf-line}
 
 I used the R-package \texttt{vegan} (version 2.0-2) to perform
@@ -540,8 +542,8 @@ pyrosequencing data (see \ref{GO-over-meth}).
 
 \subsection{Clustering analysis}
 
-The R-package \texttt{HeatmapPlus} was used on variance stabilized
-expression values to calculate euclidean distance and to hierachically
+The R-package \texttt{HeatmapPlus} was used on variance stabilised
+expression values to calculate euclidean distance and to hierarchically
 cluster these similar to the method of \cite{pmid9843981}. The results
 were displayed along with annotations stored in a Bioconductor
 eSet-class object.

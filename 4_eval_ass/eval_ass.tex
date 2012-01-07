@@ -23,7 +23,7 @@
 
 This chapter reports on an important methodical detail of chapter
 \ref{cha:pyro}: the sequence-assembly. The quality of this sequence
-assembly constitues a fundamental foundation of the later chapters.
+assembly constitutes a fundamental foundation of the later chapters.
 
 The pre-processed \textit{A. crassus} data-set consisting of
 100,491,819 bases in 353,055 reads (58,617 generated using
@@ -38,8 +38,8 @@ as second-order assembly).
 Summary statistics for the assemblies, demonstrating the superiority
 of the second-order assembly are reported as well as summary
 statistics for single contigs. These metadata on contigs are important
-for the evalutation of downsteam results. As a perfect assembly with
-each contig represtenting a single full transcript is illusive and
+for the evaluation of downstream results. As a perfect assembly with
+each contig representing a single full transcript is illusive and
 every contig constitutes a hypothesis, it becomes important to
 validate and question analyses based on as much information as
 possible. Thus a comprehensive set of assembly derived statistics is
@@ -108,15 +108,15 @@ Max length & 6,300 & 6,352 & 6,377 \\
   Number of contigs & 15,934 & 22,596 & 14,064 \\ 
   Number of Bases & 8,085,922 & 12,010,349 & 8,139,143 \\ 
   N50 & 579 & 579 & 662 \\ 
-  Number of congtigs in N50 & 4,301 & 6,749 & 3,899 \\ 
+  Number of contigs in N50 & 4,301 & 6,749 & 3,899 \\ 
   non ATGC bases & 375 & 29,962 & 5,245 \\ 
   Mean length & 508 & 532 & 579 \\ 
    \hline
 \end{tabular}
 \caption[Statistics for the first-order assemblies]{\textbf{Statistics
-    for the first-order assemblies -} Basic statistics for the
-  first-order assemblies and the second-order assemly (for which only
-  the most relieable category of contigs (MN) is shown; see
+    for the first-order assemblies} - Basic statistics for the
+  first-order assemblies and the second-order assembly (for which only
+  the most reliable category of contigs (MN) is shown; see
   \ref{sec:data-categ-second}).}
 \label{tab:pc}
 \end{center}
@@ -138,7 +138,7 @@ in the second-order assembly, with different reliability and purpose
 in downstream applications: The first category of data obtained are
 the singletons of the final second-order assembly. It comprises raw
 sequencing reads that neither of the first-order assemblers used. It
-is therefore the intersecion of the \texttt{Newbler}-singletons (as
+is therefore the intersection of the \texttt{Newbler}-singletons (as
 defined in \ref{sec:new-fist}) and the
 \texttt{Mira}-singletons. 47,669 reads fell into this category. A
 second category of sequence contains the first-order contigs which
@@ -154,7 +154,7 @@ algorithm.
 Finally the category of contigs considered most reliable contains all
 second-order contigs with contributions from both first-order
 assemblies (MN in table \ref{tab:categ}). For this last, most reliable
-(MN) category, reads contained in the assembly can be categorized
+(MN) category, reads contained in the assembly can be categorised
 depending on whether they entered the assembly via both or only via
 one first-order assembly.
 
@@ -171,8 +171,8 @@ Snd.o.con &   & 164 & 13887 & 13 &   \\
   reads & 42172 & 21153 & one=269868/both=193308 & 1538 & 13100 \\ 
    \hline
 \end{tabular}
-\caption[number of reads in assemblies]{\textbf{Number of reads in
-    assemblies} for first-order contigs (Fst.o.con) and second-order
+\caption[Number of reads in assemblies]{\textbf{Number of reads in
+    assemblies} - For first-order contigs (Fst.o.con) and second-order
   contigs (Snd.o.con) numbers for different categories of contigs are
   given: M\_1 and N\_1 = first-order contigs not assembled in
   second-order assembly, from \texttt{Mira} and \texttt{Newbler}
@@ -184,13 +184,13 @@ Snd.o.con &   & 164 & 13887 & 13 &   \\
 \end{center}
 \end{table}
 
-\figuremacro{read_origin}{Origing of reads}{Reads in the most reliable
-  (MN) assembly-category are categorized by the way they entered the
+\figuremacro{read_origin}{Origin of reads}{Reads in the most reliable
+  (MN) assembly-category are categorised by the way they entered the
   assembly: Although they are in a highly credible contig, reads can
   still have entered from only one first order assembly (Mira\_in\_MN
   or Newbler\_in\_MN). The intersection gives the reads which entered
   via both routes. The duplicated category gives the number of reads
-  split by \texttt{Newber} and the intersection reads, which were
+  split by \texttt{Newbler} and the intersection reads, which were
   split and entered the assembly.}
 
 Figure \ref{read_origin} gives a more detailed view of the fate of the
@@ -223,7 +223,7 @@ by the duplication due to the splitting of reads.
 \section{Evaluation of the assemblies}
 \label{sec:eval-three-assembl}
 
-To further compare assemblies (\texttt{Mira, Newber} first-order
+To further compare assemblies (\texttt{Mira, Newbler} first-order
 assemblies including or excluding their singletons) and the
 second-order assembly (including different contigs-categories and
 singletons) I evaluated the number of bases or proteins their contigs
@@ -250,7 +250,7 @@ reference-coverage. When adding the contigs considered lower quality
 supported by only one assembler to the second-order assembly the
 reference-coverage increased moderately.
 
-Including singletons the \texttt{Mira} and \texttt{newber} assemblies
+Including singletons the \texttt{Mira} and \texttt{Newbler} assemblies
 were of increased size. A comparison of the \texttt{Newbler's}
 reported singletons with all singletons added to the
 \texttt{Newbler}-assembly shows that the reported singletons increased
@@ -287,24 +287,24 @@ assembly; and labeled FU in the plots above) was obtained.
 
 
 \figuremacro{base_ref_p}{Base-content and reference-transcriptome
-  coverage}{in percent of proteins hit for different assemblies and
-  assembly-combinations (for category-abrevations see figure
-  \ref{base_ref_b})}
+  coverage in percent of proteins hit}{in percent of proteins hit for
+  different assemblies and assembly-combinations (for
+  category-abbreviations see figure \ref{base_ref_b})}
 
 Considering the reference-database with any kind of coverage the
 second-order assembly performed less well. Excluding singletons it
 covered similar numbers of database-proteins to the
-\texttt{newber}-assembly and and was outperformed by the
-\texttt{Mira}-assembly, although the latter was again shwon to be
+\texttt{Newbler}-assembly and and was outperformed by the
+\texttt{Mira}-assembly, although the latter was again shown to be
 least parsimonious. The same general picture emerged from this
 analysis when singletons were considered
-additionally. \texttt{Newbler} and second-order assemblies coverd
+additionally. \texttt{Newbler} and second-order assemblies covered
 similar amounts of reference-data.
 
 \figuremacro{base_ref_8}{Base-content and reference-transcriptome
-  coverage in percent of proteins coverd to at least 80\%}{of their
+  coverage in percent of proteins covet to at least 80\%}{of their
   length for different assemblies and assembly-combinations (for
-  category-abrevations see figure \ref{base_ref_b})}
+  category-abbreviations see figure \ref{base_ref_b})}
 
 When database-proteins covered for at least 80\% of their length are
 considered, the second-order assembly showed its superiority: both ex-
@@ -323,7 +323,7 @@ second-order contigs (including those supported by only one assembler)
 plus the intersection of reported \texttt{Newbler}-singletons and
 \texttt{Mira} singletons.
 
-\section{Measurments on second-order assembly}
+\section{Measurements on second-order assembly}
 
 Based on the tracking of reads through the complicated assembly
 process, I calculated the following statistics for each contig in the
@@ -339,7 +339,7 @@ second-order assembly.
   split into)
 \item maximal number of first-order contigs a read in the contig has
   been split into during \texttt{Newbler}-assembly 
-\item the number of same-read-paires from the \texttt{Newbler} and
+\item the number of same-read-pairs from the \texttt{Newbler} and
   \texttt{Mira} first order-assembly merged in a second order contig
 \item cluster-id of the contig: All contigs ``connected'' by sharing
   reads were assigned the same id (similar to the graph clustering
@@ -351,11 +351,11 @@ second-order assembly.
 
 \subsection{Contig coverage}
 
-As well defined coverage-information is not readyly avaiable from the
-output of this combined assembly aproach (although I followed
+As well defined coverage-information is not readily available from the
+output of this combined assembly approach (although I followed
 individual reads through the process) I inferred coverage by mapping
-the reads used for assembly against the fullest assembly using ssaha2
-\cite{pmid11591649} and obtained:
+the reads used for assembly against the fullest assembly using
+\texttt{ssaha2} \cite{pmid11591649} and obtained:
 
 \begin{itemize}
 \item mean per base coverage
@@ -363,7 +363,7 @@ the reads used for assembly against the fullest assembly using ssaha2
 \end{itemize}
 
 The ratio of mean per base coverage and unique per base coverage (the
-standard for assesing coverage) can be used as to asses the redundancy
+standard for assessing coverage) can be used as to asses the redundancy
 of a contig.
 
 \subsection{Example use of the contig-measurements}
@@ -398,8 +398,8 @@ reads\_through\_Newbler &   16 & 1351 &    0 &   14 \\
   uniq\_coverage & 4.248960 & 7.425507 & 2.568000 & 1.196078 \\ 
    \hline
 \end{tabular}
-\caption[Example for assembly-measurements]{\textbf{Example table for
-    assembly-measurements - } measurements on contigs (as given in
+\caption[Example for assembly-measurements]{\textbf{Example for
+    assembly-measurements} - Measurements on contigs (as given in
   additional file \texttt{contig-data.csv}), row-labels are explained
   in a detailed example in the main text}
 \label{tab:ex-me}
@@ -411,7 +411,7 @@ consists of only one contig from each first-order assembly
 of moderate size: 16 from \texttt{Newbler} (reads\_through\_Newbler)
 26 from \texttt{Mira} (reads\_through\_Mira). 8 of the 16 reads
 \texttt{Newbler} used in its one assembled contig were also assembled
-to a differnt \texttt{Newbler}-contig (num.new.split). That each of
+to a different \texttt{Newbler}-contig (num.new.split). That each of
 the 8 reads was only appearing in one other \texttt{Newbler}-contig is
 visible from the fact, that the number of split events is 16
 (sum.new.split) and the maximal number of splits for one read is 2
@@ -421,7 +421,7 @@ contig, leaving 3 (16-13) reads in \texttt{Newbler}-contigs and 13
 (26-13) reads in \texttt{Mira} contigs, which all could potentially
 have ended up in other contigs. The contig is in a cluster (CL62),
 which contains in total 24 contigs (cluster.size). It has to be
-addmitted that the whole graph-structure linking this 24 contigs can't
+admitted that the whole graph-structure linking this 24 contigs can't
 be reconstructed from this contig summary data. On the other hand the
 summary data makes clear, from what source the links for
 cluster-affiliation have resulted: In this case from 3 and 13 unlinked
@@ -450,7 +450,7 @@ unusual patterns in the contig meta-data.
 \section{Finalising the fullest assembly set}
 \label{sec:final-full-assembly}
 
-As additonal measure in order to minimize the amount of sequence with
+As additional measure in order to minimise the amount of sequence with
 artificially inferred isoform-breakpoints, I used the
 unique-mapping-information described above to detect contigs and
 singletons not supported by any raw data (reads). Table
@@ -471,17 +471,17 @@ trusted MN-category contigs having no coverage at all and the contigs
   unique coverage == 0 & 584 &  48 &   2 &  \textbf{42(-36)} & 210 &   3 \\ 
   \hline
 \end{tabular}
-\caption[finalizing the assembly]{\textbf{Final filtering of the
-    assembly -} Number of contigs with a coverage and unique-coverage
-  of zero, inferred from mapping of raw reads, listed by
-  contig-category. Only the contigs in bold listed here were not
+\caption[Final filtering of the assembly]{\textbf{Final filtering of
+    the assembly} - Number of contigs with a coverage and
+  unique-coverage of zero, inferred from mapping of raw reads, listed
+  by contig-category. Only the contigs in bold listed here were not
   screened from the assembly (7 MN-contigs).}
 \label{tab:cov.ex}
 \end{center}
 \end{table}
 
 Thereby I reduced my dataset to 40187 tentative unique genes (TUGs),
-redifining the ``fullest assembly'' dataset. Based on the above
+redefining the ``fullest assembly'' dataset. Based on the above
 evaluation I decided to treat the MN-category of contigs as high
 credibility assembly (highCA) and to subsume the M\_n, N\_n, M\_1,
 N\_1 and \texttt{Newbler's} reported singletons as additional low

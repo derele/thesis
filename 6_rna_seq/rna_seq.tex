@@ -29,7 +29,7 @@ Taiwanese worms in \textit{An. japonica}, compared to the other
 parasite populations. In other words, in host-parasite combinations of
 matching origin, more parasites were recovered.
 
-\figuremacro{stages_plot}{Recovery of worms in cross-infection
+\figuremacro{stages_plot}{Recovery of worms in coinoculation
   experiment}{Mean numbers of worms recovered after 55-57 dpi for
   sample sizes given as n=x. Error-bars indicate the standard error
   (s.e.) of the mean. Recovered lifecycle stages of the parasite are
@@ -148,7 +148,7 @@ were used.
   worm population (population - R for European, T for Taiwanese) and
   sex of worm(s) in preparation (F for female, M for male; last letter
   in label). The European samples were from two locations: river Rhine
-  (R,) and M\"uggelsee near Berlin (B), the Taiwanes samples were from
+  (R,) and M\"uggelsee near Berlin (B), the Taiwanese samples were from
   from Kao Ping River (K) and Yunlin county (Y). Additionally the
   intensity of infection (number of adult worms found in the infected
   eel; intensity) and the number of worms pooled in the preparation
@@ -168,7 +168,7 @@ guarantee statistical independence from sequencing-lane effects. Each
 pool of eight was sequenced on two lanes, giving in total six lanes of
 data and two technical replicates for each library. Sequencing
 resulted in a total of 263,668,952 raw sequencing read-pairs, each
-read having a lenght of 60 bases and 270 bases mean insert size
+read having a length of 60 bases and 270 bases mean insert size
 between the read pairs.
 
 \section{Examination of data-quality}
@@ -197,7 +197,7 @@ transposed euclidean distances between samples (see figure
 
 158,232,523 read-pairs were left after removal of hits to contigs for
 which non-\textit{A. crassus} origin had been inferred in the
-curration of the 454-transcriptome assembly.
+analysis of the 454-transcriptome assembly.
 
 % latex table generated in R 2.13.0 by xtable 1.5-6 package
 % Tue Nov 29 14:12:43 2011
@@ -233,15 +233,15 @@ AA\_R11M & 11986442 & 8628520 & 7868814 & 6889551 \\
   AJ\_T8F & 14196382 & 10275074 & 9496489 & 8364594 \\ 
    \hline
 \end{tabular}
-\caption[mapping Summary]{\textbf{Mapping summarised for all 24
-    libraries -} Rows indicate different libraries (worms or
-  worm-pools as indicated in \ref{tab:lib-prep}) raw.reads gives the
-  number of read-pairs sequenced, raw.mapped the number of reads
-  mapping uniquely with their best hit, tax.mapped the number of reads
-  after subtraction of reads to putative eel-host derived contigs
-  and screened after subtraction of all reads mapping not to the
-  higCA-derived assembly or to contigs with overall counts less than
-  32.}
+\caption[Mapping Summary]{\textbf{Mapping Summary} - Mapping is
+  summarised for all 24 libraries. Rows indicate different libraries
+  (worms or worm-pools as indicated in \ref{tab:lib-prep}) raw.reads
+  gives the number of read-pairs sequenced, raw.mapped the number of
+  reads mapping uniquely with their best hit, tax.mapped the number of
+  reads after subtraction of reads to putative eel-host derived
+  contigs and screened after subtraction of all reads mapping not to
+  the highCA-derived assembly or to contigs with overall counts less
+  than 32.}
 \label{tab:read-clean}
 \end{center}
 \end{table}
@@ -269,7 +269,7 @@ library AJ\_R3M to 9,453,468 read-pairs for library AA\_R8F (see
 These reads mapped to 7,520 contigs from our 454 assembly, making them
 the basis for all further investigations.
 
-In addition to hierarchical cluster analysis, also prinicipal
+In addition to hierarchical cluster analysis, also principal
 component analysis grouped libraries according to the sex of worms
 (the largest effect), but was unable to identify libraries with
 expression correlated in more subtle ways (see figure \ref{heat_all}
@@ -373,24 +373,25 @@ factor of interest. I found that 7\% of the variance in contigs DE
 between eel-hosts and 11\% of the variance in contigs DE between
 worm-population explained by the corresponding factor. In both
 evaluations more than 50\% of the remaining variance could be
-explained by a single principal component, which was mainly worm-sex
-(see figure \ref{pca_eel} a and \ref{pca_pop} a). When only OC-DE
-contigs were considered the explained variance for difference between
-eel-host dropped to 3.3\% and the explained variance for differences
-between worm-population was raised to 23\%, while the sex-effect
-explained 70\% and 50\% of the variance (see figure \ref{pca_eel} b
-and \ref{pca_pop} b). Significance of the constrained component
-evaluated by a permutation-test could be established at a p $<$ 0.05
-threshold for all but the OC eel-host DE subset.
+explained by a single principal component, to which sex contributed
+over 99\% (loading) (see figure \ref{pca_eel} a and \ref{pca_pop}
+a). When only OC-DE contigs were considered the explained variance for
+difference between eel-host dropped to 3.3\% and the explained
+variance for differences between worm-population was raised to 23\%,
+while the sex-effect explained 70\% and 50\% of the variance (see
+figure \ref{pca_eel} b and \ref{pca_pop} b). Significance of the
+constrained component evaluated by a permutation-test could be
+established at a p $<$ 0.05 threshold for all but the OC eel-host DE
+subset.
 
 \figuremacroW{pca_eel}{Constrained redundancy analysis for host-DE
   contigs}{Eel-host differences are displayed as constrained component
-  on the x-axis, the principal component on the y-axis corresponds to
-  the sex of the worm. (a) Host differences partition the variance in
-  samples in like expected for all contigs, the constrained component
-  showed significance. (b) For OC contigs the constrained component
-  fails to to partition the variance as expected, the component showed
-  no significance for this subset of the data.}{0.60}
+  on the x-axis, the sex contributed >99\% (loading) to the principal
+  component on the y-axis. (a) Host differences partition the variance
+  in samples in like expected for all contigs, the constrained
+  component showed significance. (b) For OC contigs the constrained
+  component fails to to partition the variance as expected, the
+  component showed no significance for this subset of the data.}{0.60}
 
 \figuremacroW{pca_pop}{Constrained redundancy analysis for
   population-DE contigs}{Population differences are displayed as

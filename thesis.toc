@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {1.2.2}The history and methods of high-throughput DNA-sequencing}{19}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}DNA-sequencing in nematodes}{20}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Advances in sequencing technology}{22}{subsection.1.2.4}
-\contentsline {subsubsection}{\numberline {1.2.4.1}Pyro-sequencing}{24}{subsubsection.1.2.4.1}
+\contentsline {subsubsection}{\numberline {1.2.4.1}Pyrosequencing}{24}{subsubsection.1.2.4.1}
 \contentsline {subsubsection}{\numberline {1.2.4.2}Illumina-Solexa sequencing}{26}{subsubsection.1.2.4.2}
 \contentsline {subsection}{\numberline {1.2.5}Computational methods in DNA-sequence analysis}{28}{subsection.1.2.5}
 \contentsline {subsection}{\numberline {1.2.6}Applications in ecology and evolution and gene-expression divergence}{31}{subsection.1.2.6}
@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {4.4}Data-categories in the second-order assembly}{46}{section.4.4}
 \contentsline {section}{\numberline {4.5}Contribution of first-order assemblies to second-order contigs}{48}{section.4.5}
 \contentsline {section}{\numberline {4.6}Evaluation of the assemblies}{48}{section.4.6}
-\contentsline {section}{\numberline {4.7}Measurments on second-order assembly}{54}{section.4.7}
+\contentsline {section}{\numberline {4.7}Measurements on second-order assembly}{54}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Contig coverage}{54}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}Example use of the contig-measurements}{55}{subsection.4.7.2}
 \contentsline {section}{\numberline {4.8}Finalising the fullest assembly set}{56}{section.4.8}
@@ -62,29 +62,29 @@
 \contentsline {chapter}{\numberline {7}Discussion}{111}{chapter.7}
 \contentsline {section}{\numberline {7.1}Pilot-sequencing}{111}{section.7.1}
 \contentsline {section}{\numberline {7.2}Pyrosequencing}{112}{section.7.2}
-\contentsline {section}{\numberline {7.3}Transcriptomic divergence in a common garden experiment}{116}{section.7.3}
+\contentsline {section}{\numberline {7.3}Transcriptomic divergence in a common garden experiment}{117}{section.7.3}
 \contentsline {section}{\numberline {7.4}Outlook}{128}{section.7.4}
 \contentsline {chapter}{\numberline {8}Materials \& methods}{133}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels (Sanger- and pyro-sequencing) }{133}{section.8.1}
-\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and 454-sequencing}{133}{section.8.2}
+\contentsline {section}{\numberline {8.1}Sampling of worms from wild eels for Sanger- and pyrosequencing}{133}{section.8.1}
+\contentsline {section}{\numberline {8.2}RNA-extraction and cDNA synthesis for Sanger- and pyrosequencing}{133}{section.8.2}
 \contentsline {section}{\numberline {8.3}Cloning for Sanger-sequencing}{134}{section.8.3}
 \contentsline {section}{\numberline {8.4}Pilot Sanger-sequencing}{135}{section.8.4}
-\contentsline {section}{\numberline {8.5}454-pyro-sequencing}{136}{section.8.5}
+\contentsline {section}{\numberline {8.5}Pyrosequencing}{136}{section.8.5}
 \contentsline {subsection}{\numberline {8.5.1}cDNA preparation and sequencing}{136}{subsection.8.5.1}
 \contentsline {subsection}{\numberline {8.5.2}Trimming, quality control and assembly}{136}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Evalutaion of the assemblies}{137}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.3}Evaluation of the assemblies}{137}{subsection.8.5.3}
 \contentsline {subsection}{\numberline {8.5.4}Post-assembly classification and taxonomic assignment of contigs}{138}{subsection.8.5.4}
 \contentsline {subsection}{\numberline {8.5.5}Protein prediction and annotation}{138}{subsection.8.5.5}
 \contentsline {subsection}{\numberline {8.5.6}Single nucleotide polymorphism analysis}{139}{subsection.8.5.6}
 \contentsline {subsection}{\numberline {8.5.7}Gene-expression analysis}{139}{subsection.8.5.7}
 \contentsline {subsection}{\numberline {8.5.8}Enrichment analysis}{140}{subsection.8.5.8}
 \contentsline {section}{\numberline {8.6}Transcriptomic divergence in a common garden experiment}{140}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Experimental infeciton of eels}{140}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.1}Experimental infection of eels}{140}{subsection.8.6.1}
 \contentsline {subsection}{\numberline {8.6.2}RNA extraction and preparation of sequencing libraries}{141}{subsection.8.6.2}
-\contentsline {subsection}{\numberline {8.6.3}Mapping and normalistion of read-counts}{142}{subsection.8.6.3}
-\contentsline {subsection}{\numberline {8.6.4}Statistical analysis with generalized linear models (GLMs)}{142}{subsection.8.6.4}
-\contentsline {subsection}{\numberline {8.6.5}Count-collapsing for orthologous from two model-species}{143}{subsection.8.6.5}
-\contentsline {subsection}{\numberline {8.6.6}Multivarite confirmation of linear models}{143}{subsection.8.6.6}
+\contentsline {subsection}{\numberline {8.6.3}Mapping and normalisation of read-counts}{142}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}Statistical analysis with generalised linear models (GLMs)}{142}{subsection.8.6.4}
+\contentsline {subsection}{\numberline {8.6.5}Count-collapsing for orthologs from two model-species}{143}{subsection.8.6.5}
+\contentsline {subsection}{\numberline {8.6.6}Multivariate confirmation of linear models}{143}{subsection.8.6.6}
 \contentsline {subsection}{\numberline {8.6.7}GO-term enrichment analysis}{143}{subsection.8.6.7}
 \contentsline {subsection}{\numberline {8.6.8}Clustering analysis}{143}{subsection.8.6.8}
 \contentsline {section}{\numberline {8.7}General coding methods}{144}{section.8.7}
