@@ -1103,6 +1103,23 @@ FUNCTION {phdthesis}
   fin.entry
 }
 
+FUNCTION {masterthesis}
+{ output.bibitem
+  format.authors "author" output.check
+  new.block
+  title empty$ 'skip$ 'setup.inlinelink if$ % urlbst
+  format.btitle "title" output.check
+  new.block
+  "Master thesis" format.thesis.type output.nonnull
+  school "school" output.check
+  address output
+  format.date "year" output.check
+  new.block
+  note output
+  fin.entry
+}
+
+
 FUNCTION {dphilthesis}
 { output.bibitem
   format.authors "author" output.check

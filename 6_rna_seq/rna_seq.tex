@@ -259,7 +259,7 @@ library AJ\_R3M to 9,453,468 read-pairs for library AA\_R8F (see
 
 \figuremacro{mds}{Principle coordinate plot for expression in RNA-seq
   libraries}{Distance between sample-pairs is the root-mean-square
-  deviation (euclidean distance) for the most differentially expressed
+  deviation (Euclidean distance) for the most differentially expressed
   (DE) genes. Distances can be interpreted as the log2-fold-change of
   the genes with the biggest changes, i.e. the log2-fold-change for
   the genes that distinguish the samples.}
@@ -531,10 +531,9 @@ presented for other factors.
 Clustering analysis uses distance measurements between samples as well
 as genes (or transcripts) to highlight patterns of similarity. The
 classical distance measure used in hierarchical clustering throughout
-this document is Euclidean distance similar to ``Eisen-Clustering''
-from \cite{pmid9843981}. Grouping of genes regulated in parallel in
-combination with annotation, the status of cellular processes can
-support notions based on single genes.
+this document is Euclidean distance. Grouping of genes regulated in
+parallel in combination with annotation, the status of cellular
+processes can support notions based on single genes.
 
 Hierarchical clustering analyses of genes DE between populations
 confirmed the results of principal component based multivariate
@@ -564,12 +563,12 @@ be significant for interaction effects.
 
 \figuremacro{pop_all_heat}{Clustering of expression values for contigs
   DE between populations}{A heatmap of variance/mean stabilised
-  expression values. Deprograms are based on euclidean distance and
-  hierarchically clustering. Green indicates expression below the mean,
-  red above the mean. Experimental conditions are indicated by black
-  bars for groups of samples (columns) below the plot. Presence
-  GO-term annotation for contigs (rows) are given as black bars right
-  to the plot: isOxidoreductase = GO:0016491, oxidoreductase activity;
+  expression values. Deprograms are based on hierarchical
+  clustering. Green indicates expression below the mean, red above the
+  mean. Experimental conditions are indicated by black bars for groups
+  of samples (columns) below the plot. Presence GO-term annotation for
+  contigs (rows) are given as black bars right to the plot:
+  isOxidoreductase = GO:0016491, oxidoreductase activity;
   isMitochondrial = GO:0005739, mitochondrion; isELDevelopment =
   GO:0002164, larval development or GO:0009791, post-embryonic
   development; isResponsetoStim = GO:0050896, response to stimulus;
@@ -598,11 +597,11 @@ general effects of worm sex.
 Cytochrome C oxidase subunit 2 (COXII) shows the clearest of all
 expression patterns for any of the observed genes. It differed
 significantly only between populations (showed no reaction an any
-other factor) and was on average over 1000-fold stronger expressed in
+other factor) and was on average over 1,000-fold stronger expressed in
 the Taiwanese population. At face values differed for every single
 individual (of the 12 investigated in each populations) at least
 20-fold (highest normalised expression was 350 counts in a European
-worm, lowest normalised expression in any Taiwanese worm was 7500
+worm, lowest normalised expression in any Taiwanese worm was 7,500
 counts). Counts summed for orthologs were also significant only for
 this factor and showed over 10-fold stronger expression in the same
 direction. This accounts to the fact, that misassembled contigs

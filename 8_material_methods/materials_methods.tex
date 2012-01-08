@@ -36,7 +36,7 @@ they were counted. All adult \textit{A. crassus} were preserved in
 RNAlater(Quiagen, Hilden, Germany) in individual plastic tubes.
 
 Worms from the European eel were sampled in Sniardwy Lake, Poland
-(53.751959N ,21.730957E) by Urszula Weclawski and from the
+(53.751959N; 21.730957E) by Urszula Weclawski and from the
 Linkenheimer Altrhein, Germany (49.0262N; 8.310556E), following a
 procedure similar to the one described above for worms from Taiwan.
 
@@ -51,7 +51,7 @@ were used for RNA extraction, following the same protocol.
 
 The Evrogen MINT cDNA synthesis kit (Evrogen, Moscow, Russia ) was
 then used to amplify mRNA transcripts according to the manufacturers
-protocol. It uses an adapter sequence at 3' the end of a a poly
+protocol. It uses an adapter sequence at 3' the end of a poly
 dT-primer for first strand synthesis and adds a second adapter
 complementary to the bases at the 5' end of the transcripts by
 terminal transferase activity and template switching. Using these
@@ -202,7 +202,7 @@ identify and remove poly-A-tails, low quality, repetitive and short
 databases using \texttt{Blast} (expect value cutoff E<1e-5, low
 complexity filtering turned off: -F F). The databases used were (a) a
 host sequence database comprising an assembly of the
-\textit{An. japonica} Roche 454 data, a unpublished assembly of
+\textit{An. japonica} Roche 454 data, an unpublished assembly of
 \textit{An. anguilla} Sanger dideoxy sequenced expressed sequence tags
 (made available to us by Gordon Cramb, University of St Andrews) and
 transcripts from EeelBase \cite{pmid21080939} a publicly available
@@ -216,15 +216,14 @@ databases over more than 80\% of their length and with greater than
 95\% identity were removed from the dataset. Screening and trimming
 information was written back into sff-format using \texttt{sfffile}
 (Roche 454). The filtered and trimmed data were assembled using the
-combined assembly approach \cite{pmid20950480}: Two assemblies were
+combined assembly approach \cite{pmid20950480}: two assemblies were
 generated, one using \texttt{Newbler v2.6} \cite{pmid16056220} (with
 parameters \texttt{-cdna -urt}), the other using \texttt{Mira v3.2.1}
 \cite{miraEST} (with parameters
 \texttt{--job=denovo,est,accurate,454}). The resulting two assemblies
 were combined into one using \texttt{Cap3} \cite{Cap3_Huang} at
 default settings and contigs were labeled by whether they derived from
-both assemblies or one assembly only (for a detailed analysis of the
-assembly categories see the supporting Methods file).
+both assemblies or one assembly only.
 
 \subsection{Evaluation of the assemblies}
 
@@ -271,6 +270,7 @@ Chordata within Metazoa were additionally excluded from further
 analysis.
 
 \subsection{Protein prediction and annotation}
+\label{pro4est}
 
 Protein translations were predicted from the contigs using
 \texttt{prot4EST} (version 3.0b)
@@ -369,7 +369,7 @@ expression values) we used the R-package \texttt{annotationDbi}
 higher-level terms) from \texttt{annot8r}-annotations. We then used the
 R-package \texttt{topGO} \cite{topGO} to traverse the annotation-graph
 and analyse each node in the annotation for over-representation of the
-associated term in the focal gene-set compared to a appropriate
+associated term in the focal gene-set compared to an appropriate
 universal gene-set (all contigs with dn/ds values or all contigs
 analysed for gene-expression) with the ``classic'' method and Fisher's
 exact test.
@@ -429,7 +429,7 @@ male worms using the RNeasy-kit (Quiagen, Hilden, Germany) (see table
 
 The paired-end TruSeqTM RNA sample preparation kit (Illumina) was
 followed to build sequencing libraries with insert sizes of roughly
-270 bp for paired-end sequencing from cDNA libraries: Briefly, poly-T
+270 bp for paired-end sequencing from cDNA libraries: briefly, poly-T
 oligo-attached magnetic beads were used for purification of mRNA and
 to simultaneously fragment the RNA. The RNA was then primed with
 random hexamer primers for cDNA synthesis and reverse transcribed into
@@ -543,10 +543,9 @@ pyrosequencing data (see \ref{GO-over-meth}).
 \subsection{Clustering analysis}
 
 The R-package \texttt{HeatmapPlus} was used on variance stabilised
-expression values to calculate euclidean distance and to hierarchically
-cluster these similar to the method of \cite{pmid9843981}. The results
-were displayed along with annotations stored in a Bioconductor
-eSet-class object.
+expression values to visualise hierarchical clusters similar to the
+method of \cite{pmid9843981}. The results were displayed along with
+annotations stored in a Bioconductor eSet-class object.
 
 \section{General coding methods}
 

@@ -143,9 +143,13 @@ GO.ID & Term & Annotated & Significant & Expected & p-value \\
 \begin{longtable}{p{7cm}rrrr}
   \caption[Group-means for OC genes DE between eel
   species]{\textbf{Group-means for OC genes DE between eel species} -
-    Group means are given for host combination \textit{An. japonica}
-    (Aj) and \textit{An. anguilla} (Aa) with European (EU) and
-    Taiwanese (TW) worm populations.}\\
+    Group means for expression counts are given for host combination
+    \textit{An. japonica} (Aj) and \textit{An. anguilla} (Aa) with
+    European (EU) and Taiwanese (TW) worm populations. Contig-names,
+    annotation with protein names of \textit{B. malayi} orthologs
+    (second row for each contig) and wormbase transcripts identifiers
+    (third row) are given along with
+    the aggregated counts for these orthologs.}\\
   \hline
   & Aa:EU & Aa:TW & Aj:EU & Aj:TW \\
   \hline
@@ -162,39 +166,39 @@ GO.ID & Term & Annotated & Significant & Expected & p-value \\
 \endlastfoot
 Contig1005.mean & 518.35 & 630.47 & 1512.31 & 831.26 \\ 
   Cytochrome P450 family protein & 1123.86 & 1204.98 & 2647.29 & 1620.76 \\ 
-  ce.ortho.mean & 557.65 & 662.20 & 1658.80 & 1004.08 \\ 
+  T10B9.2.mean & 557.65 & 662.20 & 1658.80 & 1004.08 \\ 
    \hline
 Contig12201.mean & 514.90 & 549.58 & 116.02 & 99.56 \\ 
   Lipase family protein & 502.48 & 553.48 & 119.47 & 101.09 \\ 
-  ce.ortho.mean & 501.19 & 549.00 & 119.20 & 99.67 \\ 
+  F58B6.1.mean & 501.19 & 549.00 & 119.20 & 99.67 \\ 
    \hline
 Contig26.mean & 11007.58 & 5406.06 & 3206.43 & 2541.48 \\ 
   Aspartic protease BmAsp-1, identical & 12994.14 & 7671.50 & 4466.98 & 4926.97 \\ 
-  ce.ortho.mean & 12670.54 & 7237.48 & 4206.98 & 4402.80 \\ 
+  Y39B6A.20.mean & 12670.54 & 7237.48 & 4206.98 & 4402.80 \\ 
    \hline
 Contig3754.mean & 490.23 & 901.35 & 922.95 & 663.19 \\ 
   MGC79044 protein, putative & 660.74 & 1110.31 & 1180.48 & 884.49 \\ 
-  ce.ortho.mean & 488.55 & 883.91 & 971.48 & 682.95 \\ 
+  F01D5.8.mean & 488.55 & 883.91 & 971.48 & 682.95 \\ 
    \hline
 Contig3896.mean & 123.17 & 85.71 & 109.09 & 60.18 \\ 
   Transcription factor AP-2 family protein & 119.36 & 86.89 & 111.08 & 59.46 \\ 
-  ce.ortho.mean & 119.08 & 85.79 & 111.17 & 58.87 \\ 
+  K06A1.1.mean & 119.08 & 85.79 & 111.17 & 58.87 \\ 
    \hline
 Contig566.mean & 642.74 & 484.47 & 337.05 & 691.06 \\ 
   Eukaryotic aspartyl protease family protein & 651.38 & 496.17 & 377.95 & 733.26 \\ 
-  ce.ortho.mean & 654.89 & 491.93 & 381.14 & 724.47 \\ 
+  F21F8.7.mean & 654.89 & 491.93 & 381.14 & 724.47 \\ 
    \hline
 Contig6778.mean & 39.00 & 768.10 & 1028.40 & 92.46 \\ 
   Nematode cuticle collagen N-terminal domain containing protein & 621.79 & 1259.66 & 1508.45 & 447.50 \\ 
-  ce.ortho.mean & 38.62 & 752.61 & 1056.15 & 95.26 \\ 
+  F11G11.11.mean & 38.62 & 752.61 & 1056.15 & 95.26 \\ 
    \hline
 Contig6934.mean & 449.66 & 639.22 & 632.23 & 572.12 \\ 
   Serine/threonine-protein phosphatase & 788.16 & 1133.91 & 1236.79 & 1041.83 \\ 
-  ce.ortho.mean & 448.17 & 628.16 & 663.55 & 591.01 \\ 
+  F23B12.1.mean & 448.17 & 628.16 & 663.55 & 591.01 \\ 
    \hline
 Contig7580.mean & 240.34 & 1318.57 & 2215.65 & 38.30 \\ 
   Cuticular collagen Bmcol-2 & 286.57 & 1490.40 & 2531.07 & 227.23 \\ 
-  ce.ortho.mean & 231.55 & 1298.61 & 2272.71 & 38.23 \\ 
+  C44C10.1.mean & 231.55 & 1298.61 & 2272.71 & 38.23 \\ 
   \hline\\
 \label{eel.sing.diff}
 \end{longtable}
@@ -205,12 +209,17 @@ Contig7580.mean & 240.34 & 1318.57 & 2215.65 & 38.30 \\
 \begin{longtable}{p{7cm}rrrr}
   \caption[Group-means for OC genes DE between worm
   populations]{\textbf{Group-means for OC genes DE between worm
-      populations} - Group means are given for host combination
-    \textit{An. japonica} (Aj) and \textit{An. anguilla} (Aa) with
-    European (EU) and Taiwanese (TW) worm populations.}\\
-\hline
-& Aa:EU & Aa:TW & Aj:EU & Aj:TW \\ 
-\hline
+      populations} - Group means for expression counts are given for
+    host combination \textit{An. japonica} (Aj) and
+    \textit{An. anguilla} (Aa) with European (EU) and Taiwanese (TW)
+    worm populations. Contig-names, annotation with protein names of
+    \textit{B. malayi} orthologs (second row for each contig) and
+    wormbase transcripts identifiers (third row) are given along with
+    the aggregated counts for these orthologs.
+  }\\
+  \hline
+  & Aa:EU & Aa:TW & Aj:EU & Aj:TW \\
+  \hline
 \endfirsthead
 \multicolumn{5}{c}%
 {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
@@ -224,63 +233,63 @@ Contig7580.mean & 240.34 & 1318.57 & 2215.65 & 38.30 \\
 \endlastfoot
  Contig13267.mean & 103.86 & 38.57 & 111.01 & 83.54 \\ 
   ABC transporter family protein & 101.36 & 37.67 & 114.79 & 94.25 \\ 
-  ce.ortho.mean & 101.74 & 37.76 & 115.19 & 89.28 \\ 
+  F22E10.2.mean & 101.74 & 37.76 & 115.19 & 89.28 \\ 
    \hline
 Contig157.mean & 362.46 & 394.14 & 369.26 & 449.27 \\ 
   Probable 3-hydroxyacyl-CoA dehydrogenase B0272.3, putative & 361.60 & 378.14 & 381.70 & 545.36 \\ 
-  ce.ortho.mean & 362.40 & 367.51 & 380.95 & 504.83 \\ 
+  B0272.3.mean & 362.40 & 367.51 & 380.95 & 504.83 \\ 
    \hline
 Contig2099.mean & 289.41 & 327.82 & 367.54 & 556.00 \\ 
   Malate/L-lactate dehydrogenase family protein & 316.68 & 360.99 & 418.67 & 754.71 \\ 
-  ce.ortho.mean & 319.36 & 357.47 & 421.73 & 699.56 \\ 
+  F36A2.3.mean & 319.36 & 357.47 & 421.73 & 699.56 \\ 
    \hline
 Contig236.mean & 266.65 & 164.76 & 183.18 & 840.76 \\ 
   Lecithin:cholesterol acyltransferase family protein & 2797.98 & 2969.10 & 2306.91 & 6119.67 \\ 
-  ce.ortho.mean & 2716.28 & 2886.46 & 2225.58 & 5278.32 \\ 
-   \hline
-Contig2442.mean & 284.39 & 360.83 & 521.53 & 408.18 \\ 
-  Putative uncharacterized protein & 782.07 & 1102.11 & 1432.12 & 960.61 \\ 
-  ce.ortho.mean & 797.22 & 1131.03 & 1448.22 & 970.06 \\ 
-   \hline
-Contig2531.mean & 21.38 & 53.89 & 25.65 & 35.20 \\ 
-  Cutical collagen 6, putative & 20.78 & 52.54 & 26.07 & 37.82 \\ 
-  ce.ortho.mean & 20.86 & 51.95 & 26.08 & 36.53 \\ 
+  M05B5.4.mean & 2716.28 & 2886.46 & 2225.58 & 5278.32 \\ 
    \hline
 Contig3453.mean & 269.89 & 209.33 & 277.53 & 1032.13 \\ 
   Lecithin:cholesterol acyltransferase family protein1 & 2797.98 & 2969.10 & 2306.91 & 6119.67 \\ 
-  ce.ortho.mean & 2716.28 & 2886.46 & 2225.58 & 5278.32 \\ 
+  M05B5.4.mean & 2716.28 & 2886.46 & 2225.58 & 5278.32 \\ 
+  \hline
+Contig2442.mean & 284.39 & 360.83 & 521.53 & 408.18 \\ 
+  Putative uncharacterized protein & 782.07 & 1102.11 & 1432.12 & 960.61 \\ 
+  Y76A2A.1.mean & 797.22 & 1131.03 & 1448.22 & 970.06 \\ 
+   \hline
+Contig2531.mean & 21.38 & 53.89 & 25.65 & 35.20 \\ 
+  Cutical collagen 6, putative & 20.78 & 52.54 & 26.07 & 37.82 \\ 
+  ZK1290.3a.mean & 20.86 & 51.95 & 26.08 & 36.53 \\ 
    \hline
 Contig566.mean & 642.74 & 484.47 & 337.05 & 691.06 \\ 
   Eukaryotic aspartyl protease family protein & 651.38 & 496.17 & 377.95 & 733.26 \\ 
-  ce.ortho.mean & 654.89 & 491.93 & 381.14 & 724.47 \\ 
+  F21F8.7.mean & 654.89 & 491.93 & 381.14 & 724.47 \\ 
    \hline
 Contig6043.mean & 1003.44 & 841.34 & 942.26 & 631.00 \\ 
   Putative uncharacterized protein1 & 977.73 & 834.03 & 964.85 & 670.11 \\ 
-  ce.ortho.mean & 978.45 & 823.82 & 967.65 & 647.85 \\ 
+  T01B6.1.mean & 978.45 & 823.82 & 967.65 & 647.85 \\ 
    \hline
 Contig6386.mean & 68.17 & 31.29 & 68.01 & 48.09 \\ 
   Matrixin family protein & 66.79 & 30.60 & 69.64 & 53.52 \\ 
-  ce.ortho.mean & 72.76 & 36.38 & 72.47 & 55.31 \\ 
+  H36L18.1.mean & 72.76 & 36.38 & 72.47 & 55.31 \\ 
    \hline
 Contig6759.mean & 47.39 & 12737.30 & 115.48 & 28013.11 \\ 
   Cytochrome c oxidase subunit 2 & 5647.97 & 19163.28 & 9116.07 & 43335.23 \\ 
-  ce.ortho.mean & 5865.67 & 19455.08 & 9437.50 & 41673.94 \\ 
+  MTCE.31.mean & 5865.67 & 19455.08 & 9437.50 & 41673.94 \\ 
    \hline
 Contig6778.mean & 39.00 & 768.10 & 1028.40 & 92.46 \\ 
   Nematode cuticle collagen N-terminal domain containing protein & 621.79 & 1259.66 & 1508.45 & 447.50 \\ 
-  ce.ortho.mean & 38.62 & 752.61 & 1056.15 & 95.26 \\ 
+  F11G11.11.mean & 38.62 & 752.61 & 1056.15 & 95.26 \\ 
    \hline
 Contig6934.mean & 449.66 & 639.22 & 632.23 & 572.12 \\ 
   Serine/threonine-protein phosphatase & 788.16 & 1133.91 & 1236.79 & 1041.83 \\ 
-  ce.ortho.mean & 448.17 & 628.16 & 663.55 & 591.01 \\ 
+  F23B12.1.mean & 448.17 & 628.16 & 663.55 & 591.01 \\ 
    \hline
 Contig7580.mean & 240.34 & 1318.57 & 2215.65 & 38.30 \\ 
   Cuticular collagen Bmcol-2 & 286.57 & 1490.40 & 2531.07 & 227.23 \\ 
-  ce.ortho.mean & 231.55 & 1298.61 & 2272.71 & 38.23 \\ 
+  C44C10.1.mean & 231.55 & 1298.61 & 2272.71 & 38.23 \\ 
    \hline
 Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\ 
   Protein B0207.11, putative & 383.10 & 687.32 & 626.45 & 510.14 \\ 
-  ce.ortho.mean & 389.74 & 701.10 & 633.78 & 511.74 \\ 
+  T08G11.2.mean & 389.74 & 701.10 & 633.78 & 511.74 \\ 
    \hline\\
    \label{pop.sing.diff}
 \end{longtable}
@@ -303,7 +312,7 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   light yellow (least significant). In each node the
   category-identifier, a (eventually truncated) description of the
   term, the significance for enrichment and the number of DE / total
-  number of annotated gene is given. Black arrows indicate a is
+  number of annotated genes is given. Black arrows indicate an
   ``is-a'' relationship.}
 
 \figuremacro{tGO_DN_DS_CC_classic_10_all}{GO cellular compartment
@@ -315,8 +324,8 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   dark red (most significant) to light yellow (least significant). In
   each node the category-identifier, a (eventually truncated)
   description of the term, the significance for enrichment and the
-  number of DE / total number of annotated gene is given. Black arrows
-  indicate a is ``is-a'' relationship.}
+  number of DE / total number of annotated genes is given. Black
+  arrows indicate an ``is-a'' relationship.}
 
 \figuremacro{tGO_DN_DS_MF_classic_10_all}{GO molecular function graph
   for enriched terms in contigs under positive selection}{Subgraph of
@@ -327,8 +336,8 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   light yellow (least significant). In each node the
   category-identifier, a (eventually truncated) description of the
   term, the significance for enrichment and the number of DE / total
-  number of annotated gene is given. Black arrows indicate a is
-  ``is-a'' relationship.}
+  number of annotated gene is given. Black arrows indicate an ``is-a''
+  relationship.}
 
 \figuremacro{tGO_EEL_EXP_BP_classic_10_all}{GO biological process
   graph for enriched terms in pyrosequencing-DE genes between
@@ -339,20 +348,20 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   ranging from dark red (most significant) to light yellow (least
   significant). In each node the category-identifier, a (eventually
   truncated) description of the term, the significance for enrichment
-  and the number of DE / total number of annotated gene is
-  given. Black arrows indicate a is ``is-a'' relationship.}
+  and the number of DE / total number of annotated genes is
+  given. Black arrows indicate an ``is-a'' relationship.}
 
 \figuremacro{tGO_EEL_EXP_CC_classic_10_all}{GO cellular compartment
   graph for enriched terms in pyrosequencing-DE genes between
   worm-origin}{Subgraph of the GO-ontology cellular compartment
   category induced by the top 10 terms identified as enriched in DE
-  genes between worms from Asia and Europe. Boxes indicate the 10 most significant
-  terms. Box colour represents the relative significance, ranging from
-  dark red (most significant) to light yellow (least significant). In
-  each node the category-identifier, a (eventually truncated)
-  description of the term, the significance for enrichment and the
-  number of DE / total number of annotated gene is given. Black arrows
-  indicate a is ``is-a'' relationship.}
+  genes between worms from Asia and Europe. Boxes indicate the 10 most
+  significant terms. Box colour represents the relative significance,
+  ranging from dark red (most significant) to light yellow (least
+  significant). In each node the category-identifier, a (eventually
+  truncated) description of the term, the significance for enrichment
+  and the number of DE / total number of annotated genes is
+  given. Black arrows indicate an ``is-a'' relationship.}
 
 \figuremacro{tGO_EEL_EXP_MF_classic_10_all}{GO molecular function
   graph for enriched terms in pyrosequencing-DE genes between
@@ -364,7 +373,7 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   significant). In each node the category-identifier, a (eventually
   truncated) description of the term, the significance for enrichment
   and the number of DE / total number of annotated gene is
-  given. Black arrows indicate a is ``is-a'' relationship.}
+  given. Black arrows indicate an ``is-a'' relationship.}
 
 \figuremacro{tGO_SEX_EXP_BP_classic_10_all}{GO biological process
   graph for enriched terms in pyrosequencing-DE genes between
@@ -375,8 +384,8 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   ranging from dark red (most significant) to light yellow (least
   significant). In each node the category-identifier, a (eventually
   truncated) description of the term, the significance for enrichment
-  and the number of DE / total number of annotated gene is
-  given. Black arrows indicate a is ``is-a'' relationship.}
+  and the number of DE / total number of annotated genes is
+  given. Black arrows indicate an ``is-a'' relationship.}
 
 \figuremacro{tGO_SEX_EXP_CC_classic_10_all}{GO cellular compartment
   graph for enriched terms in pyrosequencing-DE genes between
@@ -387,8 +396,8 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   ranging from dark red (most significant) to light yellow (least
   significant). In each node the category-identifier, a (eventually
   truncated) description of the term, the significance for enrichment
-  and the number of DE / total number of annotated gene is
-  given. Black arrows indicate a is ``is-a'' relationship.}
+  and the number of DE / total number of annotated genes is
+  given. Black arrows indicate an ``is-a'' relationship.}
 
 \figuremacro{tGO_SEX_EXP_MF_classic_10_all}{GO molecular function
   graph for enriched terms in pyrosequencing-DE genes between
@@ -399,8 +408,8 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   ranging from dark red (most significant) to light yellow (least
   significant). In each node the category-identifier, a (eventually
   truncated) description of the term, the significance for enrichment
-  and the number of DE / total number of annotated gene is
-  given. Black arrows indicate a is ``is-a'' relationship.}
+  and the number of DE / total number of annotated genes is
+  given. Black arrows indicate an ``is-a'' relationship.}
 
 \clearpage
 
@@ -415,7 +424,7 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   significant) to light yellow (least significant). In each node the
   category-identifier, a (eventually truncated) description of the
   term, the significance for enrichment and the number of DE / total
-  number of annotated gene is given. Black arrows indicate a is
+  number of annotated genes is given. Black arrows indicate an
   ``is-a'' relationship.}
 
 \figuremacro{tGO_sex_CC_classic_10_all}{GO cellular compartment graph
@@ -425,9 +434,9 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   worms. Boxes indicate the 10 most significant terms. Box colour
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  category-identifier, a (eventually truncated) description of the term,
-  the significance for enrichment and the number of DE / total number
-  of annotated gene is given. Black arrows indicate a is ``is-a''
+  category-identifier, a (eventually truncated) description of the
+  term, the significance for enrichment and the number of DE / total
+  number of annotated gene is given. Black arrows indicate an ``is-a''
   relationship.}
 
 \figuremacro{tGO_sex_MF_classic_10_all}{GO molecular function graph
@@ -437,10 +446,10 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   worms. Boxes indicate the 10 most significant terms. Box colour
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  category-identifier, a (eventually truncated) description of the term,
-  the significance for enrichment and the number of DE / total number
-  of annotated gene is given. Black arrows indicate a is ``is-a''
-  relationship.}
+  category-identifier, a (eventually truncated) description of the
+  term, the significance for enrichment and the number of DE / total
+  number of annotated genes is given. Black arrows indicate an
+  ``is-a'' relationship.}
 
 \figuremacro{tGO_eel_BP_classic_10_all}{GO biological process graph
   for enriched terms in DE according to eel-host}{Subgraph of the
@@ -449,25 +458,25 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   species. Boxes indicate the 10 most significant terms. Box colour
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  category-identifier, a (eventually truncated) description of the term,
-  the significance for enrichment and the number of DE / total number
-  of annotated gene is given. Black arrows indicate a is ``is-a''
+  category-identifier, a (eventually truncated) description of the
+  term, the significance for enrichment and the number of DE / total
+  number of annotated gene is given. Black arrows indicate an ``is-a''
   relationship.}
 
 \figuremacro{tGO_eel_CC_classic_10_all}{GO cellular compartment graph
   for enriched terms in DE according to eel-host}{Subgraph of the
-  GO-ontology cellular compartment category induced by the top 10 terms
-  identified as enriched in DE genes between different host
+  GO-ontology cellular compartment category induced by the top 10
+  terms identified as enriched in DE genes between different host
   species. Boxes indicate the 10 most significant terms. Box colour
   represents the relative significance, ranging from dark red (most
   significant) to light yellow (least significant). In each node the
-  category-identifier, a (eventually truncated) description of the term,
-  the significance for enrichment and the number of DE / total number
-  of annotated gene is given. Black arrows indicate a is ``is-a''
+  category-identifier, a (eventually truncated) description of the
+  term, the significance for enrichment and the number of DE / total
+  number of annotated gene is given. Black arrows indicate an ``is-a''
   relationship.}
 
-\figuremacro{tGO_eel_MF_classic_10_all}{GO molecular function graph for
-  enriched terms in DE according to eel-host}{Subgraph of the
+\figuremacro{tGO_eel_MF_classic_10_all}{GO molecular function graph
+  for enriched terms in DE according to eel-host}{Subgraph of the
   GO-ontology molecular function category induced by the top 10 terms
   identified as enriched in DE genes between different host
   species. Boxes indicate the 10 most significant terms. Box colour
@@ -475,66 +484,64 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
   significant) to light yellow (least significant). In each node the
   category-identifier, a (eventually truncated) description of the
   term, the significance for enrichment and the number of DE / total
-  number of annotated gene is given. Black arrows indicate a is
+  number of annotated genes is given. Black arrows indicate an
   ``is-a'' relationship.}
 
 \figuremacro{tGO_pop_CC_classic_10_all}{GO cellular compartment graph
   for enriched terms in DE according to worm-population}{Subgraph of
   the GO-ontology biological process category induced by the top 10
   terms identified as enriched in DE genes between different parasite
-  populations. Boxes indicate the 10 most significant terms. Box colour
-  represents the relative significance, ranging from dark red (most
-  significant) to light yellow (least significant). In each node the
-  category-identifier, a (eventually truncated) description of the
+  populations. Boxes indicate the 10 most significant terms. Box
+  colour represents the relative significance, ranging from dark red
+  (most significant) to light yellow (least significant). In each node
+  the category-identifier, a (eventually truncated) description of the
   term, the significance for enrichment and the number of DE / total
-  number of annotated gene is given. Black arrows indicate a is
+  number of annotated genes is given. Black arrows indicate an
   ``is-a'' relationship.}
 
 \figuremacro{sex_all_heat}{Clustering of expression values for contigs
   DE between female and male worms}{A heatmap of variance/mean
-  stabilised expression values. Deprograms are based on euclidean
-  distance and hierarchically clustering. Green indicates expression
-  below the mean, red above the mean. Experimental conditions are
-  indicated by black bars for groups of samples (columns) below the
-  plot. Presence GO-term annotation for contigs (rows) are given as
-  black bars right to the plot: isOxidoreductase = GO:0016491,
-  oxidoreductase activity; isMitochondrial = GO:0005739,
-  mitochondrion; isELDevelopment = GO:0002164, larval development or
-  GO:0009791, post-embryonic development; isResponsetoStim =
-  GO:0050896, response to stimulus; isPhosphatase = GO:0016791,
-  phosphatase; isMembrane = GO:0016020, membrane; isAntigenProc =
-  GO:0002478, antigen processing and presentation of exogenous peptide
-  antigen; isEndosome = GO:0005768, endosome; isProtLipComp =
-  GO:0032994, protein-lipid complex. Grey bars indicate no annotation
-  available.}
+  stabilised expression values. Deprograms are based on hierarchical
+  clustering. Green indicates expression below the mean, red above the
+  mean. Experimental conditions are indicated by black bars for groups
+  of samples (columns) below the plot. Presence GO-term annotation for
+  contigs (rows) are given as black bars right to the plot:
+  isOxidoreductase = GO:0016491, oxidoreductase activity;
+  isMitochondrial = GO:0005739, mitochondrion; isELDevelopment =
+  GO:0002164, larval development or GO:0009791, post-embryonic
+  development; isResponsetoStim = GO:0050896, response to stimulus;
+  isPhosphatase = GO:0016791, phosphatase; isMembrane = GO:0016020,
+  membrane; isAntigenProc = GO:0002478, antigen processing and
+  presentation of exogenous peptide antigen; isEndosome = GO:0005768,
+  endosome; isProtLipComp = GO:0032994, protein-lipid complex. Grey
+  bars indicate no annotation available.}
 
 \figuremacro{sex_ortho_heat}{Clustering of expression values for OC
   contigs DE between female and male worms}{A heatmap of variance/mean
-  stabilised expression values. Deprograms are based on euclidean
-  distance and hierarchically clustering. Green indicates expression
-  below the mean, red above the mean. Experimental conditions are
-  indicated by black bars for groups of samples (columns) below the
-  plot. Presence GO-term annotation for contigs (rows) are given as
-  black bars right to the plot: isOxidoreductase = GO:0016491,
-  oxidoreductase activity; isMitochondrial = GO:0005739,
-  mitochondrion; isELDevelopment = GO:0002164, larval development or
-  GO:0009791, post-embryonic development; isResponsetoStim =
-  GO:0050896, response to stimulus; isPhosphatase = GO:0016791,
-  phosphatase; isMembrane = GO:0016020, membrane; isAntigenProc =
-  GO:0002478, antigen processing and presentation of exogenous peptide
-  antigen; isEndosome = GO:0005768, endosome; isProtLipComp =
-  GO:0032994, protein-lipid complex. Grey bars indicate no annotation
-  available.}
+  stabilised expression values. Deprograms are based on hierarchical
+  clustering. Green indicates expression below the mean, red above the
+  mean. Experimental conditions are indicated by black bars for groups
+  of samples (columns) below the plot. Presence GO-term annotation for
+  contigs (rows) are given as black bars right to the plot:
+  isOxidoreductase = GO:0016491, oxidoreductase activity;
+  isMitochondrial = GO:0005739, mitochondrion; isELDevelopment =
+  GO:0002164, larval development or GO:0009791, post-embryonic
+  development; isResponsetoStim = GO:0050896, response to stimulus;
+  isPhosphatase = GO:0016791, phosphatase; isMembrane = GO:0016020,
+  membrane; isAntigenProc = GO:0002478, antigen processing and
+  presentation of exogenous peptide antigen; isEndosome = GO:0005768,
+  endosome; isProtLipComp = GO:0032994, protein-lipid complex. Grey
+  bars indicate no annotation available.}
 
 \figuremacro{eel_all_heat}{Clustering of expression values for contigs
   DE between worms in \textit{An. japonica} and
   \textit{An. anguilla}}{A heatmap of variance/mean stabilised
-  expression values. Deprograms are based on euclidean distance and
-  hierarchically clustering. Green indicates expression below the
-  mean, red above the mean. Experimental conditions are indicated by
-  black bars for groups of samples (columns) below the plot. Presence
-  GO-term annotation for contigs (rows) are given as black bars right
-  to the plot: isOxidoreductase = GO:0016491, oxidoreductase activity;
+  expression values. Deprograms are based on hierarchical
+  clustering. Green indicates expression below the mean, red above the
+  mean. Experimental conditions are indicated by black bars for groups
+  of samples (columns) below the plot. Presence GO-term annotation for
+  contigs (rows) are given as black bars right to the plot:
+  isOxidoreductase = GO:0016491, oxidoreductase activity;
   isMitochondrial = GO:0005739, mitochondrion; isELDevelopment =
   GO:0002164, larval development or GO:0009791, post-embryonic
   development; isResponsetoStim = GO:0050896, response to stimulus;
@@ -547,12 +554,11 @@ Contig8758.mean & 390.97 & 715.11 & 602.46 & 494.53 \\
 \figuremacro{eel_ortho_heat}{Clustering of expression values for OC
   contigs DE between worms in \textit{An. japonica} and
   \textit{An. anguilla}}{A heatmap of variance/mean stabilised
-  expression values. Deprograms are based on euclidean distance and
-  hierarchically clustering. Green indicates expression below the
-  mean, red above the mean. Experimental conditions are indicated by
-  black bars for groups of samples (columns) below the plot. Below
-  contig-names uniprot names are given for ortholog genes in
-  \textit{B. malayi}}
+  expression values. Deprograms are based on hierarchical
+  clustering. Green indicates expression below the mean, red above the
+  mean. Experimental conditions are indicated by black bars for groups
+  of samples (columns) below the plot. Below contig-names uniprot
+  names are given for ortholog genes in \textit{B. malayi}}
 
 %: ----------------------- contents from here ------------------------
 

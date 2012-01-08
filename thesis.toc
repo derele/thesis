@@ -21,10 +21,10 @@
 \contentsline {section}{\numberline {2.1}Preliminary aims}{35}{section.2.1}
 \contentsline {section}{\numberline {2.2}Final aim}{35}{section.2.2}
 \contentsline {chapter}{\numberline {3}Pilot sequencing (Sanger method)}{37}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}Overview}{37}{subsection.3.0.1}
-\contentsline {subsection}{\numberline {3.0.2}Initial quality screening}{37}{subsection.3.0.2}
-\contentsline {subsection}{\numberline {3.0.3}rRNA screening}{38}{subsection.3.0.3}
-\contentsline {subsection}{\numberline {3.0.4}Screening for host-contamination}{38}{subsection.3.0.4}
+\contentsline {section}{\numberline {3.1}Overview}{37}{section.3.1}
+\contentsline {section}{\numberline {3.2}Initial quality screening}{37}{section.3.2}
+\contentsline {section}{\numberline {3.3}rRNA screening}{38}{section.3.3}
+\contentsline {section}{\numberline {3.4}Screening for host-contamination}{38}{section.3.4}
 \contentsline {chapter}{\numberline {4}Evaluation of an assembly strategy for pyrosequencing reads}{43}{chapter.4}
 \contentsline {section}{\numberline {4.1}Overview}{43}{section.4.1}
 \contentsline {section}{\numberline {4.2}The \texttt {Newbler} first-order assembly}{44}{section.4.2}
@@ -46,8 +46,8 @@
 \contentsline {section}{\numberline {5.7}Evolutionary conservation}{64}{section.5.7}
 \contentsline {section}{\numberline {5.8}Identification of single nucleotide polymorphisms}{68}{section.5.8}
 \contentsline {section}{\numberline {5.9}Polymorphisms associated with biological processes}{71}{section.5.9}
-\contentsline {section}{\numberline {5.10}SNP markers for single worms}{78}{section.5.10}
-\contentsline {section}{\numberline {5.11}Differential expression}{79}{section.5.11}
+\contentsline {section}{\numberline {5.10}SNP markers for single worms}{77}{section.5.10}
+\contentsline {section}{\numberline {5.11}Differential expression}{78}{section.5.11}
 \contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{91}{chapter.6}
 \contentsline {section}{\numberline {6.1}Overview}{91}{section.6.1}
 \contentsline {section}{\numberline {6.2}Infection experiments}{91}{section.6.2}
@@ -63,6 +63,11 @@
 \contentsline {section}{\numberline {7.1}Pilot-sequencing}{111}{section.7.1}
 \contentsline {section}{\numberline {7.2}Pyrosequencing}{112}{section.7.2}
 \contentsline {section}{\numberline {7.3}Transcriptomic divergence in a common garden experiment}{117}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Recovery and adaptation}{117}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Variance, stringency of analysis and general pattern}{118}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Functions of genes with genetically fixed expression differences}{121}{subsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Metabolism}{123}{subsubsection.7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Collagens}{127}{subsubsection.7.3.3.2}
 \contentsline {section}{\numberline {7.4}Outlook}{128}{section.7.4}
 \contentsline {chapter}{\numberline {8}Materials \& methods}{133}{chapter.8}
 \contentsline {section}{\numberline {8.1}Sampling of worms from wild eels for Sanger- and pyrosequencing}{133}{section.8.1}

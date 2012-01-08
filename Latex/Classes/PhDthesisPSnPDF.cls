@@ -224,9 +224,6 @@
 }
 
 
-
-
-
 %:-------------------------- title page layout -----------------------
 
 % starts roman page numbering until chapter 1
@@ -234,10 +231,8 @@
 % bug: cover i + back side ii and then numbering restarts with i; should be iii
 \renewcommand{\thepage}{\roman{page}}
 
-
 \newcommand{\submittedtext}{{DOKTORS DER NATURWISSENSCHAFTEN}}
 \newcommand{\titelabbrev}{{(Dr. rer. nat.)}}
-
 
 % DECLARATIONS
 % These macros are used to declare arguments needed for the
@@ -403,6 +398,20 @@
   \end{center}
   \vspace{0.5cm} \begin{quote}}
 {\end{quote}\end{alwayssingle}}
+
+
+%The zusammenfassunglong environment puts a large, bold, centered "Abstract" label at
+%the top of the page. The abstract itself does not appears in a quote
+%environment so you can get more in.
+
+\newenvironment{zusammenfassunglong} {\begin{alwayssingle} \pagestyle{empty}
+  \begin{center}
+  \vspace*{1.5cm}
+  {\Large \bfseries  Zusammenfassung}
+  \end{center}
+  \vspace{0.5cm} \begin{quote}}
+{\end{quote}\end{alwayssingle}}
+
 
 %The abstractseparate environment is for running of a page with the abstract
 %on including title and author etc as required to be handed in separately

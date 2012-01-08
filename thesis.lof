@@ -22,7 +22,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Contribution to second-order assembly}}{49}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Base-content and reference-transcriptome coverage in percent of bases}}{51}{figure.4.4}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Base-content and reference-transcriptome coverage in percent of proteins hit}}{52}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Base-content and reference-transcriptome coverage in percent of proteins covet to at least 80\%}}{53}{figure.4.6}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Base-content and reference-transcriptome coverage in percent of proteins covered to at least 80\%}}{53}{figure.4.6}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Annotation using different identifiers}}{65}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Cross-taxa comparison of annotation}}{66}{figure.5.2}
@@ -41,8 +41,8 @@
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Clustering of expression values for contigs DE between populations}}{109}{figure.6.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces GO molecular function graph for enriched terms in DE according to worm-population}}{122}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Clustering of expression values for OC contigs DE between populations}}{124}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces GC-content and coverage for a preliminary genome assembly}}{130}{figure.7.3}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Clustering of expression values for OC contigs DE between populations}}{125}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces GC-content and coverage for a preliminary genome assembly}}{131}{figure.7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {9.1}{\ignorespaces GO biological process graph for enriched terms in contigs under positive selection}}{167}{figure.9.1}

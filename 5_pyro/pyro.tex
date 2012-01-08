@@ -6,7 +6,6 @@
   transcriptome} % top level followed by section, subsection
 \label{cha:pyro}
 
-
 %: ----------------------- paths to graphics ------------------------
 
 % change according to folder and file names
@@ -27,14 +26,12 @@ molecular research on this important species and furthermore provides
 unique insights into the evolution of parasitism in the Spirurina.
 
 After extensive screening of 756,363 raw pyrosequencing reads, I
-assembled 353,055 into 11,371 contigs spanning 7,971,550 bases and
+assembled 353,055 into 11,371 contigs spanning 6,575,121 bases and
 additionally obtained 21,147 singleton and lower quality contigs
-spanning 8,095,986 bases. I obtained annotations for ca. 60\% of the
+spanning 6,157,974 bases. I obtained annotations for ca. 60\% of the
 contigs and 40\% of the tentatively unique genes (TUGs) confirming the
-high quality of especially the contigs. I found an overabundance of
-predicted signal peptide cleavage sites in sequence conserved in
-Nematoda and novel in \textit{A. crassus}. I identified 5,112 high
-quality Single nucleotide polymorphisms (SNPs) and suggest 199 of them
+high quality of especially the contigs. I identified 5,112 high
+quality single nucleotide polymorphisms (SNPs) and suggest 199 of them
 as most suitable markers for population-genetic studies. Correlation
 between different analyses provided further insights and confirmed
 biologically relevant expectations: I found an overabundance of
@@ -97,7 +94,7 @@ life.st & adult f & adult f & L2 larvae & adult m & adult f & adult f \\
   mapping.unique & 12023 & 65398 & 39690 & 36782 & 42529 & 55966 \\ 
   mapping.Ac &  8359 & 61070 & 12917 & 31656 & 37158 & 50018 \\ 
   mapping.MN &  5883 & 48006 &  8475 & 18986 & 28823 & 41545 \\ 
-  over.32 &  3528 & 34051 & 10444 & 21219 & 22435 \\ 
+  over.32 &  3528 & 34051 & 10444 & 21219 & 22435 & 1602 \\ 
   \hline
 \end{tabular}
 \caption[Pyrosequencing library statistics]{
@@ -159,7 +156,7 @@ total.contigs & 26336 & 13851 & 40187 \\
   fish.contigs & 2419 & 1022 & 3441 \\ 
   xeno.contigs & 1935 & 1398 & 3333 \\ 
   remaining.contigs & 21147 & 11371 & 32518 \\ 
-  remaining.span & 8095986 & 7971550 & 16067536 \\ 
+  remaining.span & 6157974 & 6575121 & 12733095 \\ 
   non.u.cov & 14.665 & 10.979 & 12.840 \\ 
   cov & 2.443 & 6.838 & 4.624 \\ 
   p4e.BLAST-similarity & 4356 & 5663 & 10019 \\ 
@@ -191,8 +188,8 @@ statistics]{\textbf{Assembly classification and contig statistics} -
   non.u.cov = non-unique mean base coverage of contigs, cov = unique
   mean base coverage of contigs, p4e.``X'' = number protein
   predictions derived in p4e, where ``X'' describes the method of
-  prediction (see Methods), full.3p = number of contigs complete at
-  3', full.5p = number of contigs complete at 5', GO = number of
+  prediction (see \ref{pro4est}), full.3p = number of contigs complete
+  at 3', full.5p = number of contigs complete at 5', GO = number of
   contigs with GO-annotation, KEGG = number of contigs with
   KEGG-annotation, EC = number of contigs with EC-annotation,
   nem.blast = number of contigs with \texttt{BLAST}-hit to nematode in
@@ -232,9 +229,9 @@ nematodes and arthropods. 9 TUGs were hitting sequence from Viruses
 and 8 from Archaea.
 
 I excluded all TUGs with best hits outside Metazoa and my assembly
-thus has 32,518 TUGs, spanning 154052 bases (of which 11371 are
-highCA-derived, and span 154,052 bases) that are likely to derive from
-of \textit{A. crassus}.
+thus has 32,518 TUGs, spanning 12,733,095 bases (of which 11,371 are
+highCA-derived, and span 6,575,121 bases) that are likely to derive
+from \textit{A. crassus}.
 
 \section{Protein prediction}
 
@@ -285,9 +282,9 @@ in the occurrence of terms than the two parasites.
 
 \figuremacro{slim_com}{Cross-taxa comparison of annotation}{For Gene
   Ontology (GO) categories molecular function, cellular compartment
-  and biological process the number of terms in high level GO-slim
-  categories is given as obtained through \texttt{Annot8r}
-  \cite{schmid_annot8r:_2008}.}
+  and biological process the proportion (for each ontology-category
+  and species) of terms in high level GO-slim categories is given as
+  obtained through \texttt{Annot8r} \cite{schmid_annot8r:_2008}.}
 
 I inferred presence of signal peptide cleavage sites in the predicted
 protein sequence using \texttt{SignalP} \cite{pmid21959131}. I
@@ -367,7 +364,7 @@ and novel in clade III (Fisher's exact test p$<$0.001 ;
   conservation. Generally - across bit-score thresholds - TUGS novel
   in nematodes and in \textit{A. crassus} have the highest proportion
   of signal-positives. sigP = signalIP-prediction; Yes-noTM, cleavage
-  site predicted; Yes-TM, transmembrane-anchor predicted}
+  site predicted; Yes-TM, transmembrane-anchor predicted.}
 
 The proportion of lethal RNAi phenotypes was significantly higher for
 orthologs of conserved TUGs (97.23\%) than for orthologs of TUGs not
@@ -487,7 +484,6 @@ figures \ref{tGO_DN_DS_BP_classic_10_all},
   \hline
    \multicolumn{6}{l}{Biological process}  \\ 
    GO:0009081 & branched chain family amino acid metabolic process &   3 &   3 & 0.36 & 0.0017 \\ 
-  GO:0009083 & branched chain family amino acid catabolic process &   3 &   3 & 0.36 & 0.0017 \\ 
   GO:0042594 & response to starvation &  15 &   6 & 1.82 & 0.0052 \\ 
   GO:0006914 & autophagy &  12 &   5 & 1.45 & 0.0090 \\ 
   GO:0006520 & cellular amino acid metabolic process &  44 &  11 & 5.33 & 0.0102 \\ 
@@ -513,12 +509,9 @@ figures \ref{tGO_DN_DS_BP_classic_10_all},
   GO:0009063 & cellular amino acid catabolic process &  10 &   4 & 1.21 & 0.0234 \\ 
   GO:0000082 & G1/S transition of mitotic cell cycle &  15 &   5 & 1.82 & 0.0255 \\ 
   GO:0030330 & DNA damage response, signal transduction by p53 class mediator &  15 &   5 & 1.82 & 0.0255 \\ 
-  GO:0031575 & mitotic cell cycle G1/S transition checkpoint &  15 &   5 & 1.82 & 0.0255 \\ 
   GO:0033238 & regulation of cellular amine metabolic process &  15 &   5 & 1.82 & 0.0255 \\ 
   GO:0042770 & signal transduction in response to DNA damage &  15 &   5 & 1.82 & 0.0255 \\ 
-  GO:0071779 & G1/S transition checkpoint &  15 &   5 & 1.82 & 0.0255 \\ 
   GO:0072331 & signal transduction by p53 class mediator &  15 &   5 & 1.82 & 0.0255 \\ 
-  GO:2000045 & regulation of G1/S transition of mitotic cell cycle &  15 &   5 & 1.82 & 0.0255 \\ 
   GO:0006401 & RNA catabolic process &   6 &   3 & 0.73 & 0.0259 \\ 
   GO:0010638 & positive regulation of organelle organization &   6 &   3 & 0.73 & 0.0259 \\ 
   GO:0042981 & regulation of apoptosis &  64 &  13 & 7.75 & 0.0312 \\ 
@@ -712,11 +705,8 @@ processing enzymes were all overexpressed female libraries.
   \multicolumn{6}{l}{Molecular function} \\ 
   GO:0005198 & structural molecule activity &  51 &  18 & 8.28 & 0.00019 \\ 
   GO:0016706 & oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge... &   3 &   3 & 0.49 & 0.00407 \\ 
-  GO:0016705 & oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge... &   4 &   3 & 0.65 & 0.01441 \\ 
   GO:0004656 & procollagen-proline 4-dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
-  GO:0019798 & procollagen-proline dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
   GO:0031543 & peptidyl-proline dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
-  GO:0031545 & peptidyl-proline 4-dioxygenase activity &   2 &   2 & 0.32 & 0.02595 \\ 
   GO:0034641 & cellular nitrogen compound metabolic process & 159 &  37 & 25.03 & 0.00020 \\ 
    \hline
    \multicolumn{6}{l}{Biological process}  \\ 
@@ -747,7 +737,6 @@ GO:0048731 & system development & 146 &  35 & 22.98 & 0.00020 \\
   GO:0040009 & regulation of growth rate &  62 &  16 & 9.76 & 0.01599 \\ 
   GO:0040010 & positive regulation of growth rate &  62 &  16 & 9.76 & 0.01599 \\ 
   GO:0018988 & molting cycle, protein-based cuticle &  23 &   8 & 3.62 & 0.01616 \\ 
-  GO:0018996 & molting cycle, collagen and cuticulin-based cuticle &  23 &   8 & 3.62 & 0.01616 \\ 
   GO:0010467 & gene expression & 114 &  25 & 17.94 & 0.01935 \\ 
   GO:0042303 & molting cycle &  24 &   8 & 3.78 & 0.02127 \\ 
   GO:0071840 & cellular component organization or biogenesis & 171 &  34 & 26.92 & 0.02143 \\ 
@@ -857,15 +846,12 @@ contigs upregulated).
   \hline
   \multicolumn{6}{l}{Molecular function} \\ 
 GO:0016408 & C-acyltransferase activity &   3 &   3 & 0.37 & 0.0018 \\ 
-  GO:0016453 & C-acetyltransferase activity &   3 &   3 & 0.37 & 0.0018 \\ 
-  GO:0016407 & acetyltransferase activity &   4 &   3 & 0.50 & 0.0065 \\ 
   GO:0016747 & transferase activity, transferring acyl groups other than amino-acyl groups &   4 &   3 & 0.50 & 0.0065 \\ 
   GO:0003824 & catalytic activity & 158 &  27 & 19.62 & 0.0088 \\ 
   GO:0016746 & transferase activity, transferring acyl groups &   8 &   4 & 0.99 & 0.0099 \\ 
   GO:0001871 & pattern binding &   2 &   2 & 0.25 & 0.0151 \\ 
   GO:0003682 & chromatin binding &   2 &   2 & 0.25 & 0.0151 \\ 
   GO:0003985 & acetyl-CoA C-acetyltransferase activity &   2 &   2 & 0.25 & 0.0151 \\ 
-  GO:0003988 & acetyl-CoA C-acyltransferase activity &   2 &   2 & 0.25 & 0.0151 \\ 
   GO:0008061 & chitin binding &   2 &   2 & 0.25 & 0.0151 \\ 
   GO:0030247 & polysaccharide binding &   2 &   2 & 0.25 & 0.0151 \\ 
   GO:0003713 & transcription coactivator activity &   6 &   3 & 0.75 & 0.0273 \\ 
@@ -881,7 +867,6 @@ GO:0016126 & sterol biosynthetic process &   5 &   4 & 0.60 & 0.00083 \\
   GO:0006694 & steroid biosynthetic process &  10 &   5 & 1.20 & 0.00316 \\ 
   GO:0006338 & chromatin remodeling &   4 &   3 & 0.48 & 0.00596 \\ 
   GO:0006695 & cholesterol biosynthetic process &   4 &   3 & 0.48 & 0.00596 \\ 
-  GO:0008203 & cholesterol metabolic process &   4 &   3 & 0.48 & 0.00596 \\ 
   GO:0044281 & small molecule metabolic process & 188 &  30 & 22.63 & 0.00748 \\ 
   GO:0008202 & steroid metabolic process &  12 &   5 & 1.44 & 0.00825 \\ 
   GO:0042180 & cellular ketone metabolic process &  57 &  13 & 6.86 & 0.00845 \\ 
