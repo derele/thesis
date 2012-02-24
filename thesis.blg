@@ -19,44 +19,50 @@ A level-1 auxiliary file: 9_backmatter/curriculum_vitae.aux
 Reallocated field_info (elt_size=4) to 12560 items from 5000.
 Database file #1: /home/ele/bibtex/master.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 280 entries,
+Warning--entry type for "heitlinger_vergleichende_2008" isn't style-file defined
+--line 4852 of file /home/ele/bibtex/master.bib
+Warning--I didn't find a database entry for "pmid7542800"
+Warning--I didn't find a database entry for "pmid21226948"
+Warning--I didn't find a database entry for "pmid20026478"
+You've used 277 entries,
             2808 wiz_defined-function locations,
-            2337 strings with 94217 characters,
-and the built_in function-call counts, 186168 in all, are:
-= -- 17726
-> -- 13803
+            2333 strings with 93280 characters,
+and the built_in function-call counts, 184310 in all, are:
+= -- 17536
+> -- 13674
 < -- 9
-+ -- 5502
-- -- 5204
-* -- 17562
-:= -- 30829
-add.period$ -- 844
-call.type$ -- 280
-change.case$ -- 3160
++ -- 5451
+- -- 5156
+* -- 17386
+:= -- 30510
+add.period$ -- 835
+call.type$ -- 277
+change.case$ -- 3130
 chr.to.int$ -- 0
-cite$ -- 280
-duplicate$ -- 4449
-empty$ -- 11474
-format.name$ -- 5204
-if$ -- 39416
+cite$ -- 277
+duplicate$ -- 4394
+empty$ -- 11358
+format.name$ -- 5156
+if$ -- 39015
 int.to.chr$ -- 0
-int.to.str$ -- 280
-missing$ -- 278
-newline$ -- 1406
-num.names$ -- 563
-pop$ -- 4025
+int.to.str$ -- 277
+missing$ -- 275
+newline$ -- 1391
+num.names$ -- 557
+pop$ -- 3988
 preamble$ -- 1
-purify$ -- 3159
+purify$ -- 3129
 quote$ -- 0
-skip$ -- 6342
+skip$ -- 6279
 stack$ -- 0
-substring$ -- 7458
-swap$ -- 1403
+substring$ -- 7413
+swap$ -- 1386
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1108
+type$ -- 1096
 warning$ -- 0
-while$ -- 1042
-width$ -- 283
-write$ -- 3069
+while$ -- 1030
+width$ -- 280
+write$ -- 3035
+(There were 4 warnings)
