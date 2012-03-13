@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.11.30)  6 DEC 2011 14:28
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.8)  13 MAR 2012 14:28
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{/home/ele/thesis/thesis/Latex/Classes/PhDthesisPSnPDF.cls
@@ -70,7 +70,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \usepackage{
+l.50 \usepackage{
+                 afterpage}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \usepackage{
+                 longtable}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \usepackage{
                  amssymb}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -82,7 +106,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \usepackage{
+l.53 \usepackage{
                  graphics} % for improved inclusion of graphics
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -94,7 +118,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \usepackage{
+l.54 \usepackage{
                  wrapfig} % to include figure with text wrapping around it
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -106,7 +130,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...kage[margin=10pt,font=small,labelfont=bf]{
+l.55 ...kage[margin=10pt,font=small,labelfont=bf]{
                                                   caption} % for improved la...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -119,7 +143,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \usepackage{
+l.56 \usepackage{
                  fancyhdr} % for better header layout
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -131,7 +155,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \usepackage{
+l.57 \usepackage{
                  eucal}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -143,7 +167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \usepackage[english]{
+l.58 \usepackage[english]{
                           babel}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -155,7 +179,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \usepackage[usenames, dvipsnames]{
+l.59 \usepackage[usenames, dvipsnames]{
                                        color}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -167,7 +191,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \usepackage[perpage]{
+l.60 \usepackage[perpage]{
                           footmisc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -179,7 +203,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \usepackage[round, sort, numbers]{
+l.61 \usepackage[round, sort, numbers]{
                                        natbib}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -191,7 +215,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \usepackage{
+l.62 \usepackage{
                  ifthen}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -203,7 +227,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \usepackage{
+l.63 \usepackage{
                  multicol} % for pages with multiple text columns, e.g. Refe...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -216,7 +240,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \usepackage[nottoc]{
+l.65 \usepackage[nottoc]{
                          tocbibind} % correct page numbers for bib in TOC, n...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -229,7 +253,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \usepackage{
+l.67 \usepackage{
                  rotating}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -241,7 +265,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \usepackage[intoc]{
+l.71 \usepackage[intoc]{
                         nomencl} % load nomencl extension; include in TOC
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -253,7 +277,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \renewcommand{\nomname}
+l.73 \renewcommand{\nomname}
                             {Glossary} % rename nomenclature
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -265,13 +289,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \renewcommand{\nomlabel}
+l.74 \renewcommand{\nomlabel}
                              [1]{\textbf{#1}} % make abbreviations bold
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.71 \makenomenclature
+l.75 \makenomenclature
                        % used to be \makeglossary
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -286,13 +310,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \usepackage{
+l.98 \usepackage{
                  ifpdf}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.108 \ifpdf
+l.112 \ifpdf
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -307,13 +331,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132                  ]{
+l.136                  ]{
                          hyperref}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.134     \DeclareGraphicsExtensions
+l.138     \DeclareGraphicsExtensions
                                     {.png, .jpg, .jpeg, .pdf, .gif} %GIF doe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -328,7 +352,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134     \DeclareGraphicsExtensions{.
+l.138     \DeclareGraphicsExtensions{.
                                       png, .jpg, .jpeg, .pdf, .gif} %GIF doe...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -341,13 +365,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135     \usepackage[]{
+l.139     \usepackage[]{
                         graphicx}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.137     \graphicspath
+l.141     \graphicspath
                        {{0_frontmatter/figures/PNG/}{0_frontmatter/figures/P...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -358,17 +382,17 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.137     \graphicspath{{0_
+l.141     \graphicspath{{0_
                            frontmatter/figures/PNG/}{0_frontmatter/figures/P...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 137.
+(Font)              <7> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 137.
+(Font)              <5> on input line 141.
 ! Extra }, or forgotten $.
-l.137 ...graphicspath{{0_frontmatter/figures/PNG/}
+l.141 ...graphicspath{{0_frontmatter/figures/PNG/}
                                                   {0_frontmatter/figures/PDF...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -377,7 +401,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.137 ...er/figures/PDF/}{0_frontmatter/figures/}}
+l.141 ...er/figures/PDF/}{0_frontmatter/figures/}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -386,7 +410,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra \else.
-l.138 \else
+l.142 \else
            
 I'm ignoring this; it doesn't match any \if.
 
@@ -397,7 +421,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153                  ]{
+l.157                  ]{
                          hyperref}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -405,19 +429,19 @@ between \documentclass and \begin{document}.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.154 
+l.158 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (154.69719pt too wide) in paragraph at lines 134--154
+Overfull \hbox (154.69719pt too wide) in paragraph at lines 138--158
 []\OT1/cmr/m/n/10 .png, .jpg, .jpeg, .pdf, .gif  0$[]\OML/cmm/m/it/10 rontmatte
 r=figures=PNG=[][]$ 
  []
 
 ! Undefined control sequence.
-l.155     \DeclareGraphicsExtensions
+l.159     \DeclareGraphicsExtensions
                                     {.eps, .ps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -432,7 +456,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155     \DeclareGraphicsExtensions{.
+l.159     \DeclareGraphicsExtensions{.
                                       eps, .ps}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -444,7 +468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156     \usepackage{
+l.160     \usepackage{
                       epsfig}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -456,13 +480,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157     \usepackage[]{
+l.161     \usepackage[]{
                         graphicx}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.158     \graphicspath
+l.162     \graphicspath
                        {{0_frontmatter/figures/EPS/}{0_frontmatter/figures/}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -473,13 +497,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158     \graphicspath{{0_
+l.162     \graphicspath{{0_
                            frontmatter/figures/EPS/}{0_frontmatter/figures/}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.158 ...graphicspath{{0_frontmatter/figures/EPS/}
+l.162 ...graphicspath{{0_frontmatter/figures/EPS/}
                                                   {0_frontmatter/figures/}}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -488,7 +512,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.158 ...er/figures/EPS/}{0_frontmatter/figures/}}
+l.162 ...er/figures/EPS/}{0_frontmatter/figures/}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -497,20 +521,20 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra \fi.
-l.159 \fi
+l.163 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.160 
+l.164 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.165 \ifpdf
+l.169 \ifpdf
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -519,19 +543,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra \else.
-l.168 \else
+l.172 \else
            
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
-l.171 \fi
+l.175 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.207 \pagestyle{fancy}
+l.211 \pagestyle{fancy}
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -540,7 +564,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.210 \fancyhf
+l.214 \fancyhf
               {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -549,7 +573,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.211 \fancyhead
+l.215 \fancyhead
                 [RO]{\bfseries\rightmark}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -564,13 +588,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 \fancyhead[
+l.215 \fancyhead[
                  RO]{\bfseries\rightmark}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.212 \fancyhead
+l.216 \fancyhead
                 [LE]{\bfseries\leftmark}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -579,7 +603,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.213 \fancyfoot
+l.217 \fancyfoot
                 [C]{\thepage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -594,7 +618,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \renewcommand{\headrulewidth}
+l.218 \renewcommand{\headrulewidth}
                                    {0.5pt}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -606,13 +630,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 \renewcommand{\footrulewidth}
+l.219 \renewcommand{\footrulewidth}
                                    {0pt}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.217 \fancypagestyle
+l.221 \fancypagestyle
                      {plain}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -621,7 +645,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.218   \fancyhead
+l.222   \fancyhead
                   {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -639,11 +663,11 @@ and I'll forget about whatever was undefined.
 
  
 Here is how much of TeX's memory you used:
- 260 strings out of 256216
- 2919 string characters out of 1917071
- 49493 words of memory out of 1500000
- 3632 multiletter control sequences out of 10000+200000
+ 262 strings out of 256216
+ 2960 string characters out of 1917073
+ 49653 words of memory out of 1500000
+ 3634 multiletter control sequences out of 10000+200000
  4301 words of font info for 16 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 24i,4n,17p,221b,226s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 24i,4n,17p,221b,228s stack positions out of 5000i,500n,6000p,200000b,15000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -275,10 +275,10 @@
       {{Zur Erlangung des akademischen Grades eines} \par}
       {{\submittedtext} \par}
       {{(\@degree)} \par}
-      {{an der \@collegeordept} \par}
+      {{von der \@collegeordept} \par}
       \vspace*{1ex}
       {des {\@university} \par}
-      {{vorgelegte} \par}
+      {{genehmigte} \par}
       {{Dissertation} \par}
       {{von} \par}
       {{\Large \@author} \par}
@@ -294,7 +294,7 @@
     \vspace{2mm}
     {{Korreferent: Prof. Mark Blaxter} \par}
     \vspace{2mm}
-    {{Tag der m\"undlichen Pr\"ufung: \par}
+    {{Tag der m\"undlichen Pr\"ufung: 07. Feb. 2012 \par}
     }%end large    
     \null\vfill
   \end{alwayssingle}}

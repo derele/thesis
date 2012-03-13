@@ -49,16 +49,15 @@
 \contentsline {section}{\numberline {5.10}SNP markers for single worms}{77}{section.5.10}
 \contentsline {section}{\numberline {5.11}Differential expression}{78}{section.5.11}
 \contentsline {chapter}{\numberline {6}Transcriptomic divergence in a common garden experiment}{91}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overview}{91}{section.6.1}
-\contentsline {section}{\numberline {6.2}Infection experiments}{91}{section.6.2}
-\contentsline {section}{\numberline {6.3}Sample preparation and sequencing }{94}{section.6.3}
-\contentsline {section}{\numberline {6.4}Examination of data-quality}{94}{section.6.4}
-\contentsline {section}{\numberline {6.5}Orthologous screening for expression differences}{96}{section.6.5}
-\contentsline {section}{\numberline {6.6}Expression differences in generalised linear models}{96}{section.6.6}
-\contentsline {section}{\numberline {6.7}Confirmation of contig categories through principal component analysis}{100}{section.6.7}
-\contentsline {section}{\numberline {6.8}Biological processes associated with DE contigs}{102}{section.6.8}
-\contentsline {section}{\numberline {6.9}Clustering analysis}{104}{section.6.9}
-\contentsline {section}{\numberline {6.10}Single gene differences}{108}{section.6.10}
+\contentsline {section}{\numberline {6.1}Infection experiments}{91}{section.6.1}
+\contentsline {section}{\numberline {6.2}Sample preparation and sequencing }{94}{section.6.2}
+\contentsline {section}{\numberline {6.3}Examination of data-quality}{94}{section.6.3}
+\contentsline {section}{\numberline {6.4}Orthologous screening for expression differences}{96}{section.6.4}
+\contentsline {section}{\numberline {6.5}Expression differences in generalised linear models}{96}{section.6.5}
+\contentsline {section}{\numberline {6.6}Confirmation of contig categories through principal component analysis}{100}{section.6.6}
+\contentsline {section}{\numberline {6.7}Biological processes associated with DE contigs}{102}{section.6.7}
+\contentsline {section}{\numberline {6.8}Clustering analysis}{104}{section.6.8}
+\contentsline {section}{\numberline {6.9}Single gene differences}{108}{section.6.9}
 \contentsline {chapter}{\numberline {7}Discussion}{111}{chapter.7}
 \contentsline {section}{\numberline {7.1}Pilot-sequencing}{111}{section.7.1}
 \contentsline {section}{\numberline {7.2}Pyrosequencing}{112}{section.7.2}
