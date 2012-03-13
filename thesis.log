@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.8)  13 MAR 2012 11:31
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.9.20)  13 MAR 2012 11:52
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{/home/ele/thesis/thesis/thesis.tex}
@@ -1457,18 +1457,27 @@ t version <1.4> allowed
 File: 9_backmatter/figures/tGO_pop_CC_classic_10_all.pdf Graphic file (type pdf
 )
  <use 9_backmatter/figures/tGO_pop_CC_classic_10_all.pdf>
-<9_backmatter/figures/sex_all_heat.pdf, id=3892, 844.15375pt x 597.23125pt>
+<9_backmatter/figures/sex_all_heat.pdf, id=3892, 505.89pt x 505.89pt>
 File: 9_backmatter/figures/sex_all_heat.pdf Graphic file (type pdf)
 
 <use 9_backmatter/figures/sex_all_heat.pdf>
-<9_backmatter/figures/sex_ortho_heat.pdf, id=3893, 844.15375pt x 597.23125pt>
+
+LaTeX Warning: Float too large for page by 49.91438pt on input line 517.
+
+<9_backmatter/figures/sex_ortho_heat.pdf, id=3893, 505.89pt x 505.89pt>
 File: 9_backmatter/figures/sex_ortho_heat.pdf Graphic file (type pdf)
 
 <use 9_backmatter/figures/sex_ortho_heat.pdf>
-<9_backmatter/figures/eel_all_heat.pdf, id=3894, 844.15375pt x 597.23125pt>
+
+LaTeX Warning: Float too large for page by 64.31435pt on input line 534.
+
+<9_backmatter/figures/eel_all_heat.pdf, id=3894, 505.89pt x 505.89pt>
 File: 9_backmatter/figures/eel_all_heat.pdf Graphic file (type pdf)
 
 <use 9_backmatter/figures/eel_all_heat.pdf>
+
+LaTeX Warning: Float too large for page by 64.31435pt on input line 552.
+
 <9_backmatter/figures/eel_ortho_heat.pdf, id=3895, 844.15375pt x 597.23125pt>
 File: 9_backmatter/figures/eel_ortho_heat.pdf Graphic file (type pdf)
 
@@ -1572,8 +1581,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  8648 strings out of 256216
- 138588 string characters out of 1917073
- 230451 words of memory out of 1500000
+ 138588 string characters out of 1917072
+ 230427 words of memory out of 1500000
  10896 multiletter control sequences out of 10000+200000
  31687 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
@@ -1611,7 +1620,7 @@ usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/
 bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/sha
 re/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesk
 y/cm/cmsy8.pfb>
-Output written on thesis.pdf (209 pages, 8863356 bytes).
+Output written on thesis.pdf (209 pages, 8829849 bytes).
 PDF statistics:
  5390 PDF objects out of 6186 (max. 8388607)
  672 named destinations out of 1000 (max. 131072)
