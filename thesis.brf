@@ -171,7 +171,7 @@
 \backcite {pmid20967605}{{28}{1.2.4.2}{figure.1.12}}
 \backcite {pmid7570003}{{28}{1.2.4.2}{figure.1.12}}
 \backcite {pmid20211242}{{28}{1.2.5}{subsection.1.2.5}}
-\backcite {pmid6260957}{{28}{1.2.5}{subsection.1.2.5}}
+\backcite {pmid6260957}{{29}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid461197}{{29}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid6251542}{{29}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid7265238}{{29}{1.2.5}{subsection.1.2.5}}
@@ -179,7 +179,7 @@
 \backcite {pmid2231712}{{29}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid11932250}{{29}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid11591649}{{29}{1.2.5}{subsection.1.2.5}}
-\backcite {pmid20080505}{{29}{1.2.5}{subsection.1.2.5}}
+\backcite {pmid20080505}{{30}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid18349386}{{30}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid21572440}{{30}{1.2.5}{subsection.1.2.5}}
 \backcite {pmid21138572}{{30}{1.2.5}{subsection.1.2.5}}
@@ -212,8 +212,8 @@
 \backcite {tgicl_pertea}{{61}{5.1}{table.5.1}}
 \backcite {pmid21550347}{{62}{5.4}{table.5.2}}
 \backcite {wasmuth_prot4est:_2004}{{62}{5.5}{section.5.5}}
-\backcite {parkinson_nembase:resource_2004}{{62}{5.6}{section.5.6}}
-\backcite {pmid21550347}{{62}{5.6}{section.5.6}}
+\backcite {parkinson_nembase:resource_2004}{{64}{5.6}{section.5.6}}
+\backcite {pmid21550347}{{64}{5.6}{section.5.6}}
 \backcite {schmid_annot8r:_2008}{{64}{5.6}{section.5.6}}
 \backcite {pmid11590104}{{64}{5.6}{section.5.6}}
 \backcite {pmid21959131}{{64}{5.6}{figure.5.2}}
@@ -224,15 +224,15 @@
 \backcite {pmid21685085}{{68}{5.8}{section.5.8}}
 \backcite {journals/bioinformatics/LiHWFRHMAD09}{{77}{5.10}{section.5.10}}
 \backcite {pmid21653522}{{77}{5.10}{section.5.10}}
-\backcite {pmid11571049}{{77}{5.10}{table.5.5}}
-\backcite {pmid17107491}{{77}{5.10}{table.5.5}}
-\backcite {coltman81j}{{77}{5.10}{table.5.5}}
 \backcite {pmid11571049}{{78}{5.5}{table.5.5}}
 \backcite {pmid17107491}{{78}{5.5}{table.5.5}}
 \backcite {coltman81j}{{78}{5.5}{table.5.5}}
 \backcite {pmid21565077}{{78}{5.5}{table.5.5}}
+\backcite {pmid11571049}{{78}{5.10}{table.5.5}}
+\backcite {pmid17107491}{{78}{5.10}{table.5.5}}
+\backcite {coltman81j}{{78}{5.10}{table.5.5}}
 \backcite {pmid21565077}{{78}{5.10}{table.5.5}}
-\backcite {pmid9331369}{{78}{5.11}{section.5.11}}
+\backcite {pmid9331369}{{79}{5.11}{section.5.11}}
 \backcite {pmid20080505}{{94}{6.3}{section.6.3}}
 \backcite {fardilha2011protein}{{102}{6.7}{section.6.7}}
 \backcite {wormbook_sperm}{{102}{6.7}{section.6.7}}
@@ -256,7 +256,7 @@
 \backcite {pmid21685085}{{113}{7.2}{section.7.2}}
 \backcite {pmid21169219}{{113}{7.2}{section.7.2}}
 \backcite {pmid21143862}{{113}{7.2}{section.7.2}}
-\backcite {pmid19081788}{{113}{7.2}{section.7.2}}
+\backcite {pmid19081788}{{114}{7.2}{section.7.2}}
 \backcite {pmid18590545}{{114}{7.2}{section.7.2}}
 \backcite {pmid20478048}{{114}{7.2}{section.7.2}}
 \backcite {pmid15579698}{{114}{7.2}{section.7.2}}
@@ -269,7 +269,7 @@
 \backcite {knopf_migratory_2008}{{114}{7.2}{section.7.2}}
 \backcite {molnar_caps}{{114}{7.2}{section.7.2}}
 \backcite {pmid9664699}{{114}{7.2}{section.7.2}}
-\backcite {wielgoss_population_2008}{{114}{7.2}{section.7.2}}
+\backcite {wielgoss_population_2008}{{115}{7.2}{section.7.2}}
 \backcite {pmid9331369}{{115}{7.2}{section.7.2}}
 \backcite {pmid20470405}{{115}{7.2}{section.7.2}}
 \backcite {pmid20979621}{{115}{7.2}{section.7.2}}
@@ -280,7 +280,7 @@
 \backcite {pmid15371532}{{115}{7.2}{section.7.2}}
 \backcite {pmid11404480}{{115}{7.2}{section.7.2}}
 \backcite {pmid15795858}{{115}{7.2}{section.7.2}}
-\backcite {pmid20470405}{{115}{7.2}{section.7.2}}
+\backcite {pmid20470405}{{116}{7.2}{section.7.2}}
 \backcite {knopf_differences_2004}{{117}{7.3.1}{subsection.7.3.1}}
 \backcite {pmid18454194}{{118}{7.3.1}{subsection.7.3.1}}
 \backcite {gould_spandrels_1979}{{118}{7.3.1}{subsection.7.3.1}}
@@ -325,8 +325,8 @@
 \backcite {pmid19843606}{{126}{7.3.3.1}{figure.7.2}}
 \backcite {pmid18023115}{{126}{7.3.3.1}{figure.7.2}}
 \backcite {pmid19821901}{{126}{7.3.3.1}{figure.7.2}}
-\backcite {wielgoss_population_2008}{{126}{7.3.3.1}{figure.7.2}}
-\backcite {dl_py}{{126}{7.3.3.1}{figure.7.2}}
+\backcite {wielgoss_population_2008}{{127}{7.3.3.1}{figure.7.2}}
+\backcite {dl_py}{{127}{7.3.3.1}{figure.7.2}}
 \backcite {kennedy2001parasitic}{{127}{7.3.3.1}{figure.7.2}}
 \backcite {pmid12447374}{{127}{7.3.3.1}{figure.7.2}}
 \backcite {ghedin_draft_2007}{{127}{7.3.3.2}{subsubsection.7.3.3.2}}
@@ -339,7 +339,7 @@
 \backcite {pmid21838806}{{129}{7.4}{section.7.4}}
 \backcite {pmid16251466}{{129}{7.4}{section.7.4}}
 \backcite {wright1949genetical}{{129}{7.4}{section.7.4}}
-\backcite {pmid2513255}{{129}{7.4}{section.7.4}}
+\backcite {pmid2513255}{{130}{7.4}{section.7.4}}
 \backcite {wielgoss_population_2008}{{130}{7.4}{section.7.4}}
 \backcite {pmid18852878}{{130}{7.4}{section.7.4}}
 \backcite {pmid21681211}{{132}{7.4}{figure.7.3}}

@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {3.1}Overview}{37}{section.3.1}
 \contentsline {section}{\numberline {3.2}Initial quality screening}{37}{section.3.2}
 \contentsline {section}{\numberline {3.3}rRNA screening}{38}{section.3.3}
-\contentsline {section}{\numberline {3.4}Screening for host-contamination}{38}{section.3.4}
+\contentsline {section}{\numberline {3.4}Screening for host-contamination}{39}{section.3.4}
 \contentsline {chapter}{\numberline {4}Evaluation of an assembly strategy for pyrosequencing reads}{43}{chapter.4}
 \contentsline {section}{\numberline {4.1}Overview}{43}{section.4.1}
 \contentsline {section}{\numberline {4.2}The \texttt {Newbler} first-order assembly}{44}{section.4.2}
@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {5.3}Sequencing, trimming and pre-assembly screening}{60}{section.5.3}
 \contentsline {section}{\numberline {5.4}Assembly (see also chapter \ref {chap:eval-ass})}{60}{section.5.4}
 \contentsline {section}{\numberline {5.5}Protein prediction}{62}{section.5.5}
-\contentsline {section}{\numberline {5.6}Annotation}{62}{section.5.6}
+\contentsline {section}{\numberline {5.6}Annotation}{64}{section.5.6}
 \contentsline {section}{\numberline {5.7}Evolutionary conservation}{64}{section.5.7}
 \contentsline {section}{\numberline {5.8}Identification of single nucleotide polymorphisms}{68}{section.5.8}
 \contentsline {section}{\numberline {5.9}Polymorphisms associated with biological processes}{71}{section.5.9}

@@ -66,6 +66,9 @@
 %\usepackage{nextpage}
 \usepackage{rotating}
 
+\usepackage{ae}
+\usepackage{lmodern}
+
 %:-------------------------- Glossary/Abbrev./Symbols -----------------------
 
 \usepackage[intoc]{nomencl} % load nomencl extension; include in TOC
